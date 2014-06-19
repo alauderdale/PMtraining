@@ -1,0 +1,227 @@
+// typography baselines and @font face setups
+
+@font-face {
+    font-family: 'socialicoregular';
+    src: url('../font/socialico-webfont.eot');
+    src: url('../font/socialico-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/socialico-webfont.woff') format('woff'),
+         url('../font/socialico-webfont.ttf') format('truetype'),
+         url('../font/socialico-webfont.svg#socialicoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'museo_sans_700regular';
+    src: url('../font/museosans_700-webfont.eot');
+    src: url('../font/museosans_700-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/museosans_700-webfont.woff') format('woff'),
+         url('../font/museosans_700-webfont.ttf') format('truetype'),
+         url('../font/museosans_700-webfont.svg#museo_sans_500regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'museo_sans_500regular';
+    src: url('../font/museosans_500-webfont.eot');
+    src: url('../font/museosans_500-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/museosans_500-webfont.woff') format('woff'),
+         url('../font/museosans_500-webfont.ttf') format('truetype'),
+         url('../font/museosans_500-webfont.svg#museo_sans_500regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'museo_sans_900regular';
+    src: url('../font/museosans_900-webfont.eot');
+    src: url('../font/museosans_900-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/museosans_900-webfont.woff') format('woff'),
+         url('../font/museosans_900-webfont.ttf') format('truetype'),
+         url('../font/museosans_900-webfont.svg#museo_sans_900regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'museo_sans_300regular';
+    src: url('../font/museosans-300-webfont.eot');
+    src: url('../font/museosans-300-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/museosans-300-webfont.woff') format('woff'),
+         url('../font/museosans-300-webfont.ttf') format('truetype'),
+         url('../font/museosans-300-webfont.svg#museo_sans_300regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'museo_sans_100regular';
+    src: url('../font/museosans-100-webfont.eot');
+    src: url('../font/museosans-100-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/museosans-100-webfont.woff') format('woff'),
+         url('../font/museosans-100-webfont.ttf') format('truetype'),
+         url('../font/museosans-100-webfont.svg#museo_sans_100regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'museo_sans_rounded700';
+    src: url('../font/museosansrounded-700-webfont.eot');
+    src: url('../font/museosansrounded-700-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/museosansrounded-700-webfont.woff') format('woff'),
+         url('../font/museosansrounded-700-webfont.ttf') format('truetype'),
+         url('../font/museosansrounded-700-webfont.svg#museo_sans_rounded700') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+// font vars
+
+$display-heading-font-name:'museo_sans_rounded700', Helvetica, Arial, sans-serif;
+$light-font-name:'museo_sans_100regular', Helvetica, Arial, sans-serif;
+$regular-font-name:'museo_sans_300regular', Helvetica, Arial, sans-serif;
+$medium-font-name:'museo_sans_500regular', Helvetica, Arial, sans-serif;
+$bold-font-name:'museo_sans_700regular', Helvetica, Arial, sans-serif;
+$extra-bold-font-name:'museo_sans_900regular', Helvetica, Arial, sans-serif;
+$social-font-name: 'socialicoregular';
+
+
+//text columns
+
+
+$text-column-gutter-width: $baseline;
+
+.text-columns-2{
+  @include columns($text-column-gutter-width 2);
+}
+.text-columns-3{
+  @include columns($text-column-gutter-width 3);
+}
+.text-columns-4{
+  @include columns($text-column-gutter-width 4);
+}
+
+.text-uppercase{
+  text-transform:uppercase;
+}
+
+
+//font families
+
+.light-font-name{
+    font-family:$light-font-name;
+}
+.regular-font-name{
+    font-family:$regular-font-name;
+}
+.medium-font-name{
+    font-family:$medium-font-name;
+}
+.bold-font-name{
+    font-family:$bold-font-name!important;
+}
+.extra-bold-font-name{
+    font-family:$extra-bold-font-name;
+}
+
+.social-font-name{
+    font-family:$social-font-name;
+}
+
+
+//font color
+
+.primary-text-color{
+  color:$primary-color!important;
+  p{
+    color:$primary-color!important;
+  }
+}
+
+.secondary-text-color{
+  color:$secondary-color!important;
+  p{
+    color:$secondary-color!important;
+  }
+}
+
+.white-text{
+  h1,h2,h3,h4,h5,h6,p,small{
+    color:white!important;
+  }
+}
+
+//font size
+
+.micro-text{
+  font-size:.7em;
+}
+
+
+//font base
+
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { 
+  font-weight: inherit; 
+}
+h1, h2, h3, h4, h5, h6, p {
+  margin:0;
+  margin-bottom:$baseline; 
+  color:$text-color;
+}
+
+h1{
+  font-family:$display-heading-font-name;
+}
+h2{
+  font-family:$regular-font-name;
+}
+h3{
+  font-family:$bold-font-name;
+}
+h4{
+  font-family:$bold-font-name;
+}
+h5{
+  font-family:$extra-bold-font-name;
+}
+h6{
+  font-family:$light-font-name;
+}
+
+p  {font-size: .9em; line-height:$baseline;}
+h1 { font-size: 2.4em; line-height:$baseline*2.1; color:shade($primary-color,50%);}
+h2 { font-size: 1.8em; line-height:$baseline*1.7;}
+h3 { font-size: 1.8em; line-height:$baseline*1.7; color:shade($primary-color,50%);}
+h4 { font-size: 1.5em; line-height:$baseline;}
+h5 { font-size: 1em; line-height:$baseline*1;}
+h6 { font-size: 0.9em; line-height:$baseline;}
+
+
+blockquote{
+  border:none;
+  padding:$baseline;
+  font-size: 4.5em; 
+  line-height:$baseline*3.5;
+  font-family:$regular-font-name;
+}
