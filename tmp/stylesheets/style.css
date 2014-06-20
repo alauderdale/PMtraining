@@ -621,3 +621,7 @@ section {
     /* line 31, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/elements/_header.scss */
     #main-nav ul.main-links li.active a {
       color: black; }
+
+/* line 1, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/elements/_footer.scss */
+footer {
+  padding: 48px 0; }

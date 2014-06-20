@@ -33,6 +33,7 @@ GEM
       rack (>= 1.0.0)
       url_mount (~> 0.2.1)
     i18n (0.6.1)
+    json (1.8.1-java)
     listen (0.7.3)
     maruku (0.6.1)
       syntax (>= 1.0.0)
@@ -84,8 +85,6 @@ GEM
     padrino-helpers (0.10.7)
       i18n (~> 0.6)
       padrino-core (= 0.10.7)
-    puma (2.8.2-java)
-      rack (>= 1.1, < 2.0)
     rack (1.4.5)
     rack-contrib (1.1.0)
       rack (>= 0.9.1)
@@ -127,8 +126,8 @@ PLATFORMS
 DEPENDENCIES
   bourbon (= 3.1.0)
   haml
+  json
   middleman (~> 3.0.14)
   middleman-bourbon
   middleman-livereload (~> 3.0.1)
-  puma
   rack-contrib
