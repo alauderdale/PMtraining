@@ -31,9 +31,29 @@
 						%li{:class => (current_page.data.activeclass === "bootcamp") ? "active" : ""}
 							%a{:href=>"#"}
 								PMP Bootcamp 
-						%li{:class => (current_page.data.activeclass === "about") ? "active" : ""}
-							%a{:href=>"#"}
+						%li{:class => (current_page.data.activeclass === "about" ) ? "active" : ""}
+							%a.dropdown-toggle#dropdownMenu1.dropdown-hover{:href=>"#", "data-toggle"=>"dropdown"}
 								About
+								%span.caret
+								%ul.dropdown-menu{:role=>"menu", "aria-labelledby"=>"dropdownMenu1"}
+									%li
+										%a{:href=>"#"}
+											Who we are
+									%li
+										%a{:href=>"#"}
+											About the PMP exam
+									%li
+										%a{:href=>"#"}
+											Our books and website
+									%li
+										%a{:href=>"#"}
+											PMP articles
+									%li
+										%a{:href=>"#"}
+											Contact
+									%li
+										%a{:href=>"#"}
+											Get our newsletter
 						%li{:class => (current_page.data.activeclass === "training") ? "active" : ""}
 							%a{:href=>"#"}
 								Corporate Training                              
