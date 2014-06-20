@@ -23,10 +23,10 @@
 							%a{:href=>"/"}
 								Home 
 						%li{:class => (current_page.data.activeclass === "practice") ? "active" : ""}
-							%a{:href=>"/public/practice-exams"}
+							%a{:href=>"#"}
 								PMP Practice Exams
 						%li{:class => (current_page.data.activeclass === "live") ? "active" : ""}
-							%a{:href=>"#"}
+							%a{:href=>"/public/live-pmp"}
 								Live PMP Classes
 						%li{:class => (current_page.data.activeclass === "bootcamp") ? "active" : ""}
 							%a{:href=>"#"}
@@ -56,7 +56,11 @@
 											Get our newsletter
 						%li{:class => (current_page.data.activeclass === "training") ? "active" : ""}
 							%a{:href=>"#"}
-								Corporate Training                              
+								Corporate Training    
+				%nav.pull-right
+					%a.btn.btn-success{:href=>"#"}
+						%i.fa.fa-shopping-cart
+						Checkout                          
 
 
 

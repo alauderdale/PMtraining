@@ -7,33 +7,47 @@
 ;;;
 
 
+
+%section.invert-section.no-padding-top.no-padding-top.no-padding-bottom
+	=partial'/public/home/slider'
 %section
 	.container
-		.col-lg-12
-			%h1
-				Heading 1.
-			%h2
-				Heading 2
-			%h3
-				Heading 3
-			%h4
-				Heading 4
-			%h5
-				Heading 5
-			%h6
-				Heading 6
-			%p
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lobortis purus interdum sem elementum, vel luctus nisl pharetra. Phasellus ultrices tempor augue condimentum faucibus. Maecenas porta euismod pretium. Aenean ornare eu eros auctor sodales. Integer sit amet tortor eget est blandit sodales. Nam sit amet felis at magna iaculis condimentum. Phasellus sit amet mi fringilla, volutpat ipsum vitae, malesuada odio. Etiam vitae massa porta, porta lacus ac, euismod nibh. Vivamus non pulvinar lorem.
-			%a{:href=>"#"}
-				Linked
-			%a.btn.btn-primary.fancybox{:href=>"http://images6.alphacoders.com/316/316963.jpg"}
-				Click Me
-			.row.double-margin-top
-				.col-sm-6
+		.row
+			.col-lg-12
+				.text-center
+					%h5.text-muted
+						TRUSTED BY SOME OF THE WORLD'S SMARTEST COMPANIES...
+					=image_tag'logos.png', :class=>"img-responsive margin-auto"
+.container
+	%hr
+%section
+	.container
+		.row
+			.col-sm-5
+				%h2.margin-top
+					%strong
+						Live 
+					PMP Exam Community Performance
+				%p
+					To the right is a live calculation of the top 5 PMP process areas based on 370,653 PMP practice exams taken by PMTraining exam prep students.
+			.col-sm-1
+			.col-sm-6
+				=partial'/public/home/preformance-table'
+.container
+	%hr
+%section
+	.container
+		.row
+			.col-sm-12
+				.text-center
 					%h2
-						Live
-						%strong
-							PMP
-						Preformance testing
+						PMP Test Simulation Questions
 					%p
-						To the right is a live calculation of the top 5 PMP process areas based on 370,653 PMP practice exams taken by PMTraining exam prep students.
+						Community preformance by subject area
+				=partial'/public/home/preformance-chart'
+
+=partial'/public/shared/get-started'
+
+
+
+

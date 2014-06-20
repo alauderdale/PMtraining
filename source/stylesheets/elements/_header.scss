@@ -20,7 +20,7 @@
 		li{
 			font-family:$medium-font-name;
 			font-size:.8em;
-			margin-right:$baseline;
+			margin-right:$baseline/2;
 			a{
 				color:$text-color;
 				@include transition-duration(.1s);
@@ -33,6 +33,11 @@
 				a{
 					color:black;
 				}
+			}
+		}
+		.dropdown-menu{
+			li{
+				margin-right:0;
 			}
 		}
 	}

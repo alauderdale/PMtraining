@@ -1,0 +1,48 @@
+:javascript
+	$(function () {
+	        $('#preformance-chart').highcharts({
+	            chart: {
+	                type: 'bar'
+	            },
+	            title: {
+	                text: ''
+	            },
+	            subtitle: {
+	                text: ''
+	            },
+	            legend: {
+	                enabled: false
+	            },
+	            xAxis: {
+	                categories: ['Prof. Responsibility', 'Integration Mgt.', 'Communications Mgt.', 'Human Resource Mgt.', 'Project Framework','Time Mgt.','Scope Mgt.','Quality Mgt.','Risk Mgt.','Stakeholder Mgt.','Cost Mgmt.','Producement Mgmt.'],
+	                title: {
+	                    text: null
+	                }
+	            },
+	            yAxis: {
+	                min: 0,
+	                tickPixelInterval: 150,
+	                labels: {
+	                    overflow: 'justify'
+	                }
+	            },
+	            tooltip: {
+	                valueSuffix: ' %'
+	            },
+	            plotOptions: {
+	                bar: {
+	                    dataLabels: {
+	                        enabled: true
+	                    }
+	                }
+	            },
+	            credits: {
+	                enabled: false
+	            },
+	            series: [{
+	            		name: 'preformance',
+	                data: [86.24, 86.05, 85.56, 84.87, 83.79,, 83.68, 83.52,, 82.54, 81.83, 78.50, 78.05, 83.79,77.07]
+	            }]
+	        });
+	    });
+#preformance-chart

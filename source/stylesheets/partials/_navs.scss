@@ -1,0 +1,28 @@
+ul.nav-pills{
+	border-bottom:1px solid $gray-color;
+	li{
+		font-size:.8em;
+		&.active{
+			a{
+				background:none;
+				border-bottom:3px solid $primary-color;
+				color:$primary-color;
+				&:hover{
+					background:none;
+					color:$primary-color;
+					border-bottom:3px solid $primary-color;
+				}
+			}
+		}
+		a{
+			color:$text-color;
+			border-radius:0;
+			@include transition-duration(.1s);
+			&:hover{
+				border-bottom:3px solid $gray-color;
+				background:none;
+				color:$primary-color;
+			}
+		}
+	}
+}

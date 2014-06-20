@@ -1,0 +1,5 @@
+%ul.nav.nav-pills
+	- data.send(current_page.data.subnav_data).link_title_list.each do |ltl|
+		%li{:class => (current_page.data.subtitle === ltl.title) ? "active" : ""}
+			%a{:href=>"#{ltl.link}"}
+				= ltl.title

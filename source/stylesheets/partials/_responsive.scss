@@ -9,6 +9,31 @@
 
 @media (max-width: 992px) {
 
+#main-nav{
+	ul.main-links{
+		li{
+			font-size:.6em;
+		}
+	}
+	ul.sub-links{
+		li{
+			font-size:.5em;
+		}
+	}
+	.btn{
+		font-size:.6em;
+		.fa{
+			display:none;
+		}
+	}
+}
+
+.btn{
+	font-size:.8em;
+		&.btn-lg{
+			padding:$baseline;
+		}
+	}
 
 
 }
@@ -17,14 +42,26 @@
 
 @media (max-width: 768px) {
 
+.logo{
+  background:url(../images/logo_sm.png);
+  width: 185px;
+  height:36px;
+  display:block;
+}
 
-
+.btn{
+	font-size:.8em;
+		&.btn-lg{
+			padding:$baseline/2;
+		}
+	}
 
 }
 
 //xs
 
 @media (max-width: 320px) {
+
 
 
 

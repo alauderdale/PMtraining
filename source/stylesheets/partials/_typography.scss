@@ -114,6 +114,10 @@ $text-column-gutter-width: $baseline;
   text-transform:uppercase;
 }
 
+.text-color{
+  color:$text-color;
+}
+
 
 //font families
 
@@ -224,4 +228,13 @@ blockquote{
   font-size: 4.5em; 
   line-height:$baseline*3.5;
   font-family:$regular-font-name;
+}
+
+ul.list-default{
+  margin-bottom:$baseline;
+  list-style-image:url(../images/bullet.png);
+  li{
+    font-size:.7em;
+    margin-left:$baseline;
+  }
 }

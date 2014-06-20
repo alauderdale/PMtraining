@@ -4,8 +4,13 @@ section{
   padding:$baseline*2 0;
   &.invert-section{
     background-color:$primary-color;
-    h1,h2,h3,h4,h5,h6,p{
+    h1,h2,h3,h4,h5,h6,p,li,small{
       color:white;
     }
+  }
+  &.get-started{
+  	background:$primary-color url(../images/bg_get_started.png);
+  	@include background-size(cover);
+    padding:$baseline*4 0;
   }
 }

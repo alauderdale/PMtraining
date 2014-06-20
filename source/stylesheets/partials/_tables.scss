@@ -1,0 +1,10 @@
+table.table{
+	font-size:.8em;
+	&.table-striped > tbody > tr:nth-child(odd) > td{
+		background-color:tint($primary-color,90%);
+	}
+	h5{
+		line-height:12px;
+		margin-bottom:$baseline/2;
+	}
+}
