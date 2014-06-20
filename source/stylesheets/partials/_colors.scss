@@ -1,13 +1,14 @@
 // color vars
 
-$primary-color: #0089bc;
-$secondary-color: #f47b2c;
+$primary-color: #138abb;
+$secondary-color: #f47b51;
 $tertiary-color: #ffd266;
 $light-gray-color: #f2f2f2;
 $gray-color:#dddddd;
 $green-color: #8ec979;
 $yellow-color:#ffd266;
-$text-color: #555555;
+$text-color: #747c83;
+$heading-text-color: shade($primary-color,30%);
 $dark-text-color: #4a4a4a;
 $black-color:#111111;
-$link-color: #0089bc;
+$link-color: #3fc5e6;

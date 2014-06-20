@@ -1,0 +1,18 @@
+a{
+	color:$link-color;
+	&:hover{
+		color:tint($link-color,30%);
+		text-decoration:none;
+	}
+}
+
+.btn{
+	@include transition-duration(.4s);
+	&.btn-primary{
+		background-color:$primary-color;
+		&:hover{
+			background-color:tint($primary-color,20%);
+			border-color:tint($primary-color,20%);
+		}
+	}
+}

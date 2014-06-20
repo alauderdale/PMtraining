@@ -1,0 +1,37 @@
+#main-nav{
+	padding:$baseline 0;
+	border-bottom:1px solid $gray-color;
+	ul.sub-links{
+		li{
+			font-size:.6em;
+			font-family:$extra-bold-font-name;
+			padding-right:0px;
+			&:after{
+				content:"|";
+			}
+			&:last-of-type{
+					&:after{
+					content:"";
+				}
+			}
+		}
+	}
+	ul.main-links{
+		li{
+			font-family:$medium-font-name;
+			font-size:.8em;
+			a{
+				color:$text-color;
+				@include transition-duration(.2s);
+				&:hover{
+					color:$link-color;
+				}
+			}
+			&.active{
+				a{
+					color:black;
+				}
+			}
+		}
+	}
+}

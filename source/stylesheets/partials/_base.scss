@@ -119,3 +119,10 @@ img{
 .border-left{
   border-left:1px solid $gray-color;
 }
+
+.logo{
+  background:url(../images/logo.png);
+  width: 388px;
+  height:35px;
+  display:block;
+}

@@ -1,0 +1,42 @@
+%header#main-nav
+	.container
+		.row.margin-bottom
+			.col-lg-12
+				.pull-left
+					%a.logo{:href=>"/"}
+				%nav.pull-right
+					%ul.list-inline.sub-links
+						%li
+							%a{:href=>"#"}
+								PMP Exam Updates 
+						%li
+							%a{:href=>"#"}
+								Member Login 
+						%li
+							%a{:href=>"#"}
+								Contact & Support
+		.row
+			.col-lg-12
+				%nav.pull-left
+					%ul.list-inline.main-links
+						%li{:class => (current_page.data.activeclass === "home") ? "active" : ""}
+							%a{:href=>"/"}
+								Home 
+						%li{:class => (current_page.data.activeclass === "practice") ? "active" : ""}
+							%a{:href=>"/public/practice-exams"}
+								PMP Practice Exams
+						%li{:class => (current_page.data.activeclass === "live") ? "active" : ""}
+							%a{:href=>"#"}
+								Live PMP Classes
+						%li{:class => (current_page.data.activeclass === "bootcamp") ? "active" : ""}
+							%a{:href=>"#"}
+								PMP Bootcamp 
+						%li{:class => (current_page.data.activeclass === "about") ? "active" : ""}
+							%a{:href=>"#"}
+								About
+						%li{:class => (current_page.data.activeclass === "training") ? "active" : ""}
+							%a{:href=>"#"}
+								Corporate Training                              
+
+
+
