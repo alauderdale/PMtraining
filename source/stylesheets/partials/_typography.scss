@@ -223,16 +223,19 @@ h3,h4,h5,h6{
 }
 
 blockquote{
-  border:none;
-  padding:$baseline;
-  font-size: 4.5em; 
-  line-height:$baseline*3.5;
+  border:none!important;
+  padding-left:$baseline/4;
+  font-size: .7em; 
+  line-height:$baseline/1.2;
   font-family:$regular-font-name;
+  footer{
+    margin-top:$baseline/2;
+  }
 }
 
 ul.list-default{
-  margin-bottom:$baseline;
   list-style-image:url(../images/bullet.png);
+  margin-bottom:$baseline;
   li{
     font-size:.7em;
     margin-left:$baseline;
