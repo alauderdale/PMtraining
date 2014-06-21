@@ -23,6 +23,9 @@ footer#footer{
 			a{
 				@include transition-duration(.1s);
 				color:$text-color;
+				&:hover{
+					color:$link-color;
+				}
 			}
 		}
 	}
