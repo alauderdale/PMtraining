@@ -1,0 +1,55 @@
+%nav.navbar.navbar-default.visible-xs.navbar-fixed-top#mobile-main-nav{role: "navigation"}
+  .container-fluid
+    .navbar-header
+      %button.navbar-toggle{"data-target" => "#bs-example-navbar-collapse-1", "data-toggle" => "collapse", type: "button"}
+        %span.sr-only Toggle navigation
+        %span.icon-bar
+        %span.icon-bar
+        %span.icon-bar
+      %a.navbar-brand.logo-sm{href: "/"} 
+    / Collect the nav links, forms, and other content for toggling
+    #bs-example-navbar-collapse-1.collapse.navbar-collapse
+      %ul.nav.navbar-nav
+        %li
+          %a{href: "#"} 
+            Home
+        %li
+          %a{href: "#"} 
+            PMP Practice Exams
+        %li
+          %a{href: "/public/live-pmp"} 
+            Live PMP Classes
+        %li
+          %a{href: "#"} 
+            PMP Bootcamp
+        %li.dropdown
+          %a.dropdown-toggle{"data-toggle" => "dropdown", href: "#"}
+            About
+            %b.caret
+          %ul.dropdown-menu
+            %li
+              %a{href: "#"} 
+                Who we are
+            %li
+              %a{href: "#"} 
+                About the PMP Exam
+            %li
+              %a{href: "#"} 
+                Our books and website
+        %li
+          %a{href: "#"} 
+            Corporate Training
+        %li
+          %a.btn.btn-success.navbar-btn{href: "#"} 
+            Checkout
+        %hr.no-margin-bottom
+      %ul.nav.navbar-nav.mobile-subnav
+        %li
+          %a{href: "#"} 
+            PMP Exam Udates
+        %li
+          %a{href: "#"} 
+            Member Login
+        %li
+          %a{href: "#"} 
+            Contact & Support
