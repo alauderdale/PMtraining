@@ -8,13 +8,13 @@
 				%nav.pull-right
 					%ul.list-inline.sub-links
 						%li
-							%a{:href=>"#"}
+							%a{:href=>"/public/about/about-the-pmp-exam"}
 								PMP Exam Updates 
 						%li
-							%a{:href=>"#"}
+							%a{:href=>"/public/login"}
 								Member Login 
 						%li
-							%a{:href=>"#"}
+							%a{:href=>"/public/about/contact"}
 								Contact & Support
 		.row
 			.col-lg-12
@@ -24,42 +24,53 @@
 							%a{:href=>"/"}
 								Home 
 						%li{:class => (current_page.data.activeclass === "practice") ? "active" : ""}
-							%a{:href=>"#"}
+							%a{:href=>"/public/practice-pmp"}
 								PMP Practice Exams
 						%li{:class => (current_page.data.activeclass === "live") ? "active" : ""}
 							%a{:href=>"/public/live-pmp"}
 								Live PMP Classes
 						%li{:class => (current_page.data.activeclass === "bootcamp") ? "active" : ""}
-							%a{:href=>"#"}
+							%a{:href=>"/public/bootcamp"}
 								PMP Bootcamp 
 						%li{:class => (current_page.data.activeclass === "about" ) ? "active" : ""}
-							%a.dropdown-toggle#dropdownMenu1.dropdown-hover{:href=>"#", "data-toggle"=>"dropdown"}
+							%a.dropdown-toggle{:href=>"#", "data-toggle"=>"dropdown"}
 								About
 								%span.caret
-								%ul.dropdown-menu{:role=>"menu", "aria-labelledby"=>"dropdownMenu1"}
+								%ul.dropdown-menu{:role=>"menu"}
 									%li
-										%a{:href=>"#"}
+										%a{:href=>"/public/about"}
 											Who we are
 									%li
-										%a{:href=>"#"}
+										%a{:href=>"/public/about/about-the-pmp-exam"}
 											About the PMP exam
 									%li
-										%a{:href=>"#"}
+										%a{:href=>"/public/about/books"}
 											Our books and website
 									%li
-										%a{:href=>"#"}
+										%a{:href=>"/public/about/articles"}
 											PMP articles
 									%li
-										%a{:href=>"#"}
+										%a{:href=>"/public/about/contact"}
 											Contact
 									%li
-										%a{:href=>"#"}
+										%a{:href=>"/public/about/newsletter"}
 											Get our newsletter
-						%li{:class => (current_page.data.activeclass === "training") ? "active" : ""}
-							%a{:href=>"#"}
-								Corporate Training    
+						%li{:class => (current_page.data.activeclass === "training" ) ? "active" : ""}
+							%a.dropdown-toggle{:href=>"#", "data-toggle"=>"dropdown"}
+								Coporate Training
+								%span.caret
+								%ul.dropdown-menu{:role=>"menu"}
+									%li
+										%a{:href=>"/public/corporate-training"}
+											Coporate training options
+									%li
+										%a{:href=>"/public/corporate-training/corporate-discount"}
+											Enroll multiple students
+									%li
+										%a{:href=>"/public/corporate-training/private-portal"}
+											Private training portal   
 				%nav.pull-right
-					%a.btn.btn-success{:href=>"#"}
+					%a.btn.btn-success{:href=>"/public/checkout"}
 						%i.fa.fa-shopping-cart
 						Checkout                          
 

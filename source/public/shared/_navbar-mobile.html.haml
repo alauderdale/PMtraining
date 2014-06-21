@@ -14,13 +14,13 @@
           %a{href: "#"} 
             Home
         %li
-          %a{href: "#"} 
+          %a{href: "/public/practice-pmp"} 
             PMP Practice Exams
         %li
           %a{href: "/public/live-pmp"} 
             Live PMP Classes
         %li
-          %a{href: "#"} 
+          %a{href: "/public/bootcamp"} 
             PMP Bootcamp
         %li.dropdown
           %a.dropdown-toggle{"data-toggle" => "dropdown", href: "#"}
@@ -28,28 +28,48 @@
             %b.caret
           %ul.dropdown-menu
             %li
-              %a{href: "#"} 
+              %a{:href=>"/public/about"}
                 Who we are
             %li
-              %a{href: "#"} 
-                About the PMP Exam
+              %a{:href=>"/public/about/about-the-pmp-exam"}
+                About the PMP exam
             %li
-              %a{href: "#"} 
+              %a{:href=>"/public/about/books"}
                 Our books and website
-        %li
-          %a{href: "#"} 
-            Corporate Training
+            %li
+              %a{:href=>"/public/about/articles"}
+                PMP articles
+            %li
+              %a{:href=>"/public/about/contact"}
+                Contact
+            %li
+              %a{:href=>"/public/about/newsletter"}
+                Get our newsletter
+        %li.dropdown
+          %a.dropdown-toggle{"data-toggle" => "dropdown", href: "#"}
+            Coporate Training
+            %b.caret
+          %ul.dropdown-menu
+            %li
+              %a{:href=>"/public/corporate-training"}
+                Coporate training options
+            %li
+              %a{:href=>"/public/corporate-training/corporate-discount"}
+                Enroll multiple students
+            %li
+              %a{:href=>"/public/corporate-training/private-portal"}
+                Private training portal   
         %li
           %a.btn.btn-success.navbar-btn{href: "#"} 
             Checkout
         %hr.no-margin-bottom
       %ul.nav.navbar-nav.mobile-subnav
         %li
-          %a{href: "#"} 
-            PMP Exam Udates
+          %a{:href=>"/public/about/about-the-pmp-exam"}
+            PMP Exam Updates 
         %li
-          %a{href: "#"} 
-            Member Login
+          %a{:href=>"/public/login"}
+            Member Login 
         %li
-          %a{href: "#"} 
+          %a{:href=>"/public/about/contact"}
             Contact & Support

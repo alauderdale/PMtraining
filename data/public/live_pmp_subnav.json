@@ -12,12 +12,12 @@
 	  	"link":"/public/live-pmp/included"
 	  },
 
-	  {"title":"OurGuarantee", 
-	  	"link":"#"
+	  {"title":"Our Guarantee", 
+	  	"link":"/public/live-pmp/guarantee"
 	  },
 
 	  {"title":"Student Testimonials", 
-	  	"link":"#"
+	  	"link":"/public/live-pmp/student-testimonials"
 	  }
 	]
 }
