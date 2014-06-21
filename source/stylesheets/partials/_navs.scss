@@ -26,3 +26,42 @@ ul.nav-pills{
 		}
 	}
 }
+
+#mobile-main-nav{
+	background:white;
+	.logo-sm{
+	  background:url(../images/logo_sm.png) no-repeat;
+	  padding:0;
+	  display:block;
+	  background-size:100%;
+	  width: 130px;
+	  height: 25px;
+	  top:15px;
+	  margin-left:20px;
+  }
+	ul{
+		li{
+			font-size:.7em;
+			.btn{
+				margin:0 10px;
+				color:white;
+				&.btn-success{
+					&:hover{
+						background:$green-color;
+					}
+				}
+			}
+		}
+	}
+	ul.mobile-subnav{
+		li{
+			a{
+				color:$link-color;
+				font-family:$extra-bold-font-name;
+			}
+		}
+	}
+	.navbar-toggle{
+		border:none;
+	}
+}

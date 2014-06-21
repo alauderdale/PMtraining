@@ -9,38 +9,48 @@
 
 @media (max-width: 992px) {
 
-#main-nav{
-	ul.main-links{
-		li{
+	#main-nav{
+		ul.main-links{
+			li{
+				font-size:.7em;
+				margin-right:0;
+			}
+		}
+		ul.sub-links{
+			li{
+				font-size:.5em;
+			}
+		}
+		.btn{
 			font-size:.6em;
+			.fa{
+				display:none;
+			}
 		}
 	}
-	ul.sub-links{
-		li{
-			font-size:.5em;
-		}
-	}
+
+
 	.btn{
-		font-size:.6em;
-		.fa{
-			display:none;
+		font-size:.8em;
+			&.btn-lg{
+				padding:$baseline;
+			}
+		}
+	ul.nav-pills{
+		li{
+			font-size:.7em;
 		}
 	}
-}
-
-.btn{
-	font-size:.8em;
-		&.btn-lg{
-			padding:$baseline;
-		}
-	}
-
 
 }
 
 //sm
 
 @media (max-width: 768px) {
+
+.no-margin-top-sm{
+	margin-top:0;
+}
 
 .logo{
   background:url(../images/logo_sm.png);
@@ -50,9 +60,53 @@
 }
 
 .btn{
-	font-size:.8em;
+	font-size:.7em;
 		&.btn-lg{
 			padding:$baseline/2;
+		}
+	}
+
+	body{
+	padding-top: 50px;
+	}
+
+	section{
+		padding:$baseline 0;
+	}
+
+	h1{
+		font-size:1.5em;
+		line-height:$baseline*1.4;
+	}
+	h2{
+		font-size:1.2em;
+		line-height:$baseline*1.2;
+	}
+	p{
+		font-size:.8em;
+	}
+
+	ul.nav-pills{
+		border-bottom:none;
+		li{
+			font-size:.6em;
+			a{
+				padding:10px;
+			}
+			&.active{
+				a{
+					padding:10px;
+					border:none;
+					&:hover{
+						border:none;
+					}
+				}
+			}
+			&:hover{
+				a{
+					border:none;
+				}
+			}
 		}
 	}
 
@@ -61,7 +115,6 @@
 //xs
 
 @media (max-width: 320px) {
-
 
 
 
