@@ -30,6 +30,13 @@
 				}
 			}
 			&.active{
+				.dropdown-menu{
+					li{
+						a{
+						color:$text-color;
+						}
+					}
+				}
 				a{
 					color:black;
 				}
