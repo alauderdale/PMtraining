@@ -45,7 +45,15 @@ a{
 			border-color:white;
 		}
 	}
+	&.btn-success{
+		background-color:$green-color;
+		border-color:$green-color;
+		&:hover{
+			background-color:tint($green-color,20%);
+			border-color:tint($green-color,20%);
+		}
+	}
 	&.btn-lg{
-		padding:$baseline ;
+		padding:$baseline/1.5 $baseline;
 	}
 }
