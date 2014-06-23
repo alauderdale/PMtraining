@@ -10,3 +10,18 @@
 		margin-bottom:0;
 	}
 }
+
+.small-panels{
+	.panel-heading{
+		padding:3px;
+		padding-left:$baseline/2;
+		h4{
+			font-size:1em;
+			&:before{
+				content:"▼";
+				font-size:.8em;
+				color:$link-color;
+			}
+		}
+	}
+}
