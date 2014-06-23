@@ -4,6 +4,17 @@ a{
 		color:tint($link-color,30%);
 		text-decoration:none;
 	}
+	&.arrow-link{
+		@include transition-duration(.4s);
+		background:url('../images/arrow_right.png') no-repeat right center;
+		font-size:1em;
+		text-transform:uppercase;
+		padding-right:30px;
+		&:hover{
+			padding-right:40px;
+			color:$link-color;
+		}
+	}
 }
 
 .btn{
