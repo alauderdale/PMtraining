@@ -15,4 +15,26 @@
 			color:rgba(255,255,255,.4);
 		}
 	}
+	ol.carousel-indicators{
+		text-align:right;
+		li{
+			width: 18px;
+			height:18px;
+			@include transition-duration(.3s);
+			&.right{
+				background:url(../images/public/slider_right.png);
+				border:none;
+				width: 29px;
+				height:29px;
+				top:5px;
+			}
+			&.left{
+				background:url(../images/public/slider_left.png);
+				border:none;
+				width: 29px;
+				height:29px;
+				top:5px;
+			}
+		}
+	}
 }

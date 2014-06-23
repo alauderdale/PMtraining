@@ -3,8 +3,36 @@
   %ol.carousel-indicators
     %li.active{"data-slide-to" => "0", "data-target" => "#home-slider"}
     %li{"data-slide-to" => "1", "data-target" => "#home-slider"}
+    %li{"data-slide-to" => "2", "data-target" => "#home-slider"}
+    %li.left{"data-slide"=>"prev","data-target" => "#home-slider"}
+    %li.right{"data-slide"=>"next","data-target" => "#home-slider"}
   .carousel-inner
     .item.active{:style=>"background-image:url(/images/slider/slide-1-bg.png);"}
+      .container
+        .row
+          .col-md-6.col-sm-12
+            %h1
+              Live PMP Classes Taught Online by Veteran Instructors 
+            %ul.margin-bottom
+              %li
+                Attend a live instructor course from your personal  computer
+              %li
+                Flexible times and dates to meet busy work schedules
+              %li
+                35 Contact hours, PDUs, all course materials, and software included in price
+              %li
+                Less than half the cost of comparable classroom courses
+              %li
+                Starting at $1299.00 Save $405.00 Now
+            .btns
+              %a.btn.btn-default.btn-lg.half-margin-right.half-margin-bottom{:href=>"#"}
+                CLASS OVERVIEW
+              %a.btn.btn-wire.btn-lg.half-margin-bottom{:href=>"#"}
+                SCHEDULE & PRICING 
+                %i.fa.fa-arrow-circle-right
+          .col-md-6.hidden-sm.hidden-xs
+            =image_tag"/images/slider/slide-1-graphic.png", :class=>"img-responsive margin-auto margin-top"
+    .item{:style=>"background-image:url(/images/slider/slide-1-bg.png);"}
       .container
         .row
           .col-md-6.col-sm-12
