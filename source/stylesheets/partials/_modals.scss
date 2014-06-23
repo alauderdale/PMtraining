@@ -1,0 +1,17 @@
+.modal{
+	.modal-title{
+		color:$primary-color;
+	}
+	.close{
+		z-index: 99;
+	}
+	.btn-lg{
+		padding:$baseline;
+	}
+	p{
+		&.micro-text{
+			line-height:$baseline/1.2;
+		}
+	}
+}
+

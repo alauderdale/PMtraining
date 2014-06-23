@@ -10,4 +10,9 @@ $(document).ready(function(){
         }
    });
 
+	$('.tooltip-up').tooltip();
+
+	///responsive tables!!!
+	$('table').footable();
+
 });

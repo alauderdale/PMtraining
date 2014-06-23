@@ -7,4 +7,9 @@ table.table{
 		line-height:12px;
 		margin-bottom:$baseline/2;
 	}
+	&.mid-align{
+		td{
+			vertical-align:middle;
+		}
+	}
 }

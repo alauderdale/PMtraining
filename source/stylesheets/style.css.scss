@@ -2,6 +2,7 @@
 @import "bourbon/bourbon";
 @import "lib/fancybox/jquery.fancybox.css";
 @import "lib/font-awesome.css";
+@import "lib/foo-table/footable.core.css";
 @import "lib/bootstrap.css";
 
 //// partials
@@ -16,6 +17,7 @@
 @import "partials/slider";
 @import "partials/navs";
 @import "partials/panels_wells";
+@import "partials/modals";
 
 
 //// elements

@@ -5,6 +5,7 @@
 "right_title": "", 
 "activeclass": "live",
 "subnav_data": "live_pmp_subnav",
+"right_title": "REGISTER BY PHONE 1.800.581.9819", 
 "subtitle": "Schedule & Pricing"
 
 ;;;
@@ -18,5 +19,50 @@
 			.col-lg-12
 				=partial"/public/shared/subnav"
 
+
+
+%section
+	.container
+		.row
+			.col-sm-7
+				%p
+					%strong
+						All Classes Taught Online by Live Instructors - 100% Exam Pass Guarantee 
+					Our Live Virtual PMP Classes deliver the same content and materials as the classroom, with a live instructor, in real time, via the Internet. It is completely interactive- you will talk with your instructor and your peers. 
+				%p
+					%strong
+						Easily Enroll in a Live PMP Class Below
+				%ul.list-default
+					%li
+						Attend class from any computer with an Internet connection (PC or Mac)
+					%li
+						Instant email confirmation and instructor follow-up after enrollment
+					%li
+						Exam pass guarantee included with all classes
+					%li
+						Includes class materials, PMI Contact Hours, online exam portal and
+						%a{:href=>"/public/live-pmp/included"} 
+							more
+			.col-sm-5 
+				=image_tag"public/practice/ui_show_1.png", :class=>"img-responsive margin-auto double-margin-bottom" 
+				.text-center
+					%p.text-center
+						%small
+							%em
+								PMTraining Student Portal Included with Class Enrollment! 
+.container
+	%hr.no-margin-top.no-margin-bottom
+%section
+	.container
+		.row
+			.col-lg-12
+				%h6.text-center
+					New Student Discounts on all Upcoming Classes!
+				.text-center.double-margin-bottom
+					%a.tooltip-up{:href=>"/public/about/contact", "data-toggle"=>"tooltip" , :title=>"+ Is there anything preventing you from signing up at this point? SEND Powered by Qualaroo [?]"}
+						Request a Private Class for your Team
+		.row
+			.col-sm-12
+				=partial'/public/live-pmp/schedule-table'
 
                            
