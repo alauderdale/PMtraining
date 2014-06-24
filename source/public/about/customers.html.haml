@@ -5,16 +5,62 @@
 "right_title": "", 
 "activeclass": "about",
 "subtitle": "Our Customers",
-"subnav_data": "about_subnav"
+"subnav_data": "about_subnav",
+"testiminial_data": "testimonials"
 
 ;;;
 
 =partial"/public/shared/page-head-small"
 
 
-%section
+%section.no-padding-bottom
 	.container
 		.row
 			.col-lg-12
 				=partial"/public/shared/subnav"
+
+
+%section
+	.container
+		.row
+			.col-md-9
+				%h2
+					Who Relies on Our PMP Exam Prep? More People than you Think.
+				%p
+					Thousands of students rely on our PMP exam prep products, some without even knowing it. There are more than 50 different organizations; including training firms, universities, and public agencies; who license our PMP exam prep software and books for their own students. A key reason our PMP courseware remains so effective is because we receive constant feedback from the training organizations we support. 
+				%p.no-margin-bottom
+					%strong
+						PMP Self-Studiers who Rely on our Exam Prep Software and Books 
+				%p
+					One learning style does not fit all, which is why we offer our PMP courseware to self-studiers across a broad range of mediums. More than ten thousand students have used our learning material; including more than 75,000 PMP practice exams served. From our value-priced PMP iPhone apps, to our comprehensive PMP courses, we do everything possible to support our students' professional aspirations. 
+				%p.no-margin-bottom
+					%strong
+						Organizations that Rely on our Exam Prep Software and Books 
+				%p
+					Since 2004, SSI Logic has grown to be a leading provider of licensed PMP courseware solution providers for enterprises, providing the corporate-branded training software that students end up using. We quickly and easily deliver professional PMP, ITIL, and CISSP exam practice directly to students and employees across many industries. 
+				%p
+					%strong
+						Organizations who currently rely on our training systems and books include:
+				%ul.list-default
+					%li
+						Certification training providers and "Bootcamp" training providers
+					%li
+						Corporate training departments
+					%li
+						Public sector agencies and organizations
+					%li
+						Universities and community colleges
+					%li
+						Training websites and online resellers
+				%p
+					Are you an organization who is interested in offering PMP exam preparation? 
+					%a{:href=>"/public/corporate-training"}
+						Learn about our corporate programs. 
+				%p
+					Below is a sample of recent enterprise customers who rely on exam preparation tools from SSI Logic: 
+				=image_tag"logos.png", :class=>"img-responsive margin-auto" 
+			.col-md-3
+				%h6.text-center
+					What Our Students Say 
+				=partial"/public/shared/testimonial-list", locals: {test_num: 3}
 			

@@ -4,15 +4,37 @@
 "title": "About Us",
 "activeclass": "about",
 "subtitle": "Our PMP Courseware",
-"subnav_data": "about_subnav"
+"subnav_data": "about_subnav",
+"testiminial_data": "testimonials"
 
 ;;;
 
 =partial"/public/shared/page-head-small"
 
 
-%section
+%section.no-padding-bottom
 	.container
 		.row
 			.col-lg-12
 				=partial"/public/shared/subnav"
+
+%section
+	.container
+		.row
+			.col-md-9
+				%h2
+					Professional. Measurable. Realistic.
+				%p
+					The PMP certification courseware we offer is developed and maintained by our expert team of PMP corporate trainers, university professors, and eLearning experts; all of whom are veterans in the field of project management. PMP courseware designers from SSI Logic wear many hats, and the PMP exam tools we offer through our websites mirror the curriculums we teach through our instructor-led classes; transformed for an eLearning environment. 
+				%p
+					All of the PMP courseware we offer undergoes a rigorous review process known as our Courseware Development Process (CDP). This quality assurance (QA) process serves to minimize the risk of issues related to quality and accuracy; and increases our ability to effectively prepare students for the PMP certification exam. 
+				=image_tag'public/CDP_Flow.gif', :class=>"img-responsive padded img-thumbnail margin-bottom"
+				%p.no-margin-bottom
+					%strong
+						Our PMP Exam Simulation Technology 
+				%p
+					The exam simulation technology developed by SSI Logic is based upon the real exam testing environment, providing students with the most true to form application of PMP training content possible. Whereas other tools may provide a linear screen-by-screen testing mechanism, we provide a timed, markable PMP test application which mimics the real PMP exam. Our testing system requires no additional software downloads, and works with all standard web browsers providing our users with the most accessible, practical PMP preparation possible.
+			.col-md-3
+				%h6.text-center
+					What Our Students Say 
+				=partial"/public/shared/testimonial-list", locals: {test_num: 4} 

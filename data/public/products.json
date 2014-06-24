@@ -1,0 +1,106 @@
+{
+"books": [
+		{"title":"The PMP Exam Made Easy: Your 24-Hour Study Guide to Passing", 
+	  	"descrip":"Everyone knows that the PMP® Exam is legendary for its difficulty. But it doesn't have to be so intimidating. With expert tips for exam success, The PMP Exam Made Easy makes acing this challenging exam easier than ever. Our comprehensive study guide gives you all the tools you need to succeed on the PMP Exam - the first time.",
+	  	"link_title":"Purchase on amazon",
+	  	"product_img":"public/products/PMP-exam-made-easy-front-cover.jpg",
+	  	"link_url":"http://www.amazon.com/gp/product/0982576889/ref=as_li_tf_tl?ie=UTF8&tag=sslowe-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0982576889"
+	  },
+	  {"title":"PMP® Exam Prep Questions, Answers, & Explanations ", 
+	  	"descrip":"Based on the PMBOK Guide - Fifth Edition (2009), the practice tests in our PMP exam prep book are designed to help students adjust to the pace, subject matter, and difficulty of the real PMP exam. Geared towards anyone preparing for the exam, all PMP practice tests include clear solutions to help you understand core concepts. ",
+	  	"link_title":"Purchase on amazon",
+	  	"product_img":"public/products/pmpbookbig.jpg",
+	  	"link_url":"http://www.amazon.com/gp/product/0982576803/ref=as_li_tf_tl?ie=UTF8&tag=sslowe-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0982576803"
+	  },
+	  {"title":"PMP Exam Prep Flash Cards ", 
+	  	"descrip":"These PMP Flash Cards are a perfect companion for those studying for the PMP exam. PMP flash cards by SSI Logic reinforce critical PMBOK terminology, PMP exam concepts, and definitions which you will see on the PMP exam itself. ",
+	  	"link_title":"Purchase on amazon",
+	  	"product_img":"public/products/pmp-flash-cards-front-cover.jpg",
+	  	"link_url":"http://www.amazon.com/gp/product/0982576870/ref=as_li_tf_tl?ie=UTF8&tag=sslowe-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0982576870"
+	  },
+	  {"title":"PMI's PMBOK Guide® Fifth Edition - A Guide to the Project Management Body of Knowledge ", 
+	  	"descrip":"Created and published by the Project Management Institute (PMI) A Guide to the Project Management Body of Knowledge (PMBOK® Guide) —Fifth Edition reflects the collaboration and knowledge of working project managers and provides the fundamentals of project management as they apply to a wide range of projects. This internationally recognized standard gives project managers the essential tools to practice project management and deliver organizational results. ",
+	  	"link_title":"Purchase on amazon",
+	  	"product_img":"public/products/book-cover-pmbok5.jpg",
+	  	"link_url":"http://www.amazon.com/Guide-Project-Management-Body-Knowledge/dp/1935589679/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1933890517&linkCode=as2&tag=sslowe-20"
+	  },
+	  {"title":"PMI's PMBOK Guide® Fifth Edition - A Guide to the Project Management Body of Knowledge ", 
+	  	"descrip":"Created and published by the Project Management Institute (PMI) The PMBOK® Guide – Fifth Edition presents a set of standard terminology and guidelines for project management. This text continues the tradition of excellence in project management with a standard that is even easier to understand and implement. This text is highly recommended for all aspiring PMP students. ",
+	  	"link_title":"Purchase on amazon",
+	  	"product_img":"public/products/book-cover-pmbok.jpg",
+	  	"link_url":"http://www.amazon.com/gp/product/1933890517/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1933890517&linkCode=as2&tag=sslowe-20"
+	  },
+	  {"title":"ITIL® Exam Prep Questions, Answers, & Explanations ", 
+	  	"descrip":"Based on the official ITIL Foundation syllabus and the ITIL core volumes, the practice exams in this book are designed to help students adjust to the pace, subject matter, and difficulty of the real ITIL Foundation exam. Geared towards anyone preparing for the exam, all tests include clear solutions to help you understand the core concepts. ",
+	  	"link_title":"Purchase on amazon",
+	  	"product_img":"public/products/itilbookbig.jpg",
+	  	"link_url":"http://www.amazon.com/gp/product/0982576811/ref=as_li_tf_tl?ie=UTF8&tag=sslowe-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0982576811"
+	  },
+	  {"title":"PMI-ACP Exam Prep Questions, Answers, & Explanations ", 
+	  	"descrip":"Based on the latest PMI-ACP® exam outline, the practice tests in this book are designed to help students adjust to the pace, subject matter, and difficulty of the real PMI Agile Certified Practitioner (PMI-ACP) exam. Geared towards anyone preparing for the exam, all tests include clear solutions to help you understand core concepts.",
+	  	"link_title":"Purchase on amazon",
+	  	"product_img":"public/products/Front-Cover-PMI-ACP_Exam_Prep-Web.jpg",
+	  	"link_url":"http://www.amazon.com/gp/product/098947030X/ref=as_li_tf_tl?ie=UTF8&tag=sslowe-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=098947030X"
+	  },
+	  {"title":"CISSP® Exam Prep Questions, Answers, & Explanations ", 
+	  	"descrip":"Based on the CISSP Common Body of Knowledge (CBK) Domains, the practice tests in our CISSP exam prep book are designed to help students adjust to the pace, subject matter, and difficulty of the real CISSP exam. Geared towards anyone preparing for the exam, all CISSP practice tests include clear solutions to help you understand core concepts. ",
+	  	"link_title":"Purchase on amazon",
+	  	"product_img":"public/products/cisspbookbig.jpg",
+	  	"link_url":"http://www.amazon.com/gp/product/0982576846/ref=as_li_tf_tl?ie=UTF8&tag=sslowe-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0982576846"
+	  }
+	],
+	"sites": [
+		{"title":"PMTraining® - Professional PMP Exam Preparation", 
+	  	"descrip":"PMTraining® offers a suite of PMP exam preparation tools, eLearning courseware, and live courses for users taking the Project Management Professional (PMP) certification exam.",
+	  	"link_title":"visit Site",
+	  	"product_img":"public/products/pmperfectbig.jpg",
+	  	"link_url":"http://www.pmtraining.com/"
+	  },
+	  {"title":"TrainAgile® - Professional PMI-ACP Exam Preparation", 
+	  	"descrip":"TrainAgile offers a range of Agile exam preparation courseware and training options has a primary focus on preparing students for the PMI-ACP certification, as well as other Agile certifications.",
+	  	"link_title":"visit Site",
+	  	"product_img":"public/products/trainagile-screenshots.jpg",
+	  	"link_url":"http://www.trainagile.com/"
+	  },
+	  {"title":"ITIL Prime® - Professional ITIL Exam Preparation", 
+	  	"descrip":"ITIL Prime® offers a range of ITIL exam preparation courseware and exam-taking options; and is the only officially licensed and endorsed ITIL Foundation preparation software tool available.",
+	  	"link_title":"visit Site",
+	  	"product_img":"public/products/itilbig.jpg",
+	  	"link_url":"http://www.itilprime.com/"
+	  },
+	  {"title":"CISSP Exam Practice® - Professional CISSP Exam Preparation ", 
+	  	"descrip":"CISSPExamPractice® offers a collection of CISSP exam preparation tools for users taking the Certified Information Systems Security Professional (CISSP) certification exam. CISSPExamPractice.com analyzes student aptitude in each CISSP domain area following the completion of realistic CISSP mock exams and practice quizzes. ",
+	  	"link_title":"visit Site",
+	  	"product_img":"public/products/cisspbig.jpg",
+	  	"link_url":"http://www.cisspexampractice.com/"
+	  },
+	  {"title":"Well Hire® - Professional Job Testing", 
+	  	"descrip":"Use Wellhire to reduce the time and cost of your hiring process through simple tools which attract, assess and qualify job candidates. More than just applicant tracking, Wellhire allows you to qualify interested candidates directly from your online job postings- without exchanging a single email. ",
+	  	"link_title":"visit Site",
+	  	"product_img":"public/products/wellhirebig.jpg",
+	  	"link_url":"http://www.wellhire.com/"
+	  }
+	],
+	"apps": [
+		{"title":"PMTraining® for iPhone ", 
+	  	"descrip":"Based on the PMBOK Guide - Fifth Edition (2009), our PMP exam prep app is designed to help students learn on the go with realistic PMP exam questions, progress-saving features, and easily accessible answer keys and explanations. ",
+	  	"link_title":"Purchase on iTunes",
+	  	"product_img":"public/products/pmp-iphone-app.jpg",
+	  	"link_url":"https://itunes.apple.com/us/app/pmp-exam-prep-questions-answers/id375555841?mt=8"
+	  },
+	  {"title":"ITIL Prime® for iPhone ", 
+	  	"descrip":"Based on the official ITIL V3 Foundation syllabus and the ITIL V3 core volumes, our ITIL exam prep app is designed to help students learn on the go with realistic ITIL Foundation exam questions, progress-saving features, and easily accessible answer keys and explanations.",
+	  	"link_title":"Purchase on iTunes",
+	  	"product_img":"public/products/itil-iphone-app.jpg",
+	  	"link_url":"https://itunes.apple.com/us/app/itil-v3-foundation-exam-prep/id375555373?mt=8"
+	  },
+	  {"title":"CISSPExamPractice® for iPhone", 
+	  	"descrip":"Based on the CISSP Common Body of Knowledge (CBK) Domains, our CISSP exam prep app is designed to help students learn on the go with realistic CISSP exam questions, progress-saving features, and easily accessible answer keys and explanations.",
+	  	"link_title":"Purchase on iTunes",
+	  	"product_img":"public/products/cissp-iphone-app.jpg",
+	  	"link_url":"https://itunes.apple.com/us/app/cissp-exam-prep-questions/id375554970?mt=8"
+	  }
+	]
+}
+
+                        

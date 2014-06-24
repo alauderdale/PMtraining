@@ -1,0 +1,14 @@
+
+.row.margin-bottom.margin-top
+	.col-sm-4.col-sm-push-8
+		=image_tag"#{p.product_img}", class:"img-responsive margin-top margin-bottom"
+	.col-sm-1
+	.col-sm-7.col-sm-pull-5
+		%h3
+			=p.title
+		%p
+			=p.descrip
+		%a.btn.btn-default{:href=>"#{p.link_url}", :target=>"_blank"} 
+			=p.link_title
+.row
+	%hr
