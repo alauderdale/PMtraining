@@ -15,4 +15,10 @@ $(document).ready(function(){
 	///responsive tables!!!
 	$('table').footable();
 
+	$('#testimonial-slider .item:first-child').addClass('active');
+
+	$('.carousel').carousel({
+  	interval: 4000
+	})
+
 });

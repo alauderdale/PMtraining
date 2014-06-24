@@ -1,0 +1,37 @@
+#testimonial-slider.carousel.fade{"data-ride" => "carousel"}
+  %ol.carousel-indicators
+    %li.left{"data-slide"=>"prev","data-target" => "#testimonial-slider"}
+    %li.right{"data-slide"=>"next","data-target" => "#testimonial-slider"}
+  .carousel-inner
+    - data.send(current_page.data.testiminial_data).testiminials.each do |t|
+      .item
+        .container
+          .col-sm-6
+            .media-object.testimonial
+              .pull-left
+                =image_tag"#{t.avatar_url}", :class=>"img-responsive margin-right margin-top", :width=>"60px" 
+              .media-body
+                .media-heading
+                  %blockquote
+                    \"
+                    =t.body
+                    \"
+                    %footer
+                      =t.footer
+          .col-sm-6
+            .media-object.testimonial
+              .pull-left
+                =image_tag"#{t.avatar_url}", :class=>"img-responsive margin-right margin-top", :width=>"60px" 
+              .media-body
+                .media-heading
+                  %blockquote
+                    \"
+                    =t.body
+                    \"
+                    %footer
+                      =t.footer
+        .clearfix
+
+
+
+

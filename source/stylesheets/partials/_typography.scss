@@ -118,6 +118,10 @@ $text-column-gutter-width: $baseline;
   color:$text-color;
 }
 
+.text-success{
+  color:$green-color;
+}
+
 
 //font families
 
@@ -219,13 +223,13 @@ h1,h2{
 }
 
 h3,h4,h5,h6{
-  color:black;
+  color:#2b2e30;
 }
 
 blockquote{
   border:none!important;
   padding-left:$baseline/4;
-  font-size: .7em; 
+  font-size: .8em; 
   line-height:$baseline;
   font-family:$regular-font-name;
   footer{
@@ -237,6 +241,7 @@ blockquote{
   text-decoration:line-through;
 }
 
+//lists
 
 
 ul.list-default{
@@ -246,4 +251,33 @@ ul.list-default{
     font-size:.7em;
     margin-left:$baseline;
   }
+}
+
+ul.list-checks{
+  list-style-image:url(../images/check.png);
+  margin-bottom:$baseline;
+  li{
+    font-size:.9em;
+    margin-left:$baseline;
+    margin-bottom:$baseline;
+  }
+}
+
+//testimonials
+
+
+.testimonial{
+  blockquote{
+    border:1px solid $gray-color !important;
+    padding:$baseline/2;
+    margin:$baseline 0;
+  }
+}
+
+//icons
+
+.fa-display{
+  font-size:4em;
+  margin-bottom:$baseline;
+  color:$primary-color;
 }

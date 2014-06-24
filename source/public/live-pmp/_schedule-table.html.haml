@@ -1,19 +1,20 @@
-%table.table.table-striped.table-responsive.mid-align
+%table.table.table-striped.table-responsive.mid-align.table-bordered.schedule-table
   %thead
     %tr
       %th.text-center
-        Class Info
+        %h5.no-margin-bottom
+          Class Info
       %th.text-center{"data-hide"=>"phone"} 
-        %h5.text-color
+        %h5.no-margin-bottom
           Class Start Date
       %th.text-center{"data-hide"=>"phone"} 
-        %h5.text-color
+        %h5.no-margin-bottom
           Class Schedule
       %th.text-center{"data-hide"=>"phone"} 
-        %h5.text-color
+        %h5.no-margin-bottom
           Class Time
       %th.text-center{"data-hide"=>"phone"} 
-        %h5.text-color
+        %h5.no-margin-bottom
           Enrollment Price
       %th 
 
@@ -43,6 +44,31 @@
         %td.text-center
           %a.btn.btn-success{:href=>"/public/checkout"}
             Enroll Now
+    %tr
+      %td.text-center 
+        %strong
+          %span.text-muted{:disabled=>"disabled"}
+            View Class Details
+      %td.text-center 
+        %strong
+          Monday, July 07, 2014 
+      %td.text-center 
+        Mon / Weds Evenings (6 weeks)
+      %td.text-center 
+        8PM  to 10PM (EST)
+      %td.text-center 
+        %span.line-through
+          $1299.00 (USD) 
+        %br
+        %span.text-danger
+          Save $405.00 Now 
+        %br
+        %span.text-success
+          $894.00 (USD)
+      %td.text-center
+        .tooltip-up{"data-toggle"=>"tooltip" , :title=>"Due to the popularity of this class, we have reached capacity and can no longer accept new enrollments."}
+          %a.btn.btn-warning{:href=>"/public/checkout", :disabled=>"disabled"}
+            Sold Out
 
 
 

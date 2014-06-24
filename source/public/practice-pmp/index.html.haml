@@ -2,7 +2,8 @@
 
 "layout": "public",
 "title": "Practice PMP Exams",
-"activeclass": "practice"
+"activeclass": "practice",
+"testiminial_data": "testimonials"
 
 ;;;
 
@@ -37,8 +38,13 @@
 			.col-md-5 
 				=image_tag"public/practice/ui_show_1.png", :class=>"img-responsive margin-auto double-margin-bottom" 
 				.text-center
-					%a.btn.btn-primary{:href=>"/public/checkout"}
+					%a.btn.btn-primary.quarter-margin-bottom{:href=>"/public/checkout"}
 						Register now for pmp practice exams  
+					%p.bold-font-name
+						%small
+							%em
+								%i.fa.fa-plus{:style=>"top:2px;"}
+								Questions updated June 19, 2014
 
 .container
 	%hr.no-margin-top.no-margin-bottom
@@ -49,27 +55,8 @@
 				%h6.text-center
 					What Our Students are Saying
 		.row
-			.col-sm-6
-				.media-object
-					.pull-left
-						=image_tag"public/avatar_lg.png", :class=>"img-responsive margin-right margin-top", :width=>"60px" 
-					.media-body
-						.mefia-heading
-							%blockquote
-								"I found many of your questions to be similar in nature and difficulty to those on the actual exam.  My overall score on the pre-test paralleled that on the actual exam.  Passing these practice tests prior to sitting the PMI exam allowed me to take it with confidence.  I found that taking the practice tests also sped up my answers and I completed the PMI exam with time to spare."
-
-								%footer
-									D. Shannon, PMP New Mexico, USA"
-			.col-sm-6
-				.media-object
-					.pull-left
-						=image_tag"public/avatar_lg.png", :class=>"img-responsive margin-right margin-top", :width=>"60px" 
-					.media-body
-						.mefia-heading
-							%blockquote
-								"I was quite pleased with the prep service. I passed the PMP primarily by using PMTraining practice exams, with reading from the PMBOK® Guide zeroed in on areas pointed out as weak by the test results. A great value. Thanks."
-								%footer
-									Chris Michael, PMP - SourceLink LLC 
+			.col-sm-12
+				=partial"/public/shared/testimonial-slider"
 .container
 	%hr.no-margin-top.no-margin-bottom
 %section

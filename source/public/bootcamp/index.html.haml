@@ -2,7 +2,8 @@
 
 "layout": "public",
 "title": "PMP Bootcamp",
-"activeclass": "bootcamp"
+"activeclass": "bootcamp",
+"testiminial_data": "testimonials"
 
 ;;;
 
@@ -12,7 +13,479 @@
 %section
 	.container
 		.row
+			.col-md-6
+				%h2
+					PMP Certification Bootcamp On-Demand Course Now $349.00
+				%p.no-margin-bottom
+					%strong
+						Flexible course access.   Any time, anywhere.
+				%p
+					Our On-Demand PMP course is designed to comprehensively prepare students for the PMP exam. Access intensive course lessons without limitation, from any computer with a web browser. Includes 65+ interactive course lessons, 35 PMI contact hours, all study materials, PMP quizzes, PMBOK exercises, and much more.   
+				%p.no-margin-bottom
+					%strong
+						Contact Hours and PDUs.
+				%p
+					35 PMI Contact Hours, plus 35 PDUs
+					%br
+					PMI R.E.P. #3962  
+				%p.no-margin-bottom
+					%strong
+						Accessing the Course
+				%p
+					Web-based access to all courseware.
+				%hr
+				%p.no-margin-bottom
+					%i.fa.fa-plus
+					Registration Cost - 
+					%span.line-through
+						$599.00 (USD)
+					%span.text-danger 
+						Save $250.00 
+				%p.no-margin-bottom
+					%a{:href=>""}
+						%i.fa.fa-plus
+						Now $349.00 (USD) with 90-day access
+			.col-md-6
+				=image_tag"public/img-bootcamp-PMP-largev2.jpg", :class=>"img-responsive margin-auto double-margin-bottom margin-top" 
+				.text-center
+					%a.btn.btn-primary.margin-bottom{"data-toggle"=>"modal", :href=>"/public/bootcamp/show", "data-target"=>"#showBootcampModal"}
+						Register for this PMP course
+					%a.btn.btn-default.margin-bottom{:href=>"/public/checkout"}
+						Try a Demo
+					.clearfix
+					%p
+						%a.tooltip-up{:href=>"/public/checkout", "data-toggle"=>"tooltip" , :title=>"New! Click here to include our popular PMP practice exam system with your course and save more."}
+							%i.fa.fa-plus{:style=>"top:2px;"}
+							Add PMP Practice Exams and Save an Extra $10
+.container
+	%hr.no-margin-top.no-margin-bottom
+%section
+	.container
+		.row
 			.col-lg-12
+				%h6.text-center
+					What Our Students are Saying
+		.row
+			.col-sm-12
+				=partial"/public/shared/testimonial-slider"
+.container
+	%hr.no-margin-top.no-margin-bottom
+%section
+	.container
+		.row.margin-bottom
+			.col-lg-12
+				%h6.text-center
+					Intensive PMP Course Curriculum - Designed for On-Demand Learning
+		.row
+			.col-sm-4
+				%i.fa.fa-sitemap.fa-display
+				%h4
+					Course Milestones 1 - 4:
+				%ul.list-default
+					%li
+						The Basics - Project Framework
+					%li
+						Project Integration Management
+					%li
+						Project Scope Management
+					%li
+						Project Time Management
+			.col-sm-4
+				%i.fa.fa-clipboard.fa-display
+				%h4
+					Course Milestones 5 - 9:
+				%ul.list-default
+					%li
+						Project Cost Management
+					%li
+						Project Quality Management
+					%li
+						Project HR Management
+					%li
+						Project Communication Management
+					%li
+						Project Risk Management
+			.col-sm-4
+				%i.fa.fa-users.fa-display
+				%h4
+					Course Milestones 10 - 12:
+				%ul.list-default
+					%li
+						Project Procurement Management
+					%li
+						Project Stakeholder Management
+					%li
+						Professional and Social Responsibility
+					%li
+						Course Summary and Certificate
+.container
+	%hr.no-margin-top.no-margin-bottom
+%section
+	.container
+		.row
+			.col-sm-12
+				%h6.text-center
+					Included in this PMP Training Course
+		.row.margin-bottom
+			.col-sm-6
+				.padded
+					=image_tag'public/icon_pencil.png', :class=>"margin-auto img-responsive margin-bottom" , :width=>"200px"
+					%p.text-center
+						%small
+							%em
+								Interactive Lessons Available On-Demand
+					%h4
+						Over 35 Hours of Interactive Lessons and Material, Available On-Demand
+					%p
+						Each course milestone contains interactive training lessons designed for On-Demand learning and busy schedules. Complete the entire curriculum in order, or re-visit training lessons as many times as you like.
+			.col-sm-6
+				.padded
+					=image_tag'public/icon_pencil.png', :class=>"margin-auto img-responsive margin-bottom" , :width=>"200px"
+					%p.text-center
+						%small
+							%em
+								Accredited with Contact Hours and PDUs
+					%h4
+						Accreditations and Credits Earned
+					%p
+						This course is officially recognized by the Project Management Institute (PMI) and includes the required Contact Hours to take the PMP exam; as well as PDUs.
+						Pre-approved for 35 PMI Contact Hours and 35 PDU Credits
+		.row.margin-bottom
+			.col-sm-6
+				.padded
+					=image_tag'public/icon_pencil.png', :class=>"margin-auto img-responsive margin-bottom" , :width=>"200px"
+					%p.text-center
+						%small
+							%em
+								Includes Critical Earned Value Exercises
+					%h4
+						PMP Earned Value Management (EVM) Exercises
+					%p
+						PMP practice questions are used to test your knowledge following each PMBOK Knowledge Area lesson. The PMP quizzes in this course also provide detailed explanations for each question and answer. A full PMP mock exam is also included.
+			.col-sm-6
+				.padded
+					=image_tag'public/icon_pencil.png', :class=>"margin-auto img-responsive margin-bottom" , :width=>"200px"
+					%p.text-center
+						%small
+							%em
+								Process Maps for each Knowledge Area
+					%h4
+						Printable PMP Process Maps
+					%p
+						Concise, focused PMP Process Maps for each PMBOK Knowledge Area. Our PMP process map tools are designed to quickly reference and reinforce important areas you'll need for the PMP exam. Ineractive Process Explorer included!
+		.row.margin-bottom
+			.col-sm-6
+				.padded
+					=image_tag'public/icon_pencil.png', :class=>"margin-auto img-responsive margin-bottom" , :width=>"200px"
+					%p.text-center
+						%small
+							%em
+								Practice Tests for each Knowledge Area
+					%h4
+						Full PMP Mock Exam and Knowledge Quizzes Included
+					%p
+						PMP practice questions are used to test your knowledge following each PMBOK Knowledge Area lesson. The PMP quizzes in this course also provide detailed explanations for each question and answer. A full PMP mock exam is also included.
+			.col-sm-6
+				.padded
+					=image_tag'public/icon_pencil.png', :class=>"margin-auto img-responsive margin-bottom" , :width=>"200px"
+					%p.text-center
+						%small
+							%em
+								Quickly Access all PMP Exam Formulas
+					%h4
+						PMP Formula Cheat Sheet
+					%p
+						This PMP course consolidates all critical PMP exam formulas in to a single cheat sheet. Download and print out the formula cheat sheet for offline study, and commit all key information to memory before day of the exam.
+		.row.margin-bottom
+			.col-sm-6
+				.padded
+					=image_tag'public/icon_pencil.png', :class=>"margin-auto img-responsive margin-bottom" , :width=>"200px"
+					%p.text-center
+						%small
+							%em
+								Easily register to take your PMP exam
+					%h4
+						Course Progress Checklist to Successfully Register with PMI
+					%p
+						With our easy to follow course progress checklist, successfully registering to take the PMP exam is a breeze. All contact hours are documented for you, and can be printed out from the course.
+			.col-sm-6
+				.padded
+					=image_tag'public/icon_pencil.png', :class=>"margin-auto img-responsive margin-bottom" , :width=>"200px"
+					%p.text-center
+						%small
+							%em
+								Includes Free Project Plan Pyramid
+					%h4
+						Project Plan "Pyramid" Study Aid
+					%p
+						Designed to reinforce the overall Project Management Plan, this tool clearly lays out all major components involved in project planning. A critical tool to reinforce the processes and documents involved in the Project Management Plan.
+%section.invert-section.get-started
+	.container
+		.row
+			.col-sm-12.text-center
+				%h2
+					Access intensive course lessons without limitation.
+				%p.no-margin-bottom
+					%a.btn.btn-primary.half-margin-right.btn-lg{"data-toggle"=>"modal", :href=>"/public/bootcamp/show", "data-target"=>"#showBootcampModal"}
+						Register for this PMP course
+					%a.btn.btn-primary.btn-default.btn-lg{:href=>"/public/live-pmp/schedule-and-pricing"}
+						Try a demo
+%section.bootcamp-curriculum
+	.container
+		.row
+			.col-sm-6
+				%h2
+					Detailed Online PMP Course Curriculum
+				%p
+					Below is the detailed curriculum covered by this PMP certification course. Students will come away with a thorough understanding of project management through the perspective of PMI and the latest PMBOK Guide, and will be prepared to take the PMP exam.  
+			.col-sm-6
+				.text-center
+					%i.fa.fa-display.fa-laptop{:style=>"font-size:10em;"}
+		%hr
+		.row
+			.col-sm-6
+				.well
+					%p
+						%strong
+							Milestone 1 - The Basics: Project Management Framework
+						%ul.list-default
+							%li
+								Lesson 2 - Introduction and Tour of Course Features
+							%li
+								Lesson 3 - PMP Foundational Terms and Concepts
+							%li
+								Lesson 4 - Essential Project Management Terms
+							%li
+								Lesson 5 - Project Roles
+							%li
+								Lesson 6 - Project Context
+							%li
+								Lesson 7 - Process Framework
+			.col-sm-6
+				.well
+					%p
+						%strong
+							Milestone 2 - Project Integration Management
+						%ul.list-default
+							%li
+								Lesson 1 - Introduction and Overview
+							%li
+								Lesson 2 - Develop Project Charter
+							%li
+								Lesson 3 - Develop Project Management Plan
+							%li
+								Lesson 4 - Direct and Manage Project Work
+							%li
+								Lesson 5 - Monitor and Control Project Work
+							%li
+								Lesson 6 - Perform Integrated Change Control
+							%li
+								Lesson 7 - Close Project or Phase
+		.row
+			.col-sm-6
+				.well
+					%p
+						%strong
+							Milestone 3 - Project Scope Management
+						%ul.list-default
+							%li
+								Lesson 1 - Introduction and Overview
+							%li
+								Lesson 2 - Plan Scope Management
+							%li
+								Lesson 3 - Collect Requirements
+							%li
+								Lesson 4 - Define Scope
+							%li
+								Lesson 5 - Create Work Breakdown Structure (WBS)
+							%li
+								Lesson 6 - Validate Scope
+							%li
+								Lesson 7 - Control Scope
+			.col-sm-6
+				.well
+					%p
+						%strong
+							Milestone 4 - Project Time Management
+						%ul.list-default
+							%li
+								Lesson 1 - Introduction and Overview
+							%li
+								Lesson 2 - Plan Schedule Management
+							%li
+								Lesson 3 - Define Activities
+							%li
+								Lesson 4 - Sequence Activities
+							%li
+								Lesson 5 - Estimate Activity Resources
+							%li
+								Lesson 6 - Estimate Activity Durations
+							%li
+								Lesson 7 - Develop Schedule
+							%li
+								Lesson 8 - Control Schedule
+		.row
+			.col-sm-6
+				.well
+					%p
+						%strong
+							Milestone 5 - Project Cost Management
+						%ul.list-default
+							%li
+								Lesson 1 - Introduction and Overview
+							%li
+								Lesson 2 - Plan Cost Management
+							%li
+								Lesson 3 - Estimate Costs
+							%li
+								Lesson 4 - Determine Budget
+							%li
+								Lesson 5 - Control Costs
+			.col-sm-6
+				.well
+					%p
+						%strong
+							Milestone 6 - Project Quality Management
+						%ul.list-default
+							%li
+								Lesson 1 - Introduction and Overview
+							%li
+								Lesson 2 - Plan Quality Management
+							%li
+								Lesson 3 - Perform Quality Assurance
+							%li
+								Lesson 4 - Control Quality
+		.row
+			.col-sm-6
+				.well
+					%p
+						%strong
+							Milestone 7 - Project Human Resource Management
+						%ul.list-default
+							%li
+								Lesson 1 - Introduction and Overview
+							%li
+								Lesson 2 - Plan Human Resource Management
+							%li
+								Lesson 3 - Acquire Project Team
+							%li
+								Lesson 4 - Develop Project Team
+							%li
+								Lesson 5 - Manage Project Team
+			.col-sm-6
+				.well
+					%p
+						%strong
+							Milestone 8 - Project Communications Management
+						%ul.list-default
+							%li
+								Lesson 1 - Introduction and Overview
+							%li
+								Lesson 2 - Plan Communications Management
+							%li
+								Lesson 3 - Manage Communications
+							%li
+								Lesson 4 - Control Communications
+		.row
+			.col-sm-6
+				.well
+					%p
+						%strong
+							Milestone 9 - Project Risk Resource Management
+						%ul.list-default
+							%li
+								Lesson 1 - Introduction and Overview
+							%li
+								Lesson 2 - Plan Risk Management
+							%li
+								Lesson 3 - Identify Risks
+							%li
+								Lesson 4 - Perform Qualitative Risk Analysis
+							%li
+								Lesson 5 - Perform Quantitative Risk Analysis
+							%li
+								Lesson 6 - Plan Risk Responses
+							%li
+								Lesson 7 - Control Risks
+			.col-sm-6
+				.well
+					%p
+						%strong
+							Milestone 10 - Project Procurement Management
+						%ul.list-default
+							%li
+								Lesson 1 - Introduction and Overview
+							%li
+								Lesson 2 - Plan Procurement Management
+							%li
+								Lesson 3 - Conduct Procurements
+							%li
+								Lesson 4 - Control Procurements
+							%li
+								Lesson 5 - Close Procurements
+		.row
+			.col-sm-6
+				.well
+					%p
+						%strong
+							Milestone 11 - Project Stakeholder Management
+						%ul.list-default
+							%li
+								Lesson 1 - Introduction and Overview
+							%li
+								Lesson 2 - Identify Stakeholders
+							%li
+								Lesson 3 - Plan Stakeholder Management
+							%li
+								Lesson 4 - Manage Stakeholder Engagement
+							%li
+								Lesson 5 - Control Stakeholder Engagement
+			.col-sm-6
+				.well
+					%p
+						%strong
+							Milestone 12 - Professional and Social Responsibility
+						%ul.list-default
+							%li
+								Lesson 1 - Introduction and Overview
+							%li
+								Lesson 2 - Vision and Applicability
+							%li
+								Lesson 3 - Responsibility
+							%li
+								Lesson 4 - Respect
+							%li
+								Lesson 5 - Fairness
+							%li
+								Lesson 6 - Honesty
+							%li
+								Lesson 7 - Professional Responsibility Summary
+							%li
+								Lesson 8 - Course Summary and Certificate!s
+
+.container
+	%hr.no-margin-top.no-margin-bottom
+%section
+	.container
+		.row
+			.col-sm-6
+				=image_tag"public/practice/system_reqs.png", :class=>"img-responsive margin-auto margin-bottom"
+			.col-sm-6	
+				%h2
+					System Requirements
+				%p
+					%strong
+						Access to PMP practice exams requires the following:
+				%ul.list-default
+					%li
+						Computer with Internet connection
+					%li
+						Works with all web browsers
+				%a.btn.btn-primary.margin-bottom{"data-toggle"=>"modal", :href=>"/public/bootcamp/show", "data-target"=>"#showBootcampModal"}
+					Register for this PMP course
+				%a.btn.btn-default.margin-bottom{:href=>"/public/checkout"}
+					Try a Demo
+				
 
 
 				

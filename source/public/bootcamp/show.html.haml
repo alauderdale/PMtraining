@@ -1,0 +1,37 @@
+;;;
+
+"layout": "modal_small"
+  
+;;;
+
+
+
+.padded
+	.modal-header
+		%button.close{"aria-hidden" => "true", "data-dismiss" => "modal", type: "button", :style=>"left:10px; bottom:20px;"} ×
+		%h3.modal-title 
+			Add Practice Exams and Save an Extra $10
+	.modal-body
+		.row
+			.col-lg-12	
+				%h2
+					The most advanced PMP exam simulator available Now only 
+					%span.line-through
+						$59.00 
+					$49.00
+				%p
+					Laser focus your study efforts with over 1,000 professionally authored PMP questions.
+				%ul.list-default
+					%li
+						Access from any web browser- online testing interface mimics the real PMP exam
+					%li
+						Detailed explanations and PMBOK® references for every PMP question
+					%li
+						Reports track your PMP knowledge and show where you need to study
+					%li
+						Includes over twenty condensed PMP mock exams, knowledge area tests, and more
+				%hr
+				%a.btn.btn-success.half-margin-bottom{:href=>"/public/checkout"}
+					Add practice exams
+				%a.btn.btn-primary.half-margin-bottom{:href=>"/public/checkout"}
+					No Thanks, I just want the tests

@@ -12,4 +12,11 @@ table.table{
 			vertical-align:middle;
 		}
 	}
+	&.schedule-table{
+		border:5px solid tint($primary-color,80%);
+		box-shadow:0 0 10px rgba(0,0,0,.2);
+		.btn{
+			font-family:$extra-bold-font-name;
+		}
+	}
 }
