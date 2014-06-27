@@ -1,0 +1,405 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+    <meta content='width=device-width, initial-scale=1.0' name='viewport'>
+    <title>
+      Newsletter
+    </title>
+    <link href="../../../stylesheets/style.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href='/images/favicon.ico' rel='shortcut icon'>
+    <!-- %script{:src => "http://code.jquery.com/jquery-latest.min.js", :type => "text/javascript"} -->
+    <script src="../../../javascripts/lib/jquery.js" type="text/javascript"></script>
+    <script src="../../../javascripts/lib/bootstrap.js" type="text/javascript"></script>
+    <script src="../../../javascripts/lib/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script src="../../../javascripts/lib/helpers/jquery.fancybox-media.js" type="text/javascript"></script>
+    <script src="../../../javascripts/lib/highcharts/highcharts.js" type="text/javascript"></script>
+    <script src="../../../javascripts/lib/highcharts/modules/exporting.js" type="text/javascript"></script>
+    <script src="../../../javascripts/lib/footable/footable.js" type="text/javascript"></script>
+    <script src="../../../javascripts/lib/footable/footable.filter.js" type="text/javascript"></script>
+    <script src="../../../javascripts/scripts.js" type="text/javascript"></script>
+    <body class='public public_about public_about_newsletter public_about_newsletter_index'>
+      <nav class='navbar navbar-default visible-xs navbar-fixed-top' id='mobile-main-nav' role='navigation'>
+        <div class='container-fluid'>
+          <div class='navbar-header'>
+            <button class='navbar-toggle' data-target='#bs-example-navbar-collapse-1' data-toggle='collapse' type='button'>
+              <span class='sr-only'>Toggle navigation</span>
+              <span class='icon-bar'></span>
+              <span class='icon-bar'></span>
+              <span class='icon-bar'></span>
+            </button>
+            <a class='navbar-brand logo-sm' href='/'></a>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class='collapse navbar-collapse' id='bs-example-navbar-collapse-1'>
+            <ul class='nav navbar-nav'>
+              <li>
+                <a href='#'>
+                  Home
+                </a>
+              </li>
+              <li>
+                <a href='/public/practice-pmp'>
+                  PMP Practice Exams
+                </a>
+              </li>
+              <li>
+                <a href='/public/live-pmp'>
+                  Live PMP Classes
+                </a>
+              </li>
+              <li>
+                <a href='/public/bootcamp'>
+                  PMP Bootcamp
+                </a>
+              </li>
+              <li class='dropdown'>
+                <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+                  About
+                  <b class='caret'></b>
+                </a>
+                <ul class='dropdown-menu'>
+                  <li>
+                    <a href='/public/about'>
+                      Who we are
+                    </a>
+                  </li>
+                  <li>
+                    <a href='/public/about/about-the-pmp-exam'>
+                      About the PMP exam
+                    </a>
+                  </li>
+                  <li>
+                    <a href='/public/about/books'>
+                      Our books and website
+                    </a>
+                  </li>
+                  <li>
+                    <a href='/public/about/articles'>
+                      PMP articles
+                    </a>
+                  </li>
+                  <li>
+                    <a href='/public/about/contact'>
+                      Contact
+                    </a>
+                  </li>
+                  <li>
+                    <a href='/public/about/newsletter'>
+                      Get our newsletter
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class='dropdown'>
+                <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+                  Coporate Training
+                  <b class='caret'></b>
+                </a>
+                <ul class='dropdown-menu'>
+                  <li>
+                    <a href='/public/corporate-training'>
+                      Coporate training options
+                    </a>
+                  </li>
+                  <li>
+                    <a href='/public/corporate-training/corporate-discount'>
+                      Enroll multiple students
+                    </a>
+                  </li>
+                  <li>
+                    <a href='/public/corporate-training/private-portal'>
+                      Private training portal
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a class='btn btn-success navbar-btn' href='/public/checkout'>
+                  Checkout
+                </a>
+              </li>
+              <hr class='no-margin-bottom'>
+            </ul>
+            <ul class='nav navbar-nav mobile-subnav'>
+              <li>
+                <a href='/public/about/about-the-pmp-exam'>
+                  PMP Exam Updates
+                </a>
+              </li>
+              <li>
+                <a href='/public/login'>
+                  Member Login
+                </a>
+              </li>
+              <li>
+                <a href='/public/about/contact'>
+                  Contact & Support
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <header class='hidden-xs' id='main-nav'>
+        <div class='container'>
+          <div class='row margin-bottom'>
+            <div class='col-lg-12'>
+              <div class='pull-left'>
+                <a class='logo' href='/'></a>
+              </div>
+              <nav class='pull-right'>
+                <ul class='list-inline sub-links'>
+                  <li>
+                    <a href='/public/about/about-the-pmp-exam'>
+                      PMP Exam Updates
+                    </a>
+                  </li>
+                  <li>
+                    <a href='/public/login'>
+                      Member Login
+                    </a>
+                  </li>
+                  <li>
+                    <a href='/public/about/contact'>
+                      Contact & Support
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <div class='row'>
+            <div class='col-lg-12'>
+              <nav class='pull-left'>
+                <ul class='list-inline main-links'>
+                  <li class=''>
+                    <a href='/'>
+                      Home
+                    </a>
+                  </li>
+                  <li class=''>
+                    <a href='/public/practice-pmp'>
+                      PMP Practice Exams
+                    </a>
+                  </li>
+                  <li class=''>
+                    <a href='/public/live-pmp'>
+                      Live PMP Classes
+                    </a>
+                  </li>
+                  <li class=''>
+                    <a href='/public/bootcamp'>
+                      PMP Bootcamp
+                    </a>
+                  </li>
+                  <li class='active'>
+                    <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+                      About
+                      <span class='caret'></span>
+                      <ul class='dropdown-menu' role='menu'>
+                        <li>
+                          <a href='/public/about'>
+                            Who we are
+                          </a>
+                        </li>
+                        <li>
+                          <a href='/public/about/about-the-pmp-exam'>
+                            About the PMP exam
+                          </a>
+                        </li>
+                        <li>
+                          <a href='/public/about/books'>
+                            Our books and website
+                          </a>
+                        </li>
+                        <li>
+                          <a href='/public/about/articles'>
+                            PMP articles
+                          </a>
+                        </li>
+                        <li>
+                          <a href='/public/about/contact'>
+                            Contact
+                          </a>
+                        </li>
+                        <li>
+                          <a href='/public/about/newsletter'>
+                            Get our newsletter
+                          </a>
+                        </li>
+                      </ul>
+                    </a>
+                  </li>
+                  <li class=''>
+                    <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+                      Coporate Training
+                      <span class='caret'></span>
+                      <ul class='dropdown-menu' role='menu'>
+                        <li>
+                          <a href='/public/corporate-training'>
+                            Coporate training options
+                          </a>
+                        </li>
+                        <li>
+                          <a href='/public/corporate-training/corporate-discount'>
+                            Enroll multiple students
+                          </a>
+                        </li>
+                        <li>
+                          <a href='/public/corporate-training/private-portal'>
+                            Private training portal
+                          </a>
+                        </li>
+                      </ul>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+              <nav class='pull-right'>
+                <a class='btn btn-success' href='/public/checkout'>
+                  <i class='fa fa-shopping-cart'></i>
+                  Checkout
+                </a>
+                <img class="hidden-md hidden-sm" width="80px" src="../../../images/pmi_logo.png" />
+              </nav>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- end menu -->
+      <section class='invert-section'>
+        <div class='container'>
+          <div class='row'>
+            <div class='col-lg-12'>
+              <h2 class='no-margin-bottom pull-left'>
+                Newsletter
+              </h2>
+              <h6 class='no-margin-bottom pull-right hidden-xs half-margin-top extra-bold-font-name'>
+                
+              </h6>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class='container'>
+          <div class='row'>
+            <div class='col-lg-12'></div>
+          </div>
+        </div>
+      </section>
+      <!-- end main content -->
+      <footer id='footer'>
+        <div class='container'>
+          <div class='row'>
+            <div class='col-sm-3'>
+              <img src="../../../images/logo_no_tag.png" />
+              <p>
+                <small>
+                  ©
+                  <a href='http://ssilogic.com/'>
+                    SSILogic
+                  </a>
+                  2014
+                </small>
+              </p>
+              <img class="margin-bottom" src="../../../images/pmi_logo.png" />
+            </div>
+            <div class='col-sm-2'>
+              <h6 class='half-margin-bottom'>
+                about
+              </h6>
+              <ul class='list-unstyled'>
+                <li>
+                  <a href='/public/about/newsletter'>
+                    Newsletter
+                  </a>
+                </li>
+                <li>
+                  <a href='/public/about/about-the-pmp-exam'>
+                    About Us
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class='col-sm-3'>
+              <h6 class='half-margin-bottom'>
+                more info
+              </h6>
+              <ul class='list-unstyled'>
+                <li>
+                  <a href='/public/disclaimer'>
+                    Disclaimer
+                  </a>
+                </li>
+                <li>
+                  <a href='/public/about/books'>
+                    PMI-ACP Exam Prep
+                  </a>
+                </li>
+                <li>
+                  <a href='http://pmperfect.affiliateharvest.com/' target='_blank'>
+                    PMTraining Affiliate Program
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class='col-sm-2'>
+              <h6 class='half-margin-bottom'>
+                exams
+              </h6>
+              <ul class='list-unstyled'>
+                <li>
+                  <a href='/public/about/books'>
+                    CISSP Practice Exams
+                  </a>
+                </li>
+                <li>
+                  <a href='/public/about/books'>
+                    PMI-ACP Exam Prep
+                  </a>
+                </li>
+                <li>
+                  <a href='/public/about/books'>
+                    ITIL Practice Exams
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class='col-sm-2'>
+              <h6 class='half-margin-bottom'>
+                contact
+              </h6>
+              <ul class='list-unstyled'>
+                <li>
+                  <a href='/public/about/contact'>
+                    Contact Us
+                  </a>
+                </li>
+                <li class='social-links'>
+                  <a class='social-font-name facebook' href='https://www.facebook.com/SSILOGICNEWS' target='_blank'>F</a>
+                  <a class='social-font-name twitter' href='https://twitter.com/ssilogicnews' target='_blank'>T</a>
+                  <a class='social-font-name linkedin' href='http://www.linkedin.com/company/ssi-logic' target='_blank'>I</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- /classes -->
+      <div aria-hidden='true' class='modal fade' id='showClassModal' role='dialog'>
+        <div class='modal-dialog'>
+          <div class='modal-content'></div>
+        </div>
+      </div>
+      <!-- /bootcamp -->
+      <div aria-hidden='true' class='modal fade' id='showBootcampModal' role='dialog'>
+        <div class='modal-dialog modal-lg'>
+          <div class='modal-content'></div>
+        </div>
+      </div>
+    </body>
+  </head>
+</html>
