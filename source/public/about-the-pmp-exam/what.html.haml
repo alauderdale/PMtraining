@@ -1,0 +1,54 @@
+;;;
+
+"layout": "public",
+"title": "About the PMP Exam",
+"right_title": "", 
+"activeclass": "about",
+"subtitle": "About the PMP Exam",
+"subnav_data": "about_subnav",
+"subnav_2_data": "about_subnav_subnav",
+"testiminial_data": "testimonials",
+"sidebar_title": "What is the PMP Exam?"
+
+;;;
+
+=partial"/public/shared/page-head-small"
+
+
+%section.no-padding-bottom
+	.container
+		.row
+			.col-lg-12
+				=partial"/public/shared/subnav"
+%section
+	.container
+		.row
+			.col-sm-9
+				%h2
+					=current_page.data.sidebar_title
+				%p
+					In the project management industry, it is common that those who want to excel in their field decide to become certified as a Project Management Professional, or PMP. In order to do this, one must take what is known as a PMP Exam.  
+				%p
+					In order to become a certified Project Management Professional, you have to take a PMP online exam, which, while it doesn't officially require any preparation, is definitely worth preparing for using a number of different online test prep tools. Here are several facts about the PMP exam that are worth knowing before preparing for it, and especially before taking it:*
+				%ul.list-default
+					%li
+						The PMP exam typically lasts around 4 hours and consists of about 200 questions.
+					%li
+						Once you pass the exam, your certificate will be mailed to you, and your name will be available in an online registry of certified PMPs, provided by the Project Management Institute (PMI).
+					%li
+						Your potential employers have access to this PMP online registry to view your exam stats and performance.
+					%li
+						The certificate is valid for three years and can be renewed once the three years are up.
+				%p
+					The PMP exam is not a must for every project management job, but being certified will absolutely put you above and beyond the competition, and help you ultimately find your dream job in the project management business.  
+				%p
+					%strong
+						Citations: 
+					%a{:href=>"http://www.pmi.org/Certification/What-are-PMI-Certifications.aspx",:target=>"_blank"}
+						*http://www.pmi.org/Certification/What-are-PMI-Certifications.aspx
+			.col-sm-3
+				=partial"/public/about-the-pmp-exam/subnav"
+				%hr
+				%h6.text-center
+					What Our Students Say 
+				=partial"/public/shared/testimonial-list", locals: {test_num: 17} 

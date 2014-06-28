@@ -1,0 +1,45 @@
+;;;
+
+"layout": "public",
+"title": "About the PMP Exam",
+"right_title": "", 
+"activeclass": "about",
+"subtitle": "About the PMP Exam",
+"subnav_data": "about_subnav",
+"subnav_2_data": "about_subnav_subnav",
+"testiminial_data": "testimonials",
+"sidebar_title": "PMP Certified Salaries"
+
+;;;
+
+=partial"/public/shared/page-head-small"
+
+
+%section.no-padding-bottom
+	.container
+		.row
+			.col-lg-12
+				=partial"/public/shared/subnav"
+%section
+	.container
+		.row
+			.col-sm-9
+				%h2
+					=current_page.data.sidebar_title
+				%p
+					Project management salaries vary from country to country, as with any global occupation, and the United States has some of the highest payed project managers in the industry as a whole. A certified Project Management Professional, however, makes more on average than a non-certified PM. Let's take a look at some of the facts: 
+				%p
+					In the US, the median base salary for someone working in project management is $105,000 a year. Now, those who have been certified as a Project Management Professional (PMP) for five years make an average of $113,000 a year. PMPs who have been working for ten or more years make an average of $120,000 a year. That is nearly a 15% salary increase for certified PMPs. And in some cases, this percentage can be even higher depending on the company and the specific field of industry.* 
+				%p
+					On average, certified Project Management Professionals make a good deal more than non-certified project managers. Due to the level of experience and professionalism, PMPs are more highly valued, which certainly is apparent in each paycheck. 
+				%p
+					%strong
+						Citations: 
+					%a{:href=>"http://www.cio.com/article/699312/Project_Management_Salaries_Show_Earnings_Growth_Career_Potential",:target=>"_blank"}
+						*http://www.cio.com/article/699312...
+			.col-sm-3
+				=partial"/public/about-the-pmp-exam/subnav"
+				%hr
+				%h6.text-center
+					What Our Students Say 
+				=partial"/public/shared/testimonial-list", locals: {test_num: 17} 

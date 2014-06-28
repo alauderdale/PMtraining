@@ -1,0 +1,45 @@
+;;;
+
+"layout": "public",
+"title": "About the PMP Exam",
+"right_title": "", 
+"activeclass": "about",
+"subtitle": "About the PMP Exam",
+"subnav_data": "about_subnav",
+"subnav_2_data": "about_subnav_subnav",
+"testiminial_data": "testimonials",
+"sidebar_title": "Is PMP Certification Worth it?"
+
+;;;
+
+=partial"/public/shared/page-head-small"
+
+
+%section.no-padding-bottom
+	.container
+		.row
+			.col-lg-12
+				=partial"/public/shared/subnav"
+%section
+	.container
+		.row
+			.col-sm-9
+				%h2
+					=current_page.data.sidebar_title
+				%p
+					As PMP certification is becoming more and more popular in the project management industry, one question continually pops up on PM forums and blogs: “Is PMP certification actually worth it?” Although there are differing opinions, as with anything, the overwhelming majority of answers to this question is almost always, “Absolutely.” 
+				%p
+					Each year, more project managers and PM employers are realizing just how worth it PMP certification is. While many companies do not require their PMs to be PMP certified, some actually do, and it will give you a huge advantage from the non-certified competition. In fact, the amount of companies that actually require PMP certification has grown by 10% in only the past four years. Also, the cost of the test and time spent preparing for the exam is nothing compared to the benefits you will receive upon certification: you'll be more qualified and desired by employers, you can receive a bigger pay, and you have one massive, career-making credential on your resume.* 
+				%p
+					The bottom line is this: employers look to see if a potential hire has that PMP certification credential before making a decision, so it is absolutely worth becoming certified in order to bring your professional game up to the next leve. 
+				%p
+					%strong
+						Citations: 
+					%a{:href=>"http://www.cio.com/article/519213/Why_Project_Management_Certifications_Matter",:target=>"_blank"}
+						*http://www.cio.com/article/519213/Why_Project_Management_Certifications_Matter
+			.col-sm-3
+				=partial"/public/about-the-pmp-exam/subnav"
+				%hr
+				%h6.text-center
+					What Our Students Say 
+				=partial"/public/shared/testimonial-list", locals: {test_num: 17}  

@@ -1,0 +1,37 @@
+{
+"link_title_list": [
+	  {"title":"Overview", 
+	  	"link":"/public/about-the-pmp-exam/"
+	  },
+
+	  {"title":"Benefits of PMP Certification", 
+	  	"link":"/public/about-the-pmp-exam/benifits"
+	  },
+	  
+	 	{"title":"Cost of PMP Exam", 
+	  	"link":"/public/about-the-pmp-exam/cost"
+	  },
+
+	  {"title":"Is PMP Certification Worth it?", 
+	  	"link":"/public/about-the-pmp-exam/value"
+	  },
+
+	  {"title":"PMP Certified Salaries", 
+	  	"link":"/public/about-the-pmp-exam/salaries"
+	  },
+	  {"title":"PMP Exam Requirements", 
+	  	"link":"/public/about-the-pmp-exam/requirements"
+	  },
+	  {"title":"PMP Passing Scores & Averages", 
+	  	"link":"/public/about-the-pmp-exam/scores"
+	  },
+	  {"title":"Value of PMP Certification", 
+	  	"link":"/public/about-the-pmp-exam/certification"
+	  },
+	  {"title":"What is the PMP Exam?", 
+	  	"link":"/public/about-the-pmp-exam/what"
+	  }
+	]
+}
+
+                        

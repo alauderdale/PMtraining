@@ -1,0 +1,5 @@
+%ul.nav-sidebar
+	- data.send(current_page.data.subnav_2_data).link_title_list.each do |ltl|
+		%li{:class => (current_page.data.sidebar_title === ltl.title) ? "active" : ""}
+			%a{:href=>"#{ltl.link}"}
+				=ltl.title

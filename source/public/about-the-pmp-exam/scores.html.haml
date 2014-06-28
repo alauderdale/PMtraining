@@ -1,0 +1,45 @@
+;;;
+
+"layout": "public",
+"title": "About the PMP Exam",
+"right_title": "", 
+"activeclass": "about",
+"subtitle": "About the PMP Exam",
+"subnav_data": "about_subnav",
+"subnav_2_data": "about_subnav_subnav",
+"testiminial_data": "testimonials",
+"sidebar_title": "PMP Passing Scores & Averages"
+
+;;;
+
+=partial"/public/shared/page-head-small"
+
+
+%section.no-padding-bottom
+	.container
+		.row
+			.col-lg-12
+				=partial"/public/shared/subnav"
+%section
+	.container
+		.row
+			.col-sm-9
+				%h2
+					=current_page.data.sidebar_title
+				%p
+					The way PMP examinations are scored vary based on the test performance. There are 200 questions on each PMP exam, and depending how you do, you will receive a generated “pass/fail” result score 
+				%p
+					After the “pass/fail” scoring result has been decided, the second level of scoring results breaks down your performance throughout each Process Group into one of the following three categories: Proficient, Moderately Proficient, or Below Proficient. Your passing score is based on how you rank in each of the five Process Groups, compared to average global rankings of other test takers and project management professionals. This is to ensure that the exam is fair as well as a way to provide global project management statistics and overall industry knowledge assessments. The recent global average of a passing score was dropped from 141 proficient answers to 106, as PMI (Project Management Institute) adjusted the test to make it a fairer assessment of professional skills. 
+				%p
+					The best advice anyone could receive prior to taking the PMP exam is to prepare. Study practice materials, take practice tests, and become proficient in PMP exam best practices. 
+				%p
+					%strong
+						Citations: 
+					%a{:href=>"http://www.pmi.org/certification/~/media/pdf/certifications/pdc_pmphandbook.ashx",:target=>"_blank"}
+						*http://www.pmi.org/certification/~/media/pdf/certifications/pdc_pmphandbook.ashx
+			.col-sm-3
+				=partial"/public/about-the-pmp-exam/subnav"
+				%hr
+				%h6.text-center
+					What Our Students Say 
+				=partial"/public/shared/testimonial-list", locals: {test_num: 17} 

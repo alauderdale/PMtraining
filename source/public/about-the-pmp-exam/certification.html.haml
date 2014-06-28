@@ -1,0 +1,50 @@
+;;;
+
+"layout": "public",
+"title": "About the PMP Exam",
+"right_title": "", 
+"activeclass": "about",
+"subtitle": "About the PMP Exam",
+"subnav_data": "about_subnav",
+"subnav_2_data": "about_subnav_subnav",
+"testiminial_data": "testimonials",
+"sidebar_title": "Value of PMP Certification"
+
+;;;
+
+=partial"/public/shared/page-head-small"
+
+
+%section.no-padding-bottom
+	.container
+		.row
+			.col-lg-12
+				=partial"/public/shared/subnav"
+%section
+	.container
+		.row
+			.col-sm-9
+				%h2
+					=current_page.data.sidebar_title
+				%p
+					A PMP certification reflects a the knowledge of a Project Manager who understands PMI's best practice approach to project management. As a result, this could mean being more attractive to potential employers, while being a member of the world's largest project management community. As such, the value of a PMP certification is quite high.  
+				%p
+					As more and more project managers, each year, realize the value of PMP certification, the value continues to grow. Let's take a look at the three main reasons PMP certification is so valuable:*
+				%ul.list-default
+					%li
+						Automatic credibility boost - If you complete a PMP exam and become certified, it tells employers that you meet a high standard of project management efficiency, accuracy and knowledge. Also, since you already need a good amount of experience in the field prior to becoming certified, it shows that you have a solid professional background.
+					%li
+						Higher pay - Most certified PMPs make considerably more money than non-certified project managers, in many cases between 20% and 25% higher than an average PM's salary.
+				%p
+					The value of passing the PMP exam and becoming a certified Project Management Professional is high in both a personal and a business sense. You are more credible, desirable, and of course hireable with that professional achievement on your resume. 
+				%p
+					%strong
+						Citations: 
+					%a{:href=>"http://consulting.about.com/od/consultingspecialties/tp/CF_PMICertified0907.html",:target=>"_blank"}
+						*http://consulting.about.com/od/consultingspecialties/tp/CF_PMICertified0907.html
+			.col-sm-3
+				=partial"/public/about-the-pmp-exam/subnav"
+				%hr
+				%h6.text-center
+					What Our Students Say 
+				=partial"/public/shared/testimonial-list", locals: {test_num: 17}

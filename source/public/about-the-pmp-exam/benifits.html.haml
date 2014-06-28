@@ -1,0 +1,55 @@
+;;;
+
+"layout": "public",
+"title": "About the PMP Exam",
+"right_title": "", 
+"activeclass": "about",
+"subtitle": "About the PMP Exam",
+"subnav_data": "about_subnav",
+"subnav_2_data": "about_subnav_subnav",
+"testiminial_data": "testimonials",
+"sidebar_title": "Benefits of PMP Certification"
+
+;;;
+
+=partial"/public/shared/page-head-small"
+
+
+%section.no-padding-bottom
+	.container
+		.row
+			.col-lg-12
+				=partial"/public/shared/subnav"
+%section
+	.container
+		.row
+			.col-sm-9
+				%h2
+					=current_page.data.sidebar_title
+				%p
+					Becoming certified as a Project Management Professional requires the passing of an in-person PMP certification exam. While this is not a necessity for all project management positions at every company, being certified offers an incredible array of benefits over non-certified project managers. 
+				%p
+					The number of certified PMPs in the project management field has grown rapidly over the past several years, and there is a reason for this. More and more project managers each year are realizing the following benefits of PMP certification:*
+				%ul.list-default
+					%li
+						A universal approach to project management - Being a trained and certified PMP means you adhere to a best practice approach to project management that is accepted worldwide.
+					%li
+						More business and repeat business - Passing the PMP exam and having that certification on your resume is a very attractive credential to most employers. You will be able to stay well ahead of the non-certified competition and acquire more clients on average.
+					%li
+						Higher salary and employment benefits - On average, PMPs have the benefit of making more money than non-certified PMs because being certified is more professionally valuable to employers and clients than not being certified. You can achieve a higher salary or billing rate, even sometimes up to 25% higher than the normal industry standard.
+					%li
+						Easily renewable resume credential - A PMP certification lasts for three years, with the option to renew at the end of the three year period if 60 PDU credits are earned. Once you become certified, it is easy to renew your certification, meaning that you can reap the employee benefits for as long as you decide to remain in the project management industry.
+					%li
+						The benefits of the PMP exam grossly outweigh the costs, and as more and more employers and project managers alike realize this, its the acceptance of project management approaches based on the PMBOK Guide will continue to grow. 
+				%p
+					%strong
+						Citations: 
+					%a{:href=>"http://consulting.about.com/od/consultingspecialties/tp/CF_PMICertified0907.html",:target=>"_blank"}
+						*http://consulting.about.com/od/consultingspecialties/tp/CF_PMICertified0907.html
+			.col-sm-3
+				=partial"/public/about-the-pmp-exam/subnav"
+				%hr
+				%h6.text-center
+					What Our Students Say 
+				=partial"/public/shared/testimonial-list", locals: {test_num: 17}
+ 

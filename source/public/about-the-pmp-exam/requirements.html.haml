@@ -1,0 +1,59 @@
+;;;
+
+"layout": "public",
+"title": "About the PMP Exam",
+"right_title": "", 
+"activeclass": "about",
+"subtitle": "About the PMP Exam",
+"subnav_data": "about_subnav",
+"subnav_2_data": "about_subnav_subnav",
+"testiminial_data": "testimonials",
+"sidebar_title": "PMP Exam Requirements"
+
+;;;
+
+=partial"/public/shared/page-head-small"
+
+
+%section.no-padding-bottom
+	.container
+		.row
+			.col-lg-12
+				=partial"/public/shared/subnav"
+%section
+	.container
+		.row
+			.col-sm-9
+				%h2
+					=current_page.data.sidebar_title
+				%p
+					The PMP examination is open to all project managers who meet the eligibility requirements, dictated by the PMP Handbook, published by the PMI (Project Management Institute).  
+				%p
+					%strong
+						The PMP examination is open to all project managers who meet the eligibility requirements, dictated by the PMP Handbook, published by the PMI (Project Management Institute). 
+				%ul.list-default
+					%li
+						A secondary degree (high school diploma or associate's degree) and a minimum of five years of professional project management experience, including 7,500 hours that were spent leading a project.
+					%li
+						At least 35 contact hours of formal project management education
+					%p.no-margin-bottom
+						OR
+					%li
+						A four-year degree (bachelor's degree) and a minimum of three years of project management experience, including 4,500 hours that were spent leading a project.
+					%li
+						At least 35 contact hours of formal project management education
+				%p
+					In addition, all PMP applicants must agree to PMI's Code of Ethics and Professional Conduct. 
+				%p
+					These PMP eligibility requirements are important in maintaining the professionalism and level of caliber established at the Project Management Institute. If you have not met any of these requirements, make it a professional goal, in order to eventually become PMP certified. 
+				%p
+					%strong
+						Citations: 
+					%a{:href=>"http://www.pmi.org/en/Certification/~/media/PDF/Certifications/pdc_pmphandbook.ashx",:target=>"_blank"}
+						*http://www.pmi.org/en/Certification/~/media/PDF/Certifications/pdc_pmphandbook.ashx
+			.col-sm-3
+				=partial"/public/about-the-pmp-exam/subnav"
+				%hr
+				%h6.text-center
+					What Our Students Say 
+				=partial"/public/shared/testimonial-list", locals: {test_num: 17} 

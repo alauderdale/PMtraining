@@ -1,0 +1,45 @@
+;;;
+
+"layout": "public",
+"title": "About the PMP Exam",
+"right_title": "", 
+"activeclass": "about",
+"subtitle": "About the PMP Exam",
+"subnav_data": "about_subnav",
+"subnav_2_data": "about_subnav_subnav",
+"testiminial_data": "testimonials",
+"sidebar_title": "Cost of PMP Exam"
+
+;;;
+
+=partial"/public/shared/page-head-small"
+
+
+%section.no-padding-bottom
+	.container
+		.row
+			.col-lg-12
+				=partial"/public/shared/subnav"
+%section
+	.container
+		.row
+			.col-sm-9
+				%h2
+					=current_page.data.sidebar_title
+				%p
+					While Project Management Professional exams can run higher than one might originally think, the benefits clearly outweigh the cost, and you will most likely make that money back very quickly as a certified PMP. Here are some facts about the cost of the PMP exam: 
+				%p
+					All payments and examination procedures are done through the Project Management Institute website, or the PMI. Although you do not have to become a PMI member, it is recommended. If you do not want to become a PMI member, the PMP exam, including application fees, will cost you $555. The membership fee for PMI is $129, including a $10 activation fee for new members, and you will receive a $150 discount for the PMP exam, making the total examination fee $405. In the end, becoming a member and taking the test will cost you less money, and provide you with a number of online incentives including: a subscription to PM Network and PM Today published by the PMI, access to a free version of the PMBOK Guide reference text, discounts on project management publications and resources; and more.* 
+				%p
+					While the PMP exam will cost you some money, the benefits you will receive from PMI and PMP certification will be well worth it in your professional career. 
+				%p
+					%strong
+						Citations: 
+					%a{:href=>"http://pmpcertificationhelp.com/the-pmp-exam/",:target=>"_blank"}
+						*http://pmpcertificationhelp.com/the-pmp-exam/
+			.col-sm-3
+				=partial"/public/about-the-pmp-exam/subnav"
+				%hr
+				%h6.text-center
+					What Our Students Say 
+				=partial"/public/shared/testimonial-list", locals: {test_num: 17} 
