@@ -14,4 +14,102 @@
 	.container
 		.row
 			.col-lg-12
+				%h2
+					Easily Register Multiple Students for a PMP Course Product
+		.row
+			.col-sm-6
+				%p
+					%strong
+						The fastest way to register multiple students
+				%p
+					Follow the steps below to quickly and securely enroll multiple students in a PMP courseware product.
+			.col-sm-6
+				%p
+					%strong
+						Other Payment and Enterprise Options
+				%ul.list-default
+					%li
+						Download our 
+						%a{href:"http://ssilogic.com/archive/SSI_Corporate_Discount_Order_Form_2012.pdf",target:"_blank"}
+							PDF order form 
+						and submit via email, fax, or postal mail
+					%li
+						Call 1-800-581-9819 to Register by Phone
+		.container
+			%hr
+		.container
+			.row
+				.col-sm-4
+					=image_tag'public/icon_pencil.png', :class=>"margin-auto img-responsive margin-bottom" , :width=>"200px"
+					%h3
+						Step 1
+					%ul.list-default
+						%li
+							For each course product below, enter the number of students to register
+						%li
+							Enter the name and email address of each student when prompted
+				.col-sm-4
+					=image_tag'public/icon_pencil.png', :class=>"margin-auto img-responsive margin-bottom" , :width=>"200px"
+					%h3
+						Step 2
+					%ul.list-default
+						%li
+							Securely pay for your order using the online payment form
+				.col-sm-4
+					=image_tag'public/icon_pencil.png', :class=>"margin-auto img-responsive margin-bottom" , :width=>"200px"
+					%h3
+						Step 3
+					%ul.list-default
+						%li
+							Your students will immediately be notified access instructions via email
+						%li
+							You will be sent a confirmation email and PDF payment receipt for your order
+		.container
+			%hr
+		.container
+			.row
+				%h6.text-center
+					Step 1: Complete Student Registration Form
+				%table.table.table-responsive
+					%thead
+						%tr
+							%th.info{:style=>"width:15%;"}
+								%h5.no-margin-bottom
+									Item
+							%th.info{"data-hide"=>"phone"} 
+								%h5.no-margin-bottom
+									Description
+							%th.info{"data-hide"=>"phone",:style=>"width:10%;"} 
+								%h5.no-margin-bottom
+									Normal cost
+							%th.info{"data-hide"=>"phone",:style=>"width:15%;"} 
+								%h5.no-margin-bottom
+									Volume Cost	
+							%th.info{"data-hide"=>"phone"} 
+								
+							%th.info{"data-hide"=>"phone"} 
+								%h5.no-margin-bottom
+									Qty
+								
+					%tbody
+						-3.times do
+							%tr
+								%td
+									%strong
+										PMP Practice Exams 
+									=image_tag'public/Thumbnail.jpg', :class=>"img-responsive"
+								%td 
+									Unlimited 90-day access to exceptionally realistic PMP practice exams; 1,000+ realistic exam questions, including 21 condensed PMP mock exams; 10 PMBOK tests; personalized reporting, and more
+								%td 
+									$59.00
+								%td 
+									$53.00 
+									%span.text-success
+										(10% Discount)
+								%td 
+									%a.btn.btn-primary.half-margin-bottom{:href=>"#"}
+										Register Students
+								%td
+									%input.form-control{:type=>"text",:style=>"width:40px;"}
+
 				
