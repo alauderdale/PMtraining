@@ -1,0 +1,152 @@
+.alert.alert-info
+	%p.no-margin-bottom
+		%i.fa.fa-info-circle
+		Following registration, your account will be configured and a confirmation email will be dispatched.
+.well
+	.row
+		.col-sm-8
+			%form.form-horizontal{:role=>"form"}
+				.form-group
+					%lebel.col-sm-4.control-label
+						Organization Type
+					.col-sm-8
+						%select.input-sm.form-control
+							%option{value: ""} Select from list
+							%option{value: "1"} PMI Chapter
+							%option{value: "3"} Training Company
+							%option{value: "4"} Corporate Training Department
+							%option{value: "2"} School or University
+							%option{value: "5"} Other
+				.form-group
+					%lebel.col-sm-4.control-label
+						Email
+					.col-sm-8
+						%input.input-sm.form-control{:type=>"email", :placeholder=>"ex:John@doe.com"}
+				.form-group
+					%lebel.col-sm-4.control-label
+						Name
+					.col-sm-8
+						%input.input-sm.form-control
+				.form-group
+					%lebel.col-sm-4.control-label
+						Organization Name
+					.col-sm-8
+						%input.input-sm.form-control
+				.form-group
+					%lebel.col-sm-4.control-label
+						Organization Website
+					.col-sm-8
+						%input.input-sm.form-control
+				.form-group
+					%lebel.col-sm-4.control-label
+						Phone
+					.col-sm-8
+						%input.input-sm.form-control
+				.form-group
+					%lebel.col-sm-4.control-label
+						Desired URL
+					.col-sm-8
+						%p.link-color.no-margin-bottom
+							http:// 
+							%input.input-sm.form-control{:style=>"width:50%; display:inline-block;"}
+							\.pmtraining.com 
+						%p.no-margin-bottom
+							%small
+								Example http://
+								%strong
+									YOUR-COMPANY
+								\.pmtraining.com
+				.form-group
+					%lebel.col-sm-4.control-label
+						Message (optional):
+					.col-sm-8
+						%textarea.input-sm.form-control
+		.col-sm-4
+			=image_tag"public/ssl_seal.png", :class=>"img-responsive margin-auto margin-bottom" 
+			%p.text-center{:style=>"line-height:16px;"}
+				%small
+					%i.fa.fa-lock
+					Your information is 
+					%br
+					%a{:href=>"https://www.pmtraining.com/Public/uiRegistrationSafePop.htm", :onclick=>"window.open (this.href, 'popupwindow', 'width=470px,height=300px,scrollbars,resizable'); return false;"}
+						Private & Secure
+
+
+.alert.alert-info
+	%p.no-margin-bottom
+		%i.fa.fa-info-circle
+		Pay Securely with Your Credit Card
+.well
+	.row
+		.col-sm-8
+			%form.form-horizontal{:role=>"form"}
+				.form-group
+					%lebel.col-sm-4.control-label
+						Select Card Type
+					.col-sm-8
+						%select.input-sm.form-control
+							%option{value: ""} Select from list
+							%option{value: "1"} Visa
+							%option{value: "3"} Master Card
+							%option{value: "4"} American Express
+							%option{value: "2"} Discover
+				.form-group
+					.col-sm-4
+					.col-sm-8
+						=image_tag"public/cards.png", :class=>"img-responsive half-margin-bottom" 
+						%p.no-margin-bottom
+							%small
+								International payments welcome. 
+
+				.form-group
+					%lebel.col-sm-4.control-label
+						Card Number
+					.col-sm-8
+						%input.input-sm.form-control
+				.form-group
+					%lebel.col-sm-4.control-label
+						Expiration Date
+					.col-sm-8
+						%select.input-sm.form-control.inline-block{:style=>"width:45%;"}
+							%option{value: ""} 
+							%option{value: "1"} January
+							%option{value: "3"} February
+							%option{value: "4"} March
+							%option{value: "2"} April
+						%select.input-sm.form-control.inline-block{:style=>"width:45%;"}
+							%option{value: ""} 
+							%option{value: "1"} 2014
+							%option{value: "1"} 2015
+							%option{value: "1"} 2016
+				.form-group
+					%lebel.col-sm-4.control-label
+						CVV2 Code
+					.col-sm-8
+						%input.input-sm.form-control{:style=>"width:45%;"}
+				.form-group
+					%lebel.col-sm-4.control-label
+						Cardholder First Name
+					.col-sm-8
+						%input.input-sm.form-control
+				.form-group
+					%lebel.col-sm-4.control-label
+						Cardholder Last Name
+					.col-sm-8
+						%input.input-sm.form-control
+				.form-group
+					%lebel.col-sm-4.control-label
+						Agree to Terms
+					.col-sm-8
+						.checkbox
+							%label
+								%input{type:"checkbox"}
+								%small
+									required, see below
+				.form-group
+					.col-sm-4
+					.col-sm-8
+						%a.btn.btn-lg.btn-default{:href=>"#"}
+							Complete Registration
+							%i.fa.fa-arrow-right
+
+		.col-sm-4

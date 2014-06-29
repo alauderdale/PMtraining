@@ -20,4 +20,7 @@ section{
       box-shadow:none;
     }
   }
+  &.page-header-section{
+    padding:$baseline 0;
+  }
 }

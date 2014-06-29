@@ -122,6 +122,10 @@ $text-column-gutter-width: $baseline;
   color:$green-color;
 }
 
+.link-color{
+  color:$link-color;
+}
+
 
 //font families
 
@@ -271,6 +275,7 @@ ul.list-checks{
     border:1px solid $gray-color !important;
     padding:$baseline/2;
     margin:$baseline 0;
+    background:white;
   }
 }
 

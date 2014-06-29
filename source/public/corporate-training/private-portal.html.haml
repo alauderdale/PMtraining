@@ -13,7 +13,7 @@
 %section
 	.container
 		.row
-			.col-md-7
+			.col-sm-7
 				%h2
 					PMTraining for Enterprises - Private Practice Exam Portal
 				%p
@@ -44,61 +44,80 @@
 						Student dashboard, PMP exam tips, and video tutorials included
 					%li
 						New! Enroll your students in optional PMP training courses, such as our PMP On-Demand Bootcamp
-			.col-md-5 
+			.col-sm-5 
 				=image_tag"public/practice/ui_show_1.png", :class=>"img-responsive margin-auto double-margin-bottom" 
 		%hr
 		.row
-			.col-md-7
+			.col-md-12
 				%h2.no-margin-bottom
 					Clear and Simple Pricing
 				%p
 					Automated billing, charged monthly. 
-			%table.table.table-responsive
-				%thead
-					%tr
-						%th.info{:style=>"width:15%;", :colspan=>2}
-							%h5.no-margin-bottom
-								Monthly Pricing
-							
-				%tbody
-					%tr
-						%td
-							Cost Per Student Registration
-						%td
-							%strong
-								$53.00 
-							for 90-Day Access (10% discount) 
-							%br
-							Optional: PMP On-Demand course for $339.00 per student
-					%tr
-						%td
-							Monthly Support Fee
-						%td
-							%strong
-								$99.00 
-							Waived with registration of 2 or more students per month
-					%tr
-						%td
-							Portal Setup Fee
-						%td
-							%strong
-								%span.line-through
-									$199.00 
-							Setup Fee Waived
-					%tr
-						%td
-							Registration
-						%td
-							.margin-bottom
+				%table.table.table-responsive
+					%thead
+						%tr
+							%th.info{:style=>"width:15%;", :colspan=>2}
+								%h5.no-margin-bottom
+									Monthly Pricing
+								
+					%tbody
+						%tr
+							%td
+								Cost Per Student Registration
+							%td
 								%strong
-									Register online using the form below 
-							Optional: 
-							%a{:href=>"http://ssilogic.com/archive/PMTraining_Registration_Form.pdf",:target=>"_blank"}
-								Download the registration form (PDF) 
-							%br
-							Optional: 
-							%a{:href=>"http://ssilogic.com/archive/PMTraining_Student_Testimonials.pdf",:target=>"_blank"}
-								Download student testimonials (PDF) 
-
+									$53.00 
+								for 90-Day Access (10% discount) 
+								%br
+								Optional: PMP On-Demand course for $339.00 per student
+						%tr
+							%td
+								Monthly Support Fee
+							%td
+								%strong
+									$99.00 
+								Waived with registration of 2 or more students per month
+						%tr
+							%td
+								Portal Setup Fee
+							%td
+								%strong
+									%span.line-through
+										$199.00 
+								Setup Fee Waived
+						%tr
+							%td
+								Registration
+							%td
+								.margin-bottom
+									%strong
+										Register online using the form below 
+								Optional: 
+								%a{:href=>"http://ssilogic.com/archive/PMTraining_Registration_Form.pdf",:target=>"_blank"}
+									Download the registration form (PDF) 
+								%br
+								Optional: 
+								%a{:href=>"http://ssilogic.com/archive/PMTraining_Student_Testimonials.pdf",:target=>"_blank"}
+									Download student testimonials (PDF)
+				%hr 
+%section.no-padding-bottom.no-padding-top
+	.container	
+		%h2.no-margin-bottom
+			How to Register
 =partial"/public/corporate-training/how-to-register"
+%section.no-padding-bottom
+	.container
+		.col-sm-12
+			%hr
+			%h6.text-center
+				Private Training Portal Registration Form
+			=partial"/public/corporate-training/portal-reg-form"
+%section.no-padding-top
+	.container
+		.col-sm-12
+			%h2.no-margin-bottom
+				PMTraining Enterprise Program Terms
+			%p
+				No hidden fees. Cancel any time.
+			=partial"/public/corporate-training/terms-table"
 		

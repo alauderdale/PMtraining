@@ -47,7 +47,7 @@
 		.row
 			%h6.text-center
 				Step 1: Complete Student Registration Form
-			%table.table.table-responsive
+			%table.table.table-striped.table-responsive.mid-align.table-bordered.bold-table
 				%thead
 					%tr
 						%th.info{:style=>"width:15%;"}
@@ -76,13 +76,16 @@
 									PMP Practice Exams 
 								=image_tag'public/Thumbnail.jpg', :class=>"img-responsive"
 							%td 
-								Unlimited 90-day access to exceptionally realistic PMP practice exams; 1,000+ realistic exam questions, including 21 condensed PMP mock exams; 10 PMBOK tests; personalized reporting, and more
+								%p
+									Unlimited 90-day access to exceptionally realistic PMP practice exams; 1,000+ realistic exam questions, including 21 condensed PMP mock exams; 10 PMBOK tests; personalized reporting, and more
 							%td 
 								$59.00
 							%td 
 								$53.00 
-								%span.text-success
-									(10% Discount)
+								%br
+								%strong
+									%span.text-success
+										10% Discount
 							%td 
 								%a.btn.btn-primary.half-margin-bottom{:href=>"#"}
 									Register Students

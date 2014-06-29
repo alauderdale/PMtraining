@@ -27,3 +27,10 @@
 		}
 	}
 }
+
+.well{
+	&.primary-color{
+		background:$primary-color;
+		@extend .white-text;
+	}
+}
