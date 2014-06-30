@@ -1,0 +1,32 @@
+;;;
+
+"layout": "public",
+"title": "PMP Articles",
+"right_title": "", 
+"activeclass": "about",
+"subtitle": "PMP Articles"
+
+;;;
+
+=partial"/public/shared/page-head-small"
+
+
+%section
+	.container
+		.row
+			.col-sm-8
+				%h2
+					Project Management Articles by PMPerfect
+				%hr
+				-12.times do
+					.post.margin-bottom
+						%h3.half-margin-bottom
+							%a{:href=>"/public/articles/show"}
+								10 Things That Make a Good Project Manager Great
+						%p.half-margin-bottom
+							Wondering what makes the difference between a good project manager and a great one? Check out our article for tips on how to improve your own performance as a project manager.
+						%a.link-underline{:href=>"/public/articles/show"}
+							Read more
+						%hr
+			.col-sm-4
+			

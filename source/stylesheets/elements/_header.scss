@@ -1,5 +1,6 @@
 #main-nav{
 	padding:$baseline 0;
+	padding-bottom:0;
 	border-bottom:1px solid $gray-color;
 	ul.sub-links{
 		li{
@@ -17,11 +18,15 @@
 		}
 	}
 	ul.main-links{
+		margin-bottom:0;
 		li{
 			font-family:$medium-font-name;
 			font-size:.8em;
 			margin-right:$baseline/2;
 			a{
+				padding-bottom:0;
+				margin-bottom:$baseline;
+				display:block;
 				color:$text-color;
 				@include transition-duration(.1s);
 				&:hover, &:focus{
@@ -33,20 +38,36 @@
 				.dropdown-menu{
 					li{
 						a{
-						color:$text-color;
+							color:$text-color;
+							border-bottom:none;
 						}
 					}
 				}
 				a{
-					color:black;
+					color:$link-color;
+					border-bottom:2px solid $link-color;
 				}
 			}
 		}
 		.dropdown-menu{
+			.dropdown-toggle{
+				padding:0;
+				margin:0;
+				border-bottom:none;
+			}
 			li{
 				margin-right:0;
 				font-size:.9em;
+				font-family:$bold-font-name;
+				a{
+					padding-bottom:5px;
+					padding-top:5px;
+					margin-bottom:0px;
+				}
 			}
+				top: 46px;
+				border-radius: 0;
+				border-top: 0;
 		}
 	}
 	.btn{

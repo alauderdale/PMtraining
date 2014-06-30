@@ -1,66 +1,49 @@
 .alert.alert-info
-	%p.no-margin-bottom
-		%i.fa.fa-info-circle
-		Following registration, your account will be configured and a confirmation email will be dispatched.
+	Following checkout, your account will be activated and a confirmation email receipt will be dispatched.
 .well
 	.row
 		.col-sm-8
 			%form.form-horizontal{:role=>"form"}
 				.form-group
 					%lebel.col-sm-4.control-label
-						Organization Type
-					.col-sm-8
-						%select.input-sm.form-control
-							%option{value: ""} Select from list
-							%option{value: "1"} PMI Chapter
-							%option{value: "3"} Training Company
-							%option{value: "4"} Corporate Training Department
-							%option{value: "2"} School or University
-							%option{value: "5"} Other
-				.form-group
-					%lebel.col-sm-4.control-label
-						Email
-					.col-sm-8
-						%input.input-sm.form-control{:type=>"email", :placeholder=>"ex:John@doe.com"}
-				.form-group
-					%lebel.col-sm-4.control-label
-						Name
+						Enter your Email
 					.col-sm-8
 						%input.input-sm.form-control
 				.form-group
 					%lebel.col-sm-4.control-label
-						Organization Name
+						Confirm Your Email
 					.col-sm-8
 						%input.input-sm.form-control
 				.form-group
 					%lebel.col-sm-4.control-label
-						Organization Website
+						First Name
 					.col-sm-8
 						%input.input-sm.form-control
 				.form-group
 					%lebel.col-sm-4.control-label
-						Phone
+						Last Name
 					.col-sm-8
 						%input.input-sm.form-control
+.alert.alert-info
+	%i.fa.fa-lock
+	Pay Securely with PayPal
+.well
+	.row
+		.col-sm-8
+			%form.form-horizontal{:role=>"form"}
 				.form-group
-					%lebel.col-sm-4.control-label
-						Desired URL
+					.col-sm-4
 					.col-sm-8
-						%p.link-color.no-margin-bottom
-							http:// 
-							%input.input-sm.form-control{:style=>"width:50%; display:inline-block;"}
-							\.pmtraining.com 
+						=image_tag"public/cards.png", :class=>"img-responsive half-margin-bottom" 
 						%p.no-margin-bottom
 							%small
-								Example http://
-								%strong
-									YOUR-COMPANY
-								\.pmtraining.com
+								International payments welcome. 
 				.form-group
-					%lebel.col-sm-4.control-label
-						Message (optional):
+					.col-sm-4
 					.col-sm-8
-						%textarea.input-sm.form-control
+						%a.btn-paypal{:href=>"#"}
+							=image_tag'public/button_paypalBIN.gif'
+
 		.col-sm-4
 			=image_tag"public/ssl_seal.png", :class=>"img-responsive margin-auto margin-bottom" 
 			%p.text-center{:style=>"line-height:16px;"}
@@ -70,12 +53,9 @@
 					%br
 					%a{:href=>"https://www.pmtraining.com/Public/uiRegistrationSafePop.htm", :onclick=>"window.open (this.href, 'popupwindow', 'width=470px,height=300px,scrollbars,resizable'); return false;"}
 						Private & Secure
-
-
 .alert.alert-info
-	%p.no-margin-bottom
-		%i.fa.fa-lock
-		Pay Securely with Your Credit Card
+	%i.fa.fa-lock
+	Pay Securely with Your Credit Card
 .well
 	.row
 		.col-sm-8
@@ -134,19 +114,25 @@
 					.col-sm-8
 						%input.input-sm.form-control
 				.form-group
-					%lebel.col-sm-4.control-label
-						Agree to Terms
-					.col-sm-8
-						.checkbox
-							%label
-								%input{type:"checkbox"}
-								%small
-									required, see below
-				.form-group
 					.col-sm-4
 					.col-sm-8
 						%a.btn.btn-lg.btn-default{:href=>"#"}
-							Complete Registration
-							%i.fa.fa-arrow-right
+							Review & Confirm
+							%i.fa.fa-arrow-circle-right
 
 		.col-sm-4
+			=image_tag"public/ssl_seal.png", :class=>"img-responsive margin-auto margin-bottom" 
+			%p.text-center{:style=>"line-height:16px;"}
+				%small
+					%i.fa.fa-lock
+					Your information is 
+					%br
+					%a{:href=>"https://www.pmtraining.com/Public/uiRegistrationSafePop.htm", :onclick=>"window.open (this.href, 'popupwindow', 'width=470px,height=300px,scrollbars,resizable'); return false;"}
+						Private & Secure
+%p
+	%strong
+		Your Information is Protected
+	%br
+	%small
+		All payments are processed by a secure third party payment processor. Absolutely no payment information is stored or retained beyond processing of this transaction. Our site utilizes Secure Sockets Layer (SSL) encryption technology and is registered with the appropriate certificate authorities as indicated by the seals on this site.
+=image_tag'secure_icons.png', :class=>"img-responsive", :width=>'250px'

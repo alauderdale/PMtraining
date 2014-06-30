@@ -15,6 +15,11 @@
 				font-size:.7em;
 				margin-right:0;
 			}
+			.dropdown-menu{
+				li{
+					font-size:.7em;
+				}
+			}
 		}
 		ul.sub-links{
 			li{
@@ -116,6 +121,13 @@
 
 	ol.carousel-indicators{
 		text-align:center!important;
+	}
+
+	#home-slider{
+		text-align:center;
+		ul{
+			text-align:left;
+		}
 	}
 
 }

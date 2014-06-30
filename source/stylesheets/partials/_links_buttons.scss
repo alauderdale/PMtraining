@@ -18,8 +18,12 @@ a{
 	&.link-underline{
 		border-bottom:1px solid $link-color;
 		padding-bottom:5px;
+		&.text-danger{
+			border-color:red;
+		}
 	}
 }
+
 
 .btn{
 	@include transition-duration(.4s);
