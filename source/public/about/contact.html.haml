@@ -39,53 +39,58 @@
 %section.no-padding-top.no-padding-bottom
 	.container
 		%hr
-%section
+%section.no-padding-top
 	.container
 		.row
 			.col-sm-7
-				%form.form-horizontal{role: "form"}
-					.form-group
-						%label.col-xs-3.control-label 
-							Subject:	
-							%span.text-danger
-								*
-						.col-xs-9
-							%select.form-control
-								%option
-									Interested in corporate training
-					.form-group
-						%label.col-xs-3.control-label 
-							Email:
-							%span.text-danger
-								*
-						.col-xs-9
-							%input.form-control
-					.form-group
-						%label.col-xs-3.control-label 
-							Name:
-							%span.text-danger
-								*
-						.col-xs-9
-							%input.form-control
-					.form-group
-						%label.col-xs-3.control-label 
-							Company:
-						.col-xs-9
-							%input.form-control
-					.form-group
-						%label.col-xs-3.control-label 
-							Phone:
-						.col-xs-9
-							%input.form-control
-					.form-group
-						%label.col-xs-3.control-label 
-							Message:
-							%span.text-danger
-								*
-						.col-xs-9
-							%textarea.form-control.margin-bottom{:rows=>"4"}
-							%a.btn.btn-default.pull-right{:href=>"onclick: return false;"}
-								Submit Your Message
+				.panel.filled
+					.panel-heading.primary-color
+						%h3.no-margin-bottom
+							Use the Form Below to Contact Us
+					.panel-body
+						%form.form-horizontal{role: "form"}
+							.form-group
+								%label.col-xs-3.control-label 
+									Subject:	
+									%span.text-danger
+										*
+								.col-xs-9
+									%select.form-control
+										%option
+											Interested in corporate training
+							.form-group
+								%label.col-xs-3.control-label 
+									Email:
+									%span.text-danger
+										*
+								.col-xs-9
+									%input.form-control
+							.form-group
+								%label.col-xs-3.control-label 
+									Name:
+									%span.text-danger
+										*
+								.col-xs-9
+									%input.form-control
+							.form-group
+								%label.col-xs-3.control-label 
+									Company:
+								.col-xs-9
+									%input.form-control
+							.form-group
+								%label.col-xs-3.control-label 
+									Phone:
+								.col-xs-9
+									%input.form-control
+							.form-group
+								%label.col-xs-3.control-label 
+									Message:
+									%span.text-danger
+										*
+								.col-xs-9
+									%textarea.form-control.margin-bottom{:rows=>"4"}
+									%a.btn.btn-default.pull-right{:href=>"onclick: return false;"}
+										Submit Your Message
 			.col-sm-1
 			.col-sm-4
 				=image_tag"public/logo_ssi-1.jpg", :class=>"img-responsive margin-auto double-margin-bottom img-thumbnail" 
