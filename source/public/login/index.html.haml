@@ -13,31 +13,34 @@
 	.container
 		.row
 			.col-sm-6
-				%p.no-margin-bottom
-					%strong
-						Welcome to the PMTraining members section.
-					Members, please enter your email address and password to log in.
-				%hr
-				%form.form-horizontal{:role=>"form"}
-					.form-group
-						%lebel.col-sm-3.control-label{:for=>"inputEmail3"}
-							Email
-						.col-sm-9
-							%input.input-sm.form-control{:type=>"email", :id=>"inputEmail3", :placeholder=>"ex:john@doe.com"}
-					.form-group
-						%lebel.col-sm-3.control-label{:for=>"inputPassword3"}
-							Password
-						.col-sm-9
-							%input.input-sm.form-control{:type=>"password", :id=>"inputPassword3"}
-					.form-group
-						.col-sm-12
-							%p.text-right.no-margin-bottom
-								%a{:href=>"#"}
-									Forgot Password?
-					.form-group
-						.col-sm-12
-							%a.btn.btn-primary.pull-right{:href=>"/dashboard"}
-								Log In
+				.panel	
+					.panel-body
+						.padded
+							%p.no-margin-bottom
+								%strong
+									Welcome to the PMTraining members section.
+								Members, please enter your email address and password to log in.
+							%hr
+							%form.form-horizontal{:role=>"form"}
+								.form-group
+									%lebel.col-sm-3.control-label{:for=>"inputEmail3"}
+										Email
+									.col-sm-9
+										%input.input-sm.form-control{:type=>"email", :id=>"inputEmail3", :placeholder=>"ex:john@doe.com"}
+								.form-group
+									%lebel.col-sm-3.control-label{:for=>"inputPassword3"}
+										Password
+									.col-sm-9
+										%input.input-sm.form-control{:type=>"password", :id=>"inputPassword3"}
+								.form-group
+									.col-sm-12
+										%p.text-right.no-margin-bottom
+											%a{:href=>"#"}
+												Forgot Password?
+								.form-group
+									.col-sm-12
+										%a.btn.btn-primary.pull-right{:href=>"/dashboard"}
+											Log In
 			.col-sm-6
 				=image_tag"public/img-understand-your-results.jpg", :class=>"img-responsive margin-auto double-margin-bottom margin-top" 
 	.container

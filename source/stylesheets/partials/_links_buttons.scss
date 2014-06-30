@@ -44,6 +44,15 @@ a{
 			border-color:tint($secondary-color,20%);
 		}
 	}
+	&.btn-info{
+		background-color:#f2f2f2;
+		border-color:$gray-color;
+		color:$text-color;
+		&:hover{
+			background-color:shade(#f2f2f2,10%);
+			border-color:shade($gray-color,20%);	
+		}
+	}
 	&.btn-white{
 		background-color:white;
 		color:$primary-color;

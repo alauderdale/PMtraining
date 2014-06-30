@@ -36,15 +36,18 @@
 				%a.btn.arrow-link{:href=>"/public/checkout"}
 					Try a demo  
 			.col-md-5 
-				=image_tag"public/practice/ui_show_1.png", :class=>"img-responsive margin-auto double-margin-bottom" 
-				.text-center
-					%a.btn.btn-primary.quarter-margin-bottom{:href=>"/public/checkout"}
-						Register now for pmp practice exams  
-					%p.bold-font-name
-						%small
-							%em
-								%i.fa.fa-plus{:style=>"top:2px;"}
-								Questions updated June 19, 2014
+				.panel
+					.panel-body
+						=image_tag"public/practice/ui_show_1.png", :class=>"img-responsive margin-auto double-margin-bottom" 
+						.text-center
+							%a.btn.btn-default.quarter-margin-bottom{:href=>"/public/checkout"}
+								Register for pmp practice exams 
+								%i.fa.fa-arrow-circle-right{:style=>"left:2px;"}
+							%p.bold-font-name.margin-bottom
+								%small
+									%em
+										%i.fa.fa-plus{:style=>"top:2px;"}
+										Questions updated June 19, 2014
 
 .container
 	%hr.no-margin-top.no-margin-bottom

@@ -4,7 +4,7 @@ table.table{
 		line-height:$baseline/1.5;
 	}
 	&.table-striped > tbody > tr:nth-child(odd) > td{
-		background-color:tint($primary-color,98%);
+		background-color:tint($primary-color,95%);
 	}
 	h5{
 		line-height:12px;

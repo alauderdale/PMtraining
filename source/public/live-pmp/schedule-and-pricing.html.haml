@@ -44,12 +44,14 @@
 						%a{:href=>"/public/live-pmp/included"} 
 							more
 			.col-sm-5 
-				=image_tag"public/practice/ui_show_1.png", :class=>"img-responsive margin-auto double-margin-bottom" 
-				.text-center
-					%p.text-center
-						%small
-							%em
-								PMTraining Student Portal Included with Class Enrollment! 
+				.panel
+					.panel-body
+						=image_tag"public/practice/ui_show_1.png", :class=>"img-responsive margin-auto double-margin-bottom" 
+						.text-center
+							%p.text-center
+								%small
+									%em
+										PMTraining Student Portal Included with Class Enrollment! 
 .container
 	%hr.no-margin-top.no-margin-bottom
 %section
@@ -59,8 +61,9 @@
 				%h6.text-center
 					New Student Discounts on all Upcoming Classes!
 				.text-center.double-margin-bottom
-					%a.tooltip-up.arrow-link{:href=>"/public/about/contact", "data-toggle"=>"tooltip" , :title=>"+ Is there anything preventing you from signing up at this point? SEND Powered by Qualaroo [?]"}
+					%a.tooltip-up.btn.btn-default{:href=>"/public/about/contact", "data-toggle"=>"tooltip" , :title=>"+ Is there anything preventing you from signing up at this point? SEND Powered by Qualaroo [?]"}
 						Request a Private Class for your Team
+						%i.fa.fa-arrow-circle-right{:style=>"left:2px;"}
 		.row
 			.col-sm-12
 				=partial'/public/live-pmp/schedule-table'

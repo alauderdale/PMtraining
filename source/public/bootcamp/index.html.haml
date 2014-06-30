@@ -39,25 +39,26 @@
 					Registration Cost - 
 					%span.line-through
 						$599.00 (USD)
-					%span.text-danger 
+					%span.text-success 
 						Save $250.00 
 				%p.no-margin-bottom
 					%a{:href=>""}
 						%i.fa.fa-plus
 						Now $349.00 (USD) with 90-day access
 			.col-md-6
-				.well{:style=>"background:white;"}
-					=image_tag"public/img-bootcamp-PMP-largev2.jpg", :class=>"img-responsive margin-auto double-margin-bottom margin-top" 
-					.text-center
-						%a.btn.btn-primary.margin-bottom{"data-toggle"=>"modal", :href=>"/public/bootcamp/show", "data-target"=>"#showBootcampModal"}
-							Register for this PMP course
-						%a.btn.btn-default.margin-bottom{:href=>"/public/checkout"}
-							Try a Demo
-						.clearfix
-						%p
-							%a.tooltip-up{:href=>"/public/checkout", "data-toggle"=>"tooltip" , :title=>"New! Click here to include our popular PMP practice exam system with your course and save more."}
-								%i.fa.fa-plus{:style=>"top:2px;"}
-								Add PMP Practice Exams and Save an Extra $10
+				.panel
+					.panel-body
+						=image_tag"public/img-bootcamp-PMP-largev2.jpg", :class=>"img-responsive margin-auto double-margin-bottom margin-top" 
+						.text-center
+							%a.btn.btn-default.margin-bottom{"data-toggle"=>"modal", :href=>"/public/bootcamp/show", "data-target"=>"#showBootcampModal"}
+								Register for this PMP course
+							%a.btn.btn-info.margin-bottom{:href=>"/public/checkout"}
+								Try a Demo
+							.clearfix
+							%p
+								%a.tooltip-up{:href=>"/public/checkout", "data-toggle"=>"tooltip" , :title=>"New! Click here to include our popular PMP practice exam system with your course and save more."}
+									%i.fa.fa-plus{:style=>"top:2px;"}
+									Add PMP Practice Exams and Save an Extra $10
 .container
 	%hr.no-margin-top.no-margin-bottom
 %section
@@ -227,9 +228,9 @@
 				%h2
 					Access intensive course lessons without limitation.
 				%p.no-margin-bottom
-					%a.btn.btn-primary.half-margin-right.btn-lg{"data-toggle"=>"modal", :href=>"/public/bootcamp/show", "data-target"=>"#showBootcampModal"}
+					%a.btn.btn-default.half-margin-right.btn-lg{"data-toggle"=>"modal", :href=>"/public/bootcamp/show", "data-target"=>"#showBootcampModal"}
 						Register for this PMP course
-					%a.btn.btn-primary.btn-default.btn-lg{:href=>"/public/live-pmp/schedule-and-pricing"}
+					%a.btn.btn-primary.btn-primary.btn-lg{:href=>"/public/live-pmp/schedule-and-pricing"}
 						Try a demo
 %section.bootcamp-curriculum
 	.container
@@ -482,9 +483,9 @@
 						Computer with Internet connection
 					%li
 						Works with all web browsers
-				%a.btn.btn-primary.margin-bottom{"data-toggle"=>"modal", :href=>"/public/bootcamp/show", "data-target"=>"#showBootcampModal"}
+				%a.btn.btn-default.margin-bottom{"data-toggle"=>"modal", :href=>"/public/bootcamp/show", "data-target"=>"#showBootcampModal"}
 					Register for this PMP course
-				%a.btn.btn-default.margin-bottom{:href=>"/public/checkout"}
+				%a.btn.btn-info.margin-bottom{:href=>"/public/checkout"}
 					Try a Demo
 				
 
