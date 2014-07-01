@@ -43,22 +43,24 @@
 					%span.medium-font-name
 						97% First Time Pass
 
-			.col-sm-1
-			.col-sm-5
-				%a.fb-video{:href=>"http://s3.amazonaws.com/ssilogic-video/flowplayer-3.2.7.swf"}
-					=image_tag'video_thumb.png' , :class=>"img-responsive img-thumbnail"
-				%blockquote
-					"I passed the PMI PMP exam yesterday. .. The material from your class and the extra tools that came with the course definitely prepared me for the exam." 
-					%footer
-						Jim Cavanaugh, PMP, US
-				%a.btn.btn-default{href:"/public/live-pmp/schedule-and-pricing"}
-					Schedule & Pricing
+			.col-sm-6
+				.padded
+					%a.fb-video{:href=>"http://s3.amazonaws.com/ssilogic-video/flowplayer-3.2.7.swf"}
+						=image_tag'video_thumb.png' , :class=>"img-responsive margin-auto margin-bottom", :width=>"354px"
+					%blockquote
+						%small.primary-text-color
+							"I passed the PMI PMP exam yesterday. .. The material from your class and the extra tools that came with the course definitely prepared me for the exam." 
+							%footer
+								Jim Cavanaugh, PMP, US
+					.text-center
+						%a.btn.btn-default{href:"/public/live-pmp/schedule-and-pricing"}
+							Schedule & Pricing
 .container
 	%hr.no-margin-top.no-margin-bottom
 %section.small-panels
 	.container
 		.row
-			%h6.text-center
+			%h6.text-center.primary-text-color
 				A PMP Class Curriculum Focused on Passing the Exam
 			.col-sm-6
 				%h2
@@ -395,29 +397,34 @@
 								%br
 								Common Project Management Errors and Pitfalls
 
-			.col-sm-1
-			.col-sm-5
-				=image_tag'public/icon_pencil.png' , :class=>"img-responsive margin-auto double-margin-bottom"
-				%p
-					%strong
-						Included with every class:
-				%ul.list-default
-					%li
-						Class taught by PMI R.E.P.
-					%li
-						All study materials
-					%li
-						Online practice exam portal
-					%li
-						35 PMI Contact Hours and PDU Credits
-					%li
-						One-on-one access to instructor
-					%li
-						PMI exam application assistance
-					%li
-						100% exam pass guarantee
-				%a.btn.btn-default{href:"/public/live-pmp/schedule-and-pricing"}
-					Schedule & Pricing
+			.col-sm-6
+				.margin-bottom
+				.clearfix
+				.panel.double-margin-top.primary-color
+					.panel-body
+						.padded.double-padding-bottom.double-padding-top
+							=image_tag'public/icon_pencil_white.png' , :class=>"img-responsive  margin-auto", :width=>'290px'
+							.double-margin-top
+							%h3.margin-bottom
+								%strong
+									Included with every class:
+							%ul.list-default
+								%li
+									Class taught by PMI R.E.P.
+								%li
+									All study materials
+								%li
+									Online practice exam portal
+								%li
+									35 PMI Contact Hours and PDU Credits
+								%li
+									One-on-one access to instructor
+								%li
+									PMI exam application assistance
+								%li
+									100% exam pass guarantee
+							%a.btn.btn-default{href:"/public/live-pmp/schedule-and-pricing"}
+								Schedule & Pricing
 .container
 	%hr.no-margin-top.no-margin-bottom
 %section
@@ -450,11 +457,16 @@
 					%p
 						Ron Ponce (BA, PMP) has mentored and trained hundreds of aspiring PMP professionals in the art and science of project management, who have gone on to be successful project leaders within their organizations. He has specialized over the years on building solid project management infrastructures both for organizations and for individuals, and acts as the Student Administrator for PMTraining.
 			.col-sm-6
-				.padded.no-padding-left
-					=image_tag'public/icon_instructor.png' , :class=>"img-responsive margin-auto margin-top margin-bottom"
-					.text-center
-						%a.btn.btn-default{href:"/public/live-pmp/schedule-and-pricing"}
-							Schedule & Pricing
+				.panel.instructor-panel
+					.panel-body
+						.col-sm-7.col-xs-12
+							%h4
+								Get started Now
+							%p.margin-bottom
+								Our Live Virtual PMP Classes deliver the same content and materials as the classroom, with a live instructor, in real time, via the Internet. It is completely interactive- you will talk with your instructor and your peers. 
+							%a.btn.btn-default{href:"/public/live-pmp/schedule-and-pricing"}
+								Schedule & Pricing
+						.col-sm-5.hidden-xs
 
 				
 

@@ -1,7 +1,24 @@
+.panel-group{
+	font-size:.8em;
+}
+
 .panel{
+	border-radius:0;
 	border:1px solid $gray-color;
 	&.filled{
 		background:#f2f2f2;
+	}
+	&.primary-color{
+			background:tint($primary-color,10%);
+			@extend .white-text;
+		}
+	&.success-color{
+			background:tint($green-color,10%);
+			@extend .white-text;
+		}
+	&.instructor-panel{
+		background:$green-color url('../images/public/icon_instructor.png') no-repeat right;
+		@extend .white-text;
 	}
 	.panel-heading{
 		background:white;
