@@ -4,9 +4,10 @@
 	border-bottom:1px solid $gray-color;
 	ul.sub-links{
 		li{
-			font-size:.6em;
+			font-size:.65em;
 			font-family:$extra-bold-font-name;
 			padding-right:0px;
+			margin-top:14px;
 			&:after{
 				content:"|";
 			}
