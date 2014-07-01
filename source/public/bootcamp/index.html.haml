@@ -46,19 +46,17 @@
 						%i.fa.fa-plus
 						Now $349.00 (USD) with 90-day access
 			.col-md-6
-				.panel
-					.panel-body
-						=image_tag"public/img-bootcamp-PMP-largev2.jpg", :class=>"img-responsive margin-auto double-margin-bottom margin-top" 
-						.text-center
-							%a.btn.btn-default.margin-bottom{"data-toggle"=>"modal", :href=>"/public/bootcamp/show", "data-target"=>"#showBootcampModal"}
-								Register for this PMP course
-							%a.btn.btn-info.margin-bottom{:href=>"/public/checkout"}
-								Try a Demo
-							.clearfix
-							%p
-								%a.tooltip-up{:href=>"/public/checkout", "data-toggle"=>"tooltip" , :title=>"New! Click here to include our popular PMP practice exam system with your course and save more."}
-									%i.fa.fa-plus{:style=>"top:2px;"}
-									Add PMP Practice Exams and Save an Extra $10
+				=image_tag"public/bootcamp.png", :class=>"img-responsive margin-auto double-margin-bottom margin-top" 
+				.text-center
+					%a.btn.btn-default.margin-bottom{"data-toggle"=>"modal", :href=>"/public/bootcamp/show", "data-target"=>"#showBootcampModal"}
+						Register for this PMP course
+					%a.btn.btn-info.margin-bottom{:href=>"/public/checkout"}
+						Try a Demo
+					.clearfix
+					%p
+						%a.tooltip-up{:href=>"/public/checkout", "data-toggle"=>"tooltip" , :title=>"New! Click here to include our popular PMP practice exam system with your course and save more."}
+							%i.fa.fa-plus{:style=>"top:2px;"}
+							Add PMP Practice Exams and Save an Extra $10
 .container
 	%hr.no-margin-top.no-margin-bottom
 %section
