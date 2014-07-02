@@ -8,10 +8,10 @@
     %li.left{"data-slide"=>"prev","data-target" => "#home-slider"}
     %li.right{"data-slide"=>"next","data-target" => "#home-slider"}
   .carousel-inner
-    .item.active
+    .item.active{:style=>"background-image:url(/images/slider/slide-1-bg.png);"}
       .container
         .row
-          .col-md-6.col-sm-8
+          .col-md-12
             %h2
               Live PMP Classes Taught 
               %br
@@ -34,15 +34,15 @@
               %a.btn.btn-wire.btn-lg.half-margin-bottom{:href=>"/public/live-pmp/schedule-and-pricing"}
                 SCHEDULE & PRICING 
                 %i.fa.fa-arrow-circle-right
-          .col-md-6.col-sm-4.hidden-xs
-            =image_tag"/images/slider/slide-1-graphic.png", :class=>"img-responsive margin-auto"
-    .item
+            
+    .item{:style=>"background-image:url(/images/slider/slide-2-bg.png);"}
       .container
         .row
-          .col-md-6.col-sm-8
+          .col-md-12
             %h2
               Still the Most Trusted PMP 
-              Practice Exams - 
+              Practice Exams 
+              %br
               %span.extra-bold-font-name
                 $59.00 
             %ul.margin-bottom
@@ -64,12 +64,10 @@
                 learn more
               %a.btn.btn-wire.btn-lg.half-margin-bottom{:href=>"javascript:void(0);", :onclick=>"javascript:window.open('./public/uiExamDemoOverview.aspx','mywindow','width=800,height=600,menubar=no,location=no,resizable=yes, scrollbars=yes')"}
                 try a demo
-          .col-md-6.col-sm-4.hidden-xs
-            =image_tag"/images/slider/slide-2-graphic.png", :class=>"img-responsive margin-auto"
-    .item
+    .item{:style=>"background-image:url(/images/slider/slide-3-bg.png);"}
       .container
         .row
-          .col-md-6.col-sm-8
+          .col-md-12
             %h2
               The Most Effective 
               %br
@@ -92,8 +90,6 @@
               %a.btn.btn-wire.btn-lg.half-margin-bottom{:href=>"/public/bootcamp"}
                 learn more
                 %i.fa.fa-arrow-circle-right
-          .col-md-6.col-sm-4.hidden-xs
-            =image_tag"/images/slider/slide-3-graphic.png", :class=>"img-responsive margin-auto"
    
 
             

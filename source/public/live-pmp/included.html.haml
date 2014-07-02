@@ -19,7 +19,7 @@
 			.col-lg-12
 				=partial"/public/shared/subnav"
 
-%section
+%section.feature-blocks
 	.container
 		.row
 			.col-sm-8
@@ -33,52 +33,48 @@
 		.row.margin-bottom
 			.col-sm-6
 				.padded
-					=image_tag'public/icon_pencil.png', :class=>"margin-auto img-responsive margin-bottom" , :width=>"200px"
-					%p.text-center
-						%small
-							%em
-								Classes taught by PMI R.E.P.s
-					%h4
-						Class Taught by PMI Registered Education Provider (R.E.P.)
-					%p
-						All courses offered by PMTraining are instructed by PMI Registered Education Providers (R.E.P.s). All class curriculums offered by our course providers have been assessed by PMI, and are preapproved for contact hours as well as PDUs. All classes in our 
-						%a{:href=>"/public/live-pmp/schedule-and-pricing"}
-							PMP course schedule 
-						are valid for 35 PMI Contact Hours and PDU Credits.
+					.row
+						.col-sm-3
+							%i.fa.fa-rocket
+						.col-sm-9
+							%h5
+								Class Taught by PMI Registered Education Provider (R.E.P.)
+							%p
+								All courses offered by PMTraining are instructed by PMI Registered Education Providers (R.E.P.s). All class curriculums offered by our course providers have been assessed by PMI, and are preapproved for contact hours as well as PDUs. All classes in our 
+								%a{:href=>"/public/live-pmp/schedule-and-pricing"}
+									PMP course schedule 
+								are valid for 35 PMI Contact Hours and PDU Credits.
 			.col-sm-6
 				.padded
-					=image_tag'public/icon_pencil.png', :class=>"margin-auto img-responsive margin-bottom" , :width=>"200px"
-					%p.text-center
-						%small
-							%em
-								Intensive course curriculum
-					%h4
-						Focused PMP Certification Curriculum
-					%p
-						Each class will intensively cover all areas of the latest PMBOK Guide®, and will instill a comprehensive knowledge of all ten PMBOK Guide® Knowledge Areas, five basic process groups, the Project Framework; and Professional and Social Responsibility. Students will leave with a solid foundation of Project Management, ready to become a PMP.
+					.row
+						.col-sm-3
+							%i.fa.fa-rocket
+						.col-sm-9
+							%h4
+								Focused PMP Certification Curriculum
+							%p
+								Each class will intensively cover all areas of the latest PMBOK Guide®, and will instill a comprehensive knowledge of all ten PMBOK Guide® Knowledge Areas, five basic process groups, the Project Framework; and Professional and Social Responsibility. Students will leave with a solid foundation of Project Management, ready to become a PMP.
 		.row.margin-bottom
 			.col-sm-6
 				.padded
-					=image_tag'public/icon_pencil.png', :class=>"margin-auto img-responsive margin-bottom" , :width=>"200px"
-					%p.text-center
-						%small
-							%em
-								Study materials and tools included
-					%h4
-						Extensive Study Tools Included with Every Class
-					%p
-						Students will be provided with the most effective study tools currently available on the market, including offline exam preparation tools, a comprehensive class manual, and access to realistic exam simulation tools. Please note: Due to copyright restrictions, students will need to acquire their own version of the PMBOK Guide®.
+					.row
+						.col-sm-3
+							%i.fa.fa-rocket
+						.col-sm-9
+							%h4
+								Extensive Study Tools Included with Every Class
+							%p
+								Students will be provided with the most effective study tools currently available on the market, including offline exam preparation tools, a comprehensive class manual, and access to realistic exam simulation tools. Please note: Due to copyright restrictions, students will need to acquire their own version of the PMBOK Guide®.
 			.col-sm-6
 				.padded
-					=image_tag'public/icon_pencil.png', :class=>"margin-auto img-responsive margin-bottom" , :width=>"200px"
-					%p.text-center
-						%small
-							%em
-								Membership to PMTraining included
-					%h4
-						PMTraining Online Membership Included
-					%p
-						Master the pace, subject matter, and difficulty of the PMP exam with a free membership to PMTraining's online exam practice system (a $59.00 value). You will have access to over 1,000 PMP practice exam questions, answers, and detailed explanations; including detailed score reports which save you time by pinpointing PMBOK Guide® knowledge areas which require more study.
+					.row
+						.col-sm-3
+							%i.fa.fa-rocket
+						.col-sm-9
+							%h4
+								PMTraining Online Membership Included
+							%p
+								Master the pace, subject matter, and difficulty of the PMP exam with a free membership to PMTraining's online exam practice system (a $59.00 value). You will have access to over 1,000 PMP practice exam questions, answers, and detailed explanations; including detailed score reports which save you time by pinpointing PMBOK Guide® knowledge areas which require more study.
 		.row.margin-bottom
 			.col-sm-6
 				.padded
