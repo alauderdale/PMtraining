@@ -214,6 +214,8 @@ p,li{
   font-family:$medium-font-name;
 }
 
+
+
 p  {font-size: .8em; line-height:$baseline;}
 h1 { font-size: 2.4em; line-height:$baseline*2.1;}
 h2 { font-size: 1.6em; line-height:$baseline*1.7;}
@@ -252,8 +254,9 @@ ul.list-default{
   list-style-image:url(../images/bullet.png);
   margin-bottom:$baseline;
   li{
-    font-size:.8em;
+    font-size:.75em;
     margin-left:$baseline;
+    margin-bottom:5px;
   }
 }
 
@@ -264,6 +267,13 @@ ul.list-checks{
     font-size:.9em;
     margin-left:$baseline;
     margin-bottom:$baseline;
+  }
+}
+
+dl{
+  font-size:.8em;
+  dt{
+    color:black;
   }
 }
 
@@ -318,4 +328,10 @@ ul.list-checks{
   font-size:4em;
   margin-bottom:$baseline;
   color:$primary-color;
+}
+
+//alerts
+
+.alert{
+  font-size:.8em;
 }

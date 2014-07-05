@@ -5,6 +5,10 @@
 .panel{
 	border-radius:0;
 	border:1px solid $gray-color;
+	&.border-dashed{
+		border-style:dashed;
+		box-shadow:none;
+	}
 	&.filled{
 		background:#f2f2f2;
 	}

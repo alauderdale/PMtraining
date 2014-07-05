@@ -14,42 +14,74 @@
 	.container
 		.row
 			.col-sm-9
-				.alert.alert-success.no-margin-bottom
-					%p.no-margin-bottom
-						%i.fa.fa-check
-						Free PMP Exam Tip Guide included with purchase
-				=partial'/public/checkout/checkout-table'
-				%hr
-				.row
-					.col-sm-4
-					.col-sm-4
-						%h3.no-margin-bottom.text-right.half-margin-top
-							%strong
-								Total:
-					.col-sm-4
-						%h3.no-margin-bottom.text-right.text-success
-							%strong
-								$59.00
-						%p.text-right.no-margin-bottom
-							%a{:href=>"/"}
-								Continue Shopping
-				%hr
 				%h2
-					Complete Checkout and Register Now
-				=partial"/public/checkout/checkout-form"
+					Confirm Your information & Complete Checkout
+				%ul.list-default
+					%li
+						An email will be dispatched with access instructions and payment receipt 
+					%li
+						Your account will be activated in our system
+					%li
+						The payment method submitted will be charged
+						%span.bold-font-name.text-success
+							$894.00 
+						USD
+				%a.btn.btn-lg.btn-block.btn-default{:href=>"/public/checkout/finished"}
+					Complete Registration
+					%i.fa.fa-arrow-circle-right
+				%hr
+				.well
+					%h6
+						New Account information
+					%dl.dl-horizontal
+						%dt
+							Email address
+						%dd
+							john@doe.com
+						%dt
+							First Name
+						%dd
+							John
+						%dt
+							Last Name
+						%dd
+							Doe
+					%h6
+						Payment Information
+					%dl.dl-horizontal
+						%dt
+							Card Type
+						%dd
+							Visa
+						%dt
+							Card Number
+						%dd
+							xxxx-xxxx-xxxx-0099
+						%dt
+							Expiration Date
+						%dd
+							Feb. 2014
+						%dt
+							CVV2 Code
+						%dd
+							333
+						%dt
+							Chardholder Name
+						%dd
+							John Doe
+				%hr
+				%p.small-line-height
+					%small
+						Following checkout, your account will be activated in our system and a receipt email will be dispatched. Use of our products is in accordance with our 
+						%a{:href=>""}
+							Terms of service
+						guidelines. By completing checkout, you are allowing PMTraining to verify and charge your payment method in the ammount of $894.00(US).
+
 			.col-sm-3
 				%h6.text-center
 					What Our Students Say 
 				=partial"/public/shared/testimonial-list", locals: {test_num: 4}
-				%hr
-				%h6.text-center
-					Contact Us for Volume Orders
-				%p
-					%small
-						For fastest response time:
-					%br
-					%a{:href=>"/public/about/contact"}
-						Contact Us for Volume Orders
+
 
 
 				
