@@ -304,6 +304,14 @@ ul.list-checks{
   }
 }
 
+
+.side-testimonial{
+  @extend .testimonial;
+  &:after,&:before{
+    display:none;
+  }
+}
+
 //icons
 
 .fa-display{

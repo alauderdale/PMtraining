@@ -1,0 +1,55 @@
+;;;
+
+"layout": "public",
+"title": "Checkout",
+"subtitle": "Checkout",
+"testiminial_data": "testimonials"
+
+;;;
+
+=partial"/public/shared/page-head-small"
+
+
+%section
+	.container
+		.row
+			.col-sm-9
+				.alert.alert-success.no-margin-bottom
+					%p.no-margin-bottom
+						%i.fa.fa-check
+						Free PMP Exam Tip Guide included with purchase
+				=partial'/public/checkout/checkout-table'
+				%hr
+				.row
+					.col-sm-4
+					.col-sm-4
+						%h3.no-margin-bottom.text-right.half-margin-top
+							%strong
+								Total:
+					.col-sm-4
+						%h3.no-margin-bottom.text-right.text-success
+							%strong
+								$59.00
+						%p.text-right.no-margin-bottom
+							%a{:href=>"/"}
+								Continue Shopping
+				%hr
+				%h2
+					Complete Checkout and Register Now
+				=partial"/public/checkout/checkout-form"
+			.col-sm-3
+				%h6.text-center
+					What Our Students Say 
+				=partial"/public/shared/testimonial-list", locals: {test_num: 4}
+				%hr
+				%h6.text-center
+					Contact Us for Volume Orders
+				%p
+					%small
+						For fastest response time:
+					%br
+					%a{:href=>"/public/about/contact"}
+						Contact Us for Volume Orders
+
+
+				

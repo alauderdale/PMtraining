@@ -22,22 +22,21 @@
 %section.feature-blocks
 	.container
 		.row
-			.col-sm-8
+			.col-sm-12
 				%h2.no-margin-bottom
 					Included with Your PMP Class Enrollment
 				%blockquote
 					"Whenever I come across something that had a positive impact on my success, I let people know about it. Thank you for offering PMTraining, I am sure to recommend it to others." 
 					%footer
 						H. Hartung PMP, USA
-			.col-sm-4
 		.row.margin-bottom
 			.col-sm-6
 				.padded
 					.row
 						.col-sm-3
-							%i.fa.fa-rocket
+							%i.fa.fa-pencil
 						.col-sm-9
-							%h5
+							%h4
 								Class Taught by PMI Registered Education Provider (R.E.P.)
 							%p
 								All courses offered by PMTraining are instructed by PMI Registered Education Providers (R.E.P.s). All class curriculums offered by our course providers have been assessed by PMI, and are preapproved for contact hours as well as PDUs. All classes in our 
@@ -48,7 +47,7 @@
 				.padded
 					.row
 						.col-sm-3
-							%i.fa.fa-rocket
+							%i.fa.fa-clipboard
 						.col-sm-9
 							%h4
 								Focused PMP Certification Curriculum
@@ -59,7 +58,7 @@
 				.padded
 					.row
 						.col-sm-3
-							%i.fa.fa-rocket
+							%i.fa.fa-bullseye
 						.col-sm-9
 							%h4
 								Extensive Study Tools Included with Every Class
@@ -69,7 +68,7 @@
 				.padded
 					.row
 						.col-sm-3
-							%i.fa.fa-rocket
+							%i.fa.fa-user
 						.col-sm-9
 							%h4
 								PMTraining Online Membership Included
@@ -78,74 +77,68 @@
 		.row.margin-bottom
 			.col-sm-6
 				.padded
-					=image_tag'public/icon_pencil.png', :class=>"margin-auto img-responsive margin-bottom" , :width=>"200px"
-					%p.text-center
-						%small
-							%em
-								Includes Contact Hours and PDUs
-					%h4
-						Contact hours and PDUs Included with Course
-					%p
-						All classes are officially recognized by the Project Management Institute (PMI) and include 35 Contact Hours (amount required to take the PMP exam). In addition, each class includes PDUs for use with your future PMP certification.
+					.row
+						.col-sm-3
+							%i.fa.fa-mobile-phone
+						.col-sm-9
+							%h4
+								Contact hours and PDUs Included with Course
+							%p
+								All classes are officially recognized by the Project Management Institute (PMI) and include 35 Contact Hours (amount required to take the PMP exam). In addition, each class includes PDUs for use with your future PMP certification.
 			.col-sm-6
 				.padded
-					=image_tag'public/icon_pencil.png', :class=>"margin-auto img-responsive margin-bottom" , :width=>"200px"
-					%p.text-center
-						%small
-							%em
-								Interact directly with instructors
-					%h4
-						One-on-one QA session with Instructor
-					%p
-						Similar to in-class courses, students will be encouraged to engage with the instructor. As an added bonus, all students will be allotted time for "one-on-one" sessions with their instructor, to answer questions and clarify concepts.
+					.row
+						.col-sm-3
+							%i.fa.fa-question
+						.col-sm-9
+							%h4
+								One-on-one QA session with Instructor
+							%p
+								Similar to in-class courses, students will be encouraged to engage with the instructor. As an added bonus, all students will be allotted time for "one-on-one" sessions with their instructor, to answer questions and clarify concepts.
 		.row.margin-bottom
 			.col-sm-6
 				.padded
-					=image_tag'public/icon_pencil.png', :class=>"margin-auto img-responsive margin-bottom" , :width=>"200px"
-					%p.text-center
-						%small
-							%em
-								Guidance on applying for the exam
-					%h4
-						PMI Application and Audit Assistance
-					%p
-						Applying for the PMP exam is a breeze with step-by-step application assistance. Instructions and guidance is provided to all students who require it. Students selected by PMI for audit will be provided with additional assistance.
+					.row
+						.col-sm-3
+							%i.fa.fa-file-text-o
+						.col-sm-9
+							%h4
+								PMI Application and Audit Assistance
+							%p
+								Applying for the PMP exam is a breeze with step-by-step application assistance. Instructions and guidance is provided to all students who require it. Students selected by PMI for audit will be provided with additional assistance.
 			.col-sm-6
 				.padded
-					=image_tag'public/icon_pencil.png', :class=>"margin-auto img-responsive margin-bottom" , :width=>"200px"
-					%p.text-center
-						%small
-							%em
-								Responsive course instructors
-					%h4
-						Email Access to Your PMP Instructor
-					%p
-						We understand that students have questions outside of class hours. All students will be provided with direct email access to their instructor, in the event they have additional questions or feedback on PMP-related topics.
+					.row
+						.col-sm-3
+							%i.fa.fa-paper-plane-o
+						.col-sm-9
+							%h4
+								Email Access to Your PMP Instructor
+							%p
+								We understand that students have questions outside of class hours. All students will be provided with direct email access to their instructor, in the event they have additional questions or feedback on PMP-related topics.
 		.row.margin-bottom
 			.col-sm-6
 				.padded
-					=image_tag'public/icon_pencil.png', :class=>"margin-auto img-responsive margin-bottom" , :width=>"200px"
-					%p.text-center
-						%small
-							%em
-								Guaranteed to pass the exam
-					%h4
-						We Guarantee your PMP
-					%p
-						With a near-perfect 97%+ first time pass rate, we guarantee you will pass the PMP exam and become certified. If you do not pass the PMP exam the first time, you will be provided with free instructor assistance, and free course re-enrollment without limit. Review our complete 
-						%a{:href=>"/public/live-pmp/guarantee"}
-							no-nonsense exam pass guarantee.
+					.row
+						.col-sm-3
+							%i.fa.fa-certificate
+						.col-sm-9
+							%h4
+								We Guarantee your PMP
+							%p
+								With a near-perfect 97%+ first time pass rate, we guarantee you will pass the PMP exam and become certified. If you do not pass the PMP exam the first time, you will be provided with free instructor assistance, and free course re-enrollment without limit. Review our complete 
+								%a{:href=>"/public/live-pmp/guarantee"}
+									no-nonsense exam pass guarantee.
 			.col-sm-6
 				.padded
-					=image_tag'public/icon_pencil.png', :class=>"margin-auto img-responsive margin-bottom" , :width=>"200px"
-					%p.text-center
-						%small
-							%em
-								The best course value available
-					%h4
-						The Best Classes at the Lowest Prices
-					%p
-						All online classes offered through PMTraining must adhere to an exhaustive list of quality and pass rate guidelines. In addition, our extensive technology infrastructure allows us to offer classes at the lowest prices in the industry. Students can be sure they are receiving an incredible value.
+					.row
+						.col-sm-3
+							%i.fa.fa-money
+						.col-sm-9
+							%h4
+								The Best Classes at the Lowest Prices
+							%p
+								All online classes offered through PMTraining must adhere to an exhaustive list of quality and pass rate guidelines. In addition, our extensive technology infrastructure allows us to offer classes at the lowest prices in the industry. Students can be sure they are receiving an incredible value.
 =partial"/public/shared/schedule-section"
 
                            

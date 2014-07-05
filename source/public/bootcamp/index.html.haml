@@ -59,7 +59,7 @@
 							Add PMP Practice Exams and Save an Extra $10
 .container
 	%hr.no-margin-top.no-margin-bottom
-%section
+%section.off-white
 	.container
 		.row
 			.col-lg-12
@@ -74,11 +74,12 @@
 	.container
 		.row.margin-bottom
 			.col-lg-12
-				%h6.text-center
+				%h6.text-center.primary-text-color
 					Intensive PMP Course Curriculum - Designed for On-Demand Learning
 		.row
 			.col-sm-4
-				%i.fa.fa-sitemap.fa-display
+				.text-center
+					=image_tag'public/bootcamp/bootcamp_1.png' , :class=>"img-responsive  margin-auto img-thumbnail margin-bottom", :width=>"200"
 				%h4
 					Course Milestones 1 - 4:
 				%ul.list-default
@@ -91,7 +92,8 @@
 					%li
 						Project Time Management
 			.col-sm-4
-				%i.fa.fa-clipboard.fa-display
+				.text-center
+					=image_tag'public/bootcamp/bootcamp_2.png' , :class=>"img-responsive  margin-auto img-thumbnail margin-bottom", :width=>"200"
 				%h4
 					Course Milestones 5 - 9:
 				%ul.list-default
@@ -106,7 +108,8 @@
 					%li
 						Project Risk Management
 			.col-sm-4
-				%i.fa.fa-users.fa-display
+				.text-center
+					=image_tag'public/bootcamp/bootcamp_3.png' , :class=>"img-responsive  margin-auto img-thumbnail margin-bottom", :width=>"200"
 				%h4
 					Course Milestones 10 - 12:
 				%ul.list-default
@@ -120,105 +123,105 @@
 						Course Summary and Certificate
 .container
 	%hr.no-margin-top.no-margin-bottom
-%section
+%section.feature-blocks
 	.container
 		.row
 			.col-sm-12
-				%h6.text-center
+				%h6.text-center.primary-text-color
 					Included in this PMP Training Course
 		.row.margin-bottom
 			.col-sm-6
 				.padded
-					=image_tag'public/icon_pencil.png', :class=>"margin-auto img-responsive margin-bottom" , :width=>"200px"
-					%p.text-center
-						%small
-							%em
-								Interactive Lessons Available On-Demand
-					%h4
-						Over 35 Hours of Interactive Lessons and Material, Available On-Demand
-					%p
-						Each course milestone contains interactive training lessons designed for On-Demand learning and busy schedules. Complete the entire curriculum in order, or re-visit training lessons as many times as you like.
+					.padded
+					.row
+						.col-sm-3
+							%i.fa.fa-clock-o
+						.col-sm-9
+							%h4
+								Over 35 Hours of Interactive Lessons and Material, Available On-Demand
+							%p
+								Each course milestone contains interactive training lessons designed for On-Demand learning and busy schedules. Complete the entire curriculum in order, or re-visit training lessons as many times as you like.
 			.col-sm-6
 				.padded
-					=image_tag'public/icon_pencil.png', :class=>"margin-auto img-responsive margin-bottom" , :width=>"200px"
-					%p.text-center
-						%small
-							%em
-								Accredited with Contact Hours and PDUs
-					%h4
-						Accreditations and Credits Earned
-					%p
-						This course is officially recognized by the Project Management Institute (PMI) and includes the required Contact Hours to take the PMP exam; as well as PDUs.
-						Pre-approved for 35 PMI Contact Hours and 35 PDU Credits
+					.padded
+					.row
+						.col-sm-3
+							%i.fa.fa-graduation-cap
+						.col-sm-9
+							%h4
+								Accreditations and Credits Earned
+							%p
+								This course is officially recognized by the Project Management Institute (PMI) and includes the required Contact Hours to take the PMP exam; as well as PDUs.
+								Pre-approved for 35 PMI Contact Hours and 35 PDU Credits
 		.row.margin-bottom
 			.col-sm-6
 				.padded
-					=image_tag'public/icon_pencil.png', :class=>"margin-auto img-responsive margin-bottom" , :width=>"200px"
-					%p.text-center
-						%small
-							%em
-								Includes Critical Earned Value Exercises
-					%h4
-						PMP Earned Value Management (EVM) Exercises
-					%p
-						PMP practice questions are used to test your knowledge following each PMBOK Knowledge Area lesson. The PMP quizzes in this course also provide detailed explanations for each question and answer. A full PMP mock exam is also included.
+					.padded
+					.row
+						.col-sm-3
+							%i.fa.fa-laptop
+						.col-sm-9
+							%h4
+								PMP Earned Value Management (EVM) Exercises
+							%p
+								PMP practice questions are used to test your knowledge following each PMBOK Knowledge Area lesson. The PMP quizzes in this course also provide detailed explanations for each question and answer. A full PMP mock exam is also included.
 			.col-sm-6
 				.padded
-					=image_tag'public/icon_pencil.png', :class=>"margin-auto img-responsive margin-bottom" , :width=>"200px"
-					%p.text-center
-						%small
-							%em
-								Process Maps for each Knowledge Area
-					%h4
-						Printable PMP Process Maps
-					%p
-						Concise, focused PMP Process Maps for each PMBOK Knowledge Area. Our PMP process map tools are designed to quickly reference and reinforce important areas you'll need for the PMP exam. Ineractive Process Explorer included!
+					.padded
+					.row
+						.col-sm-3
+							%i.fa.fa-bar-chart-o
+						.col-sm-9
+							%h4
+								Printable PMP Process Maps
+							%p
+								Concise, focused PMP Process Maps for each PMBOK Knowledge Area. Our PMP process map tools are designed to quickly reference and reinforce important areas you'll need for the PMP exam. Ineractive Process Explorer included!
 		.row.margin-bottom
 			.col-sm-6
 				.padded
-					=image_tag'public/icon_pencil.png', :class=>"margin-auto img-responsive margin-bottom" , :width=>"200px"
-					%p.text-center
-						%small
-							%em
-								Practice Tests for each Knowledge Area
-					%h4
-						Full PMP Mock Exam and Knowledge Quizzes Included
-					%p
-						PMP practice questions are used to test your knowledge following each PMBOK Knowledge Area lesson. The PMP quizzes in this course also provide detailed explanations for each question and answer. A full PMP mock exam is also included.
+					.padded
+					.row
+						.col-sm-3
+							%i.fa.fa-check-square-o
+						.col-sm-9
+							%h4
+								Full PMP Mock Exam and Knowledge Quizzes Included
+							%p
+								PMP practice questions are used to test your knowledge following each PMBOK Knowledge Area lesson. The PMP quizzes in this course also provide detailed explanations for each question and answer. A full PMP mock exam is also included.
 			.col-sm-6
 				.padded
-					=image_tag'public/icon_pencil.png', :class=>"margin-auto img-responsive margin-bottom" , :width=>"200px"
-					%p.text-center
-						%small
-							%em
-								Quickly Access all PMP Exam Formulas
-					%h4
-						PMP Formula Cheat Sheet
-					%p
-						This PMP course consolidates all critical PMP exam formulas in to a single cheat sheet. Download and print out the formula cheat sheet for offline study, and commit all key information to memory before day of the exam.
+					.padded
+					.row
+						.col-sm-3
+							%i.fa.fa-file-text-o
+						.col-sm-9
+							%h4
+								PMP Formula Cheat Sheet
+							%p
+								This PMP course consolidates all critical PMP exam formulas in to a single cheat sheet. Download and print out the formula cheat sheet for offline study, and commit all key information to memory before day of the exam.
 		.row.margin-bottom
 			.col-sm-6
 				.padded
-					=image_tag'public/icon_pencil.png', :class=>"margin-auto img-responsive margin-bottom" , :width=>"200px"
-					%p.text-center
-						%small
-							%em
-								Easily register to take your PMP exam
-					%h4
-						Course Progress Checklist to Successfully Register with PMI
-					%p
-						With our easy to follow course progress checklist, successfully registering to take the PMP exam is a breeze. All contact hours are documented for you, and can be printed out from the course.
+					.padded
+					.row
+						.col-sm-3
+							%i.fa.fa-check
+						.col-sm-9
+							%h4
+								Course Progress Checklist to Successfully Register with PMI
+							%p
+								With our easy to follow course progress checklist, successfully registering to take the PMP exam is a breeze. All contact hours are documented for you, and can be printed out from the course.
 			.col-sm-6
 				.padded
-					=image_tag'public/icon_pencil.png', :class=>"margin-auto img-responsive margin-bottom" , :width=>"200px"
-					%p.text-center
-						%small
-							%em
-								Includes Free Project Plan Pyramid
-					%h4
-						Project Plan "Pyramid" Study Aid
-					%p
-						Designed to reinforce the overall Project Management Plan, this tool clearly lays out all major components involved in project planning. A critical tool to reinforce the processes and documents involved in the Project Management Plan.
+					.padded
+					.row
+						.col-sm-3
+							%i.fa.fa-signal
+						.col-sm-9
+							%h4
+								Project Plan "Pyramid" Study Aid
+							%p
+								Designed to reinforce the overall Project Management Plan, this tool clearly lays out all major components involved in project planning. A critical tool to reinforce the processes and documents involved in the Project Management Plan.
 %section.invert-section.get-started
 	.container
 		.row
@@ -240,7 +243,7 @@
 					Below is the detailed curriculum covered by this PMP certification course. Students will come away with a thorough understanding of project management through the perspective of PMI and the latest PMBOK Guide, and will be prepared to take the PMP exam.  
 			.col-sm-6
 				.text-center
-					%i.fa.fa-display.fa-laptop{:style=>"font-size:15em;"}
+					=image_tag'public/practice.png' , :class=>"img-responsive  margin-auto", :width=>'290px'
 		%hr
 		.row
 			.col-sm-6
@@ -465,11 +468,11 @@
 
 .container
 	%hr.no-margin-top.no-margin-bottom
-%section
+%section.invert-section
 	.container
 		.row
 			.col-sm-6
-				=image_tag"public/practice/system_reqs.png", :class=>"img-responsive margin-auto margin-bottom"
+				=image_tag"public/practice/system_reqs.png", :class=>"img-responsive margin-auto margin-bottom margin-top", :width=>"300"
 			.col-sm-6	
 				%h2
 					System Requirements

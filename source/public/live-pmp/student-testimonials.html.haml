@@ -34,44 +34,43 @@
 					Our PMP Virtual Classes deliver the same content and materials as the classroom, with a live instructor, in real time, via the Internet.
 .container
 	%hr.no-margin-top.no-margin-bottom
-%section.no-padding-top
+%section.no-padding-top.off-white
 	.container
 		.row
 			.col-sm-12
 				=partial"/public/shared/testimonial-slider"
-=partial"/public/shared/schedule-section"
 
-%section
+%section.feature-blocks
 	.container
 		.row
 			.col-lg-12
-				%h6.text-center
+				%h6.text-center.primary-text-color
 					A PMP Course Curriculum Focused on Passing the Exam
 		.row
 			.col-sm-6
 				.padded
-					=image_tag'public/icon_pencil.png', :class=>"margin-auto img-responsive margin-bottom" , :width=>"200px"
-					%p.text-center
-						%small
-							%em
-								Classes taught by PMI R.E.P.s
-					%h4
-						Class Taught by PMI Registered Education Provider (R.E.P.)
-					%p
-						All courses offered by PMTraining are instructed by PMI Registered Education Providers (R.E.P.s). All class curriculums offered by our course providers have been assessed by PMI, and are preapproved for contact hours as well as PDUs. All classes in our 
-						%a{:href=>"/public/live-pmp/schedule-and-pricing"}
-							PMP course schedule 
-						are valid for 35 PMI Contact Hours and PDU Credits.
+					.padded
+					.row
+						.col-sm-3
+							%i.fa.fa-pencil
+						.col-sm-9
+							%h4
+								Class Taught by PMI Registered Education Provider (R.E.P.)
+							%p
+								All courses offered by PMTraining are instructed by PMI Registered Education Providers (R.E.P.s). All class curriculums offered by our course providers have been assessed by PMI, and are preapproved for contact hours as well as PDUs. All classes in our 
+								%a{:href=>"/public/live-pmp/schedule-and-pricing"}
+									PMP course schedule 
+								are valid for 35 PMI Contact Hours and PDU Credits.
 			.col-sm-6
 				.padded
-					=image_tag'public/icon_pencil.png', :class=>"margin-auto img-responsive margin-bottom" , :width=>"200px"
-					%p.text-center
-						%small
-							%em
-								Intensive course curriculum
-					%h4
-						Focused PMP Certification Curriculum
-					%p
-						Each class will intensively cover all areas of the latest PMBOK Guide®, and will instill a comprehensive knowledge of all ten PMBOK Guide® Knowledge Areas, five basic process groups, the Project Framework; and Professional and Social Responsibility. Students will leave with a solid foundation of Project Management, ready to become a PMP.
-
+					.padded
+					.row
+						.col-sm-3
+							%i.fa.fa-clipboard
+						.col-sm-9
+							%h4
+								Focused PMP Certification Curriculum
+							%p
+								Each class will intensively cover all areas of the latest PMBOK Guide®, and will instill a comprehensive knowledge of all ten PMBOK Guide® Knowledge Areas, five basic process groups, the Project Framework; and Professional and Social Responsibility. Students will leave with a solid foundation of Project Management, ready to become a PMP.
+=partial"/public/shared/schedule-section"
                            

@@ -49,6 +49,12 @@
   	display:none;
 	}
 
+	.feature-blocks{
+		.fa{
+			font-size:3em!important;
+		}
+	}
+
 
 }
 
@@ -119,7 +125,12 @@
 		}
 	}
 
-
+.carousel{
+	ol.carousel-indicators{
+		text-align:center;
+		bottom:5px;
+	}
+}
 
 }
 
