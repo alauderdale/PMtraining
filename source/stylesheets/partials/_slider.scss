@@ -8,6 +8,7 @@
 	ol.carousel-indicators{
 		text-align:right;
 		bottom:50px;
+		z-index: 1;
 		li{
 			width: 18px;
 			height:18px;
@@ -40,6 +41,9 @@
 			text-align:center;
 			color:rgba(255,255,255,.4);
 		}
+	}
+	.btn{
+		z-index: 3;
 	}
 }
 

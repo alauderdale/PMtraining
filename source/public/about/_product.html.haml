@@ -7,7 +7,8 @@
 		%h3
 			=p.title
 		%p
-			=p.descrip
+			%small
+				=p.descrip
 		%a.btn.btn-default{:href=>"#{p.link_url}", :target=>"_blank"} 
 			=p.link_title
 .row
