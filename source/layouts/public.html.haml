@@ -13,6 +13,7 @@
     %body{:class => page_classes}
       = partial "layouts/header"
       /end menu
-      = yield
+      #mainContents
+        = yield
       /end main content
       = partial "layouts/footer"
