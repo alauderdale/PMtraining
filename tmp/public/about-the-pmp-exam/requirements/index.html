@@ -142,7 +142,105 @@
           </div>
         </div>
       </nav>
-      <header class='hidden-xs' id='main-nav'>
+      <div class='main-nav hidden-xs' id='hidden-menu'>
+        <div class='container'>
+          <div class='main-nav-container'>
+            <nav class='pull-left'>
+              <ul class='list-inline main-links'>
+                <li class=''>
+                  <a href='/'>
+                    Home
+                  </a>
+                </li>
+                <li class=''>
+                  <a href='/public/practice-pmp'>
+                    PMP Practice Exams
+                  </a>
+                </li>
+                <li class='sale'>
+                  <a href='/public/live-pmp'>
+                    Live PMP Classes
+                  </a>
+                </li>
+                <li class=''>
+                  <a href='/public/bootcamp'>
+                    PMP Bootcamp
+                  </a>
+                </li>
+                <li class='active'>
+                  <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+                    About
+                    <span class='caret'></span>
+                    <ul class='dropdown-menu' role='menu'>
+                      <li>
+                        <a href='/public/about'>
+                          Who we are
+                        </a>
+                      </li>
+                      <li>
+                        <a href='/public/about-the-pmp-exam'>
+                          About the PMP exam
+                        </a>
+                      </li>
+                      <li>
+                        <a href='/public/about/books'>
+                          Our books and website
+                        </a>
+                      </li>
+                      <li>
+                        <a href='/public/articles'>
+                          PMP articles
+                        </a>
+                      </li>
+                      <li>
+                        <a href='/public/about/contact'>
+                          Contact
+                        </a>
+                      </li>
+                      <li>
+                        <a href='/public/about/newsletter'>
+                          Get our newsletter
+                        </a>
+                      </li>
+                    </ul>
+                  </a>
+                </li>
+                <li class=''>
+                  <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+                    Coporate Training
+                    <span class='caret'></span>
+                    <ul class='dropdown-menu' role='menu'>
+                      <li>
+                        <a href='/public/corporate-training'>
+                          Coporate training options
+                        </a>
+                      </li>
+                      <li>
+                        <a href='/public/corporate-training/corporate-discount'>
+                          Enroll multiple students
+                        </a>
+                      </li>
+                      <li>
+                        <a href='/public/corporate-training/private-portal'>
+                          Private training portal
+                        </a>
+                      </li>
+                    </ul>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            <nav class='pull-right'>
+              <a class='btn btn-success' href='/public/checkout'>
+                <i class='fa fa-shopping-cart'></i>
+                Checkout
+              </a>
+              <img class="hidden-md hidden-sm" width="80px" src="../../../images/pmi_logo.png" />
+            </nav>
+          </div>
+        </div>
+      </div>
+      <header class='main-nav hidden-xs'>
         <div class='container'>
           <div class='row margin-bottom'>
             <div class='col-lg-12'>
@@ -172,465 +270,469 @@
           </div>
           <div class='row'>
             <div class='col-lg-12'>
-              <nav class='pull-left'>
-                <ul class='list-inline main-links'>
-                  <li class=''>
-                    <a href='/'>
-                      Home
-                    </a>
-                  </li>
-                  <li class=''>
-                    <a href='/public/practice-pmp'>
-                      PMP Practice Exams
-                    </a>
-                  </li>
-                  <li class=''>
-                    <a href='/public/live-pmp'>
-                      Live PMP Classes
-                    </a>
-                  </li>
-                  <li class=''>
-                    <a href='/public/bootcamp'>
-                      PMP Bootcamp
-                    </a>
-                  </li>
-                  <li class='active'>
-                    <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
-                      About
-                      <span class='caret'></span>
-                      <ul class='dropdown-menu' role='menu'>
-                        <li>
-                          <a href='/public/about'>
-                            Who we are
-                          </a>
-                        </li>
-                        <li>
-                          <a href='/public/about-the-pmp-exam'>
-                            About the PMP exam
-                          </a>
-                        </li>
-                        <li>
-                          <a href='/public/about/books'>
-                            Our books and website
-                          </a>
-                        </li>
-                        <li>
-                          <a href='/public/articles'>
-                            PMP articles
-                          </a>
-                        </li>
-                        <li>
-                          <a href='/public/about/contact'>
-                            Contact
-                          </a>
-                        </li>
-                        <li>
-                          <a href='/public/about/newsletter'>
-                            Get our newsletter
-                          </a>
-                        </li>
-                      </ul>
-                    </a>
-                  </li>
-                  <li class=''>
-                    <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
-                      Coporate Training
-                      <span class='caret'></span>
-                      <ul class='dropdown-menu' role='menu'>
-                        <li>
-                          <a href='/public/corporate-training'>
-                            Coporate training options
-                          </a>
-                        </li>
-                        <li>
-                          <a href='/public/corporate-training/corporate-discount'>
-                            Enroll multiple students
-                          </a>
-                        </li>
-                        <li>
-                          <a href='/public/corporate-training/private-portal'>
-                            Private training portal
-                          </a>
-                        </li>
-                      </ul>
-                    </a>
-                  </li>
-                </ul>
-              </nav>
-              <nav class='pull-right'>
-                <a class='btn btn-success' href='/public/checkout'>
-                  <i class='fa fa-shopping-cart'></i>
-                  Checkout
-                </a>
-                <img class="hidden-md hidden-sm" width="80px" src="../../../images/pmi_logo.png" />
-              </nav>
+              <div class='main-nav-container'>
+                <nav class='pull-left'>
+                  <ul class='list-inline main-links'>
+                    <li class=''>
+                      <a href='/'>
+                        Home
+                      </a>
+                    </li>
+                    <li class=''>
+                      <a href='/public/practice-pmp'>
+                        PMP Practice Exams
+                      </a>
+                    </li>
+                    <li class='sale'>
+                      <a href='/public/live-pmp'>
+                        Live PMP Classes
+                      </a>
+                    </li>
+                    <li class=''>
+                      <a href='/public/bootcamp'>
+                        PMP Bootcamp
+                      </a>
+                    </li>
+                    <li class='active'>
+                      <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+                        About
+                        <span class='caret'></span>
+                        <ul class='dropdown-menu' role='menu'>
+                          <li>
+                            <a href='/public/about'>
+                              Who we are
+                            </a>
+                          </li>
+                          <li>
+                            <a href='/public/about-the-pmp-exam'>
+                              About the PMP exam
+                            </a>
+                          </li>
+                          <li>
+                            <a href='/public/about/books'>
+                              Our books and website
+                            </a>
+                          </li>
+                          <li>
+                            <a href='/public/articles'>
+                              PMP articles
+                            </a>
+                          </li>
+                          <li>
+                            <a href='/public/about/contact'>
+                              Contact
+                            </a>
+                          </li>
+                          <li>
+                            <a href='/public/about/newsletter'>
+                              Get our newsletter
+                            </a>
+                          </li>
+                        </ul>
+                      </a>
+                    </li>
+                    <li class=''>
+                      <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+                        Coporate Training
+                        <span class='caret'></span>
+                        <ul class='dropdown-menu' role='menu'>
+                          <li>
+                            <a href='/public/corporate-training'>
+                              Coporate training options
+                            </a>
+                          </li>
+                          <li>
+                            <a href='/public/corporate-training/corporate-discount'>
+                              Enroll multiple students
+                            </a>
+                          </li>
+                          <li>
+                            <a href='/public/corporate-training/private-portal'>
+                              Private training portal
+                            </a>
+                          </li>
+                        </ul>
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+                <nav class='pull-right'>
+                  <a class='btn btn-success' href='/public/checkout'>
+                    <i class='fa fa-shopping-cart'></i>
+                    Checkout
+                  </a>
+                  <img class="hidden-md hidden-sm" width="80px" src="../../../images/pmi_logo.png" />
+                </nav>
+              </div>
             </div>
           </div>
         </div>
       </header>
       <!-- end menu -->
-      <section class='invert-section page-header-section'>
-        <div class='container'>
-          <div class='row'>
-            <div class='col-lg-12'>
-              <h2 class='no-margin-bottom pull-left'>
-                About the PMP Exam
-              </h2>
-              <h6 class='no-margin-bottom pull-right hidden-xs half-margin-top extra-bold-font-name'>
-                
-              </h6>
+      <div id='mainContents'>
+        <section class='invert-section page-header-section'>
+          <div class='container'>
+            <div class='row'>
+              <div class='col-lg-12'>
+                <h2 class='no-margin-bottom pull-left'>
+                  About the PMP Exam
+                </h2>
+                <h6 class='no-margin-bottom pull-right hidden-xs half-margin-top extra-bold-font-name'>
+                  
+                </h6>
+              </div>
             </div>
           </div>
-        </div>
-      </section>
-      <section class='no-padding-bottom'>
-        <div class='container'>
-          <div class='row'>
-            <div class='col-lg-12'>
-              <ul class='nav nav-pills'>
-                <li class=''>
-                  <a href='/public/about'>
-                    Who We Are
-                  </a>
-                </li>
-                <li class=''>
-                  <a href='/public/about/courseware'>
-                    Our PMP Courseware
-                  </a>
-                </li>
-                <li class='active'>
-                  <a href='/public/about-the-pmp-exam'>
-                    About the PMP Exam
-                  </a>
-                </li>
-                <li class=''>
-                  <a href='/public/about/customers'>
-                    Our Customers
-                  </a>
-                </li>
-                <li class=''>
-                  <a href='/public/about/books'>
-                    More SSL Logic Products
-                  </a>
-                </li>
-              </ul>
+        </section>
+        <section class='no-padding-bottom'>
+          <div class='container'>
+            <div class='row'>
+              <div class='col-lg-12'>
+                <ul class='nav nav-pills'>
+                  <li class=''>
+                    <a href='/public/about'>
+                      Who We Are
+                    </a>
+                  </li>
+                  <li class=''>
+                    <a href='/public/about/courseware'>
+                      Our PMP Courseware
+                    </a>
+                  </li>
+                  <li class='active'>
+                    <a href='/public/about-the-pmp-exam'>
+                      About the PMP Exam
+                    </a>
+                  </li>
+                  <li class=''>
+                    <a href='/public/about/customers'>
+                      Our Customers
+                    </a>
+                  </li>
+                  <li class=''>
+                    <a href='/public/about/books'>
+                      More SSL Logic Products
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
-        </div>
-      </section>
-      <section>
-        <div class='container'>
-          <div class='row'>
-            <div class='col-sm-9'>
-              <h2>
-                PMP Exam Requirements
-              </h2>
-              <p>
-                The PMP examination is open to all project managers who meet the eligibility requirements, dictated by the PMP Handbook, published by the PMI (Project Management Institute).
-              </p>
-              <p>
-                <strong>
+        </section>
+        <section>
+          <div class='container'>
+            <div class='row'>
+              <div class='col-sm-9'>
+                <h2>
+                  PMP Exam Requirements
+                </h2>
+                <p>
                   The PMP examination is open to all project managers who meet the eligibility requirements, dictated by the PMP Handbook, published by the PMI (Project Management Institute).
-                </strong>
-              </p>
-              <ul class='list-default'>
-                <li>
-                  A secondary degree (high school diploma or associate's degree) and a minimum of five years of professional project management experience, including 7,500 hours that were spent leading a project.
-                </li>
-                <li>
-                  At least 35 contact hours of formal project management education
-                </li>
-                <p class='no-margin-bottom'>
-                  OR
                 </p>
-                <li>
-                  A four-year degree (bachelor's degree) and a minimum of three years of project management experience, including 4,500 hours that were spent leading a project.
-                </li>
-                <li>
-                  At least 35 contact hours of formal project management education
-                </li>
-              </ul>
-              <p>
-                In addition, all PMP applicants must agree to PMI's Code of Ethics and Professional Conduct.
-              </p>
-              <p>
-                These PMP eligibility requirements are important in maintaining the professionalism and level of caliber established at the Project Management Institute. If you have not met any of these requirements, make it a professional goal, in order to eventually become PMP certified.
-              </p>
-              <p>
-                <strong>
-                  Citations:
-                </strong>
-                <a href='http://www.pmi.org/en/Certification/~/media/PDF/Certifications/pdc_pmphandbook.ashx' target='_blank'>
-                  *http://www.pmi.org/en/Certification/~/media/PDF/Certifications/pdc_pmphandbook.ashx
-                </a>
-              </p>
-            </div>
-            <div class='col-sm-3'>
-              <ul class='nav-sidebar'>
-                <li class=''>
-                  <a href='/public/about-the-pmp-exam/'>
-                    Overview
+                <p>
+                  <strong>
+                    The PMP examination is open to all project managers who meet the eligibility requirements, dictated by the PMP Handbook, published by the PMI (Project Management Institute).
+                  </strong>
+                </p>
+                <ul class='list-default'>
+                  <li>
+                    A secondary degree (high school diploma or associate's degree) and a minimum of five years of professional project management experience, including 7,500 hours that were spent leading a project.
+                  </li>
+                  <li>
+                    At least 35 contact hours of formal project management education
+                  </li>
+                  <p class='no-margin-bottom'>
+                    OR
+                  </p>
+                  <li>
+                    A four-year degree (bachelor's degree) and a minimum of three years of project management experience, including 4,500 hours that were spent leading a project.
+                  </li>
+                  <li>
+                    At least 35 contact hours of formal project management education
+                  </li>
+                </ul>
+                <p>
+                  In addition, all PMP applicants must agree to PMI's Code of Ethics and Professional Conduct.
+                </p>
+                <p>
+                  These PMP eligibility requirements are important in maintaining the professionalism and level of caliber established at the Project Management Institute. If you have not met any of these requirements, make it a professional goal, in order to eventually become PMP certified.
+                </p>
+                <p>
+                  <strong>
+                    Citations:
+                  </strong>
+                  <a href='http://www.pmi.org/en/Certification/~/media/PDF/Certifications/pdc_pmphandbook.ashx' target='_blank'>
+                    *http://www.pmi.org/en/Certification/~/media/PDF/Certifications/pdc_pmphandbook.ashx
                   </a>
-                </li>
-                <li class=''>
-                  <a href='/public/about-the-pmp-exam/benifits'>
-                    Benefits of PMP Certification
-                  </a>
-                </li>
-                <li class=''>
-                  <a href='/public/about-the-pmp-exam/cost'>
-                    Cost of PMP Exam
-                  </a>
-                </li>
-                <li class=''>
-                  <a href='/public/about-the-pmp-exam/value'>
-                    Is PMP Certification Worth it?
-                  </a>
-                </li>
-                <li class=''>
-                  <a href='/public/about-the-pmp-exam/salaries'>
-                    PMP Certified Salaries
-                  </a>
-                </li>
-                <li class='active'>
-                  <a href='/public/about-the-pmp-exam/requirements'>
-                    PMP Exam Requirements
-                  </a>
-                </li>
-                <li class=''>
-                  <a href='/public/about-the-pmp-exam/scores'>
-                    PMP Passing Scores & Averages
-                  </a>
-                </li>
-                <li class=''>
-                  <a href='/public/about-the-pmp-exam/certification'>
-                    Value of PMP Certification
-                  </a>
-                </li>
-                <li class=''>
-                  <a href='/public/about-the-pmp-exam/what'>
-                    What is the PMP Exam?
-                  </a>
-                </li>
-              </ul>
-              <hr>
-              <h6 class='text-center'>
-                What Our Students Say
-              </h6>
-              <div class='media-object testimonial half-margin-bottom'>
-                <div class='media-body'>
-                  <div class='media-heading'>
-                    <blockquote class='no-margin'>
-                      "
-                      I was in your class this week. I passed the test today! I’m glad it’s over and I can be an evangelist for this class. In my particular instance, you took me from 0 to passing in 4 days. I conclusively passed every section of the exam, although by the end I was not convinced of my success. Anyway – thank you and you shall hear from more people (at our company) in months to come!
-                      "
-                      <footer>
-                        Doug R., PMP
-                      </footer>
-                    </blockquote>
+                </p>
+              </div>
+              <div class='col-sm-3'>
+                <ul class='nav-sidebar'>
+                  <li class=''>
+                    <a href='/public/about-the-pmp-exam/'>
+                      Overview
+                    </a>
+                  </li>
+                  <li class=''>
+                    <a href='/public/about-the-pmp-exam/benifits'>
+                      Benefits of PMP Certification
+                    </a>
+                  </li>
+                  <li class=''>
+                    <a href='/public/about-the-pmp-exam/cost'>
+                      Cost of PMP Exam
+                    </a>
+                  </li>
+                  <li class=''>
+                    <a href='/public/about-the-pmp-exam/value'>
+                      Is PMP Certification Worth it?
+                    </a>
+                  </li>
+                  <li class=''>
+                    <a href='/public/about-the-pmp-exam/salaries'>
+                      PMP Certified Salaries
+                    </a>
+                  </li>
+                  <li class='active'>
+                    <a href='/public/about-the-pmp-exam/requirements'>
+                      PMP Exam Requirements
+                    </a>
+                  </li>
+                  <li class=''>
+                    <a href='/public/about-the-pmp-exam/scores'>
+                      PMP Passing Scores & Averages
+                    </a>
+                  </li>
+                  <li class=''>
+                    <a href='/public/about-the-pmp-exam/certification'>
+                      Value of PMP Certification
+                    </a>
+                  </li>
+                  <li class=''>
+                    <a href='/public/about-the-pmp-exam/what'>
+                      What is the PMP Exam?
+                    </a>
+                  </li>
+                </ul>
+                <hr>
+                <h6 class='text-center'>
+                  What Our Students Say
+                </h6>
+                <div class='media-object side-testimonial half-margin-bottom'>
+                  <div class='media-body'>
+                    <div class='media-heading'>
+                      <blockquote class='no-margin'>
+                        "
+                        I was in your class this week. I passed the test today! I’m glad it’s over and I can be an evangelist for this class. In my particular instance, you took me from 0 to passing in 4 days. I conclusively passed every section of the exam, although by the end I was not convinced of my success. Anyway – thank you and you shall hear from more people (at our company) in months to come!
+                        "
+                        <footer>
+                          Doug R., PMP
+                        </footer>
+                      </blockquote>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class='media-object testimonial half-margin-bottom'>
-                <div class='media-body'>
-                  <div class='media-heading'>
-                    <blockquote class='no-margin'>
-                      "
-                      We were successfull! I say we because I could not have done it without your training. I will e-mail the results tonight or tomorrow. Thanks for everything!
-                      "
-                      <footer>
-                        Jarred Torrance, PMP
-                      </footer>
-                    </blockquote>
+                <div class='media-object side-testimonial half-margin-bottom'>
+                  <div class='media-body'>
+                    <div class='media-heading'>
+                      <blockquote class='no-margin'>
+                        "
+                        We were successfull! I say we because I could not have done it without your training. I will e-mail the results tonight or tomorrow. Thanks for everything!
+                        "
+                        <footer>
+                          Jarred Torrance, PMP
+                        </footer>
+                      </blockquote>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class='media-object testimonial half-margin-bottom'>
-                <div class='media-body'>
-                  <div class='media-heading'>
-                    <blockquote class='no-margin'>
-                      "
-                      Passed the PMP exam today. Thanks for you help and your class.
-                      "
-                      <footer>
-                        Mick Burnett, PMP
-                      </footer>
-                    </blockquote>
+                <div class='media-object side-testimonial half-margin-bottom'>
+                  <div class='media-body'>
+                    <div class='media-heading'>
+                      <blockquote class='no-margin'>
+                        "
+                        Passed the PMP exam today. Thanks for you help and your class.
+                        "
+                        <footer>
+                          Mick Burnett, PMP
+                        </footer>
+                      </blockquote>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class='media-object testimonial half-margin-bottom'>
-                <div class='media-body'>
-                  <div class='media-heading'>
-                    <blockquote class='no-margin'>
-                      "
-                      Thank you very much for all your help and support during the course and after. I have cleared my PMP examination in my first attempt and wanted to share that information with you. I will personally thank Bob and Ron for their wonderful coaching in the class.
-                      "
-                      <footer>
-                        Anand Rad, PMP Pennsylvania, USA
-                      </footer>
-                    </blockquote>
+                <div class='media-object side-testimonial half-margin-bottom'>
+                  <div class='media-body'>
+                    <div class='media-heading'>
+                      <blockquote class='no-margin'>
+                        "
+                        Thank you very much for all your help and support during the course and after. I have cleared my PMP examination in my first attempt and wanted to share that information with you. I will personally thank Bob and Ron for their wonderful coaching in the class.
+                        "
+                        <footer>
+                          Anand Rad, PMP Pennsylvania, USA
+                        </footer>
+                      </blockquote>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class='media-object testimonial half-margin-bottom'>
-                <div class='media-body'>
-                  <div class='media-heading'>
-                    <blockquote class='no-margin'>
-                      "
-                      Your PMP class distilled the PMBOK down to a level that was understandable and provided real-world examples. The information conveyed allowed me to pass the test the first time! Thanks again...
-                      "
-                      <footer>
-                        Stephen Blalock, PMP VMD Systems INC, Vienna, VA
-                      </footer>
-                    </blockquote>
+                <div class='media-object side-testimonial half-margin-bottom'>
+                  <div class='media-body'>
+                    <div class='media-heading'>
+                      <blockquote class='no-margin'>
+                        "
+                        Your PMP class distilled the PMBOK down to a level that was understandable and provided real-world examples. The information conveyed allowed me to pass the test the first time! Thanks again...
+                        "
+                        <footer>
+                          Stephen Blalock, PMP VMD Systems INC, Vienna, VA
+                        </footer>
+                      </blockquote>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class='media-object testimonial half-margin-bottom'>
-                <div class='media-body'>
-                  <div class='media-heading'>
-                    <blockquote class='no-margin'>
-                      "
-                      Great class, the tests online were an amazing component in addition to the excellent class. They provided great feedback on progress and where to focus on. A great combination.
-                      "
-                      <footer>
-                        Michael Eyring, PMP
-                      </footer>
-                    </blockquote>
+                <div class='media-object side-testimonial half-margin-bottom'>
+                  <div class='media-body'>
+                    <div class='media-heading'>
+                      <blockquote class='no-margin'>
+                        "
+                        Great class, the tests online were an amazing component in addition to the excellent class. They provided great feedback on progress and where to focus on. A great combination.
+                        "
+                        <footer>
+                          Michael Eyring, PMP
+                        </footer>
+                      </blockquote>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class='media-object testimonial half-margin-bottom'>
-                <div class='media-body'>
-                  <div class='media-heading'>
-                    <blockquote class='no-margin'>
-                      "
-                      Thank you so much for teaching this PMP class. I passed the PMP exam last week, thanks to you and Tony's great material. All your tips and tricks helped me a lot for the examination. Thanks for the constant support and encouragement. Thank you to you and your wonderful team. Couldn't have done without you all.
-                      "
-                      <footer>
-                        Aparna Smitha, PMP
-                      </footer>
-                    </blockquote>
+                <div class='media-object side-testimonial half-margin-bottom'>
+                  <div class='media-body'>
+                    <div class='media-heading'>
+                      <blockquote class='no-margin'>
+                        "
+                        Thank you so much for teaching this PMP class. I passed the PMP exam last week, thanks to you and Tony's great material. All your tips and tricks helped me a lot for the examination. Thanks for the constant support and encouragement. Thank you to you and your wonderful team. Couldn't have done without you all.
+                        "
+                        <footer>
+                          Aparna Smitha, PMP
+                        </footer>
+                      </blockquote>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class='media-object testimonial half-margin-bottom'>
-                <div class='media-body'>
-                  <div class='media-heading'>
-                    <blockquote class='no-margin'>
-                      "
-                      I wanted to let you know that I passed the test today. So you have another PMP to add to your alumni list.
-                      "
-                      <footer>
-                        Dan Knight MS, PMP
-                      </footer>
-                    </blockquote>
+                <div class='media-object side-testimonial half-margin-bottom'>
+                  <div class='media-body'>
+                    <div class='media-heading'>
+                      <blockquote class='no-margin'>
+                        "
+                        I wanted to let you know that I passed the test today. So you have another PMP to add to your alumni list.
+                        "
+                        <footer>
+                          Dan Knight MS, PMP
+                        </footer>
+                      </blockquote>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class='media-object testimonial half-margin-bottom'>
-                <div class='media-body'>
-                  <div class='media-heading'>
-                    <blockquote class='no-margin'>
-                      "
-                      Thank you again for your dedication to ensure your students are as prepared as possible. I wouldn’t have had the results I did if it were not for the quality in the study methodology you are enforcing with your book and supporting materials.
-                      "
-                      <footer>
-                        Mark Bentsen, PMP
-                      </footer>
-                    </blockquote>
+                <div class='media-object side-testimonial half-margin-bottom'>
+                  <div class='media-body'>
+                    <div class='media-heading'>
+                      <blockquote class='no-margin'>
+                        "
+                        Thank you again for your dedication to ensure your students are as prepared as possible. I wouldn’t have had the results I did if it were not for the quality in the study methodology you are enforcing with your book and supporting materials.
+                        "
+                        <footer>
+                          Mark Bentsen, PMP
+                        </footer>
+                      </blockquote>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class='media-object testimonial half-margin-bottom'>
-                <div class='media-body'>
-                  <div class='media-heading'>
-                    <blockquote class='no-margin'>
-                      "
-                      I was very impressed with the on line class. It’s convenient and at the same time provides more of an in-person feel than the other online sessions I’ve experienced.
-                      "
-                      <footer>
-                        Dan M. PMP - Sr. Project Manager
-                      </footer>
-                    </blockquote>
+                <div class='media-object side-testimonial half-margin-bottom'>
+                  <div class='media-body'>
+                    <div class='media-heading'>
+                      <blockquote class='no-margin'>
+                        "
+                        I was very impressed with the on line class. It’s convenient and at the same time provides more of an in-person feel than the other online sessions I’ve experienced.
+                        "
+                        <footer>
+                          Dan M. PMP - Sr. Project Manager
+                        </footer>
+                      </blockquote>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class='media-object testimonial half-margin-bottom'>
-                <div class='media-body'>
-                  <div class='media-heading'>
-                    <blockquote class='no-margin'>
-                      "
-                      I took the PMP exam last Saturday at the Bedford center and I passed the test! I am so relieved that it's over. The exam was really hard for me. Thank you for the class! I'll be recommending this to all my co-workers who are planning to get their PMP certification.
-                      "
-                      <footer>
-                        Genevive Gener, PMP
-                      </footer>
-                    </blockquote>
+                <div class='media-object side-testimonial half-margin-bottom'>
+                  <div class='media-body'>
+                    <div class='media-heading'>
+                      <blockquote class='no-margin'>
+                        "
+                        I took the PMP exam last Saturday at the Bedford center and I passed the test! I am so relieved that it's over. The exam was really hard for me. Thank you for the class! I'll be recommending this to all my co-workers who are planning to get their PMP certification.
+                        "
+                        <footer>
+                          Genevive Gener, PMP
+                        </footer>
+                      </blockquote>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class='media-object testimonial half-margin-bottom'>
-                <div class='media-body'>
-                  <div class='media-heading'>
-                    <blockquote class='no-margin'>
-                      "
-                      Susan Garner in Oklahoma City passed the PMP Exam on the first try! Yea! Your content was right on, especially the Earned Value calculations. Thanks for your help and best wishes for continued success!
-                      "
-                      <footer>
-                        Susan R. Garner, PMP
-                      </footer>
-                    </blockquote>
+                <div class='media-object side-testimonial half-margin-bottom'>
+                  <div class='media-body'>
+                    <div class='media-heading'>
+                      <blockquote class='no-margin'>
+                        "
+                        Susan Garner in Oklahoma City passed the PMP Exam on the first try! Yea! Your content was right on, especially the Earned Value calculations. Thanks for your help and best wishes for continued success!
+                        "
+                        <footer>
+                          Susan R. Garner, PMP
+                        </footer>
+                      </blockquote>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class='media-object testimonial half-margin-bottom'>
-                <div class='media-body'>
-                  <div class='media-heading'>
-                    <blockquote class='no-margin'>
-                      "
-                      You are the best teacher in the world. We accomplished a lot. I owe you...
-                      "
-                      <footer>
-                        Ken N, PMP
-                      </footer>
-                    </blockquote>
+                <div class='media-object side-testimonial half-margin-bottom'>
+                  <div class='media-body'>
+                    <div class='media-heading'>
+                      <blockquote class='no-margin'>
+                        "
+                        You are the best teacher in the world. We accomplished a lot. I owe you...
+                        "
+                        <footer>
+                          Ken N, PMP
+                        </footer>
+                      </blockquote>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class='media-object testimonial half-margin-bottom'>
-                <div class='media-body'>
-                  <div class='media-heading'>
-                    <blockquote class='no-margin'>
-                      "
-                      Thank you for your help yesterday!! I ran through the simulation exam - it showed me where I needed to brush up. I took the test today and Passed!!! Couldn't have done it without your help. Thanks so much!!
-                      "
-                      <footer>
-                        Cheryl Shavel, PMP
-                      </footer>
-                    </blockquote>
+                <div class='media-object side-testimonial half-margin-bottom'>
+                  <div class='media-body'>
+                    <div class='media-heading'>
+                      <blockquote class='no-margin'>
+                        "
+                        Thank you for your help yesterday!! I ran through the simulation exam - it showed me where I needed to brush up. I took the test today and Passed!!! Couldn't have done it without your help. Thanks so much!!
+                        "
+                        <footer>
+                          Cheryl Shavel, PMP
+                        </footer>
+                      </blockquote>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class='media-object testimonial half-margin-bottom'>
-                <div class='media-body'>
-                  <div class='media-heading'>
-                    <blockquote class='no-margin'>
-                      "
-                      I passed the PMI PMP exam yesterday. I want to thank you for your support in achieving this goal. The material from your class and the extra tools that came with the course definitely prepared me for the exam.
-                      "
-                      <footer>
-                        Jim Cavanaugh, PMP
-                      </footer>
-                    </blockquote>
+                <div class='media-object side-testimonial half-margin-bottom'>
+                  <div class='media-body'>
+                    <div class='media-heading'>
+                      <blockquote class='no-margin'>
+                        "
+                        I passed the PMI PMP exam yesterday. I want to thank you for your support in achieving this goal. The material from your class and the extra tools that came with the course definitely prepared me for the exam.
+                        "
+                        <footer>
+                          Jim Cavanaugh, PMP
+                        </footer>
+                      </blockquote>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </div>
       <!-- end main content -->
       <footer id='footer'>
         <div class='container'>

@@ -142,7 +142,105 @@
           </div>
         </div>
       </nav>
-      <header class='hidden-xs' id='main-nav'>
+      <div class='main-nav hidden-xs' id='hidden-menu'>
+        <div class='container'>
+          <div class='main-nav-container'>
+            <nav class='pull-left'>
+              <ul class='list-inline main-links'>
+                <li class=''>
+                  <a href='/'>
+                    Home
+                  </a>
+                </li>
+                <li class=''>
+                  <a href='/public/practice-pmp'>
+                    PMP Practice Exams
+                  </a>
+                </li>
+                <li class='sale'>
+                  <a href='/public/live-pmp'>
+                    Live PMP Classes
+                  </a>
+                </li>
+                <li class=''>
+                  <a href='/public/bootcamp'>
+                    PMP Bootcamp
+                  </a>
+                </li>
+                <li class='active'>
+                  <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+                    About
+                    <span class='caret'></span>
+                    <ul class='dropdown-menu' role='menu'>
+                      <li>
+                        <a href='/public/about'>
+                          Who we are
+                        </a>
+                      </li>
+                      <li>
+                        <a href='/public/about-the-pmp-exam'>
+                          About the PMP exam
+                        </a>
+                      </li>
+                      <li>
+                        <a href='/public/about/books'>
+                          Our books and website
+                        </a>
+                      </li>
+                      <li>
+                        <a href='/public/articles'>
+                          PMP articles
+                        </a>
+                      </li>
+                      <li>
+                        <a href='/public/about/contact'>
+                          Contact
+                        </a>
+                      </li>
+                      <li>
+                        <a href='/public/about/newsletter'>
+                          Get our newsletter
+                        </a>
+                      </li>
+                    </ul>
+                  </a>
+                </li>
+                <li class=''>
+                  <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+                    Coporate Training
+                    <span class='caret'></span>
+                    <ul class='dropdown-menu' role='menu'>
+                      <li>
+                        <a href='/public/corporate-training'>
+                          Coporate training options
+                        </a>
+                      </li>
+                      <li>
+                        <a href='/public/corporate-training/corporate-discount'>
+                          Enroll multiple students
+                        </a>
+                      </li>
+                      <li>
+                        <a href='/public/corporate-training/private-portal'>
+                          Private training portal
+                        </a>
+                      </li>
+                    </ul>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            <nav class='pull-right'>
+              <a class='btn btn-success' href='/public/checkout'>
+                <i class='fa fa-shopping-cart'></i>
+                Checkout
+              </a>
+              <img class="hidden-md hidden-sm" width="80px" src="../../../images/pmi_logo.png" />
+            </nav>
+          </div>
+        </div>
+      </div>
+      <header class='main-nav hidden-xs'>
         <div class='container'>
           <div class='row margin-bottom'>
             <div class='col-lg-12'>
@@ -172,184 +270,188 @@
           </div>
           <div class='row'>
             <div class='col-lg-12'>
-              <nav class='pull-left'>
-                <ul class='list-inline main-links'>
-                  <li class=''>
-                    <a href='/'>
-                      Home
-                    </a>
-                  </li>
-                  <li class=''>
-                    <a href='/public/practice-pmp'>
-                      PMP Practice Exams
-                    </a>
-                  </li>
-                  <li class=''>
-                    <a href='/public/live-pmp'>
-                      Live PMP Classes
-                    </a>
-                  </li>
-                  <li class=''>
-                    <a href='/public/bootcamp'>
-                      PMP Bootcamp
-                    </a>
-                  </li>
-                  <li class='active'>
-                    <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
-                      About
-                      <span class='caret'></span>
-                      <ul class='dropdown-menu' role='menu'>
-                        <li>
-                          <a href='/public/about'>
-                            Who we are
-                          </a>
-                        </li>
-                        <li>
-                          <a href='/public/about-the-pmp-exam'>
-                            About the PMP exam
-                          </a>
-                        </li>
-                        <li>
-                          <a href='/public/about/books'>
-                            Our books and website
-                          </a>
-                        </li>
-                        <li>
-                          <a href='/public/articles'>
-                            PMP articles
-                          </a>
-                        </li>
-                        <li>
-                          <a href='/public/about/contact'>
-                            Contact
-                          </a>
-                        </li>
-                        <li>
-                          <a href='/public/about/newsletter'>
-                            Get our newsletter
-                          </a>
-                        </li>
-                      </ul>
-                    </a>
-                  </li>
-                  <li class=''>
-                    <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
-                      Coporate Training
-                      <span class='caret'></span>
-                      <ul class='dropdown-menu' role='menu'>
-                        <li>
-                          <a href='/public/corporate-training'>
-                            Coporate training options
-                          </a>
-                        </li>
-                        <li>
-                          <a href='/public/corporate-training/corporate-discount'>
-                            Enroll multiple students
-                          </a>
-                        </li>
-                        <li>
-                          <a href='/public/corporate-training/private-portal'>
-                            Private training portal
-                          </a>
-                        </li>
-                      </ul>
-                    </a>
-                  </li>
-                </ul>
-              </nav>
-              <nav class='pull-right'>
-                <a class='btn btn-success' href='/public/checkout'>
-                  <i class='fa fa-shopping-cart'></i>
-                  Checkout
-                </a>
-                <img class="hidden-md hidden-sm" width="80px" src="../../../images/pmi_logo.png" />
-              </nav>
+              <div class='main-nav-container'>
+                <nav class='pull-left'>
+                  <ul class='list-inline main-links'>
+                    <li class=''>
+                      <a href='/'>
+                        Home
+                      </a>
+                    </li>
+                    <li class=''>
+                      <a href='/public/practice-pmp'>
+                        PMP Practice Exams
+                      </a>
+                    </li>
+                    <li class='sale'>
+                      <a href='/public/live-pmp'>
+                        Live PMP Classes
+                      </a>
+                    </li>
+                    <li class=''>
+                      <a href='/public/bootcamp'>
+                        PMP Bootcamp
+                      </a>
+                    </li>
+                    <li class='active'>
+                      <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+                        About
+                        <span class='caret'></span>
+                        <ul class='dropdown-menu' role='menu'>
+                          <li>
+                            <a href='/public/about'>
+                              Who we are
+                            </a>
+                          </li>
+                          <li>
+                            <a href='/public/about-the-pmp-exam'>
+                              About the PMP exam
+                            </a>
+                          </li>
+                          <li>
+                            <a href='/public/about/books'>
+                              Our books and website
+                            </a>
+                          </li>
+                          <li>
+                            <a href='/public/articles'>
+                              PMP articles
+                            </a>
+                          </li>
+                          <li>
+                            <a href='/public/about/contact'>
+                              Contact
+                            </a>
+                          </li>
+                          <li>
+                            <a href='/public/about/newsletter'>
+                              Get our newsletter
+                            </a>
+                          </li>
+                        </ul>
+                      </a>
+                    </li>
+                    <li class=''>
+                      <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+                        Coporate Training
+                        <span class='caret'></span>
+                        <ul class='dropdown-menu' role='menu'>
+                          <li>
+                            <a href='/public/corporate-training'>
+                              Coporate training options
+                            </a>
+                          </li>
+                          <li>
+                            <a href='/public/corporate-training/corporate-discount'>
+                              Enroll multiple students
+                            </a>
+                          </li>
+                          <li>
+                            <a href='/public/corporate-training/private-portal'>
+                              Private training portal
+                            </a>
+                          </li>
+                        </ul>
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+                <nav class='pull-right'>
+                  <a class='btn btn-success' href='/public/checkout'>
+                    <i class='fa fa-shopping-cart'></i>
+                    Checkout
+                  </a>
+                  <img class="hidden-md hidden-sm" width="80px" src="../../../images/pmi_logo.png" />
+                </nav>
+              </div>
             </div>
           </div>
         </div>
       </header>
       <!-- end menu -->
-      <section class='invert-section page-header-section'>
-        <div class='container'>
-          <div class='row'>
-            <div class='col-lg-12'>
-              <h2 class='no-margin-bottom pull-left'>
-                PMP Articles
-              </h2>
-              <h6 class='no-margin-bottom pull-right hidden-xs half-margin-top extra-bold-font-name'>
-                
-              </h6>
+      <div id='mainContents'>
+        <section class='invert-section page-header-section'>
+          <div class='container'>
+            <div class='row'>
+              <div class='col-lg-12'>
+                <h2 class='no-margin-bottom pull-left'>
+                  PMP Articles
+                </h2>
+                <h6 class='no-margin-bottom pull-right hidden-xs half-margin-top extra-bold-font-name'>
+                  
+                </h6>
+              </div>
             </div>
           </div>
-        </div>
-      </section>
-      <section>
-        <div class='container'>
-          <div class='row'>
-            <div class='col-sm-12'>
-              <ol class='breadcrumb'>
-                <li>
-                  <a href='/public/articles'>
-                    Articles
-                  </a>
-                </li>
-                <li>
+        </section>
+        <section>
+          <div class='container'>
+            <div class='row'>
+              <div class='col-sm-12'>
+                <ol class='breadcrumb'>
+                  <li>
+                    <a href='/public/articles'>
+                      Articles
+                    </a>
+                  </li>
+                  <li>
+                    How to Turn your Group of Workers into a Team of Players
+                  </li>
+                </ol>
+              </div>
+            </div>
+            <div class='row'>
+              <div class='col-sm-8'>
+                <h2 class='no-margin-bottom'>
                   How to Turn your Group of Workers into a Team of Players
-                </li>
-              </ol>
+                </h2>
+                <p class='text-muted'>
+                  <small>
+                    By Christopher Scordo PMP, ITIL
+                  </small>
+                </p>
+                <p>
+                  Teamwork is a funny thing – the saying goes that you are only as strong as your weakest link. When it comes to project management, this saying is especially true; especially when it comes to working with a team of individuals who all rely on each other to make a project work.
+                </p>
+                <p>
+                  Creating a synergy between employees from different backgrounds, with different interests and different experiences can be extremely tricky. The good news for project managers is that most team members can be driven toward a common purpose; and finding that common purpose will often determine the success of the overall project.
+                </p>
+                <p>
+                  When it comes to working together as a team, working towards a common purpose or goal is critical in maintaining morale and quality. For project managers, this goal is typically obvious – complete the project on time, on budget, and within scope. To do that successfully, there are a few things to consider.
+                </p>
+                <p>
+                  <strong>
+                    Are the right team members in the right positions?
+                  </strong>
+                  Maximizing strengths is a key part of getting people to work as a team. Think, for instance, of a soccer team. If a center forward is playing as a defender because your side is full of injuries, your results on the filed will probably reflect this. The same goes when assigning project roles- sure, a web developer might understand databases, application layers, and front-end coding; but understanding where they will be most effective and happy will ensure higher project performance. When people are in a role where they function well and which they are good at – you will achieve better results.
+                </p>
+                <p>
+                  Recognizing strengths is crucial for all project managers – if you have adequate subject matter expertise in your field, you’ll pick up on who belongs where. If you’re not, you would be best suited in having assistance as you delegate roles.
+                </p>
+                <p>
+                  <strong>
+                    Are you positively reinforcing your team members?
+                  </strong>
+                  People want to feel good about what they are doing, and they want to know that those who monitor their work are encouraged by their performance. As a project manager, if you’re only ever highlighting performance issues, you will end up fostering a negative team environment. It is crucially important to praise team members when they get things right.
+                </p>
+                <p>
+                  There is a great saying which goes: “praise in public, scold in private”. As a project manager, you should master these words and also learn to master your temper. You might be infuriated and want to act instinctively when team members make obvious mistakes. But when you learn to step back, act diplomatically, and take control calmly, you will often get the best long term performance results.
+                </p>
+                <p>
+                  <strong>
+                    Are you setting achievable team goals?
+                  </strong>
+                  As mentioned earlier, setting achievable team goals is crucial to a project’s success. Make sure that you allow every member of your team to be part of the process. Even if you, as the project manager, set the schedule and timeline of activities; you can include team members by individually asking each if they agree with your scope estimates. In addition, sharing the long term project goals and mapping them out so everybody knows exactly what is expected of them down the road shows that team members are treated maturely during the life-cycle of a project. Further, make sure you track those team goals in a repeatable, consistent manner. This includes recurring status meetings, frequent status checks, and individually meeting with team members if you feel like they are falling behind.
+                </p>
+                <p>
+                  Getting the best out of your team can be tricky, but doing so is part and parcel of a project manager’s role. As Henry Ford once said, “Coming together is a beginning. Keeping together is progress. Working together is success.”
+                </p>
+              </div>
             </div>
+            <div class='col-sm-4'></div>
           </div>
-          <div class='row'>
-            <div class='col-sm-8'>
-              <h2 class='no-margin-bottom'>
-                How to Turn your Group of Workers into a Team of Players
-              </h2>
-              <p class='text-muted'>
-                <small>
-                  By Christopher Scordo PMP, ITIL
-                </small>
-              </p>
-              <p>
-                Teamwork is a funny thing – the saying goes that you are only as strong as your weakest link. When it comes to project management, this saying is especially true; especially when it comes to working with a team of individuals who all rely on each other to make a project work.
-              </p>
-              <p>
-                Creating a synergy between employees from different backgrounds, with different interests and different experiences can be extremely tricky. The good news for project managers is that most team members can be driven toward a common purpose; and finding that common purpose will often determine the success of the overall project.
-              </p>
-              <p>
-                When it comes to working together as a team, working towards a common purpose or goal is critical in maintaining morale and quality. For project managers, this goal is typically obvious – complete the project on time, on budget, and within scope. To do that successfully, there are a few things to consider.
-              </p>
-              <p>
-                <strong>
-                  Are the right team members in the right positions?
-                </strong>
-                Maximizing strengths is a key part of getting people to work as a team. Think, for instance, of a soccer team. If a center forward is playing as a defender because your side is full of injuries, your results on the filed will probably reflect this. The same goes when assigning project roles- sure, a web developer might understand databases, application layers, and front-end coding; but understanding where they will be most effective and happy will ensure higher project performance. When people are in a role where they function well and which they are good at – you will achieve better results.
-              </p>
-              <p>
-                Recognizing strengths is crucial for all project managers – if you have adequate subject matter expertise in your field, you’ll pick up on who belongs where. If you’re not, you would be best suited in having assistance as you delegate roles.
-              </p>
-              <p>
-                <strong>
-                  Are you positively reinforcing your team members?
-                </strong>
-                People want to feel good about what they are doing, and they want to know that those who monitor their work are encouraged by their performance. As a project manager, if you’re only ever highlighting performance issues, you will end up fostering a negative team environment. It is crucially important to praise team members when they get things right.
-              </p>
-              <p>
-                There is a great saying which goes: “praise in public, scold in private”. As a project manager, you should master these words and also learn to master your temper. You might be infuriated and want to act instinctively when team members make obvious mistakes. But when you learn to step back, act diplomatically, and take control calmly, you will often get the best long term performance results.
-              </p>
-              <p>
-                <strong>
-                  Are you setting achievable team goals?
-                </strong>
-                As mentioned earlier, setting achievable team goals is crucial to a project’s success. Make sure that you allow every member of your team to be part of the process. Even if you, as the project manager, set the schedule and timeline of activities; you can include team members by individually asking each if they agree with your scope estimates. In addition, sharing the long term project goals and mapping them out so everybody knows exactly what is expected of them down the road shows that team members are treated maturely during the life-cycle of a project. Further, make sure you track those team goals in a repeatable, consistent manner. This includes recurring status meetings, frequent status checks, and individually meeting with team members if you feel like they are falling behind.
-              </p>
-              <p>
-                Getting the best out of your team can be tricky, but doing so is part and parcel of a project manager’s role. As Henry Ford once said, “Coming together is a beginning. Keeping together is progress. Working together is success.”
-              </p>
-            </div>
-          </div>
-          <div class='col-sm-4'></div>
-        </div>
-      </section>
+        </section>
+      </div>
       <!-- end main content -->
       <footer id='footer'>
         <div class='container'>

@@ -142,7 +142,105 @@
           </div>
         </div>
       </nav>
-      <header class='hidden-xs' id='main-nav'>
+      <div class='main-nav hidden-xs' id='hidden-menu'>
+        <div class='container'>
+          <div class='main-nav-container'>
+            <nav class='pull-left'>
+              <ul class='list-inline main-links'>
+                <li class=''>
+                  <a href='/'>
+                    Home
+                  </a>
+                </li>
+                <li class=''>
+                  <a href='/public/practice-pmp'>
+                    PMP Practice Exams
+                  </a>
+                </li>
+                <li class='active sale'>
+                  <a href='/public/live-pmp'>
+                    Live PMP Classes
+                  </a>
+                </li>
+                <li class=''>
+                  <a href='/public/bootcamp'>
+                    PMP Bootcamp
+                  </a>
+                </li>
+                <li class=''>
+                  <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+                    About
+                    <span class='caret'></span>
+                    <ul class='dropdown-menu' role='menu'>
+                      <li>
+                        <a href='/public/about'>
+                          Who we are
+                        </a>
+                      </li>
+                      <li>
+                        <a href='/public/about-the-pmp-exam'>
+                          About the PMP exam
+                        </a>
+                      </li>
+                      <li>
+                        <a href='/public/about/books'>
+                          Our books and website
+                        </a>
+                      </li>
+                      <li>
+                        <a href='/public/articles'>
+                          PMP articles
+                        </a>
+                      </li>
+                      <li>
+                        <a href='/public/about/contact'>
+                          Contact
+                        </a>
+                      </li>
+                      <li>
+                        <a href='/public/about/newsletter'>
+                          Get our newsletter
+                        </a>
+                      </li>
+                    </ul>
+                  </a>
+                </li>
+                <li class=''>
+                  <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+                    Coporate Training
+                    <span class='caret'></span>
+                    <ul class='dropdown-menu' role='menu'>
+                      <li>
+                        <a href='/public/corporate-training'>
+                          Coporate training options
+                        </a>
+                      </li>
+                      <li>
+                        <a href='/public/corporate-training/corporate-discount'>
+                          Enroll multiple students
+                        </a>
+                      </li>
+                      <li>
+                        <a href='/public/corporate-training/private-portal'>
+                          Private training portal
+                        </a>
+                      </li>
+                    </ul>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            <nav class='pull-right'>
+              <a class='btn btn-success' href='/public/checkout'>
+                <i class='fa fa-shopping-cart'></i>
+                Checkout
+              </a>
+              <img class="hidden-md hidden-sm" width="80px" src="../../../images/pmi_logo.png" />
+            </nav>
+          </div>
+        </div>
+      </div>
+      <header class='main-nav hidden-xs'>
         <div class='container'>
           <div class='row margin-bottom'>
             <div class='col-lg-12'>
@@ -172,285 +270,310 @@
           </div>
           <div class='row'>
             <div class='col-lg-12'>
-              <nav class='pull-left'>
-                <ul class='list-inline main-links'>
-                  <li class=''>
-                    <a href='/'>
-                      Home
-                    </a>
-                  </li>
-                  <li class=''>
-                    <a href='/public/practice-pmp'>
-                      PMP Practice Exams
-                    </a>
-                  </li>
-                  <li class='active'>
-                    <a href='/public/live-pmp'>
-                      Live PMP Classes
-                    </a>
-                  </li>
-                  <li class=''>
-                    <a href='/public/bootcamp'>
-                      PMP Bootcamp
-                    </a>
-                  </li>
-                  <li class=''>
-                    <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
-                      About
-                      <span class='caret'></span>
-                      <ul class='dropdown-menu' role='menu'>
-                        <li>
-                          <a href='/public/about'>
-                            Who we are
-                          </a>
-                        </li>
-                        <li>
-                          <a href='/public/about-the-pmp-exam'>
-                            About the PMP exam
-                          </a>
-                        </li>
-                        <li>
-                          <a href='/public/about/books'>
-                            Our books and website
-                          </a>
-                        </li>
-                        <li>
-                          <a href='/public/articles'>
-                            PMP articles
-                          </a>
-                        </li>
-                        <li>
-                          <a href='/public/about/contact'>
-                            Contact
-                          </a>
-                        </li>
-                        <li>
-                          <a href='/public/about/newsletter'>
-                            Get our newsletter
-                          </a>
-                        </li>
-                      </ul>
-                    </a>
-                  </li>
-                  <li class=''>
-                    <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
-                      Coporate Training
-                      <span class='caret'></span>
-                      <ul class='dropdown-menu' role='menu'>
-                        <li>
-                          <a href='/public/corporate-training'>
-                            Coporate training options
-                          </a>
-                        </li>
-                        <li>
-                          <a href='/public/corporate-training/corporate-discount'>
-                            Enroll multiple students
-                          </a>
-                        </li>
-                        <li>
-                          <a href='/public/corporate-training/private-portal'>
-                            Private training portal
-                          </a>
-                        </li>
-                      </ul>
-                    </a>
-                  </li>
-                </ul>
-              </nav>
-              <nav class='pull-right'>
-                <a class='btn btn-success' href='/public/checkout'>
-                  <i class='fa fa-shopping-cart'></i>
-                  Checkout
-                </a>
-                <img class="hidden-md hidden-sm" width="80px" src="../../../images/pmi_logo.png" />
-              </nav>
+              <div class='main-nav-container'>
+                <nav class='pull-left'>
+                  <ul class='list-inline main-links'>
+                    <li class=''>
+                      <a href='/'>
+                        Home
+                      </a>
+                    </li>
+                    <li class=''>
+                      <a href='/public/practice-pmp'>
+                        PMP Practice Exams
+                      </a>
+                    </li>
+                    <li class='active sale'>
+                      <a href='/public/live-pmp'>
+                        Live PMP Classes
+                      </a>
+                    </li>
+                    <li class=''>
+                      <a href='/public/bootcamp'>
+                        PMP Bootcamp
+                      </a>
+                    </li>
+                    <li class=''>
+                      <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+                        About
+                        <span class='caret'></span>
+                        <ul class='dropdown-menu' role='menu'>
+                          <li>
+                            <a href='/public/about'>
+                              Who we are
+                            </a>
+                          </li>
+                          <li>
+                            <a href='/public/about-the-pmp-exam'>
+                              About the PMP exam
+                            </a>
+                          </li>
+                          <li>
+                            <a href='/public/about/books'>
+                              Our books and website
+                            </a>
+                          </li>
+                          <li>
+                            <a href='/public/articles'>
+                              PMP articles
+                            </a>
+                          </li>
+                          <li>
+                            <a href='/public/about/contact'>
+                              Contact
+                            </a>
+                          </li>
+                          <li>
+                            <a href='/public/about/newsletter'>
+                              Get our newsletter
+                            </a>
+                          </li>
+                        </ul>
+                      </a>
+                    </li>
+                    <li class=''>
+                      <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+                        Coporate Training
+                        <span class='caret'></span>
+                        <ul class='dropdown-menu' role='menu'>
+                          <li>
+                            <a href='/public/corporate-training'>
+                              Coporate training options
+                            </a>
+                          </li>
+                          <li>
+                            <a href='/public/corporate-training/corporate-discount'>
+                              Enroll multiple students
+                            </a>
+                          </li>
+                          <li>
+                            <a href='/public/corporate-training/private-portal'>
+                              Private training portal
+                            </a>
+                          </li>
+                        </ul>
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+                <nav class='pull-right'>
+                  <a class='btn btn-success' href='/public/checkout'>
+                    <i class='fa fa-shopping-cart'></i>
+                    Checkout
+                  </a>
+                  <img class="hidden-md hidden-sm" width="80px" src="../../../images/pmi_logo.png" />
+                </nav>
+              </div>
             </div>
           </div>
         </div>
       </header>
       <!-- end menu -->
-      <section class='invert-section page-header-section'>
-        <div class='container'>
-          <div class='row'>
-            <div class='col-lg-12'>
-              <h2 class='no-margin-bottom pull-left'>
-                Live PMP Classes
-              </h2>
-              <h6 class='no-margin-bottom pull-right hidden-xs half-margin-top extra-bold-font-name'>
-                REGISTER BY PHONE 1.800.581.9819
-              </h6>
+      <div id='mainContents'>
+        <section class='invert-section page-header-section'>
+          <div class='container'>
+            <div class='row'>
+              <div class='col-lg-12'>
+                <h2 class='no-margin-bottom pull-left'>
+                  Live PMP Classes
+                </h2>
+                <h6 class='no-margin-bottom pull-right hidden-xs half-margin-top extra-bold-font-name'>
+                  REGISTER BY PHONE 1.800.581.9819
+                </h6>
+              </div>
             </div>
           </div>
-        </div>
-      </section>
-      <section class='no-padding-bottom'>
-        <div class='container'>
-          <div class='row'>
-            <div class='col-lg-12'>
-              <ul class='nav nav-pills'>
-                <li class=''>
-                  <a href='/public/live-pmp'>
-                    Class Overview
-                  </a>
-                </li>
-                <li class=''>
-                  <a href='/public/live-pmp/schedule-and-pricing'>
+        </section>
+        <section class='no-padding-bottom'>
+          <div class='container'>
+            <div class='row'>
+              <div class='col-lg-12'>
+                <ul class='nav nav-pills'>
+                  <li class=''>
+                    <a href='/public/live-pmp'>
+                      Class Overview
+                    </a>
+                  </li>
+                  <li class=''>
+                    <a href='/public/live-pmp/schedule-and-pricing'>
+                      Schedule & Pricing
+                    </a>
+                  </li>
+                  <li class=''>
+                    <a href='/public/live-pmp/included'>
+                      Included With Class
+                    </a>
+                  </li>
+                  <li class='active'>
+                    <a href='/public/live-pmp/guarantee'>
+                      Our Guarantee
+                    </a>
+                  </li>
+                  <li class=''>
+                    <a href='/public/live-pmp/student-testimonials'>
+                      Student Testimonials
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class='container'>
+            <div class='row'>
+              <div class='col-sm-7'>
+                <h2>
+                  Exam Pass Guarantee
+                </h2>
+                <p class='no-margin-bottom'>
+                  <strong>
+                    Our Guarantee to You
+                  </strong>
+                </p>
+                <p>
+                  Enroll in any of our live classes, and we guarantee that you will pass the PMP exam. Unlike other providers, online classes offered by PMTraining combine experienced instructors and proven curriculums, with cutting edge online tools designed to help you pass. We are so confident, we guarantee you will become a PMP after completing one of our classes.
+                </p>
+                <p class='no-margin-bottom'>
+                  <strong>
+                    Our Committment to Quality
+                  </strong>
+                </p>
+                <p>
+                  All classes and products offered by PMTraining are thoroughly reviewed to ensure quality and consistency. Content offered to students, both in-class and via our online systems, undergo continuous reviews and quality assessments.
+                </p>
+                <p class='no-margin-bottom'>
+                  <strong>
+                    Current PMP Pass Rate
+                  </strong>
+                </p>
+                <p>
+                  97% First Time Pass
+                </p>
+              </div>
+              <div class='col-sm-5'>
+                <img class="img-responsive margin-auto double-margin-bottom" src="../../../images/public/vlt_gurantee-PMP-large.jpg" />
+                <div class='text-center'>
+                  <p class='text-center half-margin-bottom'>
+                    <small>
+                      <em>
+                        PMTraining Student Portal Included with Class Enrollment!
+                      </em>
+                    </small>
+                  </p>
+                  <a class='btn btn-default' href='/public/live-pmp/schedule-and-pricing'>
                     Schedule & Pricing
                   </a>
-                </li>
-                <li class=''>
-                  <a href='/public/live-pmp/included'>
-                    Included With Class
-                  </a>
-                </li>
-                <li class='active'>
-                  <a href='/public/live-pmp/guarantee'>
-                    Our Guarantee
-                  </a>
-                </li>
-                <li class=''>
-                  <a href='/public/live-pmp/student-testimonials'>
-                    Student Testimonials
-                  </a>
-                </li>
-              </ul>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-      </section>
-      <section>
+        </section>
         <div class='container'>
-          <div class='row'>
-            <div class='col-sm-7'>
-              <h2>
-                Exam Pass Guarantee
-              </h2>
-              <p class='no-margin-bottom'>
-                <strong>
-                  Our Guarantee to You
-                </strong>
-              </p>
-              <p>
-                Enroll in any of our live classes, and we guarantee that you will pass the PMP exam. Unlike other providers, online classes offered by PMTraining combine experienced instructors and proven curriculums, with cutting edge online tools designed to help you pass. We are so confident, we guarantee you will become a PMP after completing one of our classes.
-              </p>
-              <p class='no-margin-bottom'>
-                <strong>
-                  Our Committment to Quality
-                </strong>
-              </p>
-              <p>
-                All classes and products offered by PMTraining are thoroughly reviewed to ensure quality and consistency. Content offered to students, both in-class and via our online systems, undergo continuous reviews and quality assessments.
-              </p>
-              <p class='no-margin-bottom'>
-                <strong>
-                  Current PMP Pass Rate
-                </strong>
-              </p>
-              <p>
-                97% First Time Pass
-              </p>
+          <hr class='no-margin-top no-margin-bottom'>
+        </div>
+        <section class='off-white'>
+          <div class='container'>
+            <div class='row'>
+              <div class='col-lg-12'>
+                <div class='triple-margin-bottom'>
+                  <h6 class='text-center primary-text-color'>
+                    Our Exam Pass Guarantee
+                  </h6>
+                  <div class='panel'>
+                    <div class='panel-body'>
+                      <div class='padded'>
+                        <ul class='list-checks no-margin-bottom'>
+                          <li>
+                            We guarantee that you will pass your PMP exam after completing a PMTraining Live Online Class.
+                          </li>
+                          <li>
+                            Take the exam within 30 days of completing any Live Online PMP Class.
+                          </li>
+                          <li>
+                            Attend all class days and complete all class assignments, including online PMP practice exams.
+                          </li>
+                          <li>
+                            If you do not pass the exam the first time after attending a PMTraining Live Online Class, attend the class again for free. Your PMTraining online exam prep access will also be extended, free of charge.
+                          </li>
+                          <li>
+                            If you fail the exam more than one time (rare), you will be invited to enroll in the class again, and provided instruction until you pass, free of charge. Your PMTraining online exam prep access will also be extended, free of charge.
+                          </li>
+                          <li class='no-margin-bottom'>
+                            Please submit PMP examination results to confirm re-enrollment.
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class='clearfix'></div>
+                <h6 class='text-center primary-text-color'>
+                  Class Policies and Student Information
+                </h6>
+                <div class='panel'>
+                  <div class='panel-body'>
+                    <div class='padded'>
+                      <ul class='list-checks no-margin-bottom'>
+                        <li>
+                          PMI administers the PMP exam at Prometric testing facilities. Test fee is paid by the student.
+                        </li>
+                        <li>
+                          In rare occasions where a class cancellation occurs, we will issue an immediate and full refund of class fee paid, or enroll you in a future class with existing fees paid.
+                        </li>
+                        <li>
+                          Please be aware that the Project Management Institute (PMI) does audit a small percentage of exam applications. Please leave enough time to submit your application.
+                        </li>
+                        <li>
+                          Full Refund Policy: Students may receive a full refund up to 7 days prior to class start. For refunds within 7 days of class start, there will be a $150 cancellation fee for multi-week classes and a $250 cancellation fee for Bootcamp classes.
+                        </li>
+                        <li>
+                          Partial Refund Policy: Students will receive a 75% refund up to 24 hours after the first class session. No refunds will be issued beyond this point.
+                        </li>
+                        <li>
+                          Flexible Transfer Policy: Our Flexible Transfer Policy allows students to enroll early with confidence. We do not impose any penalty for transfers to another course, as long as we are notified via email or phone before the start of the course. If a student requeusts transfer to another course time prior to the start of their registered class, 100% of any prepaid course tuition fees will be applied toward the requested course time, without penalty.
+                        </li>
+                        <li>
+                          All students will be given contact information to their dedicated Course Administrator in order to expedite any and all support requests and inquiries.
+                        </li>
+                        <li>
+                          Students are required to complete approximately 11 hours total of homework assignments over the class semester in order to receive their class completion certificate.
+                        </li>
+                        <li>
+                          Class start time will occur no later than 5 minutes after the scheduled start time. Class will end on time. Class and instructor can agree that extra time can be spent working on answering questions.
+                        </li>
+                        <li>
+                          In addition to the included class materials, all students will receive 3 months of unlimited access to the online PMTraining exam prep system. Students are also entitled to a free 90-day extension to the online exam system if needed.
+                        </li>
+                        <li class='no-margin-bottom'>
+                          In the event a student must miss a class, we are happy to record the live class session and post it within 24 hours.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class='col-sm-5'>
-              <img class="img-responsive margin-auto double-margin-bottom" src="../../../images/public/vlt_gurantee-PMP-large.jpg" />
-              <div class='text-center'>
-                <p class='text-center half-margin-bottom'>
-                  <small>
-                    <em>
-                      PMTraining Student Portal Included with Class Enrollment!
-                    </em>
-                  </small>
-                </p>
-                <a class='btn btn-default' href='/public/live-pmp/schedule-and-pricing'>
+          </div>
+        </section>
+        <section class='invert-section'>
+          <div class='container'>
+            <div class='row'>
+              <div class='col-sm-12 text-center'>
+                <h2>
+                  A PMP Class Curriculum Focused on
+                  <span class='bold-font-name'>
+                    Passing the Exam
+                  </span>
+                </h2>
+                <a class='btn btn-primary btn-wire btn-lg' href='/public/live-pmp/schedule-and-pricing'>
                   Schedule & Pricing
                 </a>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-      <div class='container'>
-        <hr class='no-margin-top no-margin-bottom'>
+        </section>
       </div>
-      <section>
-        <div class='container'>
-          <div class='row'>
-            <div class='col-lg-12'>
-              <div class='triple-margin-bottom'>
-                <h6 class='text-center primary-text-color'>
-                  Our Exam Pass Guarantee
-                </h6>
-                <div class='panel'>
-                  <div class='panel-body'>
-                    <ul class='list-checks'>
-                      <li>
-                        We guarantee that you will pass your PMP exam after completing a PMTraining Live Online Class.
-                      </li>
-                      <li>
-                        Take the exam within 30 days of completing any Live Online PMP Class.
-                      </li>
-                      <li>
-                        Attend all class days and complete all class assignments, including online PMP practice exams.
-                      </li>
-                      <li>
-                        If you do not pass the exam the first time after attending a PMTraining Live Online Class, attend the class again for free. Your PMTraining online exam prep access will also be extended, free of charge.
-                      </li>
-                      <li>
-                        If you fail the exam more than one time (rare), you will be invited to enroll in the class again, and provided instruction until you pass, free of charge. Your PMTraining online exam prep access will also be extended, free of charge.
-                      </li>
-                      <li>
-                        Please submit PMP examination results to confirm re-enrollment.
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class='clearfix'></div>
-              <h6 class='text-center primary-text-color'>
-                Class Policies and Student Information
-              </h6>
-              <div class='panel'>
-                <div class='panel-body'>
-                  <ul class='list-checks'>
-                    <li>
-                      PMI administers the PMP exam at Prometric testing facilities. Test fee is paid by the student.
-                    </li>
-                    <li>
-                      In rare occasions where a class cancellation occurs, we will issue an immediate and full refund of class fee paid, or enroll you in a future class with existing fees paid.
-                    </li>
-                    <li>
-                      Please be aware that the Project Management Institute (PMI) does audit a small percentage of exam applications. Please leave enough time to submit your application.
-                    </li>
-                    <li>
-                      Full Refund Policy: Students may receive a full refund up to 7 days prior to class start. For refunds within 7 days of class start, there will be a $150 cancellation fee for multi-week classes and a $250 cancellation fee for Bootcamp classes.
-                    </li>
-                    <li>
-                      Partial Refund Policy: Students will receive a 75% refund up to 24 hours after the first class session. No refunds will be issued beyond this point.
-                    </li>
-                    <li>
-                      Flexible Transfer Policy: Our Flexible Transfer Policy allows students to enroll early with confidence. We do not impose any penalty for transfers to another course, as long as we are notified via email or phone before the start of the course. If a student requeusts transfer to another course time prior to the start of their registered class, 100% of any prepaid course tuition fees will be applied toward the requested course time, without penalty.
-                    </li>
-                    <li>
-                      All students will be given contact information to their dedicated Course Administrator in order to expedite any and all support requests and inquiries.
-                    </li>
-                    <li>
-                      Students are required to complete approximately 11 hours total of homework assignments over the class semester in order to receive their class completion certificate.
-                    </li>
-                    <li>
-                      Class start time will occur no later than 5 minutes after the scheduled start time. Class will end on time. Class and instructor can agree that extra time can be spent working on answering questions.
-                    </li>
-                    <li>
-                      In addition to the included class materials, all students will receive 3 months of unlimited access to the online PMTraining exam prep system. Students are also entitled to a free 90-day extension to the online exam system if needed.
-                    </li>
-                    <li>
-                      In the event a student must miss a class, we are happy to record the live class session and post it within 24 hours.
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
       <!-- end main content -->
       <footer id='footer'>
         <div class='container'>

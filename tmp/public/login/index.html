@@ -142,7 +142,105 @@
           </div>
         </div>
       </nav>
-      <header class='hidden-xs' id='main-nav'>
+      <div class='main-nav hidden-xs' id='hidden-menu'>
+        <div class='container'>
+          <div class='main-nav-container'>
+            <nav class='pull-left'>
+              <ul class='list-inline main-links'>
+                <li class=''>
+                  <a href='/'>
+                    Home
+                  </a>
+                </li>
+                <li class=''>
+                  <a href='/public/practice-pmp'>
+                    PMP Practice Exams
+                  </a>
+                </li>
+                <li class='sale'>
+                  <a href='/public/live-pmp'>
+                    Live PMP Classes
+                  </a>
+                </li>
+                <li class=''>
+                  <a href='/public/bootcamp'>
+                    PMP Bootcamp
+                  </a>
+                </li>
+                <li class=''>
+                  <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+                    About
+                    <span class='caret'></span>
+                    <ul class='dropdown-menu' role='menu'>
+                      <li>
+                        <a href='/public/about'>
+                          Who we are
+                        </a>
+                      </li>
+                      <li>
+                        <a href='/public/about-the-pmp-exam'>
+                          About the PMP exam
+                        </a>
+                      </li>
+                      <li>
+                        <a href='/public/about/books'>
+                          Our books and website
+                        </a>
+                      </li>
+                      <li>
+                        <a href='/public/articles'>
+                          PMP articles
+                        </a>
+                      </li>
+                      <li>
+                        <a href='/public/about/contact'>
+                          Contact
+                        </a>
+                      </li>
+                      <li>
+                        <a href='/public/about/newsletter'>
+                          Get our newsletter
+                        </a>
+                      </li>
+                    </ul>
+                  </a>
+                </li>
+                <li class=''>
+                  <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+                    Coporate Training
+                    <span class='caret'></span>
+                    <ul class='dropdown-menu' role='menu'>
+                      <li>
+                        <a href='/public/corporate-training'>
+                          Coporate training options
+                        </a>
+                      </li>
+                      <li>
+                        <a href='/public/corporate-training/corporate-discount'>
+                          Enroll multiple students
+                        </a>
+                      </li>
+                      <li>
+                        <a href='/public/corporate-training/private-portal'>
+                          Private training portal
+                        </a>
+                      </li>
+                    </ul>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            <nav class='pull-right'>
+              <a class='btn btn-success' href='/public/checkout'>
+                <i class='fa fa-shopping-cart'></i>
+                Checkout
+              </a>
+              <img class="hidden-md hidden-sm" width="80px" src="../../images/pmi_logo.png" />
+            </nav>
+          </div>
+        </div>
+      </div>
+      <header class='main-nav hidden-xs'>
         <div class='container'>
           <div class='row margin-bottom'>
             <div class='col-lg-12'>
@@ -172,192 +270,196 @@
           </div>
           <div class='row'>
             <div class='col-lg-12'>
-              <nav class='pull-left'>
-                <ul class='list-inline main-links'>
-                  <li class=''>
-                    <a href='/'>
-                      Home
-                    </a>
-                  </li>
-                  <li class=''>
-                    <a href='/public/practice-pmp'>
-                      PMP Practice Exams
-                    </a>
-                  </li>
-                  <li class=''>
-                    <a href='/public/live-pmp'>
-                      Live PMP Classes
-                    </a>
-                  </li>
-                  <li class=''>
-                    <a href='/public/bootcamp'>
-                      PMP Bootcamp
-                    </a>
-                  </li>
-                  <li class=''>
-                    <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
-                      About
-                      <span class='caret'></span>
-                      <ul class='dropdown-menu' role='menu'>
-                        <li>
-                          <a href='/public/about'>
-                            Who we are
-                          </a>
-                        </li>
-                        <li>
-                          <a href='/public/about-the-pmp-exam'>
-                            About the PMP exam
-                          </a>
-                        </li>
-                        <li>
-                          <a href='/public/about/books'>
-                            Our books and website
-                          </a>
-                        </li>
-                        <li>
-                          <a href='/public/articles'>
-                            PMP articles
-                          </a>
-                        </li>
-                        <li>
-                          <a href='/public/about/contact'>
-                            Contact
-                          </a>
-                        </li>
-                        <li>
-                          <a href='/public/about/newsletter'>
-                            Get our newsletter
-                          </a>
-                        </li>
-                      </ul>
-                    </a>
-                  </li>
-                  <li class=''>
-                    <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
-                      Coporate Training
-                      <span class='caret'></span>
-                      <ul class='dropdown-menu' role='menu'>
-                        <li>
-                          <a href='/public/corporate-training'>
-                            Coporate training options
-                          </a>
-                        </li>
-                        <li>
-                          <a href='/public/corporate-training/corporate-discount'>
-                            Enroll multiple students
-                          </a>
-                        </li>
-                        <li>
-                          <a href='/public/corporate-training/private-portal'>
-                            Private training portal
-                          </a>
-                        </li>
-                      </ul>
-                    </a>
-                  </li>
-                </ul>
-              </nav>
-              <nav class='pull-right'>
-                <a class='btn btn-success' href='/public/checkout'>
-                  <i class='fa fa-shopping-cart'></i>
-                  Checkout
-                </a>
-                <img class="hidden-md hidden-sm" width="80px" src="../../images/pmi_logo.png" />
-              </nav>
+              <div class='main-nav-container'>
+                <nav class='pull-left'>
+                  <ul class='list-inline main-links'>
+                    <li class=''>
+                      <a href='/'>
+                        Home
+                      </a>
+                    </li>
+                    <li class=''>
+                      <a href='/public/practice-pmp'>
+                        PMP Practice Exams
+                      </a>
+                    </li>
+                    <li class='sale'>
+                      <a href='/public/live-pmp'>
+                        Live PMP Classes
+                      </a>
+                    </li>
+                    <li class=''>
+                      <a href='/public/bootcamp'>
+                        PMP Bootcamp
+                      </a>
+                    </li>
+                    <li class=''>
+                      <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+                        About
+                        <span class='caret'></span>
+                        <ul class='dropdown-menu' role='menu'>
+                          <li>
+                            <a href='/public/about'>
+                              Who we are
+                            </a>
+                          </li>
+                          <li>
+                            <a href='/public/about-the-pmp-exam'>
+                              About the PMP exam
+                            </a>
+                          </li>
+                          <li>
+                            <a href='/public/about/books'>
+                              Our books and website
+                            </a>
+                          </li>
+                          <li>
+                            <a href='/public/articles'>
+                              PMP articles
+                            </a>
+                          </li>
+                          <li>
+                            <a href='/public/about/contact'>
+                              Contact
+                            </a>
+                          </li>
+                          <li>
+                            <a href='/public/about/newsletter'>
+                              Get our newsletter
+                            </a>
+                          </li>
+                        </ul>
+                      </a>
+                    </li>
+                    <li class=''>
+                      <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+                        Coporate Training
+                        <span class='caret'></span>
+                        <ul class='dropdown-menu' role='menu'>
+                          <li>
+                            <a href='/public/corporate-training'>
+                              Coporate training options
+                            </a>
+                          </li>
+                          <li>
+                            <a href='/public/corporate-training/corporate-discount'>
+                              Enroll multiple students
+                            </a>
+                          </li>
+                          <li>
+                            <a href='/public/corporate-training/private-portal'>
+                              Private training portal
+                            </a>
+                          </li>
+                        </ul>
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+                <nav class='pull-right'>
+                  <a class='btn btn-success' href='/public/checkout'>
+                    <i class='fa fa-shopping-cart'></i>
+                    Checkout
+                  </a>
+                  <img class="hidden-md hidden-sm" width="80px" src="../../images/pmi_logo.png" />
+                </nav>
+              </div>
             </div>
           </div>
         </div>
       </header>
       <!-- end menu -->
-      <section class='invert-section page-header-section'>
-        <div class='container'>
-          <div class='row'>
-            <div class='col-lg-12'>
-              <h2 class='no-margin-bottom pull-left'>
-                Member Login
-              </h2>
-              <h6 class='no-margin-bottom pull-right hidden-xs half-margin-top extra-bold-font-name'>
-                
-              </h6>
+      <div id='mainContents'>
+        <section class='invert-section page-header-section'>
+          <div class='container'>
+            <div class='row'>
+              <div class='col-lg-12'>
+                <h2 class='no-margin-bottom pull-left'>
+                  Member Login
+                </h2>
+                <h6 class='no-margin-bottom pull-right hidden-xs half-margin-top extra-bold-font-name'>
+                  
+                </h6>
+              </div>
             </div>
           </div>
-        </div>
-      </section>
-      <section>
-        <div class='container'>
-          <div class='row'>
-            <div class='col-sm-6'>
-              <div class='panel'>
-                <div class='panel-body'>
-                  <div class='padded'>
-                    <p class='no-margin-bottom'>
-                      <strong>
-                        Welcome to the PMTraining members section.
-                      </strong>
-                      Members, please enter your email address and password to log in.
-                    </p>
-                    <hr>
-                    <form class='form-horizontal' role='form'>
-                      <div class='form-group'>
-                        <lebel class='col-sm-3 control-label' for='inputEmail3'>
-                          Email
-                        </lebel>
-                        <div class='col-sm-9'>
-                          <input class='input-sm form-control' id='inputEmail3' placeholder='ex:john@doe.com' type='email'>
+        </section>
+        <section>
+          <div class='container'>
+            <div class='row'>
+              <div class='col-sm-6'>
+                <div class='panel'>
+                  <div class='panel-body'>
+                    <div class='padded'>
+                      <p class='no-margin-bottom'>
+                        <strong>
+                          Welcome to the PMTraining members section.
+                        </strong>
+                        Members, please enter your email address and password to log in.
+                      </p>
+                      <hr>
+                      <form class='form-horizontal' role='form'>
+                        <div class='form-group'>
+                          <lebel class='col-sm-3 control-label' for='inputEmail3'>
+                            Email
+                          </lebel>
+                          <div class='col-sm-9'>
+                            <input class='input-sm form-control' id='inputEmail3' placeholder='ex:john@doe.com' type='email'>
+                          </div>
                         </div>
-                      </div>
-                      <div class='form-group'>
-                        <lebel class='col-sm-3 control-label' for='inputPassword3'>
-                          Password
-                        </lebel>
-                        <div class='col-sm-9'>
-                          <input class='input-sm form-control' id='inputPassword3' type='password'>
+                        <div class='form-group'>
+                          <lebel class='col-sm-3 control-label' for='inputPassword3'>
+                            Password
+                          </lebel>
+                          <div class='col-sm-9'>
+                            <input class='input-sm form-control' id='inputPassword3' type='password'>
+                          </div>
                         </div>
-                      </div>
-                      <div class='form-group'>
-                        <div class='col-sm-12'>
-                          <p class='text-right no-margin-bottom'>
-                            <a href='#'>
-                              Forgot Password?
+                        <div class='form-group'>
+                          <div class='col-sm-12'>
+                            <p class='text-right no-margin-bottom'>
+                              <a href='#'>
+                                Forgot Password?
+                              </a>
+                            </p>
+                          </div>
+                        </div>
+                        <div class='form-group'>
+                          <div class='col-sm-12'>
+                            <a class='btn btn-primary pull-right' href='/dashboard'>
+                              Log In
                             </a>
-                          </p>
+                          </div>
                         </div>
-                      </div>
-                      <div class='form-group'>
-                        <div class='col-sm-12'>
-                          <a class='btn btn-primary pull-right' href='/dashboard'>
-                            Log In
-                          </a>
-                        </div>
-                      </div>
-                    </form>
+                      </form>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <div class='col-sm-6'>
-              <img class="img-responsive margin-auto double-margin-bottom margin-top" src="../../images/public/img-understand-your-results.jpg" />
+              <div class='col-sm-6'>
+                <img class="img-responsive margin-auto double-margin-bottom margin-top" src="../../images/public/img-understand-your-results.jpg" />
+              </div>
             </div>
           </div>
-        </div>
-        <div class='container'>
-          <hr>
-        </div>
-        <div class='container'>
-          <p>
-            <small>
-              Not yet a member? Browse our
-              <a href='/public/practice-pmp'>
-                PMP practice
-              </a>
-              exams and PMP
-              <a href='/public/bootcamp'>
-                Bootcamp course.
-              </a>
-            </small>
-          </p>
-        </div>
-      </section>
+          <div class='container'>
+            <hr>
+          </div>
+          <div class='container'>
+            <p>
+              <small>
+                Not yet a member? Browse our
+                <a href='/public/practice-pmp'>
+                  PMP practice
+                </a>
+                exams and PMP
+                <a href='/public/bootcamp'>
+                  Bootcamp course.
+                </a>
+              </small>
+            </p>
+          </div>
+        </section>
+      </div>
       <!-- end main content -->
       <footer id='footer'>
         <div class='container'>

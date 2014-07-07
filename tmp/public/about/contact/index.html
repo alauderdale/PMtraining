@@ -142,7 +142,105 @@
           </div>
         </div>
       </nav>
-      <header class='hidden-xs' id='main-nav'>
+      <div class='main-nav hidden-xs' id='hidden-menu'>
+        <div class='container'>
+          <div class='main-nav-container'>
+            <nav class='pull-left'>
+              <ul class='list-inline main-links'>
+                <li class=''>
+                  <a href='/'>
+                    Home
+                  </a>
+                </li>
+                <li class=''>
+                  <a href='/public/practice-pmp'>
+                    PMP Practice Exams
+                  </a>
+                </li>
+                <li class='sale'>
+                  <a href='/public/live-pmp'>
+                    Live PMP Classes
+                  </a>
+                </li>
+                <li class=''>
+                  <a href='/public/bootcamp'>
+                    PMP Bootcamp
+                  </a>
+                </li>
+                <li class='active'>
+                  <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+                    About
+                    <span class='caret'></span>
+                    <ul class='dropdown-menu' role='menu'>
+                      <li>
+                        <a href='/public/about'>
+                          Who we are
+                        </a>
+                      </li>
+                      <li>
+                        <a href='/public/about-the-pmp-exam'>
+                          About the PMP exam
+                        </a>
+                      </li>
+                      <li>
+                        <a href='/public/about/books'>
+                          Our books and website
+                        </a>
+                      </li>
+                      <li>
+                        <a href='/public/articles'>
+                          PMP articles
+                        </a>
+                      </li>
+                      <li>
+                        <a href='/public/about/contact'>
+                          Contact
+                        </a>
+                      </li>
+                      <li>
+                        <a href='/public/about/newsletter'>
+                          Get our newsletter
+                        </a>
+                      </li>
+                    </ul>
+                  </a>
+                </li>
+                <li class=''>
+                  <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+                    Coporate Training
+                    <span class='caret'></span>
+                    <ul class='dropdown-menu' role='menu'>
+                      <li>
+                        <a href='/public/corporate-training'>
+                          Coporate training options
+                        </a>
+                      </li>
+                      <li>
+                        <a href='/public/corporate-training/corporate-discount'>
+                          Enroll multiple students
+                        </a>
+                      </li>
+                      <li>
+                        <a href='/public/corporate-training/private-portal'>
+                          Private training portal
+                        </a>
+                      </li>
+                    </ul>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            <nav class='pull-right'>
+              <a class='btn btn-success' href='/public/checkout'>
+                <i class='fa fa-shopping-cart'></i>
+                Checkout
+              </a>
+              <img class="hidden-md hidden-sm" width="80px" src="../../../images/pmi_logo.png" />
+            </nav>
+          </div>
+        </div>
+      </div>
+      <header class='main-nav hidden-xs'>
         <div class='container'>
           <div class='row margin-bottom'>
             <div class='col-lg-12'>
@@ -172,275 +270,279 @@
           </div>
           <div class='row'>
             <div class='col-lg-12'>
-              <nav class='pull-left'>
-                <ul class='list-inline main-links'>
-                  <li class=''>
-                    <a href='/'>
-                      Home
-                    </a>
-                  </li>
-                  <li class=''>
-                    <a href='/public/practice-pmp'>
-                      PMP Practice Exams
-                    </a>
-                  </li>
-                  <li class=''>
-                    <a href='/public/live-pmp'>
-                      Live PMP Classes
-                    </a>
-                  </li>
-                  <li class=''>
-                    <a href='/public/bootcamp'>
-                      PMP Bootcamp
-                    </a>
-                  </li>
-                  <li class='active'>
-                    <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
-                      About
-                      <span class='caret'></span>
-                      <ul class='dropdown-menu' role='menu'>
-                        <li>
-                          <a href='/public/about'>
-                            Who we are
-                          </a>
-                        </li>
-                        <li>
-                          <a href='/public/about-the-pmp-exam'>
-                            About the PMP exam
-                          </a>
-                        </li>
-                        <li>
-                          <a href='/public/about/books'>
-                            Our books and website
-                          </a>
-                        </li>
-                        <li>
-                          <a href='/public/articles'>
-                            PMP articles
-                          </a>
-                        </li>
-                        <li>
-                          <a href='/public/about/contact'>
-                            Contact
-                          </a>
-                        </li>
-                        <li>
-                          <a href='/public/about/newsletter'>
-                            Get our newsletter
-                          </a>
-                        </li>
-                      </ul>
-                    </a>
-                  </li>
-                  <li class=''>
-                    <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
-                      Coporate Training
-                      <span class='caret'></span>
-                      <ul class='dropdown-menu' role='menu'>
-                        <li>
-                          <a href='/public/corporate-training'>
-                            Coporate training options
-                          </a>
-                        </li>
-                        <li>
-                          <a href='/public/corporate-training/corporate-discount'>
-                            Enroll multiple students
-                          </a>
-                        </li>
-                        <li>
-                          <a href='/public/corporate-training/private-portal'>
-                            Private training portal
-                          </a>
-                        </li>
-                      </ul>
-                    </a>
-                  </li>
-                </ul>
-              </nav>
-              <nav class='pull-right'>
-                <a class='btn btn-success' href='/public/checkout'>
-                  <i class='fa fa-shopping-cart'></i>
-                  Checkout
-                </a>
-                <img class="hidden-md hidden-sm" width="80px" src="../../../images/pmi_logo.png" />
-              </nav>
+              <div class='main-nav-container'>
+                <nav class='pull-left'>
+                  <ul class='list-inline main-links'>
+                    <li class=''>
+                      <a href='/'>
+                        Home
+                      </a>
+                    </li>
+                    <li class=''>
+                      <a href='/public/practice-pmp'>
+                        PMP Practice Exams
+                      </a>
+                    </li>
+                    <li class='sale'>
+                      <a href='/public/live-pmp'>
+                        Live PMP Classes
+                      </a>
+                    </li>
+                    <li class=''>
+                      <a href='/public/bootcamp'>
+                        PMP Bootcamp
+                      </a>
+                    </li>
+                    <li class='active'>
+                      <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+                        About
+                        <span class='caret'></span>
+                        <ul class='dropdown-menu' role='menu'>
+                          <li>
+                            <a href='/public/about'>
+                              Who we are
+                            </a>
+                          </li>
+                          <li>
+                            <a href='/public/about-the-pmp-exam'>
+                              About the PMP exam
+                            </a>
+                          </li>
+                          <li>
+                            <a href='/public/about/books'>
+                              Our books and website
+                            </a>
+                          </li>
+                          <li>
+                            <a href='/public/articles'>
+                              PMP articles
+                            </a>
+                          </li>
+                          <li>
+                            <a href='/public/about/contact'>
+                              Contact
+                            </a>
+                          </li>
+                          <li>
+                            <a href='/public/about/newsletter'>
+                              Get our newsletter
+                            </a>
+                          </li>
+                        </ul>
+                      </a>
+                    </li>
+                    <li class=''>
+                      <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+                        Coporate Training
+                        <span class='caret'></span>
+                        <ul class='dropdown-menu' role='menu'>
+                          <li>
+                            <a href='/public/corporate-training'>
+                              Coporate training options
+                            </a>
+                          </li>
+                          <li>
+                            <a href='/public/corporate-training/corporate-discount'>
+                              Enroll multiple students
+                            </a>
+                          </li>
+                          <li>
+                            <a href='/public/corporate-training/private-portal'>
+                              Private training portal
+                            </a>
+                          </li>
+                        </ul>
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+                <nav class='pull-right'>
+                  <a class='btn btn-success' href='/public/checkout'>
+                    <i class='fa fa-shopping-cart'></i>
+                    Checkout
+                  </a>
+                  <img class="hidden-md hidden-sm" width="80px" src="../../../images/pmi_logo.png" />
+                </nav>
+              </div>
             </div>
           </div>
         </div>
       </header>
       <!-- end menu -->
-      <section class='invert-section page-header-section'>
-        <div class='container'>
-          <div class='row'>
-            <div class='col-lg-12'>
-              <h2 class='no-margin-bottom pull-left'>
-                Contact
-              </h2>
-              <h6 class='no-margin-bottom pull-right hidden-xs half-margin-top extra-bold-font-name'>
-                
-              </h6>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class='no-padding-bottom'>
-        <div class='container'>
-          <div class='row'>
-            <div class='col-sm-7'>
-              <h2>
-                Questions or Feedback? Contact Us at Anytime
-              </h2>
-              <p>
-                <strong>
-                  Questions or feedback about PMTraining
-                </strong>
-              </p>
-              <ul class='list-default'>
-                <li>
-                  Interested in a corporate class, or volume purchase of our training tools?
-                </li>
-                <li>
-                  Have a question about one of our courseware products?
-                </li>
-                <li>
-                  Would you like to license or re-sell our courseware software?
-                </li>
-                <li>
-                  For any and all inquiries, please use the form below.
-                </li>
-              </ul>
-              <p>
-                <a class='btn btn-default' href='/public/faqs'>
-                  read our faqs
-                </a>
-                <a class='btn btn-info' href=''>
-                  Forgot your password?
-                </a>
-              </p>
-            </div>
-            <div class='col-sm-5'>
-              <img class="img-responsive margin-auto double-margin-bottom" src="../../../images/public/practice/ui_show_1.png" />
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class='no-padding-top no-padding-bottom'>
-        <div class='container'>
-          <hr>
-        </div>
-      </section>
-      <section class='no-padding-top'>
-        <div class='container'>
-          <div class='row'>
-            <div class='col-sm-7'>
-              <div class='panel filled'>
-                <div class='panel-heading primary-color'>
-                  <h3 class='no-margin-bottom'>
-                    Use the Form Below to Contact Us
-                  </h3>
-                </div>
-                <div class='panel-body'>
-                  <form class='form-horizontal' role='form'>
-                    <div class='form-group'>
-                      <label class='col-xs-3 control-label'>
-                        Subject:
-                        <span class='text-danger'>
-                          *
-                        </span>
-                      </label>
-                      <div class='col-xs-9'>
-                        <select class='form-control'>
-                          <option>
-                            Interested in corporate training
-                          </option>
-                        </select>
-                      </div>
-                    </div>
-                    <div class='form-group'>
-                      <label class='col-xs-3 control-label'>
-                        Email:
-                        <span class='text-danger'>
-                          *
-                        </span>
-                      </label>
-                      <div class='col-xs-9'>
-                        <input class='form-control'>
-                      </div>
-                    </div>
-                    <div class='form-group'>
-                      <label class='col-xs-3 control-label'>
-                        Name:
-                        <span class='text-danger'>
-                          *
-                        </span>
-                      </label>
-                      <div class='col-xs-9'>
-                        <input class='form-control'>
-                      </div>
-                    </div>
-                    <div class='form-group'>
-                      <label class='col-xs-3 control-label'>
-                        Company:
-                      </label>
-                      <div class='col-xs-9'>
-                        <input class='form-control'>
-                      </div>
-                    </div>
-                    <div class='form-group'>
-                      <label class='col-xs-3 control-label'>
-                        Phone:
-                      </label>
-                      <div class='col-xs-9'>
-                        <input class='form-control'>
-                      </div>
-                    </div>
-                    <div class='form-group'>
-                      <label class='col-xs-3 control-label'>
-                        Message:
-                        <span class='text-danger'>
-                          *
-                        </span>
-                      </label>
-                      <div class='col-xs-9'>
-                        <textarea class='form-control margin-bottom' rows='4'></textarea>
-                        <a class='btn btn-default pull-right' href='onclick: return false;'>
-                          Submit Your Message
-                        </a>
-                      </div>
-                    </div>
-                  </form>
-                </div>
+      <div id='mainContents'>
+        <section class='invert-section page-header-section'>
+          <div class='container'>
+            <div class='row'>
+              <div class='col-lg-12'>
+                <h2 class='no-margin-bottom pull-left'>
+                  Contact
+                </h2>
+                <h6 class='no-margin-bottom pull-right hidden-xs half-margin-top extra-bold-font-name'>
+                  
+                </h6>
               </div>
             </div>
-            <div class='col-sm-1'></div>
-            <div class='col-sm-4'>
-              <img class="img-responsive margin-auto double-margin-bottom img-thumbnail" src="../../../images/public/logo_ssi-1.jpg" />
-              <p>
-                <small>
+          </div>
+        </section>
+        <section class='no-padding-bottom'>
+          <div class='container'>
+            <div class='row'>
+              <div class='col-sm-7'>
+                <h2>
+                  Questions or Feedback? Contact Us at Anytime
+                </h2>
+                <p>
                   <strong>
-                    Phone Contact
+                    Questions or feedback about PMTraining
                   </strong>
-                  <br>
-                  Toll Free within U.S. (800) 581-9819
-                  International: +1 (240) 206-6049
-                </small>
-              </p>
-              <p>
-                <small>
-                  <strong>
-                    Mailing Address
-                  </strong>
-                  <br>
-                  SSI Logic
-                  PMTraining - Exam Preparation Services
-                  340 S LEMON AVE # 9038
-                  WALNUT, CA 91789
-                </small>
-              </p>
+                </p>
+                <ul class='list-default'>
+                  <li>
+                    Interested in a corporate class, or volume purchase of our training tools?
+                  </li>
+                  <li>
+                    Have a question about one of our courseware products?
+                  </li>
+                  <li>
+                    Would you like to license or re-sell our courseware software?
+                  </li>
+                  <li>
+                    For any and all inquiries, please use the form below.
+                  </li>
+                </ul>
+                <p>
+                  <a class='btn btn-default' href='/public/faqs'>
+                    read our faqs
+                  </a>
+                  <a class='btn btn-info' href=''>
+                    Forgot your password?
+                  </a>
+                </p>
+              </div>
+              <div class='col-sm-5'>
+                <img class="img-responsive margin-auto double-margin-bottom" src="../../../images/public/practice/ui_show_1.png" />
+              </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+        <section class='no-padding-top no-padding-bottom'>
+          <div class='container'>
+            <hr>
+          </div>
+        </section>
+        <section class='no-padding-top'>
+          <div class='container'>
+            <div class='row'>
+              <div class='col-sm-7'>
+                <div class='panel filled'>
+                  <div class='panel-heading primary-color'>
+                    <h3 class='no-margin-bottom'>
+                      Use the Form Below to Contact Us
+                    </h3>
+                  </div>
+                  <div class='panel-body'>
+                    <form class='form-horizontal' role='form'>
+                      <div class='form-group'>
+                        <label class='col-xs-3 control-label'>
+                          Subject:
+                          <span class='text-danger'>
+                            *
+                          </span>
+                        </label>
+                        <div class='col-xs-9'>
+                          <select class='form-control'>
+                            <option>
+                              Interested in corporate training
+                            </option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class='form-group'>
+                        <label class='col-xs-3 control-label'>
+                          Email:
+                          <span class='text-danger'>
+                            *
+                          </span>
+                        </label>
+                        <div class='col-xs-9'>
+                          <input class='form-control'>
+                        </div>
+                      </div>
+                      <div class='form-group'>
+                        <label class='col-xs-3 control-label'>
+                          Name:
+                          <span class='text-danger'>
+                            *
+                          </span>
+                        </label>
+                        <div class='col-xs-9'>
+                          <input class='form-control'>
+                        </div>
+                      </div>
+                      <div class='form-group'>
+                        <label class='col-xs-3 control-label'>
+                          Company:
+                        </label>
+                        <div class='col-xs-9'>
+                          <input class='form-control'>
+                        </div>
+                      </div>
+                      <div class='form-group'>
+                        <label class='col-xs-3 control-label'>
+                          Phone:
+                        </label>
+                        <div class='col-xs-9'>
+                          <input class='form-control'>
+                        </div>
+                      </div>
+                      <div class='form-group'>
+                        <label class='col-xs-3 control-label'>
+                          Message:
+                          <span class='text-danger'>
+                            *
+                          </span>
+                        </label>
+                        <div class='col-xs-9'>
+                          <textarea class='form-control margin-bottom' rows='4'></textarea>
+                          <a class='btn btn-default pull-right' href='onclick: return false;'>
+                            Submit Your Message
+                          </a>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <div class='col-sm-1'></div>
+              <div class='col-sm-4'>
+                <img class="img-responsive margin-auto double-margin-bottom img-thumbnail" src="../../../images/public/logo_ssi-1.jpg" />
+                <p>
+                  <small>
+                    <strong>
+                      Phone Contact
+                    </strong>
+                    <br>
+                    Toll Free within U.S. (800) 581-9819
+                    International: +1 (240) 206-6049
+                  </small>
+                </p>
+                <p>
+                  <small>
+                    <strong>
+                      Mailing Address
+                    </strong>
+                    <br>
+                    SSI Logic
+                    PMTraining - Exam Preparation Services
+                    340 S LEMON AVE # 9038
+                    WALNUT, CA 91789
+                  </small>
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
       <!-- end main content -->
       <footer id='footer'>
         <div class='container'>

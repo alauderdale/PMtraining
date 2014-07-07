@@ -10534,4 +10534,17 @@ $(document).ready(function(){
   	interval: 4000
 	})
 
+	$(window).scroll(function(){
+
+    var divOffset = $('#mainContents').offset();
+    if(window.scrollY > divOffset.top ){
+      $('#hidden-menu').fadeIn(400);
+    }
+
+   if(window.scrollY < divOffset.top){
+      $('#hidden-menu').fadeOut(90);
+    }
+
+  });
+
 });

@@ -87,49 +87,54 @@ img {
   line-height: 24px; }
 
 /* line 89, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_base.scss */
+.small-line-height {
+  line-height: 18px; }
+
+/* line 93, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_base.scss */
 .full-width {
   width: 100%; }
 
-/* line 93, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_base.scss */
+/* line 97, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_base.scss */
 .max-width {
   max-width: 100%; }
 
-/* line 97, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_base.scss */
+/* line 101, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_base.scss */
 .display-block {
   display: block; }
 
-/* line 101, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_base.scss */
+/* line 105, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_base.scss */
 .inline-block {
   display: inline-block; }
 
-/* line 105, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_base.scss */
+/* line 109, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_base.scss */
 .inline {
   display: inline; }
 
-/* line 110, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_base.scss */
+/* line 114, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_base.scss */
 .border-top {
   border-top: 1px solid #dddddd; }
 
-/* line 113, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_base.scss */
+/* line 117, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_base.scss */
 .border-right {
   border-right: 1px solid #dddddd; }
 
-/* line 116, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_base.scss */
+/* line 120, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_base.scss */
 .border-bottom {
   border-bottom: 1px solid #dddddd; }
 
-/* line 119, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_base.scss */
+/* line 123, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_base.scss */
 .border-left {
   border-left: 1px solid #dddddd; }
 
-/* line 123, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_base.scss */
+/* line 127, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_base.scss */
 .logo {
   background: url(../images/logo.png);
+  background-size: 100%;
   width: 388px;
   height: 35px;
   display: block; }
 
-/* line 130, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_base.scss */
+/* line 135, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_base.scss */
 .logo-sm {
   background: url(../images/logo_sm.png) no-repeat;
   padding: 0;
@@ -140,11 +145,11 @@ img {
   top: 15px;
   margin-left: 20px; }
 
-/* line 141, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_base.scss */
+/* line 146, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_base.scss */
 .hr-flourish {
   border: 1px solid #fed267; }
 
-/* line 145, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_base.scss */
+/* line 150, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_base.scss */
 .affix {
   top: 30px;
   width: 18%; }
@@ -309,92 +314,100 @@ h6 {
 p, li {
   font-family: "museo_sans_500regular", Helvetica, Arial, sans-serif; }
 
-/* line 217, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_typography.scss */
+/* line 219, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_typography.scss */
 p {
   font-size: .8em;
   line-height: 24px; }
 
-/* line 218, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_typography.scss */
+/* line 220, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_typography.scss */
 h1 {
   font-size: 2.4em;
   line-height: 50.4px; }
 
-/* line 219, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_typography.scss */
+/* line 221, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_typography.scss */
 h2 {
   font-size: 1.6em;
   line-height: 40.8px; }
 
-/* line 220, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_typography.scss */
+/* line 222, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_typography.scss */
 h3 {
   font-size: 1.3em;
   line-height: 31.2px; }
 
-/* line 221, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_typography.scss */
+/* line 223, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_typography.scss */
 h4 {
   font-size: 1em;
   line-height: 24px; }
 
-/* line 222, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_typography.scss */
+/* line 224, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_typography.scss */
 h5 {
   font-size: 0.8em;
   line-height: 24px; }
 
-/* line 223, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_typography.scss */
+/* line 225, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_typography.scss */
 h6 {
   font-size: 0.7em;
   line-height: 24px;
   text-transform: uppercase; }
 
-/* line 225, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_typography.scss */
+/* line 227, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_typography.scss */
 h1, h2 {
   color: #0d6082; }
 
-/* line 229, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_typography.scss */
+/* line 231, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_typography.scss */
 h3, h4, h5, h6 {
   color: #2b2e30; }
 
-/* line 233, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_typography.scss */
+/* line 235, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_typography.scss */
 blockquote {
   border: none !important;
   padding-left: 6px;
   font-size: .8em;
   line-height: 24px;
   font-family: "museo_sans_300regular", Helvetica, Arial, sans-serif; }
-  /* line 239, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_typography.scss */
+  /* line 241, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_typography.scss */
   blockquote footer {
     margin-top: 12px; }
 
-/* line 244, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_typography.scss */
+/* line 246, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_typography.scss */
 .line-through {
   text-decoration: line-through; }
 
-/* line 251, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_typography.scss */
+/* line 253, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_typography.scss */
 ul.list-default {
   list-style-image: url(../images/bullet.png);
   margin-bottom: 24px; }
-  /* line 254, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_typography.scss */
+  /* line 256, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_typography.scss */
   ul.list-default li {
-    font-size: .8em;
-    margin-left: 24px; }
+    font-size: .75em;
+    margin-left: 24px;
+    margin-bottom: 5px; }
 
-/* line 260, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_typography.scss */
+/* line 263, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_typography.scss */
 ul.list-checks {
   list-style-image: url(../images/check.png);
   margin-bottom: 24px; }
-  /* line 263, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_typography.scss */
+  /* line 266, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_typography.scss */
   ul.list-checks li {
     font-size: .9em;
     margin-left: 24px;
     margin-bottom: 24px; }
 
-/* line 274, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_typography.scss */
-.testimonial blockquote {
+/* line 273, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_typography.scss */
+dl {
+  font-size: .8em; }
+  /* line 275, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_typography.scss */
+  dl dt {
+    color: black; }
+
+/* line 284, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_typography.scss */
+.testimonial blockquote, .side-testimonial blockquote {
   border: 1px solid #dddddd !important;
   padding: 12px;
   margin: 24px 0;
   background: white; }
-/* line 280, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_typography.scss */
-.testimonial:before {
+/* line 290, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_typography.scss */
+.testimonial:before, .side-testimonial:before {
   z-index: 999;
   float: left;
   border-color: transparent #E3E3E3;
@@ -407,8 +420,8 @@ ul.list-checks {
   display: block;
   position: absolute;
   width: 0; }
-/* line 294, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_typography.scss */
-.testimonial:after {
+/* line 304, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_typography.scss */
+.testimonial:after, .side-testimonial:after {
   border-color: rgba(255, 255, 255, 0) #e3e3e3;
   border-width: 13px 15px 13px 0;
   border-style: solid;
@@ -419,11 +432,19 @@ ul.list-checks {
   left: 68px;
   top: 45px; }
 
-/* line 309, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_typography.scss */
+/* line 320, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_typography.scss */
+.side-testimonial:after, .side-testimonial:before {
+  display: none; }
+
+/* line 327, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_typography.scss */
 .fa-display {
   font-size: 4em;
   margin-bottom: 24px;
   color: #138abb; }
+
+/* line 335, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_typography.scss */
+.alert {
+  font-size: .8em; }
 
 /* line 1, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_links_buttons.scss */
 a {
@@ -778,6 +799,19 @@ section {
   /* line 26, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_sections.scss */
   section.off-white {
     background-color: #fafafa; }
+  /* line 30, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_sections.scss */
+  section.feature-blocks .fa {
+    font-size: 4em;
+    color: #eee;
+    margin-bottom: 24px; }
+  /* line 35, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_sections.scss */
+  section.feature-blocks p {
+    font-size: .65em;
+    line-height: 1.5em; }
+  /* line 39, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_sections.scss */
+  section.feature-blocks h4 {
+    font-size: .8em;
+    margin-bottom: 12px; }
 
 /* line 1, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_tables.scss */
 table.table {
@@ -811,8 +845,10 @@ table.table {
     font-size: .7em; }
 /* line 8, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_slider.scss */
 .carousel ol.carousel-indicators {
-  text-align: center; }
-  /* line 10, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_slider.scss */
+  text-align: right;
+  bottom: 50px;
+  z-index: 1; }
+  /* line 12, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_slider.scss */
   .carousel ol.carousel-indicators li {
     width: 18px;
     height: 18px;
@@ -821,14 +857,14 @@ table.table {
     -ms-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
     transition-duration: 0.3s; }
-    /* line 14, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_slider.scss */
+    /* line 16, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_slider.scss */
     .carousel ol.carousel-indicators li.right {
       background: url(../images/public/slider_right.png);
       border: none;
       width: 29px;
       height: 29px;
       top: 5px; }
-    /* line 21, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_slider.scss */
+    /* line 23, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_slider.scss */
     .carousel ol.carousel-indicators li.left {
       background: url(../images/public/slider_left.png);
       border: none;
@@ -836,33 +872,36 @@ table.table {
       height: 29px;
       top: 5px; }
 
-/* line 33, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_slider.scss */
+/* line 35, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_slider.scss */
 #home-slider .item {
   padding: 48px 0;
-  min-height: 450px;
+  min-height: 420px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -ms-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-  /* line 37, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_slider.scss */
+  /* line 39, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_slider.scss */
   #home-slider .item .icon-show {
     font-size: 18em;
     text-align: center;
     color: rgba(255, 255, 255, 0.4); }
+/* line 45, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_slider.scss */
+#home-slider .btn {
+  z-index: 3; }
 
-/* line 46, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_slider.scss */
+/* line 51, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_slider.scss */
 #testimonial-slider .item {
   padding: 24px 0; }
-/* line 49, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_slider.scss */
+/* line 54, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_slider.scss */
 #testimonial-slider ol.carousel-indicators {
   text-align: center;
   bottom: -20px; }
 
-/* line 56, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_slider.scss */
+/* line 61, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_slider.scss */
 .carousel.fade {
   opacity: 1; }
-  /* line 60, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_slider.scss */
+  /* line 65, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_slider.scss */
   .carousel.fade .item {
     -moz-transition: opacity ease-in-out .7s;
     -o-transition: opacity ease-in-out .7s;
@@ -875,11 +914,11 @@ table.table {
     width: 100%;
     display: block !important;
     z-index: 1; }
-    /* line 72, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_slider.scss */
+    /* line 77, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_slider.scss */
     .carousel.fade .item:first-child {
       top: auto;
       position: relative; }
-    /* line 78, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_slider.scss */
+    /* line 83, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_slider.scss */
     .carousel.fade .item.active {
       opacity: 1;
       -moz-transition: opacity ease-in-out .7s;
@@ -978,44 +1017,51 @@ ul.nav-sidebar {
   border-radius: 0;
   border: 1px solid #dddddd; }
   /* line 8, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_panels_wells.scss */
+  .panel.border-dashed {
+    border-style: dashed;
+    box-shadow: none; }
+  /* line 12, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_panels_wells.scss */
   .panel.filled {
     background: #f2f2f2; }
-  /* line 11, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_panels_wells.scss */
+  /* line 15, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_panels_wells.scss */
   .panel.primary-color {
     background: #2a95c1; }
-  /* line 15, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_panels_wells.scss */
+  /* line 19, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_panels_wells.scss */
   .panel.success-color {
     background: #91c954; }
-  /* line 19, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_panels_wells.scss */
+  /* line 23, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_panels_wells.scss */
   .panel.instructor-panel {
     background: #85c342 url("../images/public/icon_instructor.png") no-repeat right; }
-  /* line 23, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_panels_wells.scss */
+  /* line 27, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_panels_wells.scss */
   .panel .panel-heading {
     background: white; }
-    /* line 25, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_panels_wells.scss */
+    /* line 29, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_panels_wells.scss */
     .panel .panel-heading h4 {
       font-family: "museo_sans_300regular", Helvetica, Arial, sans-serif; }
-    /* line 28, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_panels_wells.scss */
+    /* line 32, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_panels_wells.scss */
     .panel .panel-heading.primary-color {
       background: #42a1c8; }
-  /* line 33, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_panels_wells.scss */
+  /* line 37, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_panels_wells.scss */
   .panel p {
     margin-bottom: 0; }
 
-/* line 39, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_panels_wells.scss */
+/* line 43, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_panels_wells.scss */
 .small-panels .panel-heading {
   padding: 3px;
   padding-left: 12px; }
-  /* line 42, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_panels_wells.scss */
+  /* line 46, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_panels_wells.scss */
   .small-panels .panel-heading h4 {
     font-size: 1em; }
-    /* line 45, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_panels_wells.scss */
-    .small-panels .panel-heading h4 a:before {
-      content: "▼";
-      font-size: .8em;
-      color: #3fc5e6; }
+    /* line 48, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_panels_wells.scss */
+    .small-panels .panel-heading h4 a {
+      display: block; }
+      /* line 49, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_panels_wells.scss */
+      .small-panels .panel-heading h4 a:before {
+        content: "▼";
+        font-size: .8em;
+        color: #3fc5e6; }
 
-/* line 56, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_panels_wells.scss */
+/* line 61, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_panels_wells.scss */
 .well.primary-color {
   background: #42a1c8; }
 
@@ -1034,37 +1080,37 @@ ul.nav-sidebar {
 
 /* line 2, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_forms.scss */
 form .control-label {
-  font-size: .8em;
+  font-size: .6em;
   color: black !important;
   font-family: "museo_sans_500regular", Helvetica, Arial, sans-serif; }
 
 /* line 1, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/elements/_header.scss */
-#main-nav {
+.main-nav {
   padding: 24px 0;
   padding-bottom: 0;
   border-bottom: 1px solid #dddddd; }
   /* line 6, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/elements/_header.scss */
-  #main-nav ul.sub-links li {
+  .main-nav ul.sub-links li {
     font-size: .65em;
     font-family: "museo_sans_900regular", Helvetica, Arial, sans-serif;
     padding-right: 0px;
     margin-top: 14px; }
     /* line 11, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/elements/_header.scss */
-    #main-nav ul.sub-links li:after {
+    .main-nav ul.sub-links li:after {
       content: "|"; }
     /* line 15, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/elements/_header.scss */
-    #main-nav ul.sub-links li:last-of-type:after {
+    .main-nav ul.sub-links li:last-of-type:after {
       content: ""; }
   /* line 21, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/elements/_header.scss */
-  #main-nav ul.main-links {
+  .main-nav ul.main-links {
     margin-bottom: 0; }
     /* line 23, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/elements/_header.scss */
-    #main-nav ul.main-links li {
+    .main-nav ul.main-links li {
       font-family: "museo_sans_500regular", Helvetica, Arial, sans-serif;
       font-size: .8em;
       margin-right: 12px; }
-      /* line 27, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/elements/_header.scss */
-      #main-nav ul.main-links li a {
+      /* line 42, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/elements/_header.scss */
+      .main-nav ul.main-links li a {
         padding-bottom: 0;
         margin-bottom: 24px;
         display: block;
@@ -1074,41 +1120,51 @@ form .control-label {
         -ms-transition-duration: 0.1s;
         -o-transition-duration: 0.1s;
         transition-duration: 0.1s; }
-        /* line 33, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/elements/_header.scss */
-        #main-nav ul.main-links li a:hover, #main-nav ul.main-links li a:focus {
+        /* line 48, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/elements/_header.scss */
+        .main-nav ul.main-links li a:hover, .main-nav ul.main-links li a:focus {
           color: #3fc5e6;
           text-decoration: none; }
-      /* line 41, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/elements/_header.scss */
-      #main-nav ul.main-links li.active .dropdown-menu li a {
+      /* line 56, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/elements/_header.scss */
+      .main-nav ul.main-links li.active .dropdown-menu li a {
         color: #545a5f;
         border-bottom: none; }
-      /* line 47, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/elements/_header.scss */
-      #main-nav ul.main-links li.active a {
+      /* line 62, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/elements/_header.scss */
+      .main-nav ul.main-links li.active a {
         color: #3fc5e6;
         border-bottom: 2px solid #3fc5e6; }
-    /* line 53, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/elements/_header.scss */
-    #main-nav ul.main-links .dropdown-menu {
+    /* line 68, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/elements/_header.scss */
+    .main-nav ul.main-links .dropdown-menu {
       top: 46px;
       border-radius: 0;
       border-top: 0; }
-      /* line 54, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/elements/_header.scss */
-      #main-nav ul.main-links .dropdown-menu .dropdown-toggle {
+      /* line 69, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/elements/_header.scss */
+      .main-nav ul.main-links .dropdown-menu .dropdown-toggle {
         padding: 0;
         margin: 0;
         border-bottom: none; }
-      /* line 59, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/elements/_header.scss */
-      #main-nav ul.main-links .dropdown-menu li {
+      /* line 74, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/elements/_header.scss */
+      .main-nav ul.main-links .dropdown-menu li {
         margin-right: 0;
         font-size: .9em;
-        font-family: "museo_sans_700regular", Helvetica, Arial, sans-serif; }
-        /* line 63, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/elements/_header.scss */
-        #main-nav ul.main-links .dropdown-menu li a {
+        font-family: "museo_sans_500regular", Helvetica, Arial, sans-serif; }
+        /* line 78, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/elements/_header.scss */
+        .main-nav ul.main-links .dropdown-menu li a {
           padding-bottom: 5px;
           padding-top: 5px;
           margin-bottom: 0px; }
-  /* line 74, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/elements/_header.scss */
-  #main-nav .btn {
+  /* line 89, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/elements/_header.scss */
+  .main-nav .btn {
     padding: 6px 24px; }
+
+/* line 95, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/elements/_header.scss */
+#hidden-menu {
+  position: fixed;
+  background-color: white;
+  float: left;
+  width: 100%;
+  z-index: 99;
+  display: none;
+  padding-top: 15px; }
 
 /* line 1, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/elements/_footer.scss */
 footer#footer {
@@ -1145,21 +1201,21 @@ footer#footer {
 
 @media (max-width: 992px) {
   /* line 14, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_responsive.scss */
-  #main-nav ul.main-links li {
+  .main-nav ul.main-links li {
     font-size: .7em;
     margin-right: 0; }
   /* line 19, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_responsive.scss */
-  #main-nav ul.main-links .dropdown-menu li {
+  .main-nav ul.main-links .dropdown-menu li {
     font-size: .7em; }
   /* line 25, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_responsive.scss */
-  #main-nav ul.sub-links li {
+  .main-nav ul.sub-links li {
     font-size: .5em; }
   /* line 29, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_responsive.scss */
-  #main-nav .btn {
+  .main-nav .btn {
     font-size: .6em;
     padding: 6px 12px; }
     /* line 32, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_responsive.scss */
-    #main-nav .btn .fa {
+    .main-nav .btn .fa {
       display: none; }
 
   /* line 39, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_responsive.scss */
@@ -1172,75 +1228,77 @@ footer#footer {
 
   /* line 48, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_responsive.scss */
   .affix {
-    display: none; } }
+    display: none; }
+
+  /* line 53, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_responsive.scss */
+  .feature-blocks .fa {
+    font-size: 3em !important; } }
 @media (max-width: 767px) {
-  /* line 60, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_responsive.scss */
+  /* line 66, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_responsive.scss */
+  #home-slider .item {
+    background-image: none !important; }
+
+  /* line 72, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_responsive.scss */
   .no-margin-top-sm {
     margin-top: 0 !important; }
 
-  /* line 64, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_responsive.scss */
+  /* line 76, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_responsive.scss */
   .logo {
     background: url(../images/logo_sm.png);
     width: 185px;
     height: 36px;
     display: block; }
 
-  /* line 71, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_responsive.scss */
+  /* line 83, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_responsive.scss */
   .btn {
     font-size: .7em; }
-    /* line 73, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_responsive.scss */
+    /* line 85, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_responsive.scss */
     .btn.btn-lg {
       padding: 12px; }
 
-  /* line 78, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_responsive.scss */
+  /* line 90, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_responsive.scss */
   body {
     padding-top: 50px; }
 
-  /* line 82, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_responsive.scss */
+  /* line 94, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_responsive.scss */
   section {
     padding: 24px 0; }
 
-  /* line 86, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_responsive.scss */
+  /* line 98, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_responsive.scss */
   h1 {
     font-size: 1.5em;
     line-height: 33.6px; }
 
-  /* line 90, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_responsive.scss */
+  /* line 102, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_responsive.scss */
   h2 {
     font-size: 1.2em;
     line-height: 28.8px; }
 
-  /* line 94, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_responsive.scss */
+  /* line 106, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_responsive.scss */
   p {
     font-size: .8em; }
 
-  /* line 98, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_responsive.scss */
+  /* line 110, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_responsive.scss */
   ul.nav-pills {
     border-bottom: none; }
-    /* line 100, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_responsive.scss */
+    /* line 112, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_responsive.scss */
     ul.nav-pills li {
       font-size: .6em; }
-      /* line 102, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_responsive.scss */
+      /* line 114, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_responsive.scss */
       ul.nav-pills li a {
         padding: 10px; }
-      /* line 106, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_responsive.scss */
+      /* line 118, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_responsive.scss */
       ul.nav-pills li.active a {
         padding: 10px;
         border: none; }
-        /* line 109, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_responsive.scss */
+        /* line 121, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_responsive.scss */
         ul.nav-pills li.active a:hover {
           border: none; }
-      /* line 115, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_responsive.scss */
+      /* line 127, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_responsive.scss */
       ul.nav-pills li:hover a {
         border: none; }
 
-  /* line 122, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_responsive.scss */
-  ol.carousel-indicators {
-    text-align: center !important; }
-
-  /* line 126, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_responsive.scss */
-  #home-slider {
-    text-align: center; }
-    /* line 128, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_responsive.scss */
-    #home-slider ul {
-      list-style: none; } }
+  /* line 135, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_responsive.scss */
+  .carousel ol.carousel-indicators {
+    text-align: center;
+    bottom: 5px; } }
