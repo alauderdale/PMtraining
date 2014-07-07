@@ -1084,6 +1084,14 @@ form .control-label {
   color: black !important;
   font-family: "museo_sans_500regular", Helvetica, Arial, sans-serif; }
 
+/* line 1, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_faq.scss */
+.faq-sidebar {
+  top: 80px;
+  font-size: .8em; }
+  /* line 5, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_faq.scss */
+  .faq-sidebar ul li {
+    line-height: 18px; }
+
 /* line 1, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/elements/_header.scss */
 .main-nav {
   padding: 24px 0;
