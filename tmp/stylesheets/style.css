@@ -401,13 +401,13 @@ dl {
     color: black; }
 
 /* line 284, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_typography.scss */
-.testimonial blockquote, .side-testimonial blockquote {
+.testimonial blockquote, .testimonial-list .testimonial blockquote {
   border: 1px solid #dddddd !important;
   padding: 12px;
   margin: 24px 0;
   background: white; }
 /* line 290, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_typography.scss */
-.testimonial:before, .side-testimonial:before {
+.testimonial:before {
   z-index: 999;
   float: left;
   border-color: transparent #E3E3E3;
@@ -421,7 +421,7 @@ dl {
   position: absolute;
   width: 0; }
 /* line 304, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_typography.scss */
-.testimonial:after, .side-testimonial:after {
+.testimonial:after {
   border-color: rgba(255, 255, 255, 0) #e3e3e3;
   border-width: 13px 15px 13px 0;
   border-style: solid;
@@ -433,16 +433,16 @@ dl {
   top: 45px; }
 
 /* line 320, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_typography.scss */
-.side-testimonial:after, .side-testimonial:before {
+.testimonial-list .testimonial:after, .testimonial-list .testimonial:before {
   display: none; }
 
-/* line 327, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_typography.scss */
+/* line 329, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_typography.scss */
 .fa-display {
   font-size: 4em;
   margin-bottom: 24px;
   color: #138abb; }
 
-/* line 335, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_typography.scss */
+/* line 337, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/_typography.scss */
 .alert {
   font-size: .8em; }
 

@@ -1,10 +1,11 @@
-- data.send(current_page.data.testiminial_data).testiminials.first(test_num).each do |t|
-	.media-object.side-testimonial.half-margin-bottom
-		.media-body
-			.media-heading
-				%blockquote.no-margin
-					\"
-					=t.body
-					\"
-					%footer
-						=t.footer
+.testimonial-list
+	- data.send(current_page.data.testiminial_data).testiminials.first(test_num).each do |t|
+		.media-object.testimonial.half-margin-bottom
+			.media-body
+				.media-heading
+					%blockquote.no-margin
+						\"
+						=t.body
+						\"
+						%footer
+							=t.footer

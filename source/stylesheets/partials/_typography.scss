@@ -314,13 +314,15 @@ dl{
   }
 }
 
-
-.side-testimonial{
-  @extend .testimonial;
-  &:after,&:before{
-    display:none;
+.testimonial-list{
+  .testimonial{
+    @extend .testimonial;
+    &:after,&:before{
+      display:none;
+    }
   }
 }
+
 
 //icons
 
