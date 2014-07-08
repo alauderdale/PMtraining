@@ -29,8 +29,11 @@ section{
   &.feature-blocks{
     .fa{
       font-size:4em;
-      color:#eee;
+      color:#bbb;
       margin-bottom:$baseline;
+    }
+    .col-sm-3{
+      text-align:right;
     }
     p{
       font-size:.65em;

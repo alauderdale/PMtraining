@@ -131,12 +131,18 @@
 		}
 	}
 
-.carousel{
-	ol.carousel-indicators{
-		text-align:center;
-		bottom:5px;
+	.carousel{
+		ol.carousel-indicators{
+			text-align:center;
+			bottom:5px;
+		}
 	}
-}
+
+	.feature-blocks{
+		.col-sm-3{
+      text-align:left!important;
+    }
+	}
 
 }
 
