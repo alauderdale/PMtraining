@@ -2,7 +2,7 @@
   %ol.carousel-indicators
     %li.left{"data-slide"=>"prev","data-target" => "#testimonial-slider"}
     %li.right{"data-slide"=>"next","data-target" => "#testimonial-slider"}
-  .carousel-inner{:style=>"z-index:0;"}
+  .carousel-inner
     - data.send(current_page.data.testiminial_data).testiminials.each do |t|
       .item
         .container

@@ -55,6 +55,9 @@
 		text-align:center;
 		bottom:-20px;
 	}
+	.carousel-inner{
+		z-index: 0;
+	}
 }
 
 .carousel.fade
