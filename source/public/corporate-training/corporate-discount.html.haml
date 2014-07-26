@@ -91,5 +91,39 @@
 									Register Students
 							%td
 								%input.form-control{:type=>"text",:style=>"width:40px;"}
+						%tr.register-form
+							%td
+							%td{"colspan"=>"5"}
+								%p.no-margin-bottom
+									%i.fa.fa-caret-right
+									Enter students below, then you will be taken to the payment form.
+								%table.table.table-striped.table-responsive.no-margin-bottom
+									%thead
+										%th
+										%th
+											Student Email
+										%th
+											Student First Name
+										%th
+											Student Last Name
+									%tbody
+										-3.times.with_index do |i|
+											%tr
+												%td
+													=i+1
+													\.
+												%td
+													%input.form-control
+												%td
+													%input.form-control
+												%td
+													%input.form-control
+										%tr
+											%td
+											%td
+											%td
+											%td{"colspan"=>"2"}
+												%a.btn.btn-default.pull-right{:href=>"#"}
+													Add to cart
 
 				
