@@ -132,6 +132,9 @@
 	}
 
 	.carousel{
+		.btns{
+			position:relative;
+		}
 		ol.carousel-indicators{
 			text-align:center;
 			bottom:5px;

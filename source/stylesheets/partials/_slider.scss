@@ -1,4 +1,8 @@
 .carousel{
+	.btns{
+		z-index: 10;
+		position:absolute;
+	}
 	ul{
 		margin-left:$baseline;
 		li{
@@ -6,19 +10,23 @@
 		}
 	}
 	ol.carousel-indicators{
+
 		text-align:right;
 		bottom:50px;
 		z-index: 1;
+		position:absolute;
 		li{
 			width: 18px;
 			height:18px;
 			@include transition-duration(.3s);
+			position:relative;
 			&.right{
 				background:url(../images/public/slider_right.png);
 				border:none;
 				width: 29px;
 				height:29px;
 				top:5px;
+
 			}
 			&.left{
 				background:url(../images/public/slider_left.png);
