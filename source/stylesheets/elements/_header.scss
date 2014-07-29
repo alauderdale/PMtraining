@@ -81,7 +81,9 @@
 					margin-bottom:0px;
 				}
 			}
-				top: 46px;
+				position:absolute;
+				left:auto;
+				top: 48px;
 				border-radius: 0;
 				border-top: 0;
 		}
@@ -100,4 +102,7 @@
 	z-index: 99;
 	display:none;
 	padding-top:15px;
+	.dropdown-menu{
+		top: 64px;
+	}
 }
