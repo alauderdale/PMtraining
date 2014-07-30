@@ -28,9 +28,8 @@ a{
 .btn{
 	@include transition-duration(.4s);
 	font-family:$bold-font-name;
-	text-transform:uppercase;
-	font-size:.8em;
-	padding:$baseline/2 $baseline;
+	font-size:1.8rem;
+	padding:$baseline/3 $baseline;
 	&.btn-primary{
 		background-color:$primary-color;
 		border-color:$primary-color;
@@ -83,6 +82,6 @@ a{
 		}
 	}
 	&.btn-lg{
-		padding:$baseline/1.5 $baseline;
+		padding:$baseline/2 $baseline;
 	}
 }
