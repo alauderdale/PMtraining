@@ -55,8 +55,7 @@
 				}
 			}
 			&.active{
-				background-color:$link-color;
-				@include linear-gradient(shade($primary-color,10%) 0%, shade($primary-color,20%) 100%);
+				background-color:shade($primary-color,20%);
 				.dropdown-menu{
 					li{
 						a{
@@ -154,7 +153,7 @@
 		top:-6px;
 	}
 	ul.dropdown-menu{
-		top:51px!important;
+		top:43px!important;
 	}
 	ul.main-links{
 		li{
