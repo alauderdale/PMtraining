@@ -116,9 +116,9 @@
 		}
 		&.active{
 			box-shadow:none;
-			background-color:shade($link-color,20%)!important;
+			background-color:shade($primary-color,20%)!important;
 			color:white;
-			border-color:shade($link-color,20%)!important;
+			border-color:shade($primary-color,20%)!important;
 		}
 	}
 
