@@ -107,6 +107,13 @@
 	}
 	.btn{
 		padding:$baseline/4 $baseline;
+		border:1px solid $link-color;
+		background:white;
+		&:hover{
+			background:white;
+			color:$link-color;
+			border-color:$link-color;
+		}
 	}
 
 }
@@ -134,8 +141,12 @@
 	}
 	.checkout-btn-wrapper{
 		position:relative;
-		top:-14px;
-		margin-bottom:-10px;
+		margin-bottom:-1px;
+		.btn{
+			padding-bottom:3px;
+			border-bottom-right-radius:0;
+			border-bottom-left-radius:0;
+		}
 	}
 }
 
