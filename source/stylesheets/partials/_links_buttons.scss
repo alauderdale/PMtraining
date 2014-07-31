@@ -1,5 +1,6 @@
 a{
 	color:$link-color;
+	@extend .link-underline;
 	&:hover{
 		color:tint($link-color,30%);
 		text-decoration:none;
@@ -17,7 +18,7 @@ a{
 	}
 	&.link-underline{
 		border-bottom:1px solid $link-color;
-		padding-bottom:5px;
+		padding-bottom:3px;
 		&.text-danger{
 			border-color:red;
 		}

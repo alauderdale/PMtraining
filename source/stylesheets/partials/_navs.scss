@@ -1,3 +1,9 @@
+.nav{
+	a{
+		border-bottom:none;
+	}
+}
+
 ul.nav-pills{
 	border-bottom:1px solid $gray-color;
 	li{
@@ -79,6 +85,7 @@ ul.nav-sidebar{
 			width:100%;
 			display:block;
 			padding-left:5px;
+			border-bottom:none;
 		}
 		&.active{
 			a{

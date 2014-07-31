@@ -1,6 +1,9 @@
 footer#footer{
 	padding:$baseline*2  0;	
 	border-top:1px solid $gray-color;
+	a{
+		border-bottom:none;
+	}
 	ul{
 		li{
 			font-size:.7em;

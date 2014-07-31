@@ -14,10 +14,19 @@
 			li{
 				font-size:.7em;
 				margin-right:0;
+				a{
+					padding-left:0;
+					padding-right:0;
+				}
 			}
 			.dropdown-menu{
+				top:35px!important;
 				li{
 					font-size:.7em;
+					a{
+						padding-left:10px;
+						padding-right:10px;
+					}
 				}
 			}
 		}
@@ -52,6 +61,17 @@
 	.feature-blocks{
 		.fa{
 			font-size:3em!important;
+		}
+	}
+
+
+	.checkout-btn-wrapper{
+		top:0px!important;
+	}
+
+	#hidden-menu{
+		ul.dropdown-menu{
+			top:45px!important;
 		}
 	}
 
