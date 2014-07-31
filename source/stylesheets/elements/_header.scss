@@ -107,12 +107,18 @@
 	}
 	.btn{
 		padding:$baseline/4 $baseline;
-		border:1px solid $link-color;
+		border:1px solid $gray-color;
 		background:white;
 		&:hover{
 			background:white;
 			color:$link-color;
-			border-color:$link-color;
+			border-color:$gray-color;
+		}
+		&.active{
+			box-shadow:none;
+			background-color:shade($link-color,20%)!important;
+			color:white;
+			border-color:shade($link-color,20%)!important;
 		}
 	}
 
@@ -142,6 +148,7 @@
 	.checkout-btn-wrapper{
 		position:relative;
 		margin-bottom:-1px;
+		top:-1px;
 		.btn{
 			padding-bottom:3px;
 			border-bottom-right-radius:0;
