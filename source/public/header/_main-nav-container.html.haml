@@ -51,7 +51,7 @@
 							%a{:href=>"/public/corporate-training/private-portal"}
 								Private training portal   
 	%nav.pull-right.checkout-btn-wrapper
-		%a.btn.btn-default{:href=>"/public/checkout", :class => (current_page.data.activeclass === "checkout" ) ? "active" : ""}
+		%a.btn.btn-primary{:href=>"/public/checkout", :class => (current_page.data.activeclass === "checkout" ) ? "active" : ""}
 			%i.fa.fa-shopping-cart
 			Checkout  
 		=image_tag'pmi_logo.png',:class=>"hidden-md hidden-sm", :width=>"80px"   

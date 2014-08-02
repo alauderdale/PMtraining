@@ -21,7 +21,24 @@ section{
     }
   }
   &.page-header-section{
-    padding:$baseline 0;
+    padding:$baseline*3 0;
+    h2{
+      font-size:2em;
+      font-family:$medium-font-name;
+    }
+    //pages
+    &.practice-pmp-header{
+      background-color:rgba(0,0,0,.5);
+      background-image:url(../images/public/headers/practice_pmp_header_bg.png);
+    }
+    &.live-pmp-header{
+      background-color:rgba(0,0,0,.5);
+      background-image:url(../images/public/headers/live_pmp_header_bg.png);
+    }
+    &.bootcamp-pmp-header{
+      background-color:rgba(0,0,0,.5);
+      background-image:url(../images/public/headers/bootcamp_pmp_header_bg.png);
+    }
   }
   &.off-white{
     background-color:#fafafa;

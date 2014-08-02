@@ -109,6 +109,7 @@
 		padding:$baseline/4 $baseline;
 		border:1px solid $gray-color;
 		background:white;
+		color:$text-color;
 		&:hover{
 			background:white;
 			color:$link-color;
@@ -166,6 +167,7 @@
 	z-index: 99;
 	display:none;
 	padding-top:15px;
+	border-bottom:1px solid $gray-color;
 	.checkout-btn-wrapper{
 		position:relative;
 		top:-6px;

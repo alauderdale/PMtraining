@@ -42,7 +42,7 @@ a{
 	&.btn-default{
 		background-color:$secondary-color;
 		border-color:$secondary-color;
-		color:shade($text-color,30%);
+		color:white;
 		&:hover{
 			background-color:tint($secondary-color,20%);
 			border-color:tint($secondary-color,20%);
