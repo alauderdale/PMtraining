@@ -14,7 +14,7 @@
 %section
 	.container
 		.row
-			.col-sm-8
+			.col-sm-7
 				%h2
 					Project Management Articles by PMPerfect
 				%hr
@@ -28,5 +28,9 @@
 						%a.link-underline{:href=>"/public/articles/show"}
 							Read more
 						%hr
+			.col-sm-1
 			.col-sm-4
+				.affix-top.article-sidebar{"data-spy"=>"affix", "data-offset-top"=>"300", :style=>" top:80px;" }
+					%a{:href=>"/public/live-pmp/schedule-and-pricing"}
+						=image_tag"/images/public/sidebar-teaser.png"
 			
