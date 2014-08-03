@@ -21,7 +21,8 @@ section{
     }
   }
   &.page-header-section{
-    padding:$baseline*3 0;
+    padding:$baseline*1.5 0;
+    @include background-size(cover);
     h2{
       font-size:2em;
       font-family:$medium-font-name;
