@@ -14,7 +14,7 @@
 				%a{:href=>"/public/bootcamp"}
 					PMP Bootcamp 
 			%li{:class => (current_page.data.activeclass === "about" ) ? "active" : ""}
-				%a.dropdown-toggle{:href=>"#", "data-toggle"=>"dropdown"}
+				%a.dropdown-toggle{:href=>"/public/about"}
 					About
 					%span.caret
 					%ul.dropdown-menu{:role=>"menu"}
@@ -37,7 +37,7 @@
 							%a{:href=>"/public/about/newsletter"}
 								Get our newsletter
 			%li{:class => (current_page.data.activeclass === "training" ) ? "active" : ""}
-				%a.dropdown-toggle{:href=>"#", "data-toggle"=>"dropdown"}
+				%a.dropdown-toggle{:href=>"/public/corporate-training"}
 					Coporate Training
 					%span.caret
 					%ul.dropdown-menu{:role=>"menu"}
@@ -50,8 +50,8 @@
 						%li
 							%a{:href=>"/public/corporate-training/private-portal"}
 								Private training portal   
-	%nav.pull-right
-		%a.btn.btn-success{:href=>"/public/checkout"}
+	%nav.pull-right.checkout-btn-wrapper
+		%a.btn.btn-primary{:href=>"/public/checkout", :class => (current_page.data.activeclass === "checkout" ) ? "active" : ""}
 			%i.fa.fa-shopping-cart
 			Checkout  
 		=image_tag'pmi_logo.png',:class=>"hidden-md hidden-sm", :width=>"80px"   

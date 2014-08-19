@@ -7,15 +7,15 @@
 
 ;;;
 
-=partial"/public/shared/page-head-small"
+=partial"/public/shared/page-head-small", locals:{headerClass:"practice-pmp-header"}
 
 %section
 	.container
 		.row
-			.col-sm-7
+			.col-sm-8
 				%h2
 					Are You Prepared? Professional PMP Practice Exams 
-				%h4
+				%h4.no-margin-bottom
 					Access Instantly - Now $59.00
 				%p
 					%strong
@@ -33,9 +33,9 @@
 						New! Easily create your own PMP tests from our database of 1,000+ questions.
 					%li
 						90-day access to professional PMP practice exams for only $59.00.
-				%a.btn.btn-info{:href=>"#"}
+				%a.btn.btn-primary{:href=>"#"}
 					Try a demo  
-			.col-sm-5 
+			.col-sm-4
 				.margin-top
 					=image_tag"public/practice/ui_show_1.png", :class=>"img-responsive margin-auto double-margin-bottom" 
 					.text-center

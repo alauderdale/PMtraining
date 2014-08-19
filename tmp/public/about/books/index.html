@@ -142,7 +142,7 @@
           </div>
         </div>
       </nav>
-      <div class='main-nav hidden-xs' id='hidden-menu'>
+      <div class='main-nav hidden-xs main-nav-fixed' id='hidden-menu'>
         <div class='container'>
           <div class='main-nav-container'>
             <nav class='pull-left'>
@@ -168,7 +168,7 @@
                   </a>
                 </li>
                 <li class='active'>
-                  <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+                  <a class='dropdown-toggle' href='/public/about'>
                     About
                     <span class='caret'></span>
                     <ul class='dropdown-menu' role='menu'>
@@ -206,7 +206,7 @@
                   </a>
                 </li>
                 <li class=''>
-                  <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+                  <a class='dropdown-toggle' href='/public/corporate-training'>
                     Coporate Training
                     <span class='caret'></span>
                     <ul class='dropdown-menu' role='menu'>
@@ -230,8 +230,8 @@
                 </li>
               </ul>
             </nav>
-            <nav class='pull-right'>
-              <a class='btn btn-success' href='/public/checkout'>
+            <nav class='pull-right checkout-btn-wrapper'>
+              <a class='btn btn-primary' href='/public/checkout'>
                 <i class='fa fa-shopping-cart'></i>
                 Checkout
               </a>
@@ -240,7 +240,7 @@
           </div>
         </div>
       </div>
-      <header class='main-nav hidden-xs'>
+      <header class='main-nav hidden-xs main-nav-top'>
         <div class='container'>
           <div class='row margin-bottom'>
             <div class='col-lg-12'>
@@ -294,7 +294,7 @@
                       </a>
                     </li>
                     <li class='active'>
-                      <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+                      <a class='dropdown-toggle' href='/public/about'>
                         About
                         <span class='caret'></span>
                         <ul class='dropdown-menu' role='menu'>
@@ -332,7 +332,7 @@
                       </a>
                     </li>
                     <li class=''>
-                      <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+                      <a class='dropdown-toggle' href='/public/corporate-training'>
                         Coporate Training
                         <span class='caret'></span>
                         <ul class='dropdown-menu' role='menu'>
@@ -356,8 +356,8 @@
                     </li>
                   </ul>
                 </nav>
-                <nav class='pull-right'>
-                  <a class='btn btn-success' href='/public/checkout'>
+                <nav class='pull-right checkout-btn-wrapper'>
+                  <a class='btn btn-primary' href='/public/checkout'>
                     <i class='fa fa-shopping-cart'></i>
                     Checkout
                   </a>
@@ -370,7 +370,7 @@
       </header>
       <!-- end menu -->
       <div id='mainContents'>
-        <section class='invert-section page-header-section'>
+        <section class='invert-section page-header-element page-header-section'>
           <div class='container'>
             <div class='row'>
               <div class='col-lg-12'>
@@ -807,6 +807,131 @@
               </div>
               <div class='col-md-1'></div>
               <div class='col-md-3'>
+                <div class='margin-bottom'>
+                  <h6 class='text-center' style='text-transform:none;'>
+                    Our corporate clients include:
+                  </h6>
+                  <div class='carousel fade' data-ride='carousel' id='logo-slider'>
+                    <div class='carousel-inner'>
+                      <div class='item'>
+                        <img class="img-responsive margin-auto" src="../../../images/public/logo-slider/client-atkins.gif" />
+                        <div class='clearfix'></div>
+                      </div>
+                      <div class='item'>
+                        <img class="img-responsive margin-auto" src="../../../images/public/logo-slider/client-calibre.gif" />
+                        <div class='clearfix'></div>
+                      </div>
+                      <div class='item'>
+                        <img class="img-responsive margin-auto" src="../../../images/public/logo-slider/client-ciena.gif" />
+                        <div class='clearfix'></div>
+                      </div>
+                      <div class='item'>
+                        <img class="img-responsive margin-auto" src="../../../images/public/logo-slider/client-dell.gif" />
+                        <div class='clearfix'></div>
+                      </div>
+                      <div class='item'>
+                        <img class="img-responsive margin-auto" src="../../../images/public/logo-slider/client-edwel.gif" />
+                        <div class='clearfix'></div>
+                      </div>
+                      <div class='item'>
+                        <img class="img-responsive margin-auto" src="../../../images/public/logo-slider/client-effectus.gif" />
+                        <div class='clearfix'></div>
+                      </div>
+                      <div class='item'>
+                        <img class="img-responsive margin-auto" src="../../../images/public/logo-slider/client-gp.gif" />
+                        <div class='clearfix'></div>
+                      </div>
+                      <div class='item'>
+                        <img class="img-responsive margin-auto" src="../../../images/public/logo-slider/client-ibm.gif" />
+                        <div class='clearfix'></div>
+                      </div>
+                      <div class='item'>
+                        <img class="img-responsive margin-auto" src="../../../images/public/logo-slider/client-icgpm.gif" />
+                        <div class='clearfix'></div>
+                      </div>
+                      <div class='item'>
+                        <img class="img-responsive margin-auto" src="../../../images/public/logo-slider/client-itsm.gif" />
+                        <div class='clearfix'></div>
+                      </div>
+                      <div class='item'>
+                        <img class="img-responsive margin-auto" src="../../../images/public/logo-slider/client-lockheed.gif" />
+                        <div class='clearfix'></div>
+                      </div>
+                      <div class='item'>
+                        <img class="img-responsive margin-auto" src="../../../images/public/logo-slider/client-merck.gif" />
+                        <div class='clearfix'></div>
+                      </div>
+                      <div class='item'>
+                        <img class="img-responsive margin-auto" src="../../../images/public/logo-slider/client-mti.gif" />
+                        <div class='clearfix'></div>
+                      </div>
+                      <div class='item'>
+                        <img class="img-responsive margin-auto" src="../../../images/public/logo-slider/client-oakton.gif" />
+                        <div class='clearfix'></div>
+                      </div>
+                      <div class='item'>
+                        <img class="img-responsive margin-auto" src="../../../images/public/logo-slider/client-pbsj.gif" />
+                        <div class='clearfix'></div>
+                      </div>
+                      <div class='item'>
+                        <img class="img-responsive margin-auto" src="../../../images/public/logo-slider/client-pinnacle.gif" />
+                        <div class='clearfix'></div>
+                      </div>
+                      <div class='item'>
+                        <img class="img-responsive margin-auto" src="../../../images/public/logo-slider/client-pmcenters.gif" />
+                        <div class='clearfix'></div>
+                      </div>
+                      <div class='item'>
+                        <img class="img-responsive margin-auto" src="../../../images/public/logo-slider/client-pmcollege.gif" />
+                        <div class='clearfix'></div>
+                      </div>
+                      <div class='item'>
+                        <img class="img-responsive margin-auto" src="../../../images/public/logo-slider/client-qpc.gif" />
+                        <div class='clearfix'></div>
+                      </div>
+                      <div class='item'>
+                        <img class="img-responsive margin-auto" src="../../../images/public/logo-slider/client-rtek.gif" />
+                        <div class='clearfix'></div>
+                      </div>
+                      <div class='item'>
+                        <img class="img-responsive margin-auto" src="../../../images/public/logo-slider/client-siemens.gif" />
+                        <div class='clearfix'></div>
+                      </div>
+                      <div class='item'>
+                        <img class="img-responsive margin-auto" src="../../../images/public/logo-slider/client-sitespower.gif" />
+                        <div class='clearfix'></div>
+                      </div>
+                      <div class='item'>
+                        <img class="img-responsive margin-auto" src="../../../images/public/logo-slider/client-sra.gif" />
+                        <div class='clearfix'></div>
+                      </div>
+                      <div class='item'>
+                        <img class="img-responsive margin-auto" src="../../../images/public/logo-slider/client-sungard.gif" />
+                        <div class='clearfix'></div>
+                      </div>
+                      <div class='item'>
+                        <img class="img-responsive margin-auto" src="../../../images/public/logo-slider/client-teched360.gif" />
+                        <div class='clearfix'></div>
+                      </div>
+                      <div class='item'>
+                        <img class="img-responsive margin-auto" src="../../../images/public/logo-slider/client-trainingcamp.gif" />
+                        <div class='clearfix'></div>
+                      </div>
+                      <div class='item'>
+                        <img class="img-responsive margin-auto" src="../../../images/public/logo-slider/client-trainingclasses.gif" />
+                        <div class='clearfix'></div>
+                      </div>
+                      <div class='item'>
+                        <img class="img-responsive margin-auto" src="../../../images/public/logo-slider/client-ucla.gif" />
+                        <div class='clearfix'></div>
+                      </div>
+                      <div class='item'>
+                        <img class="img-responsive margin-auto" src="../../../images/public/logo-slider/client-verizon.gif" />
+                        <div class='clearfix'></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
                 <h6 class='text-center'>
                   What Our Students Say
                 </h6>

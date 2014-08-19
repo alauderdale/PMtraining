@@ -9,7 +9,7 @@
 
 ;;;
 
-=partial"/public/shared/page-head-small"
+=partial"/public/shared/page-head-small", locals:{headerClass:"live-pmp-header"}
 
 
 %section.no-padding-bottom
@@ -46,7 +46,7 @@
 			.col-sm-6
 				.padded
 					%a.fb-video{:href=>"http://s3.amazonaws.com/ssilogic-video/flowplayer-3.2.7.swf"}
-						=image_tag'video_thumb.png' , :class=>"img-responsive margin-auto margin-bottom", :width=>"354px"
+						=image_tag'video_thumb.png' , :class=>"img-responsive margin-auto margin-bottom", :width=>"317px"
 					%blockquote.text-center
 						%span.primary-text-color
 							"I passed the PMI PMP exam yesterday. .. The material from your class and the extra tools that came with the course definitely prepared me for the exam." 
@@ -57,7 +57,7 @@
 							Schedule & Pricing
 .container
 	%hr.no-margin-top.no-margin-bottom
-%section.small-panels
+%section.small-panels.off-white
 	.container
 		.row
 			%h6.text-center.primary-text-color
@@ -467,8 +467,81 @@
 							%a.btn.btn-default{href:"/public/live-pmp/schedule-and-pricing"}
 								Schedule & Pricing
 						.col-sm-5.hidden-xs
+%hr.no-margin-top.no-margin-bottom
+%section
+	.container
+		.row
+			.col-sm-12
+				%h6.text-center.primary-text-color
+					Enroll online or Call 
+					%span.extra-bold-font-name
+						1-800-581-9819 
+					to Register by Phone
+		.row
+			.col-sm-4
+				=image_tag'public/corporate-discount/step-2.png', :class=>"margin-auto img-responsive margin-bottom" , :width=>"150px"
+				%h5
+					1. Enroll in an Online PMP Class
+				%ul.list-default.no-margin-bottom
+					%li
+						Classes taught by PMI Registered Education Provider (R.E.P.)
+					%li
+						Flexible dates and times available, including weekends and evenings
+					%li
+						We guarantee the lowest price possible for all courses
+					%li
+						Group rates and private classes available
+			.col-sm-4
+				=image_tag'public/corporate-discount/step-1.png', :class=>"margin-auto img-responsive margin-bottom" , :width=>"150px"
+				%h5
+					2. Attend Live Classes from Your Computer
+				%ul.list-default.no-margin-bottom
+					%li
+						Attend class, ask questions, and prepare for your PMP exam
+					%li
+						One-on-one Instructor Q&A sessions included for all students
+					%li
+						PMTraining Practice Exam system included free with class
+					%li
+						All PMP course materials included with class enrollment
+			.col-sm-4
+				=image_tag'public/corporate-discount/step-3.png', :class=>"margin-auto img-responsive margin-bottom" , :width=>"150px"
+				%h5
+					3. Pass the PMP Exam, Guaranteed
+				%ul.list-default.no-margin-bottom
+					%li
+						Take the PMP exam and pass. Guaranteed.
+					%li
+						35 Contact Hours included with every course (required by PMI for exam)
+					%li
+						Assistance provided with PMI exam application (even if audited)
+					%li
+						PDU credits included with every course, to maintain your future PMP certification
 
-				
+.container
+	%hr.no-margin-top.no-margin-bottom
+%section.invert-section
+	.container
+		.row
+			.col-sm-6
+				=image_tag"public/practice/system_reqs.png", :class=>"img-responsive margin-auto margin-bottom margin-top", :width=>"300"
+			.col-sm-6	
+				.margin-top
+					%h2
+						System Requirements
+					%p
+						%strong
+							Access to PMP practice exams requires the following:
+					%ul.list-default
+						%li
+							Computer with Internet connection
+						%li
+							Web browser with standard features
+						%li
+							May require a software download (provided by us)
+					%p
+						%a.btn.btn-info{:href=>"/public/live-pmp/schedule-and-pricing"}
+							Schedule & Pricing					
 
 
                            
