@@ -59,9 +59,11 @@
 				%h6.text-center.primary-text-color
 					New Student Discounts on all Upcoming Classes!
 				.text-center.double-margin-bottom
-					%a.tooltip-up.btn.btn-default{:href=>"/public/about/contact", "data-toggle"=>"tooltip" , :title=>"+ Is there anything preventing you from signing up at this point? SEND Powered by Qualaroo [?]"}
+					%a.tooltip-up.margin-right{:href=>"/public/about/contact", "data-toggle"=>"tooltip" , :title=>"+ Is there anything preventing you from signing up at this point? SEND Powered by Qualaroo [?]"}
 						Request a Private Class for your Team
-						%i.fa.fa-arrow-circle-right{:style=>"left:2px;"}
+						/ %i.fa.fa-arrow-circle-right{:style=>"left:2px;"}
+					%a{:href=>"#"}
+						New Student Discounts on all Upcoming Classes
 		.row
 			.col-sm-12
 				=partial'/public/live-pmp/schedule-table'

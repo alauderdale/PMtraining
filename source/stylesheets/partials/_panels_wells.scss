@@ -26,6 +26,12 @@
 	&.instructor-panel{
 		background:$green-color url('../images/public/icon_instructor.png') no-repeat right;
 		@extend .white-text;
+		.pmi-logo{
+			width: 100%;
+			margin-left:10px;
+			margin-top:60px;
+			border-radius:8px;
+		}
 	}
 	.panel-heading{
 		background:white;
