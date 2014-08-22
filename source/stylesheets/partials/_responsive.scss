@@ -1,7 +1,14 @@
 //lg
 @media (max-width: 1200px) {
 
-  
+  .main-nav{
+		ul.main-links{
+			li{
+				margin-right:0;
+				font-size:.75em;
+			}
+		}
+	}
 
 }
 
@@ -12,7 +19,7 @@
 	.main-nav{
 		ul.main-links{
 			li{
-				font-size:.7em;
+				font-size:.616em;
 				margin-right:0;
 				a{
 					padding-left:0;
@@ -36,7 +43,7 @@
 			}
 		}
 		.btn{
-			font-size:.8em;
+			font-size:.8em!important;
 			padding:$baseline/4 $baseline/2;
 			padding-bottom:7px!important;
 			.fa{
@@ -164,6 +171,12 @@
 		.col-sm-3{
       text-align:left!important;
     }
+	}
+
+	#mobile-main-nav{
+		.btn{
+			font-size:1em;
+		}
 	}
 
 }
