@@ -10523,7 +10523,8 @@ $(document).ready(function(){
         }
    });
 
-	$('.tooltip-up').tooltip();
+	$('.tooltip-up').tooltip({html:true});
+
 
 	///responsive tables!!!
 	$('table').footable();

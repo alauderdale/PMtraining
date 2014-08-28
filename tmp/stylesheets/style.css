@@ -1327,18 +1327,25 @@ form .control-label {
   padding-top: 15px;
   border-bottom: 1px solid #dddddd; }
   /* line 172, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/elements/_header.scss */
+  #hidden-menu .sale {
+    display: none; }
+  /* line 175, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/elements/_header.scss */
   #hidden-menu .checkout-btn-wrapper {
     position: relative;
     top: -6px; }
-  /* line 176, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/elements/_header.scss */
+  /* line 179, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/elements/_header.scss */
   #hidden-menu ul.dropdown-menu {
     top: 43px !important; }
-  /* line 181, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/elements/_header.scss */
+  /* line 184, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/elements/_header.scss */
   #hidden-menu ul.main-links li.active {
     background: none; }
-    /* line 183, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/elements/_header.scss */
+    /* line 186, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/elements/_header.scss */
     #hidden-menu ul.main-links li.active a {
       color: #1384b2; }
+
+/* line 194, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/elements/_header.scss */
+.sale {
+  background: url(/images/public/sale.png) no-repeat right top; }
 
 /* line 1, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/elements/_footer.scss */
 footer#footer {
