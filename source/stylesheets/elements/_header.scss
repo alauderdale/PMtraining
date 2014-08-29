@@ -72,7 +72,7 @@
 		.dropdown-menu{
 				border: 1px solid shade($primary-color,30%);
 				border-top:7px solid shade($primary-color,20%)!important;
-				top: 33px!important;
+				top: 36px!important;
 				z-index: $baseline;
 				margin-left: -7px;
 				position:absolute;
@@ -138,7 +138,7 @@
 			border-top-left-radius:5px;
 			a{
 				margin-bottom:5px;
-				margin-top:5px;
+				margin-top:8px;
 			}
 		}
 	}
@@ -151,7 +151,7 @@
 		margin-bottom:-1px;
 		top:0px;
 		.btn{
-			padding-bottom:3px;
+			padding-bottom:6px;
 			border-bottom-right-radius:0;
 			border-bottom-left-radius:0;
 			font-size:.9em;
