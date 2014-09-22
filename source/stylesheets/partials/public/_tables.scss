@@ -1,0 +1,25 @@
+table.table{
+	font-size:.8em;
+	p{
+		line-height:$baseline/1.5;
+	}
+	&.table-striped > tbody > tr:nth-child(odd) > td{
+		background-color:tint($primary-color,95%);
+	}
+	h5{
+		line-height:12px;
+		margin-bottom:$baseline/2;
+	}
+	&.mid-align{
+		td{
+			vertical-align:middle;
+		}
+	}
+	&.bold-table{
+		border:3px solid tint($primary-color,80%);
+		box-shadow:0 0 10px rgba(0,0,0,.2);
+		.btn{
+			font-family:$extra-bold-font-name;
+		}
+	}
+}

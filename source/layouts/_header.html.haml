@@ -1,4 +1,4 @@
-%nav.navbar.navbar-default.navbar-fixed-top.main-nav{role: "navigation"}
+%nav.navbar.navbar-default.navbar-fixed-top.backend-main-nav{role: "navigation"}
   / Brand and toggle get grouped for better mobile display
   .container
     .navbar-header
@@ -12,24 +12,28 @@
     / Collect the nav links, forms, and other content for toggling
     #bs-example-navbar-collapse-1.collapse.navbar-collapse
       %ul.nav.navbar-nav.navbar-left
-        %li{:class => (current_page.data.activeclass === "tests") ? "active" : ""}
-          %a.navbar-item{href: "/candidate_backend"} 
-            %i.fa.fa-check
-            My Job Postings
-        %li{:class => (current_page.data.activeclass === "profile") ? "active" : ""}
-          %a.navbar-item{href: "/candidate_backend/profile/show"} 
-            %i.fa.fa-user
-            My Profile
-        %li{:class => (current_page.data.activeclass === "interview") ? "active" : ""}
-          %a.navbar-item{href: "/candidate_backend/interview/show"} 
-            %i.fa.fa-clipboard
-            My Interview
+        %li{:class => (current_page.data.activeclass === "dashboard") ? "active" : ""}
+          %a.navbar-item{href: "#"} 
+            Dashboard
+        %li{:class => (current_page.data.activeclass === "preformance") ? "active" : ""}
+          %a.navbar-item{href: "#"} 
+            My Preformance
+        %li
+          %a.navbar-item.btn.btn-primary{href: "#"} 
+            Take a Test
       %ul.nav.navbar-nav.navbar-right
+        %li{:class => (current_page.data.activeclass === "support") ? "active" : ""}
+          %a.navbar-item.navbar-item-muted{href: "#"} 
+            On Demand Bootcamp
+        %li{:class => (current_page.data.activeclass === "bootcamp") ? "active" : ""}
+          %a.navbar-item.navbar-item-muted{href: "#"} 
+            Support
+        %li{:class => (current_page.data.activeclass === "live") ? "active" : ""}
+          %a.navbar-item.navbar-item-muted{href: "#"} 
+            Support
         %li.dropdown
           %a.dropdown-toggle.navbar-item{"data-toggle" => "dropdown", href: "#"}
-            = image_tag ("no_avatar_sm.png"), :class=>"img-circle avatar-sm quarter-margin-right pull-left"
-            %span.hidden-sm
-              john@doe.com
+            = image_tag ("no_avatar_sm.png"), :class=>"img-circle avatar-sm quarter-margin-right pull-left", :width => "25px"
             %b.caret
           %ul.dropdown-menu
             %li

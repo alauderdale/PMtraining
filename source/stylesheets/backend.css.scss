@@ -5,25 +5,25 @@
 @import "lib/foo-table/footable.core.css";
 @import "lib/bootstrap.css";
 
-//// partials
-@import "partials/grid";
-@import "partials/colors";
-@import "partials/base";
-@import "partials/typography";
-@import "partials/links_buttons";
-@import "partials/margin_padding_helpers";
-@import "partials/sections";
-@import "partials/tables";
-@import "partials/slider";
-@import "partials/navs";
-@import "partials/panels_wells";
-@import "partials/modals";
-@import "partials/forms";
-@import "partials/faq";
+//// public partials
+@import "partials/backend/grid";
+@import "partials/shared/colors";
+@import "partials/backend/base";
+@import "partials/shared/typography";
+@import "partials/backend/links_buttons";
+@import "partials/shared/margin_padding_helpers";
+@import "partials/backend/sections";
+@import "partials/backend/tables";
+@import "partials/backend/slider";
+@import "partials/backend/navs";
+@import "partials/backend/panels_wells";
+@import "partials/backend/modals";
+@import "partials/backend/forms";
+
 
 //// elements
-@import "elements/header";
-@import "elements/footer";
+@import "elements/backend/header";
+@import "elements/backend/footer";
 
 //// responsify
-@import "partials/responsive";
+@import "partials/backend/responsive";

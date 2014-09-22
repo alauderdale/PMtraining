@@ -1,0 +1,59 @@
+//lg
+
+@media (max-width: 1200px) {
+
+
+
+}
+
+//md
+
+@media (max-width: 992px) {
+
+
+
+}
+
+//sm
+
+@media (max-width: 767px) {
+	// main menu
+	a{
+		&.btn{
+			padding:5px 10px;
+			margin:9px 10px;
+
+		}
+	}
+
+	.backend-main-nav{
+		ul{
+			li{
+				&.dropdown{
+					ul.dropdown-menu{
+						li{
+							a{
+								background:none!important;
+								&:hover{
+									background:none!important;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+
+
+
+
+}
+
+//xs
+
+@media (max-width: 320px) {
+
+
+}
