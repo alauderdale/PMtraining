@@ -2,7 +2,15 @@
 
 @media (max-width: 1200px) {
 
-
+	// main menu
+	.backend-main-nav{
+		a.navbar-item{
+			font-size:.7em!important;
+		}
+		ul li.dropdown ul.dropdown-menu li a{
+			font-size:.9em!important;
+		}
+	}
 
 }
 
@@ -10,6 +18,21 @@
 
 @media (max-width: 992px) {
 
+	.backend-main-nav{
+		.logo{
+		background-image:url(../images/logo_white_small.png);
+	  width: 35px;
+	  height:26px;
+		}
+		a.navbar-item{
+			font-size:.6em!important;
+			padding-left:10px;
+			padding-right:10px;
+		}
+		ul li.dropdown ul.dropdown-menu li a{
+			font-size:.8em!important;
+		}
+	}
 
 
 }
@@ -18,15 +41,31 @@
 
 @media (max-width: 767px) {
 	// main menu
-	a{
-		&.btn{
-			padding:5px 10px;
-			margin:9px 10px;
-
-		}
-	}
 
 	.backend-main-nav{
+		.navbar-nav{
+			margin-top:0;
+		}
+		.logo{
+	  background:url(../images/logo_white.png);
+	  background-size:100%;
+	  width: 135px;
+	  height:26px;
+	  display:block;
+	  position:relative;
+	  top:0px;
+		}
+		a{
+			&.navbar-item{
+				padding-top:$baseline/2;
+				padding-bottom:$baseline/2;
+			}
+			&.btn{
+				padding:5px 10px;
+				margin:9px 10px;
+
+			}
+		}
 		ul{
 			li{
 				&.dropdown{
