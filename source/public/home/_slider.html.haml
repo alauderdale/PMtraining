@@ -5,10 +5,32 @@
     %li.active{"data-slide-to" => "0", "data-target" => "#home-slider"}
     %li{"data-slide-to" => "1", "data-target" => "#home-slider"}
     %li{"data-slide-to" => "2", "data-target" => "#home-slider"}
+    %li{"data-slide-to" => "3", "data-target" => "#home-slider"}
     %li.left{"data-slide"=>"prev","data-target" => "#home-slider"}
     %li.right{"data-slide"=>"next","data-target" => "#home-slider"}
   .carousel-inner
-    .item.active{:style=>"background-image:url(/images/slider/slide-1-bg.png);"}
+    .item.active{:style=>"background-image:url(/images/slider/slide-4-bg.png);"}
+      .container
+        .row
+          .col-md-12
+            %h1
+              PMP Job Openings  
+            %ul.margin-bottom
+              %li
+                Praesent eget orci eu arcu lobortis dictum at sed metus. Maecenas vitae convallis ante.
+              %li
+                Praesent eget orci eu arcu lobortis dictum at sed metus. Maecenas vitae convallis ante.
+              %li
+                Praesent eget orci eu arcu lobortis dictum at sed metus. Maecenas vitae convallis ante.
+              %li
+                Praesent eget orci eu arcu lobortis dictum at sed metus. Maecenas vitae convallis ante.
+            .btns
+              %a.btn.btn-default.btn-lg.half-margin-bottom{:href=>"#"}
+                POST A JOB NOW
+              %a.btn.btn-wire.btn-lg.half-margin-bottom{:href=>"#"}
+                LEARN MORE
+                %i.fa.fa-arrow-circle-right
+    .item{:style=>"background-image:url(/images/slider/slide-1-bg.png);"}
       .container
         .row
           .col-md-12

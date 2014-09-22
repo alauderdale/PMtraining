@@ -1,27 +1,38 @@
-=partial"/public/shared/navbar-mobile"
-#hidden-menu.main-nav.hidden-xs.main-nav-fixed
-	.container
-		=partial"/public/header/main-nav-container" 
-%header.main-nav.hidden-xs.main-nav-top
-	.container
-		.row.margin-bottom
-			.col-lg-12
-				.pull-left
-					%a.logo{:href=>"/"}
-				%nav.pull-right
-					%ul.list-inline.sub-links
-						%li
-							%a{:href=>"/public/about-the-pmp-exam"}
-								PMP Exam Updates 
-						%li
-							%a{:href=>"/public/login"}
-								Member Login 
-						%li
-							%a{:href=>"/public/about/contact"}
-								Contact & Support
-		.row
-			.col-lg-12
-				=partial"/public/header/main-nav-container"                     
-
-
-
+%nav.navbar.navbar-default.navbar-fixed-top.main-nav{role: "navigation"}
+  / Brand and toggle get grouped for better mobile display
+  .container
+    .navbar-header
+      %button.navbar-toggle{"data-target" => "#bs-example-navbar-collapse-1", "data-toggle" => "collapse", type: "button"}
+        %span.sr-only Toggle navigation
+        %span.icon-bar
+        %span.icon-bar
+        %span.icon-bar
+      %a.navbar-brand{href: "/candidate_backend"}
+        .logo
+    / Collect the nav links, forms, and other content for toggling
+    #bs-example-navbar-collapse-1.collapse.navbar-collapse
+      %ul.nav.navbar-nav.navbar-left
+        %li{:class => (current_page.data.activeclass === "tests") ? "active" : ""}
+          %a.navbar-item{href: "/candidate_backend"} 
+            %i.fa.fa-check
+            My Job Postings
+        %li{:class => (current_page.data.activeclass === "profile") ? "active" : ""}
+          %a.navbar-item{href: "/candidate_backend/profile/show"} 
+            %i.fa.fa-user
+            My Profile
+        %li{:class => (current_page.data.activeclass === "interview") ? "active" : ""}
+          %a.navbar-item{href: "/candidate_backend/interview/show"} 
+            %i.fa.fa-clipboard
+            My Interview
+      %ul.nav.navbar-nav.navbar-right
+        %li.dropdown
+          %a.dropdown-toggle.navbar-item{"data-toggle" => "dropdown", href: "#"}
+            = image_tag ("no_avatar_sm.png"), :class=>"img-circle avatar-sm quarter-margin-right pull-left"
+            %span.hidden-sm
+              john@doe.com
+            %b.caret
+          %ul.dropdown-menu
+            %li
+              %a{href: "/"} Sign Out
+            %li
+              %a{href: "/candidate_backend/profile/edit"} Edit Profile
