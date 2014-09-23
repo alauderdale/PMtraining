@@ -5,8 +5,12 @@ h1.main-page-header{
 }
 .subnav{
   ul.nav-pills{
-
     li{
+      &:last-of-type{
+        // padding-right:0;
+      }
+      padding-left:0px;
+      padding-right:20px;
       &.active{
         a{
           background-color:transparent;
@@ -25,6 +29,8 @@ h1.main-page-header{
         }
       a{
         text-decoration:none;
+        padding-right:0;
+        padding-left:0;
         &:hover{
           background:transparent;
         }

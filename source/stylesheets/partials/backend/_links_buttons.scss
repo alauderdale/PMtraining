@@ -10,7 +10,7 @@ a{
 .btn{
 	@include transition-duration(.4s);
 	font-family:$bold-font-name;
-	font-size:1.8rem;
+	font-size:.8em;
 	padding:$baseline/3 $baseline;
 	&.btn-primary{
 		background-color:$primary-color;

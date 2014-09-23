@@ -1,6 +1,7 @@
 ;;;
 
 "title": "Custom Tests",
+"nav_title": "My Tests",
 "subnav_data": "tests_subnav"
 
 ;;;
@@ -11,4 +12,41 @@
 		.row
 			.col-lg-12
 				=partial "/shared/subnav_with_links"
+		.row
+			.col-lg-12
+				%h3
+					Creae your own test
+		.row.double-margin-bottom
+			.col-sm-6
+				.row.margin-bottom
+					.col-sm-10.col-xs-12
+						%p.extra-bold-font-name.half-margin-bottom
+							Create a Test by Knowledge Area
+						%p
+							Once created, questions will be randomly selected from our database. The test will be listed below.
+						%a.btn.btn-primary{:href=>"#"}
+							%i.fa.fa-plus-circle
+							Create Test by Knowledge Area
+					.col-sm-2.hidden-xs
+						.text-center
+							=image_tag'icons/icon_knowlage.png', :class=>"img-responsive"
+			.col-sm-6
+				.row.margin-bottom
+					.col-sm-10.col-xs-12
+						%p.extra-bold-font-name.half-margin-bottom
+							Create a Test by Process Group
+						%p
+							Once created, questions will be randomly selected from our database. The test will be listed below.
+						%a.btn.btn-primary{:href=>"#"}
+							%i.fa.fa-plus-circle
+							Create Test by Process Group
+					.col-sm-2.hidden-xs
+						.text-center
+							=image_tag'icons/icon_paper.png', :class=>"img-responsive"
+		.row
+			.col-lg-12
+				%h3
+					My Custom Tests
+				-5.times do
+					=partial "/shared/test-thumb-lg"
 				

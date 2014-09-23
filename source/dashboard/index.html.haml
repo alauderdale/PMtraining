@@ -1,6 +1,7 @@
 ;;;
 
 "title": "Dashboard",
+"nav-title": "Dashboard",
 "activeclass": "dashboard"
 
 ;;;
@@ -8,13 +9,11 @@
 
 %section
 	.container
-		.row.double-margin-bottom
+		.row.margin-bottom
 			.col-lg-12
 				.page-header.no-margin-top
 					%h1.no-margin-bottom
-						Dashboard
-				%h3
-					Welcome Back, John!
+						Welcome Back, John!
 				.alert.alert-success.no-margin-bottom
 					.media-object
 						.pull-left
@@ -35,11 +34,11 @@
 				.text-right.text-left-sm
 					%h1.no-margin-bottom.text-color
 						.dot.dot-success
-						3
+						28
 					%p.no-margin-bottom
 						Completed tests
 					%a{:href=>"#"}
-						View Details
+						View Results
 			.col-sm-3.col-xs-6
 				.text-right.text-left-sm
 					%h1.no-margin-bottom.text-color
@@ -48,7 +47,7 @@
 					%p.no-margin-bottom
 						Tests in progress
 					%a{:href=>"#"}
-						View Details
+						Finish Tests
 		.row.double-margin-bottom
 			.col-lg-12
 				.row
@@ -64,9 +63,9 @@
 							%a{:href=>"/tests"}
 								Take a Test
 						%p.no-margin-bottom
-							Send a lovely HTML email along with a plain-text alternative version.
+							Select from a number of PMP practice tests to prepare yourself for the real thing.
 					.col-sm-2.col-xs-12
-						%a.btn.btn-primary.half-margin-top.pull-right.pull-left-xs
+						%a.btn.btn-primary.half-margin-top.pull-right.pull-left-xs{:href=>"/tests"}
 							Select
 					.clearfix
 				.row.border-bottom.padding-top.padding-bottom
