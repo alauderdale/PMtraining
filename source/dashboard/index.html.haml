@@ -37,7 +37,7 @@
 						.dot.dot-success
 						3
 					%p.no-margin-bottom
-						Completed Tests
+						Completed tests
 					%a{:href=>"#"}
 						View Details
 			.col-sm-3.col-xs-6
@@ -46,66 +46,90 @@
 						.dot.dot-warning
 						3
 					%p.no-margin-bottom
-						Completed Tests
+						Tests in progress
 					%a{:href=>"#"}
 						View Details
-		.row
+		.row.double-margin-bottom
 			.col-lg-12
-				%h3.no-margin-bottom
-					Current Features
-		.row.border-bottom.padding-top.padding-bottom
-			.col-sm-1.hidden-xs
-				.text-center.margin-bottom.text-left-sm
-					=image_tag('icons/icon_test.png')
-			.col-sm-9.col-xs-12
-				%h3.no-margin-bottom
-					%a{:href=>"#"}
-						Take a Test
-				%p.no-margin-bottom
-					Send a lovely HTML email along with a plain-text alternative version.
-			.col-sm-2.col-xs-12
-				%a.btn.btn-primary.half-margin-top.pull-right.pull-left-xs
-					Select
-			.clearfix
-		.row.border-bottom.padding-top.padding-bottom
-			.col-sm-1.hidden-xs
-				.text-center.margin-bottom.text-left-sm
-					=image_tag('icons/icon_preformance.png')
-			.col-sm-9.col-xs-12
-				%h3.no-margin-bottom
-					%a{:href=>"#"}
-						View My Performance
-				%p.no-margin-bottom
-					Review your test taking performance statistics based on a number of different criteria.
-			.col-sm-2.col-xs-12
-				%a.btn.btn-primary.half-margin-top.pull-right.pull-left-xs
-					Select
-			.clearfix
-		.row.border-bottom.padding-top.padding-bottom
-			.col-sm-1.hidden-xs
-				.text-center.margin-bottom.text-left-sm
-					=image_tag('icons/icon_faq.png')
-			.col-sm-9.col-xs-12
-				%h3.no-margin-bottom
-					%a{:href=>"#"}
-						See FAQs
-				%p.no-margin-bottom
-					Access our FAQ section to help find answers to your questions
-			.col-sm-2.col-xs-12
-				%a.btn.btn-primary.half-margin-top.pull-right.pull-left-xs
-					Select
-			.clearfix
-		.row.padding-top.padding-bottom
-			.col-sm-1.hidden-xs
-				.text-center.margin-bottom.text-left-sm
-					=image_tag('icons/icon_video.png')
-			.col-sm-9.col-xs-12
-				%h3.no-margin-bottom
-					%a{:href=>"#"}
-						Watch Video Tutorials
-				%p.no-margin-bottom
-					Visit our Tutorials section to view video demos.
-			.col-sm-2.col-xs-12
-				%a.btn.btn-primary.half-margin-top.pull-right.pull-left-xs
-					Select
-			.clearfix
+				.row
+					.col-lg-12
+						%h3.no-margin-bottom
+							Current Features
+				.row.border-bottom.padding-top.padding-bottom
+					.col-sm-1.hidden-xs
+						.text-center.margin-bottom.text-left-sm
+							=image_tag('icons/icon_test.png')
+					.col-sm-9.col-xs-12
+						%h3.no-margin-bottom
+							%a{:href=>"#"}
+								Take a Test
+						%p.no-margin-bottom
+							Send a lovely HTML email along with a plain-text alternative version.
+					.col-sm-2.col-xs-12
+						%a.btn.btn-primary.half-margin-top.pull-right.pull-left-xs
+							Select
+					.clearfix
+				.row.border-bottom.padding-top.padding-bottom
+					.col-sm-1.hidden-xs
+						.text-center.margin-bottom.text-left-sm
+							=image_tag('icons/icon_preformance.png')
+					.col-sm-9.col-xs-12
+						%h3.no-margin-bottom
+							%a{:href=>"#"}
+								View My Performance
+						%p.no-margin-bottom
+							Review your test taking performance statistics based on a number of different criteria.
+					.col-sm-2.col-xs-12
+						%a.btn.btn-primary.half-margin-top.pull-right.pull-left-xs
+							Select
+					.clearfix
+				.row.border-bottom.padding-top.padding-bottom
+					.col-sm-1.hidden-xs
+						.text-center.margin-bottom.text-left-sm
+							=image_tag('icons/icon_faq.png')
+					.col-sm-9.col-xs-12
+						%h3.no-margin-bottom
+							%a{:href=>"#"}
+								See FAQs
+						%p.no-margin-bottom
+							Access our FAQ section to help find answers to your questions
+					.col-sm-2.col-xs-12
+						%a.btn.btn-primary.half-margin-top.pull-right.pull-left-xs
+							Select
+					.clearfix
+				.row.padding-top.padding-bottom
+					.col-sm-1.hidden-xs
+						.text-center.margin-bottom.text-left-sm
+							=image_tag('icons/icon_video.png')
+					.col-sm-9.col-xs-12
+						%h3.no-margin-bottom
+							%a{:href=>"#"}
+								Watch Video Tutorials
+						%p.no-margin-bottom
+							Visit our Tutorials section to view video demos.
+					.col-sm-2.col-xs-12
+						%a.btn.btn-primary.half-margin-top.pull-right.pull-left-xs
+							Select
+					.clearfix
+		/ end items
+		.row
+			.col-sm-6
+				.padding-right
+					%h3
+						Quick Statistic
+					%p
+						The last test you took was 
+						%a{:href=>"#"}
+							Knowledge Area Test: Project Integration Management
+						, where you scored 80.00%.
+					=partial'/dashboard/quick-stat-chart'
+			.col-sm-6
+				.padding-left
+					%h3
+						Category To work On
+					%p
+						Your lowest scoring question category is 
+						%a{:href=>"#"}
+							Project Procurement Management 
+						with an average score of 10.00%.
+					=partial'/dashboard/work-on-chart'
