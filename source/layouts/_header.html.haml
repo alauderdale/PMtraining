@@ -13,13 +13,13 @@
     #bs-example-navbar-collapse-1.collapse.navbar-collapse
       %ul.nav.navbar-nav.navbar-left
         %li{:class => (current_page.data.activeclass === "dashboard") ? "active" : ""}
-          %a.navbar-item{href: "#"} 
+          %a.navbar-item{href: "/dashboard"} 
             Dashboard
         %li{:class => (current_page.data.activeclass === "preformance") ? "active" : ""}
           %a.navbar-item{href: "#"} 
             My Preformance
         %li
-          %a.navbar-item.btn.btn-primary{href: "#"} 
+          %a.navbar-item.btn.btn-primary{href: "/tests"} 
             Take a Test
       %ul.nav.navbar-nav.navbar-right
         %li{:class => (current_page.data.activeclass === "support") ? "active" : ""}

@@ -1,0 +1,7 @@
+.subnav
+	.page-header.inline-block.full-width.no-padding-bottom.no-margin-bottom
+		%ul.nav.nav-pills.sub-nav-links{:class=>"#{navbarclass}"}
+			- data.send(current_page.data.subnav_data).link_title_list.each do |ltl|
+				%li{:class => (current_page.data.title === ltl.title) ? "active" : ""}
+					%a{:href=>"#{ltl.link}"}
+						= ltl.title

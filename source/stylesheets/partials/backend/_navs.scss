@@ -1,0 +1,34 @@
+//subnav
+
+h1.main-page-header{
+  margin-bottom:-85px!important;
+}
+.subnav{
+  ul.nav-pills{
+
+    li{
+      &.active{
+        a{
+          background-color:transparent;
+          color:$primary-color;
+          box-shadow:inset 0 -3px 0 $primary-color;
+          &:hover{
+            background-color:transparent;
+            color:$primary-color;
+          }
+        }
+      }
+        &.active , &:hover{
+          a{
+            border-radius:0;
+          }
+        }
+      a{
+        text-decoration:none;
+        &:hover{
+          background:transparent;
+        }
+      }
+    }
+  }
+}

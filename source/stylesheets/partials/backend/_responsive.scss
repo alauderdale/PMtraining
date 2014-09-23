@@ -4,9 +4,6 @@
 
 	// main menu
 	.backend-main-nav{
-		a.navbar-item{
-			font-size:.7em!important;
-		}
 		ul li.dropdown ul.dropdown-menu li a{
 			font-size:.9em!important;
 		}
@@ -25,7 +22,7 @@
 	  height:26px;
 		}
 		a.navbar-item{
-			font-size:.6em!important;
+			font-size:.8em!important;
 			padding-left:10px;
 			padding-right:10px;
 		}
@@ -84,9 +81,23 @@
 		}
 	}
 
-	.text-left-sm{
-		text-align:left;
-	}
+	//subnav
+
+  h1.main-page-header{
+    margin-bottom:0!important;
+  }
+
+  .subnav{
+	  ul.nav-pills{
+	    &.sub-nav-links{
+	      font-size:.9em;
+	    }
+	  }
+	  .page-header{
+  		margin-top:0;
+  	}
+  }
+
 
 	body{
 		padding-top:50px;
@@ -94,6 +105,10 @@
 
 	.pull-left-xs{
 		float: left!important;
+	}
+
+	.text-left-sm{
+		text-align:left;
 	}
 
 
