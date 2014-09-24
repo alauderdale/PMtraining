@@ -1,6 +1,6 @@
 .row.border-bottom.padding-top.padding-bottom
 	.col-sm-1.hidden-xs
-		=image_tag'icons/icon_paper.png', :class=>"img-responsive margin-top"
+		=image_tag'icons/icon_test_show.png', :class=>"img-responsive margin-top"
 	.col-sm-6.col-xs-12
 		%p.quarter-margin-bottom.bold-font-name
 			%a{:href=>"#"}
@@ -12,7 +12,7 @@
 			%i.fa.fa-check-circle
 			Complete
 	.col-sm-3
-		.btn-group.half-margin-top
+		.btn-group.half-margin-top.pull-right.pull-left-xs
 			%button.btn.btn-primary{:type => "button"} 
 				Take Test
 			%button.btn.btn-primary.dropdown-toggle{"data-toggle" => "dropdown", :type => "button"}
@@ -20,5 +20,5 @@
 			%ul.dropdown-menu{:role => "menu"}
 				%li
 					%a{:href => "#"} 
-						Action
+						View Answer Key
 	.clearfix
