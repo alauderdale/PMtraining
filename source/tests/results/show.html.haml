@@ -21,6 +21,32 @@
 								%i.fa.fa-long-arrow-left
 								Return to Results Menu
 
+		.row.double-margin-bottom
+			.col-sm-12
+				%h3.margin-bottom
+					Test Overview
+				%dl.dl-horizontal
+					%dt
+						Test Name:
+					%dd.margin-bottom
+						Business Skills II
+					%dt
+						Your Test Score:
+					%dd.margin-bottom
+						%strong
+							2 of 10 
+						(20.00%)
+					%dt
+						Required to Pass:
+					%dd.margin-bottom
+						%strong
+							7 of 10 
+						(70.00%)
+					%dt
+						Results:
+					%dd.margin-bottom.text-danger
+						Sorry, you did not receive a passing score for this test.
+
 
 		.row.double-margin-bottom
 			.col-sm-6
@@ -38,16 +64,14 @@
 					Below are the individual test questions from the test, along with the correct response and reason. 
 				.answer-key
 					%p.no-margin-bottom.text-success
-						%small
-							%i.fa.fa-check-circle-o.result-icon
-							indicates a correct response.
+						%i.fa.fa-check-circle-o.result-icon
+						indicates a correct response.
 					%p.no-margin-bottom.text-danger
-						%small
-							%i.fa.fa-times-circle-o.result-icon
-							indicates an  in-correct response.
+						%i.fa.fa-times-circle-o.result-icon
+						indicates an  in-correct response.
 				%hr
 		.row
-			.col-sm-12
+			.col-sm-8
 				-6.times do
 					.row.double-margin-bottom
 						.col-lg-12
@@ -89,6 +113,8 @@
 												%p.no-margin-bottom
 													%strong 
 														Your response: 
-													Charter Consultant
+													%em
+														Charter Consultant
+			.col-sm-4
 
 			
