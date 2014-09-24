@@ -3,3 +3,23 @@
 		border-bottom:none;
 	}
 }
+
+//questions
+
+.test-toggle-btn{
+  .btn-icon{
+    &:after{
+      width:10px;
+      content:"+";
+    }
+  }
+  &.active{
+    background-color:tint($primary-color,90%)!important;
+    .btn-icon{
+      width:20px;
+      &:after{
+        content:"✓";
+      }
+    }
+  }
+}

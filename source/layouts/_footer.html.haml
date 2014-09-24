@@ -24,10 +24,9 @@
 //tests
 
 //show
-#showCustomTestModal.modal.fade{"aria-hidden" => "true", role: "dialog"}
+#showCustomTestModal.modal{"aria-hidden" => "true", role: "dialog"}
 	.modal-dialog
 		.modal-content
-
 
 //custom tests
 
@@ -35,3 +34,14 @@
 #newCustomTestModal.modal.fade{"aria-hidden" => "true", role: "dialog"}
 	.modal-dialog
 		.modal-content
+
+//questions
+
+//confirm begin
+#beginTestConfirmModal.modal{"aria-hidden" => "true", role: "dialog"}
+	.modal-dialog
+		.modal-content
+
+//confirm submit
+#confirmSubmitModal.modal{"aria-hidden" => "true", role: "dialog"}
+	=partial "shared/confirm-modal-with-link", :locals=>{:text =>"Are you sure you want to submit your answers?", :link=>"/tests", :btnclass=>"btn-success", :confirm_btn_text=>"Submit"}

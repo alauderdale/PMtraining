@@ -1,5 +1,15 @@
 table.table{
-	font-size:.8em;
+	font-size:.9em;
+  th{
+    text-transform:uppercase;
+    font-family:$light-font-name;
+    background-color:tint($primary-color,90%)!important;
+    border-right:1px solid $gray-color;
+    color:$primary-color;
+    &:last-of-type{
+      border-right:none;
+    }
+  }
 	p{
 		line-height:$baseline/1.5;
 	}
@@ -23,3 +33,4 @@ table.table{
 		}
 	}
 }
+

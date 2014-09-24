@@ -1,0 +1,21 @@
+;;;
+
+"layout": "modal_small"
+  
+;;;
+
+
+.modal-dialog.modal-sm
+	.modal-content
+		.modal-body.no-padding-bottom
+			.row
+				.col-sm-3.hidden-xs
+					%i.fa.fa-exclamation-circle.text-danger.modal-icon.half-margin-bottom{:style=>"font-size:3em;"}
+				.col-sm-9.col-xs-12
+					%p.no-margin-bottom
+						= text
+		.modal-footer
+			%button.btn-link.cursor-pointer.half-margin-right{"data-dismiss" => "modal"} 
+				Cancel
+			%a.btn{ type: "button", :href=>"#{link}", :class=>"#{btnclass}"} 
+				= confirm_btn_text

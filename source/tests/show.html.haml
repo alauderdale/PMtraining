@@ -16,30 +16,39 @@
 		.clearfix
 	.modal-body
 		.row
+			.col-lg-12
+				.alert.alert-info
+					%strong
+						%i.fa.fa-clock-o
+						Heads up 
+					During the practice test, you will be provided with a live timer indicating how much time is remaining.
+		.row
 			.col-lg-12	
 				%p.extra-bold-font-name.half-margin-bottom
 					Custom Test created August 29 - Project Cost Management (5 questions)
 				%p
 					This custom test is comprised of questions from Project Cost Management. There are 5 total questions selected for this test. This test was originally created on August 29.
 				%hr
-				.row
-					.col-sm-4
-						%p.no-margin-bottom.extra-bold-font-name
-							Time Allowed
+				.row.text-center.quarter-margin-bottom.text-left-sm
+					.col-sm-4.border-right.no-border-right-sm
+						%p.no-margin-bottom.medium-font-name.text-uppercase
+							%small
+								Time Allowed
 						%h2.light-font-name.half-margin-bottom
-							%i.fa.fa-clock-o
-							6min
-					.col-sm-3
-						%p.no-margin-bottom.extra-bold-font-name
-							Questions
+							6
+							%small
+								min
+					.col-sm-3.border-right.no-border-right-sm
+						%p.no-margin-bottom.medium-font-name.text-uppercase
+							%small
+								Questions
 						%h2.light-font-name.half-margin-bottom
-							%i.fa.fa-pencil
 							5
 					.col-sm-5
-						%p.no-margin-bottom.extra-bold-font-name
-							Correct Answers to Pass
+						%p.no-margin-bottom.medium-font-name.text-uppercase
+							%small
+								Correct Answers to Pass
 						%h2.light-font-name.no-margin-bottom
-							%i.fa.fa-check
 							3 
 							%small
 								(60.00%)
@@ -47,6 +56,6 @@
 		%p.no-margin-bottom.pull-right
 			%a.half-margin-right{ "data-dismiss"=>"modal", :href=>"#"}
 				Cancel
-			%a.btn.btn-success{ "data-dismiss"=>"modal", :href=>"#"}
+			%a.btn.btn-success{"data-dismiss"=>"modal","data-toggle"=>"modal", :href=>"/questions/confirm", "data-target"=>"#beginTestConfirmModal"}
 				Begin Test Now
 					
