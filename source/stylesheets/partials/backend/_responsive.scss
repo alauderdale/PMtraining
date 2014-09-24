@@ -31,6 +31,14 @@
 		}
 	}
 
+	.pull-left-md{
+		float: left!important;
+	}
+
+	.text-left-md{
+		text-align:left;
+	}
+
 
 }
 
@@ -103,12 +111,16 @@
 		padding-top:50px;
 	}
 
-	.pull-left-xs{
+	.pull-left-sm{
 		float: left!important;
 	}
 
 	.text-left-sm{
 		text-align:left;
+	}
+
+	.no-padding-left-sm{
+		padding-left:0!important;
 	}
 
 

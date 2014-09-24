@@ -18,26 +18,26 @@
 					Creae your own test
 		.row.double-margin-bottom
 			.col-sm-6
-				.row.margin-bottom
+				.row.margin-bottom.padding-right
 					.col-sm-10.col-xs-12
 						%p.extra-bold-font-name.half-margin-bottom
 							Create a Test by Knowledge Area
 						%p
 							Once created, questions will be randomly selected from our database. The test will be listed below.
-						%a.btn.btn-primary{:href=>"#"}
+						%a.btn.btn-primary{"data-toggle"=>"modal", :href=>"/tests/custom-tests/new", "data-target"=>"#newCustomTestModal"}
 							%i.fa.fa-plus-circle
 							Create Test by Knowledge Area
 					.col-sm-2.hidden-xs
 						.text-center
 							=image_tag'icons/icon_knowlage.png', :class=>"img-responsive"
 			.col-sm-6
-				.row.margin-bottom
+				.row.margin-bottom.padding-left.no-padding-left-sm
 					.col-sm-10.col-xs-12
 						%p.extra-bold-font-name.half-margin-bottom
 							Create a Test by Process Group
 						%p
 							Once created, questions will be randomly selected from our database. The test will be listed below.
-						%a.btn.btn-primary{:href=>"#"}
+						%a.btn.btn-primary{"data-toggle"=>"modal", :href=>"/tests/custom-tests/new", "data-target"=>"#newCustomTestModal"}
 							%i.fa.fa-plus-circle
 							Create Test by Process Group
 					.col-sm-2.hidden-xs
@@ -47,6 +47,12 @@
 			.col-lg-12
 				%h3
 					My Custom Tests
-				-5.times do
-					=partial "/shared/test-thumb-lg"
+		.row
+			.col-lg-12
+				-2.times do
+					=partial "/shared/standard-test-thumb-lg", :locals=>{ :status=>"Not Started", :iconClass=>"fa-circle-o", :btnTitle=>"Take Test", :textStatusClass=>"text-muted"}
+				=partial "/shared/standard-test-thumb-lg", :locals=>{ :status=>"In Progress", :iconClass=>"fa-circle", :btnTitle=>"Continue Test", :textStatusClass=>"text-warning"}
+				=partial "/shared/standard-test-thumb-lg", :locals=>{ :status=>"Complete", :iconClass=>"fa-check-circle", :btnTitle=>"Re-take Test", :textStatusClass=>"text-success"}
+
+
 				

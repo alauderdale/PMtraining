@@ -1,0 +1,52 @@
+;;;
+
+"layout": "modal_small"
+  
+;;;
+
+
+
+.padded
+	.modal-header
+		%button.close{"aria-hidden" => "true", "data-dismiss" => "modal", type: "button", :style=>"left:10px; bottom:20px;"} 
+			×
+		%h3.modal-title 
+			=image_tag'icons/icon_test_show.png', :class=>"pull-left margin-right hidden-xs", :width => "30"
+			Test Overview
+		.clearfix
+	.modal-body
+		.row
+			.col-lg-12	
+				%p.extra-bold-font-name.half-margin-bottom
+					Custom Test created August 29 - Project Cost Management (5 questions)
+				%p
+					This custom test is comprised of questions from Project Cost Management. There are 5 total questions selected for this test. This test was originally created on August 29.
+				%hr
+				.row
+					.col-sm-4
+						%p.no-margin-bottom.extra-bold-font-name
+							Time Allowed
+						%h2.light-font-name.half-margin-bottom
+							%i.fa.fa-clock-o
+							6min
+					.col-sm-3
+						%p.no-margin-bottom.extra-bold-font-name
+							Questions
+						%h2.light-font-name.half-margin-bottom
+							%i.fa.fa-pencil
+							5
+					.col-sm-5
+						%p.no-margin-bottom.extra-bold-font-name
+							Correct Answers to Pass
+						%h2.light-font-name.no-margin-bottom
+							%i.fa.fa-check
+							3 
+							%small
+								(60.00%)
+	.modal-footer.no-margin-top
+		%p.no-margin-bottom.pull-right
+			%a.half-margin-right{ "data-dismiss"=>"modal", :href=>"#"}
+				Cancel
+			%a.btn.btn-success{ "data-dismiss"=>"modal", :href=>"#"}
+				Begin Test Now
+					

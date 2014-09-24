@@ -1,0 +1,45 @@
+;;;
+
+"layout": "modal_small"
+  
+;;;
+
+
+
+.padded
+	.modal-header
+		%button.close{"aria-hidden" => "true", "data-dismiss" => "modal", type: "button", :style=>"left:10px; bottom:20px;"} 
+			×
+		%h3.modal-title 
+			=image_tag'icons/icon_knowlage.png', :class=>"pull-left margin-right hidden-xs", :width => "30"
+			Create Your Own Test by Knowledge Area
+		.clearfix
+	.modal-body
+		.row
+			.col-lg-12	
+				%p
+					Once created, questions will be randomly selected from our database. The test will be listed below.
+				%form.form-horizontal{role: "form"}
+					.form-group
+						%label.col-sm-6.control-label.quarter-margin-bottom
+							Select a PMBOK Knowledge Area
+						.col-sm-6
+							%select.form-control.half-margin-bottom
+								%option
+									Include From All Knowlage Areas
+					.form-group
+						%label.col-sm-6.control-label.quarter-margin-bottom
+							Select the Number of Questions:
+						.col-sm-6
+							%select.form-control.half-margin-bottom
+								%option
+									5
+					.form-group
+						.col-sm-6
+						.col-sm-6
+							%p.no-margin-bottom.pull-right
+								%a.half-margin-right{ "data-dismiss"=>"modal", :href=>"#"}
+									Cancel
+								%a.btn.btn-primary{ "data-dismiss"=>"modal", :href=>"#"}
+									Generate New Test
+					

@@ -1,9 +1,9 @@
 %section.no-padding-top
 	#backend-footer
 		.container
-			.row
+			.row.border-top
 				.col-sm-12
-					.pull-left.padding-top.border-top.full-width
+					.pull-left.padding-top.full-width
 						%nav
 							%ul.list-inline.pull-left.footer-nav
 								%li
@@ -20,3 +20,18 @@
 								%li
 									%a{:href=>"#"}
 										My Account
+
+//tests
+
+//show
+#showCustomTestModal.modal.fade{"aria-hidden" => "true", role: "dialog"}
+	.modal-dialog
+		.modal-content
+
+
+//custom tests
+
+//new
+#newCustomTestModal.modal.fade{"aria-hidden" => "true", role: "dialog"}
+	.modal-dialog
+		.modal-content
