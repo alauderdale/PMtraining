@@ -38,6 +38,11 @@
 
 			
 	.modal-footer.no-margin-top
+		.checkbox.pull-left.hidden-xs{:style=>"position:relative; top:-5px;"}
+			%label
+				%input{:type => "checkbox"}
+				%p.no-margin-bottom
+					Dont show again
 		%p.no-margin-bottom.pull-right
 			%a.half-margin-right{ "data-dismiss"=>"modal", :href=>"#"}
 				Cancel
