@@ -50,9 +50,9 @@
 		.row
 			.col-lg-12
 				-2.times do
-					=partial "/shared/standard-test-thumb-lg", :locals=>{ :status=>"Not Started", :iconClass=>"fa-circle-o", :btnTitle=>"Take Test", :textStatusClass=>"text-muted"}
-				=partial "/shared/standard-test-thumb-lg", :locals=>{ :status=>"In Progress", :iconClass=>"fa-circle", :btnTitle=>"Continue Test", :textStatusClass=>"text-warning"}
-				=partial "/shared/standard-test-thumb-lg", :locals=>{ :status=>"Complete", :iconClass=>"fa-check-circle", :btnTitle=>"Re-take Test", :textStatusClass=>"text-success"}
+					=partial "/shared/custom-test-thumb-lg", :locals=>{ :status=>"Not Started", :iconClass=>"fa-circle-o", :btnTitle=>"Take Test", :textStatusClass=>"text-muted"}
+				=partial "/shared/custom-test-thumb-lg", :locals=>{ :status=>"In Progress", :iconClass=>"fa-circle", :btnTitle=>"Continue Test", :textStatusClass=>"text-warning"}
+				=partial "/shared/custom-test-thumb-lg", :locals=>{ :status=>"Complete", :iconClass=>"fa-check-circle", :btnTitle=>"Re-take Test", :textStatusClass=>"text-success"}
 
 
 				
