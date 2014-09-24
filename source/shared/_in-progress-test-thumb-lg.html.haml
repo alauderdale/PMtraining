@@ -1,6 +1,6 @@
 .row.border-bottom.padding-top.padding-bottom.test-thumb
 	.col-md-1.hidden-sm.hidden-xs
-		=image_tag'icons/icon_test_show.png', :class=>"img-responsive margin-top"
+		=image_tag'icons/icon_test.png', :class=>"img-responsive margin-top"
 	.col-md-6.col-xs-12
 		%p.quarter-margin-bottom.bold-font-name
 			%a{"data-toggle"=>"modal", :href=>"/tests/show", "data-target"=>"#showCustomTestModal"}
@@ -8,7 +8,9 @@
 		%p.half-margin-bottom
 			This is a cumulative PMP Mock Exam which can be used as a benchmark for your PMP aptitude. This practice test includes questions from all PMBOK knowledge areas, including the five basic project management process groups.
 		%p.text-muted
-			Started on Wednesday, September 24, 2014 10:37 AM [GMT -04:00] 
+			%span.dark-text-color
+				Started: 
+			Wednesday, September 24, 2014 10:37 AM [GMT -04:00] 
 	.col-md-2
 		%p.bold-font-name.no-margin-bottom.text-center.text-left-md{:style=>"margin-top:18px;",:class=>"#{textStatusClass}"}
 			%i.fa{:class=>"#{iconClass}"}

@@ -1,6 +1,6 @@
 .row.border-bottom.padding-top.padding-bottom.test-thumb
 	.col-md-1.hidden-sm.hidden-xs
-		=image_tag'icons/icon_test_show.png', :class=>"img-responsive margin-top"
+		=image_tag'icons/icon_test.png', :class=>"img-responsive margin-top"
 	.col-md-6.col-xs-12
 		%p.quarter-margin-bottom.bold-font-name
 			%a{"data-toggle"=>"modal", :href=>"/tests/show", "data-target"=>"#showCustomTestModal"}
@@ -21,3 +21,6 @@
 				%li
 					%a{:href => "/answers"} 
 						View Answer Key
+				%li
+					%a{:href => "#"} 
+						Delete Test
