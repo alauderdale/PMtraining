@@ -30,6 +30,9 @@
 			&.active{
 				a{
 					background-color:shade($primary-color,60%)!important;
+					&.navbar-item-muted{
+						color:white!important;
+					}
 				}
 			}
 			&.dropdown{
