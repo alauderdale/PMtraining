@@ -20,12 +20,14 @@
 @import "partials/backend/modals";
 @import "partials/backend/forms";
 @import "partials/backend/alerts";
+@import "partials/backend/videos";
 
 
 //// elements
 @import "elements/backend/header";
 @import "elements/backend/footer";
 @import "elements/backend/tests";
+@import "elements/backend/faqs";
 
 //// responsify
 @import "partials/backend/responsive";

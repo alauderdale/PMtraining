@@ -1,13 +1,13 @@
 {
 "link_title_list": [
 	  {"title":"FAQs", 
-	  	"link":"support/faq"
+	  	"link":"/support/faqs"
 	  },
-	  {"title":"Tutorials", 
-	  	"link":"support/tutorials"
+	  {"title":"Video Turotials", 
+	  	"link":"/support/tutorials"
 	  },
 	  {"title":"Contact", 
-	  	"link":"support/contact"
+	  	"link":"/support/contact"
 	  }
 	]
 }

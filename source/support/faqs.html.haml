@@ -8,14 +8,14 @@
 ;;;
 
 
-%section
+%section.faq-container
 	.container
 		.row
 			.col-lg-12
 				=partial "/shared/subnav_with_links"
 		.row
 			.col-lg-12
-				%h3
+				%h3.no-margin-bottom
 					FAQ Sections
 
 		.row
@@ -154,7 +154,7 @@
 					%a{:href=>"/"} 
 						PMI exam.
 			.col-md-3
-				%ul.nav
+				%ul.nav{"data-spy"=>"affix", "data-offset-top"=>"0"}
 					%li
 						%a{:href=>"#questions-pm"}
 							Questions About PMTraining
