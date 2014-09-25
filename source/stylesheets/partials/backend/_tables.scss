@@ -1,6 +1,7 @@
 table.table{
 	font-size:.9em;
   th{
+  	font-size:.7em;
     text-transform:uppercase;
     font-family:$light-font-name;
     background-color:tint($primary-color,90%)!important;

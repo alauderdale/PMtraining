@@ -1,0 +1,75 @@
+:javascript
+	$(function () {
+	        $('#knowledge-area-chart').highcharts({
+	            chart: {
+	                type: 'column',
+	                backgroundColor: '#fff',
+	                height: '350'
+	            },
+							colors: [
+							'#3abff1',
+							],
+	            title: {
+	                text: 'Overall Preformance by Question Category'
+	            },
+	            subtitle: {
+	                text: ''
+	            },
+	            legend: {
+	                enabled: false
+	            },
+	            xAxis: {
+									labels: {
+										rotation: -45
+									},
+
+	            		categories: ['Prof. Responsibility','Human Resource Mgt','Integration Mgt','Cost Mgt','Procurement Mgt','Project Framework','Communications Mgt','Rist Mgt','Quality Mgt','Scope Mgt','Time Mgt','Stakeholder Mgt'],
+	                title: {
+	                    text: ''
+	                }
+	            },
+	            yAxis: {
+	                min: 0,
+	                max: 100,
+	                tickPixelInterval: 120,
+	                labels: {
+	                    overflow: 'justify'
+	                },
+	                title: {
+	                    enabled: false
+	                }
+	            },
+	            tooltip: {
+	                valueSuffix: ' %'
+	            },
+	            plotOptions: {
+	                bar: {
+	                    dataLabels: {
+	                        enabled: true
+	                    },
+	                },
+									series: {
+										pointWidth: 20
+									}
+	            },
+	            credits: {
+	                enabled: false
+	            },
+	            series: [{
+	            		name: 'preformance',
+	                data: [
+		                10, 30, 60,10, 90, 10,10, 90, 50,30, 20, 40
+	                ],
+									dataLabels: {
+										enabled: true,
+										rotation: -90,
+										color: '#FFFFFF',
+										align: 'right',
+										x: 4,
+										y: 10
+									}
+	            }]
+	        });
+	    });
+#knowledge-area-chart
+
