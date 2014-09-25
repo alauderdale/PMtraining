@@ -1,0 +1,25 @@
+;;;
+
+"title": "Overall",
+"nav_title": "Preformance",
+"subnav_data": "preformance_subnav",
+"activeclass": "preformance"
+
+;;;
+
+
+%section
+	.container
+		.row
+			.col-lg-12
+				=partial "/shared/subnav_with_links"
+		.row.double-margin-bottom
+			.col-lg-12
+				%h3
+					Performance Trend for All Tests Completed
+				%p
+					This chart illustrates your overall performace trend for all tests taken within the system. This performance trend is ordered chronologically, from the first test to the most recent.
+		.row.double-margin-bottom
+			.col-lg-12
+				=partial'/preformance/charts/chart-overall'
+	

@@ -1,15 +1,16 @@
 :javascript
 	$(function () {
-	        $('#results-preformance-chart-knowlage').highcharts({
+	        $('#overall-chart').highcharts({
 	            chart: {
-	                type: 'column',
-	                backgroundColor: '#fff'
+	                type: 'line',
+	                backgroundColor: '#fff',
+	                height: '250'
 	            },
 							colors: [
 							'#3abff1',
 							],
 	            title: {
-	                text: 'Test Preformance by Knowledge Area'
+	                text: ''
 	            },
 	            subtitle: {
 	                text: ''
@@ -18,9 +19,11 @@
 	                enabled: false
 	            },
 	            xAxis: {
-	                categories: ['Procurement Mgmt.'],
 	                title: {
-	                    text: null
+	                    text: 'Total Tests Taken'
+	                },
+	                labels: {
+	                    enabled: false
 	                }
 	            },
 	            yAxis: {
@@ -52,9 +55,9 @@
 	            },
 	            series: [{
 	            		name: 'preformance',
-	                data: [36.24]
+	                data: [10, 20, 40,10, 20, 40,10, 20, 40]
 	            }]
 	        });
 	    });
-#results-preformance-chart-knowlage
+#overall-chart
 

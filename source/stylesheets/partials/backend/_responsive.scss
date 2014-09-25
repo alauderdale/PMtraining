@@ -23,8 +23,13 @@
 		}
 		a.navbar-item{
 			font-size:.8em!important;
-			padding-left:10px;
-			padding-right:10px;
+			padding:$baseline 5px;
+			margin:0 5px;
+			&.btn{
+				padding: 5px 10px;
+				margin-top: 19px;
+				margin-bottom:0;
+			}
 		}
 		ul li.dropdown ul.dropdown-menu li a{
 			font-size:.8em!important;
