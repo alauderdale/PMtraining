@@ -17,10 +17,11 @@
 				%h3
 					User Account for John Doe
 		.row
-			.col-md-8
+			.col-md-12
 				%form.form-horizontal{role: "form"}
-					%p
-						Basic Info:
+					.page-header
+						%h2.no-margin-bottom
+							Basic Info:
 					.form-group.no-margin-bottom
 						%label.col-sm-3.control-label
 							Account Activated:
@@ -68,26 +69,26 @@
 						%label.col-sm-3.control-label.quarter-margin-bottom
 							Erase Scoring History:
 						.col-sm-9
-							%a.quarter-margin-top.btn.btn-danger{:style=>"padding:3px 5px;"}
+							%a.pull-left.quarter-margin-top{:href=>"#"}
 								Reset History
-					%p.margin-top
-						Password
+					.page-header
+						%h2.no-margin-bottom
+							Password
 					.form-group
 						%label.col-sm-3.control-label.quarter-margin-bottom
 							New Password:
 						.col-sm-9
-							%input.form-control
+							%input.form-control{:style=>"max-width:250px;"}
 					.form-group.margin-bottom
 						%label.col-sm-3.control-label.quarter-margin-bottom
 							Confirm Password:
 						.col-sm-9
-							%input.form-control
+							%input.form-control{:style=>"max-width:250px;"}
 					.form-group.no-margin-bottom
 						.col-sm-3
 						.col-sm-9
 							%a.btn.btn-lg.btn-primary.margin-bottom{href:"#"}
 								Update Password 
-			.col-md-3
 			%hr.no-margin-top
 		.row
 			.col-lg-12

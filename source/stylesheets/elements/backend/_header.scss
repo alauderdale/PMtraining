@@ -48,9 +48,9 @@
 						a{
 							color:white!important;
 							padding:$baseline/2;
-							background-color:shade($primary-color,60%)!important;
+							background-color:shade($primary-color,40%)!important;
 							&:hover{
-								background-color:shade($primary-color,70%)!important;
+								background-color:shade($primary-color,60%)!important;
 							}
 						}
 					}
