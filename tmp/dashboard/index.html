@@ -38,17 +38,17 @@
           <div class='collapse navbar-collapse' id='bs-example-navbar-collapse-1'>
             <ul class='nav navbar-nav navbar-left'>
               <li class='active'>
-                <a class='navbar-item' href='#'>
+                <a class='navbar-item' href='/dashboard'>
                   Dashboard
                 </a>
               </li>
               <li class=''>
-                <a class='navbar-item' href='#'>
+                <a class='navbar-item' href='/preformance'>
                   My Preformance
                 </a>
               </li>
               <li>
-                <a class='navbar-item btn btn-primary' href='#'>
+                <a class='navbar-item btn btn-primary' href='/tests'>
                   Take a Test
                 </a>
               </li>
@@ -60,7 +60,7 @@
                 </a>
               </li>
               <li class=''>
-                <a class='navbar-item navbar-item-muted' href='#'>
+                <a class='navbar-item navbar-item-muted' href='/support/faqs'>
                   Support
                 </a>
               </li>
@@ -76,7 +76,7 @@
                 </a>
                 <ul class='dropdown-menu'>
                   <li>
-                    <a href='#'>
+                    <a href='/account'>
                       My Account
                     </a>
                   </li>
@@ -94,16 +94,13 @@
       <!-- end menu -->
       <section>
         <div class='container'>
-          <div class='row double-margin-bottom'>
+          <div class='row margin-bottom'>
             <div class='col-lg-12'>
               <div class='page-header no-margin-top'>
                 <h1 class='no-margin-bottom'>
-                  Dashboard
+                  Welcome Back, John!
                 </h1>
               </div>
-              <h3>
-                Welcome Back, John!
-              </h3>
               <div class='alert alert-success no-margin-bottom'>
                 <div class='media-object'>
                   <div class='pull-left'>
@@ -124,7 +121,7 @@
           </div>
           <div class='row double-margin-bottom'>
             <div class='col-sm-6 col-xs-12'>
-              <h3>
+              <h3 class='half-margin-top half-margin-bottom'>
                 Exam Type
               </h3>
               <p>
@@ -135,13 +132,13 @@
               <div class='text-right text-left-sm'>
                 <h1 class='no-margin-bottom text-color'>
                   <div class='dot dot-success'></div>
-                  3
+                  28
                 </h1>
                 <p class='no-margin-bottom'>
-                  Completed Tests
+                  Completed tests
                 </p>
-                <a href='#'>
-                  View Details
+                <a href='/tests/results'>
+                  View Results
                 </a>
               </div>
             </div>
@@ -152,112 +149,267 @@
                   3
                 </h1>
                 <p class='no-margin-bottom'>
-                  Completed Tests
+                  Tests in progress
                 </p>
-                <a href='#'>
-                  View Details
+                <a href='/tests/in-progress'>
+                  Finish Tests
                 </a>
               </div>
             </div>
           </div>
-          <div class='row'>
+          <div class='row double-margin-bottom'>
             <div class='col-lg-12'>
-              <h3 class='no-margin-bottom'>
-                Current Features
-              </h3>
-            </div>
-          </div>
-          <div class='row border-bottom padding-top padding-bottom'>
-            <div class='col-sm-1 hidden-xs'>
-              <div class='text-center margin-bottom text-left-sm'>
-                <img src="../images/icons/icon_test.png" />
+              <div class='row'>
+                <div class='col-lg-12'>
+                  <h3 class='no-margin-bottom'>
+                    Current Features
+                  </h3>
+                </div>
+              </div>
+              <div class='row border-bottom padding-top padding-bottom'>
+                <div class='col-sm-1 hidden-xs'>
+                  <div class='text-center margin-bottom text-left-sm'>
+                    <img src="../images/icons/icon_test.png" />
+                  </div>
+                </div>
+                <div class='col-sm-9 col-xs-12'>
+                  <h3 class='no-margin-bottom'>
+                    <a href='/tests'>
+                      Take a Test
+                    </a>
+                  </h3>
+                  <p class='no-margin-bottom'>
+                    Select from a number of PMP practice tests to prepare yourself for the real thing.
+                  </p>
+                </div>
+                <div class='col-sm-2 col-xs-12'>
+                  <a class='btn btn-primary half-margin-top pull-right pull-left-sm' href='/tests'>
+                    Select
+                  </a>
+                </div>
+                <div class='clearfix'></div>
+              </div>
+              <div class='row border-bottom padding-top padding-bottom'>
+                <div class='col-sm-1 hidden-xs'>
+                  <div class='text-center margin-bottom text-left-sm'>
+                    <img src="../images/icons/icon_preformance.png" />
+                  </div>
+                </div>
+                <div class='col-sm-9 col-xs-12'>
+                  <h3 class='no-margin-bottom'>
+                    <a href='/preformance'>
+                      View My Performance
+                    </a>
+                  </h3>
+                  <p class='no-margin-bottom'>
+                    Review your test taking performance statistics based on a number of different criteria.
+                  </p>
+                </div>
+                <div class='col-sm-2 col-xs-12'>
+                  <a class='btn btn-primary half-margin-top pull-right pull-left-sm' href='/preformance'>
+                    Select
+                  </a>
+                </div>
+                <div class='clearfix'></div>
+              </div>
+              <div class='row border-bottom padding-top padding-bottom'>
+                <div class='col-sm-1 hidden-xs'>
+                  <div class='text-center margin-bottom text-left-sm'>
+                    <img src="../images/icons/icon_faq.png" />
+                  </div>
+                </div>
+                <div class='col-sm-9 col-xs-12'>
+                  <h3 class='no-margin-bottom'>
+                    <a href='/support/faqs'>
+                      See FAQs
+                    </a>
+                  </h3>
+                  <p class='no-margin-bottom'>
+                    Access our FAQ section to help find answers to your questions
+                  </p>
+                </div>
+                <div class='col-sm-2 col-xs-12'>
+                  <a class='btn btn-primary half-margin-top pull-right pull-left-sm' href='/support/faqs'>
+                    Select
+                  </a>
+                </div>
+                <div class='clearfix'></div>
+              </div>
+              <div class='row padding-top padding-bottom'>
+                <div class='col-sm-1 hidden-xs'>
+                  <div class='text-center margin-bottom text-left-sm'>
+                    <img src="../images/icons/icon_video.png" />
+                  </div>
+                </div>
+                <div class='col-sm-9 col-xs-12'>
+                  <h3 class='no-margin-bottom'>
+                    <a href='/support/tutorials'>
+                      Watch Video Tutorials
+                    </a>
+                  </h3>
+                  <p class='no-margin-bottom'>
+                    Visit our Tutorials section to view video demos.
+                  </p>
+                </div>
+                <div class='col-sm-2 col-xs-12'>
+                  <a class='btn btn-primary half-margin-top pull-right pull-left-sm' href='/support/tutorials'>
+                    Select
+                  </a>
+                </div>
+                <div class='clearfix'></div>
               </div>
             </div>
-            <div class='col-sm-9 col-xs-8'>
-              <h3 class='no-margin-bottom'>
-                <a href='#'>
-                  Take a Test
-                </a>
-              </h3>
-              <p class='no-margin-bottom'>
-                Send a lovely HTML email along with a plain-text alternative version.
-              </p>
-            </div>
-            <div class='col-sm-2 col-xs-4'>
-              <a class='btn btn-primary half-margin-top btn-block'>
-                Select
-              </a>
-            </div>
-            <div class='clearfix'></div>
           </div>
-          <div class='row border-bottom padding-top padding-bottom'>
-            <div class='col-sm-1 hidden-xs'>
-              <div class='text-center margin-bottom text-left-sm'>
-                <img src="../images/icons/icon_preformance.png" />
+          <!-- end items -->
+          <div class='row'>
+            <div class='col-sm-6'>
+              <div class='padding-right'>
+                <h3>
+                  Quick Statistic
+                </h3>
+                <p>
+                  The last test you took was
+                  <a href='#'>
+                    Knowledge Area Test: Project Integration Management
+                  </a>
+                  , where you scored 80.00%.
+                </p>
+                <script>
+                  $(function () {
+                          $('#quick-stat-chart').highcharts({
+                              chart: {
+                                  type: 'column',
+                                  backgroundColor: '#fff'
+                              },
+                              colors: [
+                  							'#3abff1',
+                  						],
+                              title: {
+                                  text: ''
+                              },
+                              subtitle: {
+                                  text: ''
+                              },
+                              legend: {
+                                  enabled: false
+                              },
+                              xAxis: {
+                                  categories: ['Mon. Aug 12, 2014'],
+                                  title: {
+                                      text: null
+                                  }
+                              },
+                              yAxis: {
+                                  min: 0,
+                                  max: 100,
+                                  tickPixelInterval: 120,
+                                  labels: {
+                                      overflow: 'justify'
+                                  },
+                                  title: {
+                                      enabled: false
+                                  }
+                              },
+                              tooltip: {
+                                  valueSuffix: ' %'
+                              },
+                              plotOptions: {
+                                  bar: {
+                                      dataLabels: {
+                                          enabled: true
+                                      },
+                                  },
+                  								series: {
+                  									pointWidth: 100
+                  								}
+                              },
+                              credits: {
+                                  enabled: false
+                              },
+                              series: [{
+                              		name: 'preformance',
+                                  data: [86.24]
+                              }]
+                          });
+                      });
+                </script>
+                <div id='quick-stat-chart'></div>
               </div>
             </div>
-            <div class='col-sm-9 col-xs-8'>
-              <h3 class='no-margin-bottom'>
-                <a href='#'>
-                  View My Performance
-                </a>
-              </h3>
-              <p class='no-margin-bottom'>
-                Review your test taking performance statistics based on a number of different criteria.
-              </p>
-            </div>
-            <div class='col-sm-2 col-xs-4'>
-              <a class='btn btn-primary half-margin-top btn-block'>
-                Select
-              </a>
-            </div>
-            <div class='clearfix'></div>
-          </div>
-          <div class='row border-bottom padding-top padding-bottom'>
-            <div class='col-sm-1 hidden-xs'>
-              <div class='text-center margin-bottom text-left-sm'>
-                <img src="../images/icons/icon_faq.png" />
+            <div class='col-sm-6'>
+              <div class='padding-left'>
+                <h3>
+                  Category To work On
+                </h3>
+                <p>
+                  Your lowest scoring question category is
+                  <a href='#'>
+                    Project Procurement Management
+                  </a>
+                  with an average score of 10.00%.
+                </p>
+                <script>
+                  $(function () {
+                          $('#work-on-chart').highcharts({
+                              chart: {
+                                  type: 'column',
+                                  backgroundColor: '#fff'
+                              },
+                  						colors: [
+                  						'#3abff1',
+                  						],
+                              title: {
+                                  text: ''
+                              },
+                              subtitle: {
+                                  text: ''
+                              },
+                              legend: {
+                                  enabled: false
+                              },
+                              xAxis: {
+                                  categories: ['Procurement Mgmt.'],
+                                  title: {
+                                      text: null
+                                  }
+                              },
+                              yAxis: {
+                                  min: 0,
+                                  max: 100,
+                                  tickPixelInterval: 120,
+                                  labels: {
+                                      overflow: 'justify'
+                                  },
+                                  title: {
+                                      enabled: false
+                                  }
+                              },
+                              tooltip: {
+                                  valueSuffix: ' %'
+                              },
+                              plotOptions: {
+                                  bar: {
+                                      dataLabels: {
+                                          enabled: true
+                                      },
+                                  },
+                  								series: {
+                  									pointWidth: 100
+                  								}
+                              },
+                              credits: {
+                                  enabled: false
+                              },
+                              series: [{
+                              		name: 'preformance',
+                                  data: [36.24]
+                              }]
+                          });
+                      });
+                </script>
+                <div id='work-on-chart'></div>
               </div>
             </div>
-            <div class='col-sm-9 col-xs-8'>
-              <h3 class='no-margin-bottom'>
-                <a href='#'>
-                  See FAQs
-                </a>
-              </h3>
-              <p class='no-margin-bottom'>
-                Access our FAQ section to help find answers to your questions
-              </p>
-            </div>
-            <div class='col-sm-2 col-xs-4'>
-              <a class='btn btn-primary half-margin-top btn-block'>
-                Select
-              </a>
-            </div>
-            <div class='clearfix'></div>
-          </div>
-          <div class='row padding-top padding-bottom'>
-            <div class='col-sm-1 hidden-xs'>
-              <div class='text-center margin-bottom text-left-sm'>
-                <img src="../images/icons/icon_video.png" />
-              </div>
-            </div>
-            <div class='col-sm-9 col-xs-8'>
-              <h3 class='no-margin-bottom'>
-                <a href='#'>
-                  Watch Video Tutorials
-                </a>
-              </h3>
-              <p class='no-margin-bottom'>
-                Visit our Tutorials section to view video demos.
-              </p>
-            </div>
-            <div class='col-sm-2 col-xs-4'>
-              <a class='btn btn-primary half-margin-top pull-right btn-block'>
-                Select
-              </a>
-            </div>
-            <div class='clearfix'></div>
           </div>
         </div>
       </section>
@@ -265,21 +417,16 @@
       <section class='no-padding-top'>
         <div id='backend-footer'>
           <div class='container'>
-            <div class='row'>
+            <div class='row border-top'>
               <div class='col-sm-12'>
-                <div class='pull-left padding-top border-top full-width'>
+                <div class='pull-left padding-top full-width'>
                   <nav>
                     <ul class='list-inline pull-left footer-nav'>
                       <li>
                         © 2014 PMTraining All rights reserved.
                       </li>
                       <li>
-                        <a data-target='#termsModal' data-toggle='modal' href='/info/terms'>
-                          Terms
-                        </a>
-                      </li>
-                      <li>
-                        <a href='#'>
+                        <a href='/support/faqs'>
                           Support
                         </a>
                       </li>
@@ -290,6 +437,11 @@
                       </li>
                       <li>
                         <a href='#'>
+                          About the PMP Exam
+                        </a>
+                      </li>
+                      <li>
+                        <a href='/account'>
                           My Account
                         </a>
                       </li>
@@ -301,6 +453,54 @@
           </div>
         </div>
       </section>
+      <!-- /tests -->
+      <!-- /show -->
+      <div aria-hidden='true' class='modal' id='showCustomTestModal' role='dialog'>
+        <div class='modal-dialog'>
+          <div class='modal-content'></div>
+        </div>
+      </div>
+      <!-- /custom tests -->
+      <!-- /new -->
+      <div aria-hidden='true' class='modal fade' id='newCustomTestModal' role='dialog'>
+        <div class='modal-dialog'>
+          <div class='modal-content'></div>
+        </div>
+      </div>
+      <!-- /questions -->
+      <!-- /confirm begin -->
+      <div aria-hidden='true' class='modal' id='beginTestConfirmModal' role='dialog'>
+        <div class='modal-dialog'>
+          <div class='modal-content'></div>
+        </div>
+      </div>
+      <!-- /confirm submit -->
+      <div aria-hidden='true' class='modal' id='confirmSubmitModal' role='dialog'>
+        <div class='modal-dialog modal-sm'>
+          <div class='modal-content'>
+            <div class='modal-body no-padding-bottom'>
+              <div class='row'>
+                <div class='col-sm-3 hidden-xs'>
+                  <i class='fa fa-exclamation-circle text-danger modal-icon half-margin-bottom' style='font-size:3em;'></i>
+                </div>
+                <div class='col-sm-9 col-xs-12'>
+                  <p class='no-margin-bottom'>
+                    Are you sure you want to submit your answers?
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class='modal-footer'>
+              <button class='btn-link cursor-pointer half-margin-right' data-dismiss='modal'>
+                Cancel
+              </button>
+              <a class='btn btn-success' href='/tests' type='button'>
+                Submit
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </body>
   </head>
 </html>
