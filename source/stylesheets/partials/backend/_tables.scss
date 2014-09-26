@@ -1,0 +1,37 @@
+table.table{
+	font-size:.9em;
+  th{
+  	font-size:.7em;
+    text-transform:uppercase;
+    font-family:$light-font-name;
+    background-color:tint($primary-color,90%)!important;
+    border-right:1px solid $gray-color;
+    color:$primary-color;
+    &:last-of-type{
+      border-right:none;
+    }
+  }
+	p{
+		line-height:$baseline/1.2;
+	}
+	&.table-striped > tbody > tr:nth-child(odd) > td{
+		background-color:tint($primary-color,95%);
+	}
+	h5{
+		line-height:12px;
+		margin-bottom:$baseline/2;
+	}
+	&.mid-align{
+		td{
+			vertical-align:middle;
+		}
+	}
+	&.bold-table{
+		border:3px solid tint($primary-color,80%);
+		box-shadow:0 0 10px rgba(0,0,0,.2);
+		.btn{
+			font-family:$extra-bold-font-name;
+		}
+	}
+}
+

@@ -1,0 +1,29 @@
+;;;
+
+"title": "Test: title"
+	
+;;;
+
+
+%section
+	.container
+		.row
+			.col-lg-12
+				=partial"/questions/test_in_prog_header"
+				.test-question-container.margin-top
+					.margin-bottom
+						%p
+							Overview
+						%h3
+							Review Questions Before Submitting
+					.test-answers-overview.margin-bottom
+						=partial"/questions/overview_table"
+				.test-footer
+					.row
+						.col-sm-12
+							%button.btn.btn-lg.btn-success.margin-bottom.btn-block{"data-toggle"=>"modal", "data-target"=>"#confirmSubmitModal"}
+								Submit Responses
+								%i.fa.fa-long-arrow-right
+
+				
+

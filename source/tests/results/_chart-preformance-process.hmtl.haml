@@ -1,0 +1,59 @@
+:javascript
+	$(function () {
+	        $('#results-preformance-chart-process').highcharts({
+	            chart: {
+	                type: 'column',
+	                backgroundColor: '#fff'
+	            },
+							colors: [
+							'#3abff1',
+							],
+	            title: {
+	                text: 'Test Preformance by Process Group'
+	            },
+	            subtitle: {
+	                text: ''
+	            },
+	            legend: {
+	                enabled: false
+	            },
+	            xAxis: {
+	                categories: ['Closing','Marketing & Controlling','Initiating','Executing'],
+	                title: {
+	                    text: null
+	                }
+	            },
+	            yAxis: {
+	                min: 0,
+	                max: 100,
+	                tickPixelInterval: 120,
+	                labels: {
+	                    overflow: 'justify'
+	                },
+	                title: {
+	                    enabled: false
+	                }
+	            },
+	            tooltip: {
+	                valueSuffix: ' %'
+	            },
+	            plotOptions: {
+	                bar: {
+	                    dataLabels: {
+	                        enabled: true
+	                    },
+	                },
+									series: {
+										pointWidth: 50
+									}
+	            },
+	            credits: {
+	                enabled: false
+	            },
+	            series: [{
+	            		name: 'preformance',
+	                data: [33, 90, 25, 5]
+	            }]
+	        });
+	    });
+#results-preformance-chart-process

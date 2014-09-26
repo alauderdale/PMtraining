@@ -1,0 +1,48 @@
+;;;
+
+"title": "Contact",
+"nav_title": "Contact",
+"subnav_data": "support_subnav",
+"activeclass": "support"
+
+;;;
+
+
+%section
+	.container
+		.row
+			.col-lg-12
+				=partial "/shared/subnav_with_links"
+		.row.double-margin-bottom
+			.col-lg-12
+				%h3
+					Send us a message
+				%p
+					%strong
+						Do you have a question or feedback about PMTraining? 
+					Please feel free to contact us below!As a member, you will receive prioritized support for critical issues.
+		.row.double-margin-bottom
+			.col-sm-8
+				%form.form-horizontal{role: "form"}
+					.form-group
+						%label.col-sm-2.control-label.half-margin-bottom
+							Subject:	
+						.col-sm-10
+							%select.form-control
+								%option
+									Interested in corporate training
+					.form-group
+						%label.col-sm-2.control-label
+							Email:
+						.col-sm-10
+							%p.no-margin-bottom{:style=>"position:relative; top:8px;"}
+								john@doe.com
+					.form-group
+						%label.col-sm-2.control-label.half-margin-bottom 
+							Message:
+						.col-sm-10
+							%textarea.form-control.margin-bottom{:rows=>"4"}
+							.clearfix
+							%a.btn.btn-primary.pull-right{:href=>"onclick: return false;"}
+								Submit Your Message
+			.col-sm-4

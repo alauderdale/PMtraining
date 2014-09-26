@@ -1,0 +1,21 @@
+;;;
+
+"layout": "modal_small"
+  
+;;;
+
+
+.modal-dialog.modal-sm
+	.modal-content
+		.modal-body.no-padding-bottom
+			.row
+				.col-sm-3
+					%i.fa.fa-exclamation-circle.text-danger.modal-icon.half-margin-bottom
+				.col-sm-9
+					%p.no-margin-bottom
+						= text
+		.modal-footer
+			%button.btn-link.half-margin-right{"data-dismiss" => "modal"} 
+				Cancel
+			%button.btn.btn-primary{"data-dismiss" => "modal", type: "button"} 
+				Confirm

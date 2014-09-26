@@ -1,0 +1,77 @@
+a{
+	color:$link-color;
+	&:hover{
+		color:tint($link-color,30%);
+	}
+
+}
+
+
+.btn{
+	@include transition-duration(.4s);
+	font-family:$bold-font-name;
+	font-size:.9em;
+	padding:$baseline/3 $baseline;
+	&.btn-primary{
+		background-color:$primary-color;
+		border-color:$primary-color;
+		&:hover{
+			background-color:tint($primary-color,20%);
+			border-color:tint($primary-color,20%);
+		}
+	}
+	&.btn-default{
+		background-color:$secondary-color;
+		border-color:$secondary-color;
+		color:white;
+		&:hover{
+			background-color:tint($secondary-color,20%);
+			border-color:tint($secondary-color,20%);
+		}
+	}
+	&.btn-info{
+		background-color:#f2f2f2;
+		border-color:$gray-color;
+		color:$text-color;
+		&:hover{
+			background-color:shade(#f2f2f2,10%);
+			border-color:shade($gray-color,20%);	
+		}
+	}
+	&.btn-white{
+		background-color:white;
+		color:$primary-color;
+		&:hover{
+			background-color:$primary-color;
+			color:white;
+		}
+	}
+	&.btn-wire{
+		background:none;
+		border-color:white;
+		color:white;
+		&:hover{
+			background-color:rgba(255,255,255,.2);
+			border-color:white;
+		}
+	}
+	&.btn-success{
+		background-color:$success-color;
+		border-color:$success-color;
+		&:hover{
+			background-color:tint($success-color,20%);
+			border-color:tint($success-color,20%);
+		}
+	}
+	&.btn-lg{
+		padding:$baseline/2 $baseline;
+	}
+}
+
+.post{
+	h3{
+		a{
+			border-bottom:none;
+		}
+	}
+}

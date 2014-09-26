@@ -1,0 +1,18 @@
+.alert{
+	.alert-icon{
+		font-size:3em;
+	}
+}
+
+.dot{
+	width:15px;
+	height:15px;
+	border-radius:15px;
+	display:inline-block;
+	&.dot-success{
+		background-color:$success-color;
+	}
+	&.dot-warning{
+		background-color:$warning-color;
+	}
+}

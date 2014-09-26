@@ -1,0 +1,104 @@
+;;;
+
+"title": "My Account"
+
+;;;
+
+
+%section
+	.container
+		.row
+			.col-lg-12
+				.page-header.no-margin-top
+					%h1.no-margin-bottom
+						My Account
+		.row
+			.col-lg-12
+				%h3
+					User Account for John Doe
+		.row
+			.col-md-12
+				%form.form-horizontal{role: "form"}
+					.page-header
+						%h2.no-margin-bottom
+							Basic Info:
+					.form-group.no-margin-bottom
+						%label.col-sm-3.control-label
+							Account Activated:
+						.col-sm-9
+							%p.quarter-margin-top
+								11/26/2014 12:00:00 AM
+					.form-group.no-margin-bottom
+						%label.col-sm-3.control-label
+							Account Expires:
+						.col-sm-9
+							%p.quarter-margin-top
+								%strong
+									11/26/2014 12:00:00 AM
+					.form-group.no-margin-bottom
+						%label.col-sm-3.control-label
+							Exam Type:
+						.col-sm-9
+							%p.quarter-margin-top
+								PMP Practice Exams based on PMBOK 5
+					.form-group.no-margin-bottom
+						%label.col-sm-3.control-label
+							Email / Username:
+						.col-sm-9
+							%p.quarter-margin-top
+								john@doe.com
+					.form-group.no-margin-bottom
+						%label.col-sm-3.control-label
+							User Status:
+						.col-sm-9
+							%p.text-success.quarter-margin-top
+								Active
+					.form-group.no-margin-bottom
+						%label.col-sm-3.control-label
+							First Name:
+						.col-sm-9
+							%p.quarter-margin-top
+								John
+					.form-group.no-margin-bottom
+						%label.col-sm-3.control-label.quarter-margin-bottom
+							Last Name:
+						.col-sm-9
+							%p.quarter-margin-top
+								Doe
+					.form-group.no-margin-bottom
+						%label.col-sm-3.control-label.quarter-margin-bottom
+							Erase Scoring History:
+						.col-sm-9
+							%a.pull-left.quarter-margin-top{:href=>"#"}
+								Reset History
+					.page-header
+						%h2.no-margin-bottom
+							Password
+					.form-group
+						%label.col-sm-3.control-label.quarter-margin-bottom
+							New Password:
+						.col-sm-9
+							%input.form-control{:style=>"max-width:250px;"}
+					.form-group.margin-bottom
+						%label.col-sm-3.control-label.quarter-margin-bottom
+							Confirm Password:
+						.col-sm-9
+							%input.form-control{:style=>"max-width:250px;"}
+					.form-group.no-margin-bottom
+						.col-sm-3
+						.col-sm-9
+							%a.btn.btn-lg.btn-primary.margin-bottom{href:"#"}
+								Update Password 
+			%hr.no-margin-top
+		.row
+			.col-lg-12
+				.alert.alert-info.no-margin-bottom
+					%p
+						%strong
+							Don't forget to
+							%a{:href=>"/support/contact"}
+								Report Your Results on the Real Exam	
+					%p
+						%strong
+							Please note: 
+						Your score will be kept 100% confidential, and your personal information will never be shared with outside parties. We may use this value when calculating an overall community scoring average.

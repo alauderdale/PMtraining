@@ -1,0 +1,54 @@
+;;;
+
+"title": "Standard Tests",
+"nav_title": "Standard Tests",
+"subnav_data": "tests_subnav"
+
+;;;
+
+
+%section
+	.container
+		.row
+			.col-lg-12
+				=partial "/shared/subnav_with_links"
+		.row
+			.col-lg-12
+				%h3
+					Welcome to the test menu!
+		.row.double-margin-bottom
+			.col-sm-6
+				.row.margin-bottom.padding-right
+					.col-sm-10.col-xs-12
+						%p.extra-bold-font-name.half-margin-bottom
+							Taking tests
+						%p.no-margin-bottom
+							It is recommended that you take each practice test in the order they are displayed below. You may repeat tests as many times as you like. 
+					.col-sm-2.hidden-xs
+						.text-center
+							=image_tag'icons/icon_test.png', :class=>"img-responsive"
+			.col-sm-6
+				.row.margin-bottom.padding-left.no-padding-left-sm
+					.col-sm-10.col-xs-12
+						%p.extra-bold-font-name.half-margin-bottom
+							Completed & in progress tests
+						%p.no-margin-bottom
+							By viewing the answer key for a test, you can review all answers. If a test is interrupted, it can be resumed in the 
+							%a{:href=>"/tests/in-progress"}
+								Tests in Progress Tab
+					.col-sm-2.hidden-xs
+						.text-center
+							=image_tag'icons/icon_gear_guy.png', :class=>"img-responsive"
+		.row
+			.col-lg-12
+				%h3
+					Standard Tests
+		.row
+			.col-lg-12
+				-8.times do
+					=partial "/shared/standard-test-thumb-lg", :locals=>{ :status=>"Not Started", :iconClass=>"fa-circle-o", :btnTitle=>"Take The Test", :textStatusClass=>"text-muted"}
+				=partial "/shared/standard-test-thumb-lg", :locals=>{ :status=>"In Progress", :iconClass=>"fa-circle", :btnTitle=>"Resume Test", :textStatusClass=>"text-warning"}
+				=partial "/shared/standard-test-thumb-lg", :locals=>{ :status=>"Complete", :iconClass=>"fa-check-circle", :btnTitle=>"Re-take Test", :textStatusClass=>"text-success"}
+
+
+				

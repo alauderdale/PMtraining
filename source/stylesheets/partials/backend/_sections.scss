@@ -1,0 +1,72 @@
+//sections
+
+section{
+  padding:$baseline 0;
+  &.invert-section{
+    background-color:$primary-color;
+    h1,h2,h3,h4,h5,h6,p,li,small{
+      color:white;
+    }
+  }
+  &.get-started{
+  	background:$primary-color url(../images/bg_get_started.png);
+  	@include background-size(cover);
+    padding:$baseline*4 0;
+  }
+  &.bootcamp-curriculum{
+    .well{
+      background:white;
+      border:none;
+      box-shadow:none;
+    }
+  }
+  &.page-header-section{
+    padding:$baseline*1.5 0;
+    @include background-size(cover);
+    h2{
+      font-size:2em;
+      font-family:$medium-font-name;
+    }
+    //pages
+    &.practice-pmp-header{
+      background-image:url(../images/public/headers/practice_pmp_header_bg.png);
+    }
+    &.live-pmp-header{
+      background-image:url(../images/public/headers/live_pmp_header_bg.png);
+    }
+    &.bootcamp-pmp-header{
+      background-image:url(../images/public/headers/bootcamp_pmp_header_bg.png);
+    }
+    &.about-pmp-header{
+      background-image:url(../images/public/headers/about_pmp_header_bg.png);
+    }
+    &.training-pmp-header{
+      background-image:url(../images/public/headers/training_pmp_header_bg.png);
+    }
+    &.checkout-pmp-header{
+      background-image:url(../images/public/headers/checkout_pmp_header_bg.png);
+    }
+  }
+  &.off-white{
+    background-color:#fafafa;
+  }
+  &.feature-blocks{
+    .fa{
+      font-size:4em;
+      color:#bbb;
+      margin-bottom:$baseline;
+    }
+    .col-sm-3{
+      text-align:right;
+    }
+    p{
+      font-size:.65em;
+      line-height:2em;
+    }
+    h4{
+      font-size:.8em;
+      margin-bottom:$baseline/2;
+    }
+  }
+}
+

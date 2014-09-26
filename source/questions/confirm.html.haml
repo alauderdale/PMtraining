@@ -1,0 +1,52 @@
+;;;
+
+"layout": "modal_small"
+  
+;;;
+
+
+
+.padded
+	.modal-header
+		%button.close{"aria-hidden" => "true", "data-dismiss" => "modal", type: "button", :style=>"left:10px; bottom:20px;"} 
+			×
+		%h3.modal-title 
+			=image_tag'icons/icon_browser_alert.png', :class=>"pull-left margin-right hidden-xs", :width => "40"
+			Please Note
+		.clearfix
+	.modal-body
+		.row
+			.col-lg-12	
+				%p.half-margin-bottom
+					You are about to begin the practice test.
+					Please use only the on-screen buttons provided for you by the test.
+				%p.half-margin-bottom
+					Do not use your browsers 
+					%strong
+						%i.fa.fa-arrow-left
+						BACK 
+					or 
+					%strong
+						FORWARD 
+						%i.fa.fa-arrow-right
+					buttons. This will end the test and mark it as incomplete.
+				%p.half-margin-bottom
+					Once you click 
+					%strong
+						START TEST
+					the test will begin
+
+			
+	.modal-footer.no-margin-top
+		.checkbox.pull-left.hidden-xs{:style=>"position:relative; top:-5px;"}
+			%label
+				%input{:type => "checkbox"}
+				%p.no-margin-bottom
+					Dont show again
+		%p.no-margin-bottom.pull-right
+			%a.half-margin-right{ "data-dismiss"=>"modal", :href=>"#"}
+				Cancel
+			%a.btn.btn-success{ :href=>"/questions/show"}
+				Start Test
+				%i.fa.fa-chevron-right
+					

@@ -1,19 +1,19 @@
 .main-nav-container
 	%nav.pull-left
 		%ul.list-inline.main-links
-			%li.sale{:class => (current_page.data.activeclass === "home") ? "active" : ""}
+			%li{:class => (current_page.data.activeclass === "home") ? "active" : ""}
 				%a{:href=>"/"}
 					Home 
 			%li{:class => (current_page.data.activeclass === "practice") ? "active" : ""}
 				%a{:href=>"/public/practice-pmp"}
 					PMP Practice Exams
-			%li.sale{:class => (current_page.data.activeclass === "live") ? "active" : ""}
+			%li{:class => (current_page.data.activeclass === "live") ? "active" : ""}
 				%a{:href=>"/public/live-pmp"}
 					Live PMP Classes
-			%li.sale{:class => (current_page.data.activeclass === "bootcamp") ? "active" : ""}
+			%li{:class => (current_page.data.activeclass === "bootcamp") ? "active" : ""}
 				%a{:href=>"/public/bootcamp"}
 					On-Demand PMP Course
-			%li.sale{:class => (current_page.data.activeclass === "about" ) ? "active" : ""}
+			%li{:class => (current_page.data.activeclass === "about" ) ? "active" : ""}
 				%a.dropdown-toggle{:href=>"/public/about"}
 					About
 					%span.caret
@@ -36,7 +36,7 @@
 						%li
 							%a{:href=>"/public/about/newsletter"}
 								Get our newsletter
-			%li.sale{:class => (current_page.data.activeclass === "training" ) ? "active" : ""}
+			%li{:class => (current_page.data.activeclass === "training" ) ? "active" : ""}
 				%a.dropdown-toggle{:href=>"/public/corporate-training"}
 					Corporate Training
 					%span.caret

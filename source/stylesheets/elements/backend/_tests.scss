@@ -1,0 +1,40 @@
+.test-thumb{
+	&:last-of-type{
+		border-bottom:none;
+	}
+}
+
+//questions
+
+.test-toggle-btn{
+  .btn-icon{
+    &:after{
+      width:10px;
+      content:"+";
+    }
+  }
+  &.active{
+    background-color:tint($primary-color,90%)!important;
+    .btn-icon{
+      width:20px;
+      &:after{
+        content:"✓";
+      }
+    }
+  }
+}
+
+.test-answers{
+  .radio{
+    margin-bottom:$baseline;
+  }
+}
+
+//results
+
+i.result-icon{
+  font-size:2em!important;
+  margin-right:12px;
+  position:relative;
+  top:5px;
+}

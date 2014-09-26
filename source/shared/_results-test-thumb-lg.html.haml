@@ -1,0 +1,16 @@
+.row.border-bottom.padding-top.padding-bottom.test-thumb
+	.col-md-1.hidden-sm.hidden-xs
+		=image_tag'icons/icon_test_show.png', :class=>"img-responsive margin-top"
+	.col-md-8.col-xs-12
+		%p.quarter-margin-bottom.bold-font-name
+			%a{"data-toggle"=>"modal", :href=>"/tests/show", "data-target"=>"#showCustomTestModal"}
+				PMP Mock Exam (LITE) - 1
+		%p.half-margin-bottom
+			This is a cumulative PMP Mock Exam which can be used as a benchmark for your PMP aptitude. This practice test includes questions from all PMBOK knowledge areas, including the five basic project management process groups.
+		%p.text-muted
+			%span.text-success
+				Completed:
+			Wednesday, September 24, 2014 10:37 AM [GMT -04:00] 
+	.col-md-3
+		%a.btn.btn-primary.pull-right.pull-left-sm{:href=>"/tests/results/show"} 
+			= btnTitle

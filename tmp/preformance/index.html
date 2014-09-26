@@ -1,0 +1,306 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+    <meta content='width=device-width, initial-scale=1.0' name='viewport'>
+    <title>
+      Overall
+    </title>
+    <link href="../stylesheets/backend.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href='/images/favicon.ico' rel='shortcut icon'>
+    <!-- %script{:src => "http://code.jquery.com/jquery-latest.min.js", :type => "text/javascript"} -->
+    <script src="../javascripts/lib/jquery.js" type="text/javascript"></script>
+    <script src="../javascripts/lib/bootstrap.js" type="text/javascript"></script>
+    <script src="../javascripts/lib/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script src="../javascripts/lib/helpers/jquery.fancybox-media.js" type="text/javascript"></script>
+    <script src="../javascripts/lib/highcharts/highcharts.js" type="text/javascript"></script>
+    <script src="../javascripts/lib/highcharts/modules/exporting.js" type="text/javascript"></script>
+    <script src="../javascripts/lib/footable/footable.js" type="text/javascript"></script>
+    <script src="../javascripts/lib/footable/footable.filter.js" type="text/javascript"></script>
+    <script src="../javascripts/scripts.js" type="text/javascript"></script>
+    <body class='preformance preformance_index'>
+      <nav class='navbar navbar-default navbar-fixed-top backend-main-nav' role='navigation'>
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class='container'>
+          <div class='navbar-header'>
+            <button class='navbar-toggle' data-target='#bs-example-navbar-collapse-1' data-toggle='collapse' type='button'>
+              <span class='sr-only'>Toggle navigation</span>
+              <span class='icon-bar'></span>
+              <span class='icon-bar'></span>
+              <span class='icon-bar'></span>
+            </button>
+            <a class='navbar-brand' href='/dashboard'>
+              <div class='logo'></div>
+            </a>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class='collapse navbar-collapse' id='bs-example-navbar-collapse-1'>
+            <ul class='nav navbar-nav navbar-left'>
+              <li class=''>
+                <a class='navbar-item' href='/dashboard'>
+                  Dashboard
+                </a>
+              </li>
+              <li class='active'>
+                <a class='navbar-item' href='/preformance'>
+                  My Preformance
+                </a>
+              </li>
+              <li>
+                <a class='navbar-item btn btn-primary' href='/tests'>
+                  Take a Test
+                </a>
+              </li>
+            </ul>
+            <ul class='nav navbar-nav navbar-right'>
+              <li class=''>
+                <a class='navbar-item navbar-item-muted' href='#'>
+                  On Demand Bootcamp
+                </a>
+              </li>
+              <li class=''>
+                <a class='navbar-item navbar-item-muted' href='/support/faqs'>
+                  Support
+                </a>
+              </li>
+              <li class=''>
+                <a class='navbar-item navbar-item-muted' href='#'>
+                  Live PMP Classes
+                </a>
+              </li>
+              <li class='dropdown'>
+                <a class='dropdown-toggle navbar-item' data-toggle='dropdown' href='#'>
+                  <img class="img-circle avatar-sm quarter-margin-right pull-left" width="25px" src="../images/no_avatar_sm.png" />
+                  <b class='caret'></b>
+                </a>
+                <ul class='dropdown-menu'>
+                  <li>
+                    <a href='/account'>
+                      My Account
+                    </a>
+                  </li>
+                  <li>
+                    <a href='/public/login'>
+                      Sign Out
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- end menu -->
+      <section>
+        <div class='container'>
+          <div class='row'>
+            <div class='col-lg-12'>
+              <div class='half-margin-bottom'>
+                <h1 class='main-page-header'>
+                  Preformance
+                </h1>
+                <div class='subnav'>
+                  <div class='page-header inline-block full-width no-padding-bottom no-margin-bottom'>
+                    <ul class='nav nav-pills navbar-right sub-nav-links'>
+                      <li class='active'>
+                        <a href='/preformance'>
+                          Overall
+                        </a>
+                      </li>
+                      <li class=''>
+                        <a href='/preformance/past'>
+                          Past Results
+                        </a>
+                      </li>
+                      <li class=''>
+                        <a href='/preformance/knowledge-area'>
+                          Knowledge Area
+                        </a>
+                      </li>
+                      <li class=''>
+                        <a href='/preformance/process-group'>
+                          Process Group
+                        </a>
+                      </li>
+                      <li class=''>
+                        <a href='/preformance/trends'>
+                          Trends
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class='row double-margin-bottom'>
+            <div class='col-lg-12'>
+              <h3>
+                Performance Trend for All Tests Completed
+              </h3>
+              <p>
+                This chart illustrates your overall performace trend for all tests taken within the system. This performance trend is ordered chronologically, from the first test to the most recent.
+              </p>
+            </div>
+          </div>
+          <div class='row double-margin-bottom'>
+            <div class='col-lg-12'>
+              <script>
+                $(function () {
+                        $('#overall-chart').highcharts({
+                            chart: {
+                                type: 'line',
+                                backgroundColor: '#fff',
+                                height: '250'
+                            },
+                						colors: [
+                						'#3abff1',
+                						],
+                            title: {
+                                text: ''
+                            },
+                            subtitle: {
+                                text: ''
+                            },
+                            legend: {
+                                enabled: false
+                            },
+                            xAxis: {
+                                title: {
+                                    text: 'Total Tests Taken'
+                                },
+                                labels: {
+                                    enabled: false
+                                }
+                            },
+                            yAxis: {
+                                min: 0,
+                                max: 100,
+                                tickPixelInterval: 120,
+                                labels: {
+                                    overflow: 'justify'
+                                },
+                                title: {
+                                    enabled: false
+                                }
+                            },
+                            tooltip: {
+                                valueSuffix: ' %'
+                            },
+                            plotOptions: {
+                                bar: {
+                                    dataLabels: {
+                                        enabled: true
+                                    },
+                                },
+                								series: {
+                									pointWidth: 100
+                								}
+                            },
+                            credits: {
+                                enabled: false
+                            },
+                            series: [{
+                            		name: 'preformance',
+                                data: [10, 20, 40,10, 20, 40,10, 20, 40]
+                            }]
+                        });
+                    });
+              </script>
+              <div id='overall-chart'></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end main content -->
+      <section class='no-padding-top'>
+        <div id='backend-footer'>
+          <div class='container'>
+            <div class='row border-top'>
+              <div class='col-sm-12'>
+                <div class='pull-left padding-top full-width'>
+                  <nav>
+                    <ul class='list-inline pull-left footer-nav'>
+                      <li>
+                        © 2014 PMTraining All rights reserved.
+                      </li>
+                      <li>
+                        <a href='/support/faqs'>
+                          Support
+                        </a>
+                      </li>
+                      <li>
+                        <a href='#'>
+                          Live PMP Classes
+                        </a>
+                      </li>
+                      <li>
+                        <a href='#'>
+                          About the PMP Exam
+                        </a>
+                      </li>
+                      <li>
+                        <a href='/account'>
+                          My Account
+                        </a>
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /tests -->
+      <!-- /show -->
+      <div aria-hidden='true' class='modal' id='showCustomTestModal' role='dialog'>
+        <div class='modal-dialog'>
+          <div class='modal-content'></div>
+        </div>
+      </div>
+      <!-- /custom tests -->
+      <!-- /new -->
+      <div aria-hidden='true' class='modal fade' id='newCustomTestModal' role='dialog'>
+        <div class='modal-dialog'>
+          <div class='modal-content'></div>
+        </div>
+      </div>
+      <!-- /questions -->
+      <!-- /confirm begin -->
+      <div aria-hidden='true' class='modal' id='beginTestConfirmModal' role='dialog'>
+        <div class='modal-dialog'>
+          <div class='modal-content'></div>
+        </div>
+      </div>
+      <!-- /confirm submit -->
+      <div aria-hidden='true' class='modal' id='confirmSubmitModal' role='dialog'>
+        <div class='modal-dialog modal-sm'>
+          <div class='modal-content'>
+            <div class='modal-body no-padding-bottom'>
+              <div class='row'>
+                <div class='col-sm-3 hidden-xs'>
+                  <i class='fa fa-exclamation-circle text-danger modal-icon half-margin-bottom' style='font-size:3em;'></i>
+                </div>
+                <div class='col-sm-9 col-xs-12'>
+                  <p class='no-margin-bottom'>
+                    Are you sure you want to submit your answers?
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class='modal-footer'>
+              <button class='btn-link cursor-pointer half-margin-right' data-dismiss='modal'>
+                Cancel
+              </button>
+              <a class='btn btn-success' href='/tests' type='button'>
+                Submit
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </body>
+  </head>
+</html>

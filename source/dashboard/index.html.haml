@@ -1,0 +1,134 @@
+;;;
+
+"title": "Dashboard",
+"nav-title": "Dashboard",
+"activeclass": "dashboard"
+
+;;;
+
+
+%section
+	.container
+		.row.margin-bottom
+			.col-lg-12
+				.page-header.no-margin-top
+					%h1.no-margin-bottom
+						Welcome Back, John!
+				.alert.alert-success.no-margin-bottom
+					.media-object
+						.pull-left
+							%h1.alert-icon.margin-right.text-success
+								%i.fa.fa-check-circle-o
+						.media-body
+							%span.extra-bold-font-name
+								Great News! 
+							%br
+							Your account is currently active and can access all features. Your account will expire on Wednesday, November 26 2014 (84 days from now).
+		.row.double-margin-bottom
+			.col-sm-6.col-xs-12
+				%h3.half-margin-top.half-margin-bottom
+					Exam Type
+				%p
+					PMP Practice Exams based on PMBOK 5
+			.col-sm-3.col-xs-6
+				.text-right.text-left-sm
+					%h1.no-margin-bottom.text-color
+						.dot.dot-success
+						28
+					%p.no-margin-bottom
+						Completed tests
+					%a{:href=>"/tests/results"}
+						View Results
+			.col-sm-3.col-xs-6
+				.text-right.text-left-sm
+					%h1.no-margin-bottom.text-color
+						.dot.dot-warning
+						3
+					%p.no-margin-bottom
+						Tests in progress
+					%a{:href=>"/tests/in-progress"}
+						Finish Tests
+		.row.double-margin-bottom
+			.col-lg-12
+				.row
+					.col-lg-12
+						%h3.no-margin-bottom
+							Current Features
+				.row.border-bottom.padding-top.padding-bottom
+					.col-sm-1.hidden-xs
+						.text-center.margin-bottom.text-left-sm
+							=image_tag('icons/icon_test.png')
+					.col-sm-9.col-xs-12
+						%h3.no-margin-bottom
+							%a{:href=>"/tests"}
+								Take a Test
+						%p.no-margin-bottom
+							Select from a number of PMP practice tests to prepare yourself for the real thing.
+					.col-sm-2.col-xs-12
+						%a.btn.btn-primary.half-margin-top.pull-right.pull-left-sm{:href=>"/tests"}
+							Select
+					.clearfix
+				.row.border-bottom.padding-top.padding-bottom
+					.col-sm-1.hidden-xs
+						.text-center.margin-bottom.text-left-sm
+							=image_tag('icons/icon_preformance.png')
+					.col-sm-9.col-xs-12
+						%h3.no-margin-bottom
+							%a{:href=>"/preformance"}
+								View My Performance
+						%p.no-margin-bottom
+							Review your test taking performance statistics based on a number of different criteria.
+					.col-sm-2.col-xs-12
+						%a.btn.btn-primary.half-margin-top.pull-right.pull-left-sm{:href=>"/preformance"}
+							Select
+					.clearfix
+				.row.border-bottom.padding-top.padding-bottom
+					.col-sm-1.hidden-xs
+						.text-center.margin-bottom.text-left-sm
+							=image_tag('icons/icon_faq.png')
+					.col-sm-9.col-xs-12
+						%h3.no-margin-bottom
+							%a{:href=>"/support/faqs"}
+								See FAQs
+						%p.no-margin-bottom
+							Access our FAQ section to help find answers to your questions
+					.col-sm-2.col-xs-12
+						%a.btn.btn-primary.half-margin-top.pull-right.pull-left-sm{:href=>"/support/faqs"}
+							Select
+					.clearfix
+				.row.padding-top.padding-bottom
+					.col-sm-1.hidden-xs
+						.text-center.margin-bottom.text-left-sm
+							=image_tag('icons/icon_video.png')
+					.col-sm-9.col-xs-12
+						%h3.no-margin-bottom
+							%a{:href=>"/support/tutorials"}
+								Watch Video Tutorials
+						%p.no-margin-bottom
+							Visit our Tutorials section to view video demos.
+					.col-sm-2.col-xs-12
+						%a.btn.btn-primary.half-margin-top.pull-right.pull-left-sm{:href=>"/support/tutorials"}
+							Select
+					.clearfix
+		/ end items
+		.row
+			.col-sm-6
+				.padding-right
+					%h3
+						Quick Statistic
+					%p
+						The last test you took was 
+						%a{:href=>"#"}
+							Knowledge Area Test: Project Integration Management
+						, where you scored 80.00%.
+					=partial'/dashboard/quick-stat-chart'
+			.col-sm-6
+				.padding-left
+					%h3
+						Category To work On
+					%p
+						Your lowest scoring question category is 
+						%a{:href=>"#"}
+							Project Procurement Management 
+						with an average score of 10.00%.
+					=partial'/dashboard/work-on-chart'

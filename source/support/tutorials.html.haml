@@ -1,0 +1,26 @@
+;;;
+
+"title": "Video Turotials",
+"nav_title": "Video Turotials",
+"subnav_data": "support_subnav",
+"activeclass": "support"
+
+;;;
+
+
+%section
+	.container
+		.row
+			.col-lg-12
+				=partial "/shared/subnav_with_links"
+		-5.times do
+			.row.margin-bottom
+				.col-md-9.col-lg-6
+					.well
+						%h3
+							Tutorial 1: The Main Dashboard
+						.videoWrapper
+							%iframe{:allowfullscreen => "", :frameborder => "0", :src => "//www.youtube.com/embed/k8tu0SopgL4", :width => "560", :heoght=>"349"}
+				.col-md-3.col-lg-6
+
+		

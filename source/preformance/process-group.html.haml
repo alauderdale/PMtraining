@@ -1,0 +1,59 @@
+;;;
+
+"title": "Process Group",
+"nav_title": "Preformance",
+"subnav_data": "preformance_subnav",
+"activeclass": "preformance"
+
+;;;
+
+
+%section
+	.container
+		.row
+			.col-lg-12
+				=partial "/shared/subnav_with_links"
+		.row.double-margin-bottom
+			.col-lg-12
+				%h3
+					View Performance by Process Group
+				%p
+					In this area, your performance is calculated for each Process Group as a result of your responses in all the tests you have completed. Process Groups with a lower "Knowledge Ranking" represent areas which may require improvement.
+		.row.double-margin-bottom
+			.col-lg-12
+				.pm-table-wrapper
+					%table.table.border-bottom
+						%thead
+							%tr
+								%th
+									Process Group
+								%th{"data-hide"=>"phone"} 
+									Average Score (%)
+								%th{"data-hide"=>"phone"} 
+									Total Questions Attempted
+								%th{"data-hide"=>"phone"} 
+									Total Correct Responses
+								%th{"data-hide"=>"phone"} 
+									Knowledge Ranking
+						%tbody
+							-2.times do
+								%tr
+									%td
+										%p.no-margin-bottom
+											%strong
+												Planning
+									%td
+										%p.no-margin-bottom.text-success
+											50.00%
+									%td
+										%p.no-margin-bottom
+											2
+									%td
+										%p.no-margin-bottom
+											1
+									%td
+										%p.no-margin-bottom
+											1
+		.row.double-margin-bottom
+			.col-lg-12
+				=partial'/preformance/charts/chart-process-group'						

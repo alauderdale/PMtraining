@@ -1,0 +1,106 @@
+// baseline
+
+$baseline: 24px;
+
+* {
+	// position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	overflow-x: hidden;
+	font-size: 62.5%;
+}
+
+body{
+  font: 100%;
+  font-size:12pt;
+  color: $text-color;
+  -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+  -webkit-text-size-adjust: 100%;
+  width:100%;
+  line-height: $baseline;
+  height:100%;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  zoom:1;
+  padding-top:68px;
+  font-family:'museo_sans_500regular';
+}
+
+
+// Clearing
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+    }
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+
+
+img{
+	height:auto;
+}
+
+//backgrounds
+
+.bg-cover{
+  background: no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}  
+
+//display
+
+.base-line-height{
+    line-height:$baseline;
+}
+
+.small-line-height{
+    line-height:18px;
+}
+
+.full-width{
+    width:100%;
+}
+
+.max-width{
+    max-width:100%;
+}
+
+.display-block{
+    display:block;
+}
+
+.inline-block{
+    display:inline-block;
+}
+
+.inline{
+    display:inline;
+}
+
+//borders
+.border-top{
+  border-top:1px solid $gray-color;
+}
+.border-right{
+  border-right:1px solid $gray-color;
+}
+.border-bottom{
+  border-bottom:1px solid $gray-color;
+}
+.border-left{
+  border-left:1px solid $gray-color;
+}
+
+

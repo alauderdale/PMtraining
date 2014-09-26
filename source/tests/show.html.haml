@@ -1,0 +1,61 @@
+;;;
+
+"layout": "modal_small"
+  
+;;;
+
+
+
+.padded
+	.modal-header
+		%button.close{"aria-hidden" => "true", "data-dismiss" => "modal", type: "button", :style=>"left:10px; bottom:20px;"} 
+			×
+		%h3.modal-title 
+			=image_tag'icons/icon_test_show.png', :class=>"pull-left margin-right hidden-xs", :width => "30"
+			Test Overview
+		.clearfix
+	.modal-body
+		.row
+			.col-lg-12
+				.alert.alert-info
+					%strong
+						%i.fa.fa-clock-o
+						Heads up 
+					During the practice test, you will be provided with a live timer indicating how much time is remaining.
+		.row
+			.col-lg-12	
+				%p.extra-bold-font-name.half-margin-bottom
+					Custom Test created August 29 - Project Cost Management (5 questions)
+				%p
+					This custom test is comprised of questions from Project Cost Management. There are 5 total questions selected for this test. This test was originally created on August 29.
+				%hr
+				.row.text-center.quarter-margin-bottom.text-left-sm
+					.col-sm-4.border-right.no-border-right-sm
+						%p.no-margin-bottom.medium-font-name.text-uppercase
+							%small
+								Time Allowed
+						%h2.light-font-name.half-margin-bottom
+							6
+							%small.text-color
+								min
+					.col-sm-3.border-right.no-border-right-sm
+						%p.no-margin-bottom.medium-font-name.text-uppercase
+							%small
+								Questions
+						%h2.light-font-name.half-margin-bottom
+							5
+					.col-sm-5
+						%p.no-margin-bottom.medium-font-name.text-uppercase
+							%small
+								Correct Answers to Pass
+						%h2.light-font-name.no-margin-bottom
+							3 
+							%small.text-color
+								(60.00%)
+	.modal-footer.no-margin-top
+		%p.no-margin-bottom.pull-right
+			%a.half-margin-right{ "data-dismiss"=>"modal", :href=>"#"}
+				Cancel
+			%a.btn.btn-success{"data-dismiss"=>"modal","data-toggle"=>"modal", :href=>"/questions/confirm", "data-target"=>"#beginTestConfirmModal"}
+				Begin Test Now
+					

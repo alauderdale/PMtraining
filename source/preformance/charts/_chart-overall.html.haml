@@ -1,0 +1,63 @@
+:javascript
+	$(function () {
+	        $('#overall-chart').highcharts({
+	            chart: {
+	                type: 'line',
+	                backgroundColor: '#fff',
+	                height: '250'
+	            },
+							colors: [
+							'#3abff1',
+							],
+	            title: {
+	                text: ''
+	            },
+	            subtitle: {
+	                text: ''
+	            },
+	            legend: {
+	                enabled: false
+	            },
+	            xAxis: {
+	                title: {
+	                    text: 'Total Tests Taken'
+	                },
+	                labels: {
+	                    enabled: false
+	                }
+	            },
+	            yAxis: {
+	                min: 0,
+	                max: 100,
+	                tickPixelInterval: 120,
+	                labels: {
+	                    overflow: 'justify'
+	                },
+	                title: {
+	                    enabled: false
+	                }
+	            },
+	            tooltip: {
+	                valueSuffix: ' %'
+	            },
+	            plotOptions: {
+	                bar: {
+	                    dataLabels: {
+	                        enabled: true
+	                    },
+	                },
+									series: {
+										pointWidth: 100
+									}
+	            },
+	            credits: {
+	                enabled: false
+	            },
+	            series: [{
+	            		name: 'preformance',
+	                data: [10, 20, 40,10, 20, 40,10, 20, 40]
+	            }]
+	        });
+	    });
+#overall-chart
+

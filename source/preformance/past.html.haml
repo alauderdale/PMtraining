@@ -1,0 +1,95 @@
+;;;
+
+"title": "Past Results",
+"nav_title": "Preformance",
+"subnav_data": "preformance_subnav",
+"activeclass": "preformance"
+
+;;;
+
+
+%section
+	.container
+		.row
+			.col-lg-12
+				=partial "/shared/subnav_with_links"
+		.row.double-margin-bottom
+			.col-lg-12
+				%h3
+					View Past Results
+				%p
+					This section allows you to select a test type, then view your results for each time you've taken that test. The chart below will show your performance chronologically for each time you completed the selected test.
+		.row.margin-bottom
+			.col-lg-12
+				%form.form-inline.no-marign-top
+					.form-group
+						%select.form-control.half-margin-right
+							%option 
+								All Tests
+							%option
+								Knowledge Area Test: Projec Management Framework
+					%button.btn-primary.btn{:style=>"padding:6px 10px;"}
+						Show Results
+		.row.double-margin-bottom
+			.col-lg-12
+				.pm-table-wrapper
+					%table.table.border-bottom
+						%thead
+							%tr
+								%th
+									Test Name
+								%th{"data-hide"=>"phone"} 
+									Date / Time Completed
+								%th{"data-hide"=>"phone"} 
+									Amount Correct	
+								%th{"data-hide"=>"phone"} 
+									Score (%)
+								%th{"data-hide"=>"phone"} 
+									Total Needed to Pass
+								%th{"data-hide"=>"phone"} 
+									Results
+						%tbody
+							-2.times do
+								%tr
+									%td
+										%p.no-margin-bottom
+											%strong
+												Custom PMP Test
+									%td
+										%p.no-margin-bottom.text-muted
+											8/29/2014 10:15:09 AM
+									%td
+										%p.no-margin-bottom
+											2
+									%td
+										%p.no-margin-bottom.text-danger
+											40%
+									%td
+										%p.no-margin-bottom
+											1
+									%td
+										%p.no-margin-bottom
+											User did not pass
+								%tr
+									%td
+										%p.no-margin-bottom
+											%strong
+												Custom PMP Test
+									%td
+										%p.no-margin-bottom.text-muted
+											8/29/2014 10:15:09 AM
+									%td
+										%p.no-margin-bottom
+											2
+									%td
+										%p.no-margin-bottom.text-success
+											90%
+									%td
+										%p.no-margin-bottom
+											1
+									%td
+										%p.no-margin-bottom
+											Passed
+		.row.double-margin-bottom
+			.col-lg-12
+				=partial'/preformance/charts/chart-past-results'						

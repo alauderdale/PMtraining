@@ -1,0 +1,26 @@
+.row.border-bottom.padding-top.padding-bottom.test-thumb
+	.col-md-1.hidden-sm.hidden-xs
+		=image_tag'icons/icon_test.png', :class=>"img-responsive margin-top"
+	.col-md-6.col-xs-12
+		%p.quarter-margin-bottom.bold-font-name
+			%a{"data-toggle"=>"modal", :href=>"/tests/show", "data-target"=>"#showCustomTestModal"}
+				Custom Test created August 29 - Project Cost Management (5 questions)
+		%p.half-margin-bottom
+			This custom test is comprised of questions from Project Cost Management. There are 5 total questions selected for this test. This test was originally created on August 29. 
+	.col-md-2
+		%p.bold-font-name.no-margin-bottom.text-center.text-left-md{:style=>"margin-top:18px;",:class=>"#{textStatusClass}"}
+			%i.fa{:class=>"#{iconClass}"}
+			= status
+	.col-md-3
+		.btn-group.half-margin-top.pull-right.pull-left-md
+			%button.btn.btn-primary{:type => "button",:style=>"margin-right:2px;", "data-toggle"=>"modal", :href=>"/tests/show", "data-target"=>"#showCustomTestModal"} 
+				= btnTitle
+			%button.btn.btn-primary.dropdown-toggle{"data-toggle" => "dropdown", :type => "button"}
+				%i.fa.fa-chevron-down
+			%ul.dropdown-menu{:role => "menu"}
+				%li
+					%a{:href => "/answers"} 
+						View Answer Key
+				%li
+					%a{:href => "#"} 
+						Delete Test

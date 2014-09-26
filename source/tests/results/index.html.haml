@@ -1,0 +1,31 @@
+;;;
+
+"title": "My Results",
+"nav_title": "My Results",
+"subnav_data": "tests_subnav"
+
+;;;
+
+
+%section
+	.container
+		.row
+			.col-lg-12
+				=partial "/shared/subnav_with_links"
+		.row.double-margin-bottom
+			.col-lg-12
+				%h3
+					Past Test Results are displayed below.
+				%p.no-margin-bottom
+					Included below are tests that were completed in the past. View your detailed test reports by selecting a test from the list. The report will display your personal responses for each test question.
+		.row
+			.col-lg-12
+				%h3.pull-left
+					Past Results
+		.row
+			.col-lg-12
+				-3.times do
+					=partial "/shared/results-test-thumb-lg", :locals=>{ :btnTitle=>"View Results"}
+
+				
+				

@@ -1,0 +1,122 @@
+;;;
+
+"title": "Results"
+
+;;;
+
+
+%section
+	.container
+		.row.margin-bottom
+			.col-lg-12
+				.page-header.no-margin-top
+					%h1.no-margin-bottom
+						Practice Test Results
+				%p
+					Please review your test results. A breakdown of your test performance by Knowledge Area and Process Group is provided below. The Test Question Review area will allow you to view individual test items, along with the correct response. 
+				.margin-bottom
+					%ul.pager
+						%li.previous
+							%a.no-underline-link{:href=>"/tests/results"}
+								%i.fa.fa-long-arrow-left
+								Return to Results Menu
+
+		.row.double-margin-bottom
+			.col-sm-12
+				%h3.margin-bottom
+					Test Overview
+				%dl.dl-horizontal
+					%dt
+						Test Name:
+					%dd.margin-bottom
+						Business Skills II
+					%dt
+						Your Test Score:
+					%dd.margin-bottom
+						%strong
+							2 of 10 
+						(20.00%)
+					%dt
+						Required to Pass:
+					%dd.margin-bottom
+						%strong
+							7 of 10 
+						(70.00%)
+					%dt
+						Results:
+					%dd.margin-bottom.text-danger
+						Sorry, you did not receive a passing score for this test.
+
+
+		.row.double-margin-bottom
+			.col-sm-6
+				.padding-right
+					=partial'/tests/results/chart-preformance-knowlage'
+			.col-sm-6
+				.padding-left.no-padding-left-sm
+					=partial'/tests/results/chart-preformance-process'
+
+
+
+		.row
+			.col-sm-12		
+				%h3.half-margin-bottom
+					Test Question Review
+				%p
+					Below are the individual test questions from the test, along with the correct response and reason. 
+				.answer-key
+					%p.no-margin-bottom.text-success
+						%i.fa.fa-check-circle-o.result-icon
+						indicates a correct response.
+					%p.no-margin-bottom.text-danger
+						%i.fa.fa-times-circle-o.result-icon
+						indicates an  in-correct response.
+				%hr
+		.row
+			.col-lg-8
+				-6.times do
+					.row.double-margin-bottom
+						.col-lg-12
+							.media-object
+								.pull-left
+									%i.fa.fa-times-circle-o.text-danger.result-icon
+								.media-body
+									%p.bold-font-name
+										1. Daniel is managing the development of an e-commerce website for his organization. Daniel enjoys coercive powers. He has assigned Julie, a project team member, to facilitate the team meetings. During any team meeting, Julie must:
+							.pm-table-wrapper
+								%table.table.border-bottom
+									%thead
+										%tr
+											%th{width: "40%"}
+												Correct Response
+											%th
+												Reason
+									%tbody
+										%tr
+											%td
+												%p.no-margin-bottom
+													%strong
+														Remain neutral and facilitate the meetings
+											%td
+												%p.no-margin-bottom
+													Since the project manager enjoys coercive powers, it seems likely that he has assigned a neutral facilitator to facilitate the team meetings. Facilitation is a management skill. A good facilitator should always remain neutral in a meeting and help facilitate consensus when required. [PMBOK 5th edition, Page 408]
+										%tr
+											%td{:colspan=>2}
+												%p.no-margin-bottom
+													%strong
+														Knowledge Area / Topic Area:
+													Project Stakeholder Management
+												%p.no-margin-bottom
+													%strong 
+														Process Group: 
+													Executing
+										%tr.danger
+											%td{:colspan=>2}
+												%p.no-margin-bottom
+													%strong 
+														Your response: 
+													%em
+														Charter Consultant
+			.col-lg-4
+
+			

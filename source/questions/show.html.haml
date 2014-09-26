@@ -1,0 +1,60 @@
+;;;
+
+"title": "Test: Business Essentials"
+	
+;;;
+
+
+%section
+	.container
+		.row
+			.col-lg-12
+				=partial"/questions/test_in_prog_header"
+				.test-question-container.margin-top
+					.test-question.margin-bottom
+						%p
+							Question 1 of 6
+						%h4
+							Daniel is managing the development of an e-commerce website for his organization. Daniel enjoys coercive powers. He has assigned Julie, a project team member, to facilitate the team meetings. During any team meeting, Julie must:
+					.test-answers.margin-bottom
+						.radio
+							%label
+								%input#optionsRadios1{checked: "checked", name: "optionsRadios", type: "radio", value: "option1"}/
+								Influence team members to support the project manager's decisions
+						.radio
+							%label
+								%input#optionsRadios2{name: "optionsRadios", type: "radio", value: "option2"}/
+								Support the team members to challenge the project manager's decisions
+
+						.radio
+							%label
+								%input#optionsRadios2{name: "optionsRadios", type: "radio", value: "option3"}/
+								Negotiate with team members to achieve the project objectives
+						.radio
+							%label
+								%input#optionsRadios2{name: "optionsRadios", type: "radio", value: "option4"}/
+								Remain neutral and facilitate the meetings
+					.test-footer
+						%hr
+						.row
+							.col-sm-4
+								.margin-bottom.half-margin-top
+									%a.text-uppercase{:href=>"/questions"}
+										REVIEW MARKED QUESTIONS
+							.col-sm-8
+								.pull-right
+									%p.pull-left
+										%a.btn.btn-lg.btn-info.margin-bottom.half-margin-right{:href=>"/questions"}
+											%i.fa.fa-long-arrow-left
+											Prev
+										.btn-group{"data-toggle"=>"buttons"}
+											%label.btn.btn-lg.btn-info.margin-bottom.test-toggle-btn.half-margin-right
+												%input{:type=>"checkbox"}
+													Mark For Review
+												%span.btn-icon
+										%a.btn.btn-lg.btn-success.margin-bottom{:href=>"/questions"}
+											Submit & Continue
+											%i.fa.fa-long-arrow-right
+
+				
+

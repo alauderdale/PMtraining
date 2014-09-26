@@ -1,0 +1,61 @@
+:javascript
+	$(function () {
+	        $('#past-results-chart').highcharts({
+	            chart: {
+	                type: 'column',
+	                backgroundColor: '#fff',
+	                height: '250'
+	            },
+							colors: [
+							'#3abff1',
+							],
+	            title: {
+	                text: ''
+	            },
+	            subtitle: {
+	                text: ''
+	            },
+	            legend: {
+	                enabled: false
+	            },
+	            xAxis: {
+	            		categories: ['8/29/2014 10:15:09 AM','8/29/2014 10:15:09 AM','8/29/2014 10:15:09 AM'],
+	                title: {
+	                    text: ''
+	                }
+	            },
+	            yAxis: {
+	                min: 0,
+	                max: 100,
+	                tickPixelInterval: 120,
+	                labels: {
+	                    overflow: 'justify'
+	                },
+	                title: {
+	                    enabled: false
+	                }
+	            },
+	            tooltip: {
+	                valueSuffix: ' %'
+	            },
+	            plotOptions: {
+	                bar: {
+	                    dataLabels: {
+	                        enabled: true
+	                    },
+	                },
+									series: {
+										pointWidth: 100
+									}
+	            },
+	            credits: {
+	                enabled: false
+	            },
+	            series: [{
+	            		name: 'preformance',
+	                data: [10, 20, 40]
+	            }]
+	        });
+	    });
+#past-results-chart
+
