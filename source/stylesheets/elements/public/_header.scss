@@ -126,7 +126,6 @@
 }
 
 
-
 .main-nav-top{
 	position:relative;
 	box-shadow:0 1px 3px rgba(0,0,0,.5)!important;
@@ -193,4 +192,24 @@
 
 .sale{
 	background:url(/images/public/sale.png) no-repeat right top;
+}
+
+//dropdowns
+
+ul.dropdown-large{
+	left:0!important;
+	a.btn{
+		font-size:1em;
+		padding:$baseline/4 $baseline!important;
+		margin:0;
+		width:auto!important;
+		&.btn-primary{
+			@extend .btn-primary;
+			color:white!important;
+			&:hover{
+				color:white!important;
+				background:tint($primary-color,20%)!important;
+			}
+		}
+	}
 }
