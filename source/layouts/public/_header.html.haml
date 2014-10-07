@@ -8,6 +8,7 @@
 			.col-lg-12
 				.pull-left
 					%a.logo{:href=>"/"}
+				=image_tag'pmi_logo.png',:class=>" hidden-sm pull-right quarter-margin-left", :width=>"80px" , :style=>"position:relative; top:8px;"
 				%nav.pull-right
 					%ul.list-inline.sub-links
 						%li
@@ -18,7 +19,7 @@
 								Member Login 
 						%li
 							%a{:href=>"/public/about/contact"}
-								Contact & Support
+								Contact & Support 
 		.row
 			.col-lg-12
 				=partial"/public/header/main-nav-container"                     

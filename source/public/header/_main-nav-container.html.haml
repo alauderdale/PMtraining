@@ -1,45 +1,46 @@
 .main-nav-container
 	%nav.pull-left
 		%ul.list-inline.main-links
-			%li{:class => (current_page.data.activeclass === "home") ? "active" : ""}
-				%a{:href=>"/"}
-					Home 
 			%li{:class => (current_page.data.activeclass === "practice") ? "active" : ""}
 				%a.dropdown-toggle{:href=>"/public/practice-pmp"}
-					PMP Practice Exams
-					%span.caret
-					%ul.dropdown-menu.dropdown-large{:role=>"menu"}
-						%li
-							%a.hidden
-						.row
-							.col-sm-6
-								.padded
-									%h4.half-margin-bottom.bold-font-name.text-uppercase
-										Heading about something
-									%ul.list-unstyled.quarter-margin-bottom
-										%li
-											%i.fa.fa-check
-											Access to 1,000+ PMP exam questions.
-										%li
-											%i.fa.fa-check
-											Detailed explanations for PMP question
-										%li
-											%i.fa.fa-check
-											Professional PMP practice exams.
-									%a.btn.btn-primary.pull-left.half-margin-right{:href=>"#"}
-										Learn more
-									%a.btn.btn-primary.pull-left{:href=>"#"}
-										Sign up now
-							.col-sm-6
-								.padded
-									=image_tag ('public/dropdown_img.png') ,:class=>"img-responsive"
+					Practice Exams
+					=partial "/public/header/dropdown_one"
 								
+
 			%li{:class => (current_page.data.activeclass === "live") ? "active" : ""}
 				%a{:href=>"/public/live-pmp"}
-					Live PMP Classes
+					Live Classes
+
+
 			%li{:class => (current_page.data.activeclass === "bootcamp") ? "active" : ""}
 				%a{:href=>"/public/bootcamp"}
-					On-Demand PMP Course
+					On-Demand Course
+
+			%li{:class => (current_page.data.activeclass === "acp-training") ? "active" : ""}
+				%a.dropdown-toggle{:href=>"/public/practice-pmp"}
+					PMI ACP Training
+					=partial "/public/header/dropdown_two"
+
+			%li{:class => (current_page.data.activeclass === "acp-training") ? "active" : ""}
+				%a.dropdown-toggle{:href=>"/public/practice-pmp"}
+					Scrum Training
+
+
+			%li{:class => (current_page.data.activeclass === "training" ) ? "active" : ""}
+				%a.dropdown-toggle{:href=>"/public/corporate-training"}
+					Corporate Training
+					%span.caret
+					%ul.dropdown-menu{:role=>"menu"}
+						%li
+							%a{:href=>"/public/corporate-training"}
+								Corporate training options
+						%li
+							%a{:href=>"/public/corporate-training/corporate-discount"}
+								Enroll multiple students
+						%li
+							%a{:href=>"/public/corporate-training/private-portal"}
+								Private training portal   
+
 			%li{:class => (current_page.data.activeclass === "about" ) ? "active" : ""}
 				%a.dropdown-toggle{:href=>"/public/about"}
 					About
@@ -63,22 +64,9 @@
 						%li
 							%a{:href=>"/public/about/newsletter"}
 								Get our newsletter
-			%li{:class => (current_page.data.activeclass === "training" ) ? "active" : ""}
-				%a.dropdown-toggle{:href=>"/public/corporate-training"}
-					Training
-					%span.caret
-					%ul.dropdown-menu{:role=>"menu"}
-						%li
-							%a{:href=>"/public/corporate-training"}
-								Corporate training options
-						%li
-							%a{:href=>"/public/corporate-training/corporate-discount"}
-								Enroll multiple students
-						%li
-							%a{:href=>"/public/corporate-training/private-portal"}
-								Private training portal   
+
+
 	%nav.pull-right.checkout-btn-wrapper
 		%a.btn.btn-primary{:href=>"/public/checkout", :class => (current_page.data.activeclass === "checkout" ) ? "active" : ""}
-			%i.fa.fa-shopping-cart
-			Checkout  
-		=image_tag'pmi_logo.png',:class=>"hidden-md hidden-sm", :width=>"80px"   
+			%i.fa.fa-shopping-cart 
+			0

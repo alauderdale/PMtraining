@@ -166,7 +166,7 @@
 	width:100%;
 	z-index: 99;
 	display:none;
-	padding-top:15px;
+	padding-top:8px;
 	border-bottom:1px solid $gray-color;
 	.sale{
 		display:none;
@@ -174,9 +174,15 @@
 	.checkout-btn-wrapper{
 		position:relative;
 		top:-6px;
+		.btn{
+			padding:3px 10px!important;
+			position:relative;
+			top:3px;
+
+		}
 	}
 	ul.dropdown-menu{
-		top:43px!important;
+		top:37px!important;
 	}
 	ul.main-links{
 		li{
@@ -198,6 +204,15 @@
 
 ul.dropdown-large{
 	left:0!important;
+	hr{
+		border-color:#bbb;
+	}
+	a{
+		color:$primary-color!important;
+		&:hover{
+			background:none!important;
+		}
+	}
 	a.btn{
 		font-size:1em;
 		padding:$baseline/4 $baseline!important;
