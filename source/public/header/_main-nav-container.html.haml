@@ -4,31 +4,34 @@
 			%li{:class => (current_page.data.activeclass === "practice") ? "active" : ""}
 				%a.dropdown-toggle{:href=>"/public/practice-pmp"}
 					PMP Practice Exams
-					=partial "/public/header/dropdown_one"
+					=partial "/public/header/pmp_practice_dropdown"
 								
 
 			%li{:class => (current_page.data.activeclass === "live") ? "active" : ""}
 				%a{:href=>"/public/live-pmp"}
 					Live PMP Classes
+					=partial "/public/header/live_pmp_dropdown"
 
 
 			%li{:class => (current_page.data.activeclass === "bootcamp") ? "active" : ""}
 				%a{:href=>"/public/bootcamp"}
 					On-Demand PMP Course
+					=partial "/public/header/demand_dropdown"
 
 			%li{:class => (current_page.data.activeclass === "acp-training") ? "active" : ""}
 				%a.dropdown-toggle{:href=>"/public/practice-pmp"}
 					PMI ACP Training
-					=partial "/public/header/dropdown_two"
+					=partial "/public/header/acp_training_dropdown"
 
 			%li{:class => (current_page.data.activeclass === "acp-training") ? "active" : ""}
 				%a.dropdown-toggle{:href=>"/public/practice-pmp"}
 					Scrum Training
+					=partial "/public/header/scrum_dropdown"
  
 			%li{:class => (current_page.data.activeclass === "about" ) ? "active" : ""}
 				%a.dropdown-toggle{:href=>"/public/about"}
 					Corporate
-					=partial "/public/header/dropdown_three"
+					=partial "/public/header/corporate_dropdown"
 
 
 	%nav.pull-right.checkout-btn-wrapper
