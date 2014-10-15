@@ -1043,6 +1043,12 @@ ul.nav-sidebar {
 .modal p.micro-text {
   line-height: 20px; }
 
+/* line 20, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/public/_modals.scss */
+.demo-test-modal .radio label {
+  font-size: 0.8em !important;
+  position: relative;
+  top: -3px; }
+
 /* line 2, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/public/_forms.scss */
 form .control-label {
   font-size: .6em;
@@ -1147,6 +1153,20 @@ a {
 /* line 92, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/public/_links_buttons.scss */
 .post h3 a {
   border-bottom: none; }
+
+/* line 101, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/public/_links_buttons.scss */
+.test-toggle-btn .btn-icon:after {
+  width: 10px;
+  content: "+"; }
+/* line 106, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/public/_links_buttons.scss */
+.test-toggle-btn.active {
+  background-color: #e7f3f8 !important; }
+  /* line 108, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/public/_links_buttons.scss */
+  .test-toggle-btn.active .btn-icon {
+    width: 20px; }
+    /* line 110, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/public/_links_buttons.scss */
+    .test-toggle-btn.active .btn-icon:after {
+      content: "✓"; }
 
 /* line 1, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/elements/public/_header.scss */
 .logo-sm {
