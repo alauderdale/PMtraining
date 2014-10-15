@@ -1,0 +1,69 @@
+;;;
+
+"title": "Test: Business Essentials",
+"layout": "modal_small"
+	
+;;;
+
+
+.modal-body.no-padding-bottom.demo-test-modal
+	.row
+		.col-lg-12
+			.page-header.no-margin-top
+				%h2.no-margin-bottom.pull-left
+					Test in Progress
+				%h4.no-margin-bottom.pull-right.pull-left-xs{:style=>"margin-top:18px;"}
+					%span.medium-font-name
+						.fa.fa-clock-o
+						Time Remaining: 
+					48:31
+				.clearfix
+			.test-question-container.margin-top
+				.test-question.margin-bottom
+					%p
+						Question 1 of 6
+					%p.extra-bold-font-name
+						Daniel is managing the development of an e-commerce website for his organization. Daniel enjoys coercive powers. He has assigned Julie, a project team member, to facilitate the team meetings. During any team meeting, Julie must:
+				.test-answers.margin-bottom
+					.radio
+						%label
+							%input#optionsRadios1{checked: "checked", name: "optionsRadios", type: "radio", value: "option1"}/
+							Influence team members to support the project manager's decisions
+					.radio
+						%label
+							%input#optionsRadios2{name: "optionsRadios", type: "radio", value: "option2"}/
+							Support the team members to challenge the project manager's decisions
+
+					.radio
+						%label
+							%input#optionsRadios2{name: "optionsRadios", type: "radio", value: "option3"}/
+							Negotiate with team members to achieve the project objectives
+					.radio
+						%label
+							%input#optionsRadios2{name: "optionsRadios", type: "radio", value: "option4"}/
+							Remain neutral and facilitate the meetings
+				.test-footer
+					%hr
+					.row
+						.col-sm-6.col-sm-push-6
+							.pull-right
+								%p.pull-left
+									%a.btn.btn-sm.btn-info.margin-bottom.half-margin-right{:href=>"/questions"}
+										%i.fa.fa-long-arrow-left
+									%a.btn.btn-sm.btn-success.margin-bottom{:href=>"/questions"}
+										Submit & Continue
+										%i.fa.fa-long-arrow-right
+						.col-sm-6.col-sm-pull-6
+							.btn-group.pull-left{"data-toggle"=>"buttons"}
+								%label.btn.btn-sm.btn-info.test-toggle-btn.half-margin-right
+									%input{:type=>"checkbox"}
+										%small
+											Mark For Review
+									%span.btn-icon
+							%p.pull-left.quarter-margin-top
+								%small
+									%a{:href=>"/questions"}
+										Review Questions
+
+				
+
