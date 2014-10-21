@@ -1060,6 +1060,9 @@ ul.nav-sidebar {
   font-size: 0.8em !important;
   position: relative;
   top: -3px; }
+/* line 25, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/public/_modals.scss */
+.demo-test-modal .btn {
+  font-size: 1em; }
 
 /* line 2, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/partials/public/_forms.scss */
 form .control-label {
@@ -1378,7 +1381,7 @@ a {
 
 /* line 203, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/elements/public/_header.scss */
 .sale {
-  background: url(/images/public/sale.png) no-repeat right top; }
+  background: url(../images/public/sale.png) no-repeat right top; }
 
 /* line 209, /Users/alauderdale/Dropbox/clients/SSILogic/pmTraining/source/stylesheets/elements/public/_header.scss */
 ul.dropdown-large {
