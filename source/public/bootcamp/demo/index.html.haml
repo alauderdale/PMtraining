@@ -133,20 +133,22 @@
 
 			.col-md-1
 			.col-md-3
-				.page-header.no-padding-top.no-margin-top
-					%h4.bold-font-name.half-margin-bottom
-						Course Materials Included
-				-9.times do
-					.panel
-						.padded
-							%p.half-margin-bottom
-								%strong
-									Over 35 Hours of interactive course material
-							%ul.list-default
-								%li 
-									Interactive lessons that thoroughly cover all PMP exam areas
-								%li 
-									Exam prep tools that reinforce critical exam areas
+				.panel.panel-default
+					.panel-heading.primary-color
+						%h4.no-margin-bottom.bold-font-name.text-center
+							%i.fa.fa-file-text-o{:style=>"margin-right:5px;"}
+							Materials Included
+					.panel-body.margin-top
+						-9.times do
+							.double-margin-bottom
+								%p.half-margin-bottom
+									%strong
+										Over 35 Hours of interactive course material
+								%ul.list-default
+									%li 
+										Interactive lessons that thoroughly cover all PMP exam areas
+									%li 
+										Exam prep tools that reinforce critical exam areas
 
 				%a.btn.btn-block.btn-default{:href=>"#"}
 					Register Now
