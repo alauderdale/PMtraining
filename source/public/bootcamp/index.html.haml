@@ -15,7 +15,19 @@
 		.row
 			.col-sm-6
 				%h2
-					PMP Certification Bootcamp On-Demand Course Now $349.00
+					PMP Certification Bootcamp 
+					%br
+					%span.bold-font-name
+						On-Demand Course 
+				%h4.quarter-margin-bottom
+					%span.medium-font-name
+						Originally 
+						%span.line-through
+							$599 
+				%h3
+					Now $349!
+					%span.text-success.extra-bold-font-name{:style=>"font-size:.8em;"}
+						\-SAVE $250
 				%p.no-margin-bottom
 					%strong
 						Flexible course access.   Any time, anywhere.
@@ -35,22 +47,19 @@
 					Web-based access to all courseware.
 				%hr
 				%p.no-margin-bottom
-					%i.fa.fa-plus
-					Registration Cost - 
-					%span.line-through
-						$599.00 (USD)
-					%span.text-success 
-						Save $250.00 
-				%p.no-margin-bottom
 					%a{:href=>""}
 						%i.fa.fa-plus
 						Now $349.00 (USD) with 90-day access
+				%p.no-margin-bottom
+					%span.bold-font-name
+						%i.fa.fa-plus
+						You save $250.00!
 			.col-sm-6
-				=image_tag"public/img-bootcamp-PMP-largev2.jpg", :class=>"img-responsive margin-auto double-margin-bottom margin-top" 
+				=image_tag"public/bootcamp_capm.png", :class=>"img-responsive margin-auto double-margin-bottom margin-top" 
 				.text-center
 					%a.btn.btn-default.margin-bottom{"data-toggle"=>"modal", :href=>"/public/bootcamp/show", "data-target"=>"#showBootcampModal"}
-						Register for this PMP course
-					%a.btn.btn-info.margin-bottom{:href=>"/public/checkout"}
+						Add to Cart $349 
+					%a.btn.btn-info.margin-bottom{:href=>"/public/bootcamp/demo"}
 						Try a Demo
 					.clearfix
 					%p

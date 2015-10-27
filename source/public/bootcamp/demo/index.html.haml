@@ -1,0 +1,156 @@
+;;;
+
+"layout": "splash",
+"title": "Welcome to an Overview of the On-Demand PMP Bootcamp",
+"right_title": "", 
+"activeclass": "about",
+"subtitle": "PMP Articles"
+
+;;;
+
+%section.invert-section.page-header-section.bootcamp-pmp-header{:class=>"#{headerClass ||= 'page-header-element'}"}
+	.container
+		.row
+			.col-md-12
+				.row
+					.col-md-6
+						%h2
+							=data.page.title
+						%p
+							%strong
+								This accelerated, self-paced course trains students to pass the PMP Exam, and is designed to gain a maximum understanding of project management. 
+							This highly interactive course covers all areas of the latest PMBOK Guide - Fifth Edition, and minimizes study time from hundreds of hours to less than 40.
+						%a.btn.btn-default{:href=>"#"}
+							Register Now
+					.col-md-1
+					.col-md-5
+						.media-object.testimonial.double-margin-bottom.hidden-sm.hidden-xs
+							.pull-left
+								%img.img-responsive.margin-right.margin-top{:src => "/images/public/avatar_lg.png", :width => "60px"}
+							.media-body
+								.media-heading
+									%blockquote.padded{:style=>"border-radius:3px;"}
+										"
+										The simplest testimonial I can provide is this: You will pass the PMP if you follow this study material as it is presented to you... It is a great course, and I passed the PMP on the first attempt thanks to this course
+										"
+										%footer
+											Anthony Martin PMP, Divcom INC, Portland ME
+
+
+%section
+	.container
+		.row
+			.col-md-8
+				.row.margin-bottom
+					.col-lg-12
+						%h2
+							Over 65 Interactive PMP Course Lessons
+						.panel
+							.panel-heading.primary-color
+								%h4.no-margin-bottom.bold-font-name
+									Foundational Terms and Concepts
+							.panel-body.list-group-item-info
+								.row
+									-2.times do
+										.col-sm-6
+											%a.thumbnail.no-margin-bottom{:href=>"#"}
+												.text-center.padded
+													%h1.quarter-margin-bottom
+														%i.fa.fa-play-circle-o.text-primary
+													%p
+														PM Process (4:00)
+							%ul.list-group
+								-3.times do
+									%li.list-group-item
+										%p.extra-bold-font-name
+											%a.no-decor{:href=>"#"}
+												Project Roles
+											(4:00)
+				.row.margin-bottom
+					.col-lg-12
+						%h2
+							PMBOK Knowledge Area Lessons
+						-4.times do
+							.panel.panel-default.double-margin-bottom
+								.panel-heading.primary-color
+									%h4.no-margin-bottom.bold-font-name
+										Project Integration Management
+								.panel-body
+									%p.extra-bold-font-name
+										%a.no-decor{:href=>"#"}
+											Introduction
+										(4:00)
+								%ul.list-group
+									-4.times do
+										%li.list-group-item
+											.row
+												.col-sm-12
+													%p.bold-font-name
+														Develop Project Charter
+											.row
+												.col-sm-12
+													%ul.list-inline
+														%li.quarter-margin-bottom
+															%small
+																%small
+																	%small
+																		%a.no-decor{:href=>"#"}
+																			Introduction
+																		(4:55)
+														%li
+															%small
+																%small
+																	%small
+																		%a.no-decor{:href=>"#"}
+																			Inputs
+																		(4:55)
+														%li
+															%small
+																%small
+																	%small
+																		%a.no-decor{:href=>"#"}
+																			Outputs
+																		(4:55)
+														%li
+															%small
+																%small
+																	%small
+																		%a.no-decor{:href=>"#"}
+																			Tools
+																		(4:55)
+														%li
+															%small
+																%small
+																	%small
+																		%a.no-decor{:href=>"#"}
+																			Summary
+																		(4:55)
+
+
+
+
+
+
+			.col-md-1
+			.col-md-3
+				.panel.panel-default
+					.panel-heading.primary-color
+						%h4.no-margin-bottom.bold-font-name.text-center
+							%i.fa.fa-file-text-o{:style=>"margin-right:5px;"}
+							Materials Included
+					.panel-body.margin-top
+						-9.times do
+							.double-margin-bottom
+								%p.half-margin-bottom
+									%strong
+										Over 35 Hours of interactive course material
+								%ul.list-default
+									%li 
+										Interactive lessons that thoroughly cover all PMP exam areas
+									%li 
+										Exam prep tools that reinforce critical exam areas
+
+				%a.btn.btn-block.btn-default{:href=>"#"}
+					Register Now
+
+			

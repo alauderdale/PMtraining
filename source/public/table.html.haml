@@ -1,0 +1,46 @@
+;;;
+
+"layout": "public"
+
+;;;
+.container
+	.pm-table-wrapper
+		%table.display.table.margin-top.border-bottom{"data-filter"=>"#filter", border: "0", cellpadding: "0", cellspacing: "0", width: "100%"}
+			%thead
+				%tr
+					%th
+						Question
+					%th
+						Answered
+					%th{"data-hide"=>"phone"}
+						Marked for Review
+					%th
+
+			%tbody
+				%tr
+					%td
+						%h3.no-margin-bottom
+							1
+					%td
+						%h3.no-margin-bottom.text-success
+							%i.fa.fa-check-circle
+					%td
+						%h3.no-margin-bottom.text-success
+							%i.fa.fa-check-circle
+					%td
+						%a.btn.btn-primary.btn-sm.btn-block{:href=>"/questions/show"}
+							Go to Question
+				%tr
+					%td
+						%h3.no-margin-bottom
+							2
+					%td
+						%h3.no-margin-bottom.text-success
+							%i.fa.fa-check-circle
+					%td
+						%h3.no-margin-bottom.text-success
+
+					%td.vert-align-center
+						%a.btn.btn-primary.btn-sm.btn-block{:href=>"/questions/show"}
+							Go to Question
+			

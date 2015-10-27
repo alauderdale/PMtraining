@@ -33,7 +33,7 @@
 						New! Easily create your own PMP tests from our database of 1,000+ questions.
 					%li
 						90-day access to professional PMP practice exams for only $59.00.
-				%a.btn.btn-primary{:href=>"#"}
+				%a.btn.btn-primary{:href=>"demo/show","data-toggle"=>"modal", "data-target"=>"#demoModal"}
 					Try a demo  
 			.col-sm-4
 				.margin-top
@@ -59,6 +59,33 @@
 		.row
 			.col-sm-12
 				=partial"/public/shared/testimonial-slider"
+.container
+	%hr.no-margin-top.no-margin-bottom
+%section
+	.container
+		.row.margin-bottom
+			.col-lg-12
+				%h6.text-center.primary-text-color
+					See PMTraining in action
+		.row
+			.col-sm-6
+				%h3
+					Test Taking
+				%a.fancybox.fb-video{:href=>"https://www.youtube.com/embed/sDwIofQ1uj8"}
+					=image_tag"public/video-tutorial-one.png", :class=>"img-responsive margin-auto thumbnail" 
+				%p.text-center
+					%em
+						%small
+							Video subtext
+			.col-sm-6
+				%h3
+					Performance Reports
+				%a.fancybox.fb-video{:href=>"https://www.youtube.com/embed/VCacGl9vHCs"}
+					=image_tag"public/video-tutorial-two.png", :class=>"img-responsive margin-auto thumbnail" 
+				%p.text-center
+					%em
+						%small
+							Video subtext
 .container
 	%hr.no-margin-top.no-margin-bottom
 %section

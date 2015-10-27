@@ -5,11 +5,10 @@
 		ul.main-links{
 			li{
 				margin-right:0;
-				font-size:.75em;
+				font-size:.68em;
 			}
 		}
 	}
-
 
 }
 
@@ -20,7 +19,7 @@
 	.main-nav{
 		ul.main-links{
 			li{
-				font-size:.616em;
+				font-size:.52em;
 				margin-right:0;
 				a{
 					padding-left:0;
@@ -47,9 +46,6 @@
 			font-size:.8em!important;
 			padding:$baseline/4 $baseline/2;
 			padding-bottom:10px!important;
-			.fa{
-				display:none;
-			}
 		}
 
 	.checkout-btn-wrapper{
@@ -82,11 +78,14 @@
 	}
 
 
-
-
 	#hidden-menu{
 		ul.dropdown-menu{
-			top:45px!important;
+			top:30px!important;
+		}
+		.checkout-btn-wrapper{
+			a{
+				font-size:.5em!important;
+			}
 		}
 	}
 

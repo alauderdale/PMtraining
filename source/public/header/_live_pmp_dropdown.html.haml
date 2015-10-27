@@ -1,0 +1,33 @@
+%span.caret
+%ul.dropdown-menu.dropdown-large{:role=>"menu"}
+	%li
+		%a.hidden
+	.row
+		.col-sm-5
+			.padded
+				%h4.half-margin-bottom.bold-font-name.text-uppercase
+					Live PMP Classes
+				%ul.list-unstyled.quarter-margin-bottom
+					%li
+						%a{:href=>"#"}
+							Class Overview
+							%i.fa.fa-angle-double-right
+					%li
+						%a{:href=>"#"}
+							Schedule & Pricing
+							%i.fa.fa-angle-double-right
+					%li
+						%a{:href=>"#"}
+							Included With Class
+							%i.fa.fa-angle-double-right
+					%li
+						%a{:href=>"#"}
+							Our Guarantee
+							%i.fa.fa-angle-double-right
+					%li
+						%a{:href=>"#"}
+							Student Testimonials
+							%i.fa.fa-angle-double-right
+		.col-sm-7
+			.padded
+				=image_tag ('public/dropdowns/dropdown_live.png') ,:class=>"img-responsive"

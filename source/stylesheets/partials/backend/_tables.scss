@@ -35,3 +35,37 @@ table.table{
 	}
 }
 
+
+
+//media list
+
+.media-list{
+
+.media-thumbnail{
+	border-bottom:1px solid $gray-color;
+	p{
+		padding: 8px 10px 0px 10px;
+	}
+	a{
+		display: inline-block;
+		padding:15px 0;
+		width: 100%;
+		.btn{
+			margin-top:-39px;
+			margin-right:15px;
+			display:none;
+		}
+		&:hover{
+			background-color: tint($primary-color,97%);
+			.btn{
+				display: block;
+			}
+		}
+	}
+	&:last-of-type{
+		border-bottom:none;
+	}
+}
+
+}
+

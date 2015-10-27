@@ -1,0 +1,53 @@
+%span.caret
+%ul.dropdown-menu.dropdown-large{:role=>"menu"}
+	%li
+		%a.hidden
+	.row
+		.col-sm-8
+			.row
+				.col-sm-6.col-md-4
+					.padded.no-padding-right
+						%h4.no-margin-bottom.bold-font-name.text-uppercase
+							Corporate Training
+						%ul.list-unstyled.quarter-margin-bottom
+							%li
+								%a{:href=>"/public/corporate-training"}
+									Corporate training options
+							%li
+								%a{:href=>"/public/corporate-training/corporate-discount"}
+									Enroll multiple students
+							%li
+								%a{:href=>"/public/corporate-training/private-portal"}
+									Private training portal 
+				.col-sm-6.col-md-8
+					.padded.no-padding-left
+						%h4.no-margin-bottom.bold-font-name.text-uppercase
+							About
+						.row
+							.col-sm-6
+								%ul.list-unstyled.quarter-margin-bottom.no-margin-right
+									%li
+										%a{:href=>"/public/about"}
+											Who we are
+									%li
+										%a{:href=>"/public/about-the-pmp-exam"}
+											About the PMP exam
+									%li
+										%a{:href=>"/public/about/books"}
+											Our books and website
+							.col-sm-6
+								%ul.list-unstyled.quarter-margin-bottom
+									%li
+										%a{:href=>"/public/articles"}
+											PMP articles
+									%li
+										%a{:href=>"/public/about/contact"}
+											Contact
+									%li
+										%a{:href=>"/public/about/newsletter"}
+											Get our newsletter
+
+		.col-sm-4
+			.padded
+				=image_tag ('public/dropdowns/dropdown_corporate.png') ,:class=>"img-responsive"
+			  

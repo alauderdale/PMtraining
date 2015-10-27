@@ -1,13 +1,15 @@
 =partial"/public/shared/navbar-mobile"
 #hidden-menu.main-nav.hidden-xs.main-nav-fixed
 	.container
-		=partial"/public/header/main-nav-container" 
+		.col-lg-12
+			=partial"/public/header/main-nav-container" 
 %header.main-nav.hidden-xs.main-nav-top
 	.container
 		.row.margin-bottom
 			.col-lg-12
 				.pull-left
-					%a.logo{:href=>"/"}
+					%a.logo_two{:href=>"/"}
+				=image_tag'pmi_logo.png',:class=>" hidden-sm pull-right quarter-margin-left", :width=>"80px" , :style=>"position:relative; top:8px;"
 				%nav.pull-right
 					%ul.list-inline.sub-links
 						%li
@@ -18,7 +20,7 @@
 								Member Login 
 						%li
 							%a{:href=>"/public/about/contact"}
-								Contact & Support
+								Contact & Support 
 		.row
 			.col-lg-12
 				=partial"/public/header/main-nav-container"                     
