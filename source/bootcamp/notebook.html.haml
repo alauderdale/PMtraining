@@ -1,0 +1,90 @@
+;;;
+
+"title": "My Notebook",
+"nav_title": "On Demand Bootcamp",
+"subnav_data": "bootcamp_subnav",
+"activeclass": "notebook"
+
+;;;
+
+
+%section
+	.container
+		.row
+			.col-lg-12
+				=partial "/shared/subnav_with_links"
+				.row
+			.col-md-3.col-sm-5
+				.padding-right
+					%h4.quarter-margin-bottom
+						Progress
+					%p.micro-text
+						Small blurb about ehat this section means to users
+			.col-md-9.col-sm-7
+				%a.btn.btn-primary.pull-right.half-margin-top.pull-left-sm.btn-block-sm
+					View My Progress
+		%hr
+		.row
+			.col-md-12
+				%h4
+					Generate Certificate
+		.row.margin-bottom
+			.col-md-3.col-sm-5
+				.padding-right
+					%p.quarter-margin-bottom
+						Your Name
+					%p.micro-text
+						Small blurb about ehat this section means to users
+			.col-md-4.col-sm-4
+				%form.half-margin-top
+					.form-group
+						%input.form-control{:placeholder=>"ex: Joun Doe"}
+			.col-md-2.col-sm-3
+		.row.margin-bottom
+			.col-md-3.col-sm-5
+				.padding-right
+					%p.quarter-margin-bottom
+						Completion Date
+					%p.micro-text
+						Please indicate the date of completion that should appear on your Certificate of Completion. 
+			.col-md-4.col-sm-4
+				%form.half-margin-top
+					.form-group
+						%input.form-control{:placeholder=>"ex: Oct. 30, 2015"}
+			.col-md-2.col-sm-3
+		.row.margin-bottom
+			.col-md-3.col-sm-5
+				.padding-right
+					%p.quarter-margin-bottom
+						Time indication
+					%p.micro-text
+						Would you like for the Certificate to indicate Contact Hours or PDUs?
+			.col-md-4.col-sm-4
+				%form.half-margin-top
+					.form-group
+						%label.radio-inline.margin-right
+							%input#inlineRadio1{:name => "inlineRadioOptions", :type => "radio", :value => "option1", :checked=>"checked"}
+								Hours
+						%label.radio-inline
+							%input#inlineRadio2{:name => "inlineRadioOptions", :type => "radio", :value => "option2"}
+								RDUs
+				%hr
+				%form.form-inline
+					.form-group
+						%p.form-control-static.micro-text.margin-right
+							Choose from 2 to 35 contact hours
+					.form-group
+						%select.form-control
+							%option
+								2
+			.col-md-2.col-sm-3
+		.row.margin-bottom
+			.col-md-3
+				.padding-right
+					%p.quarter-margin-bottom
+						Terms of Certificate
+					%p.micro-text
+						By clicking “Generate Certificate”I agree that I have completed all lessons and have earned the contact hours or Professional Development Units associated with this course.
+			.col-md-4
+				%a.btn.btn-default.btn-block.margin-top{:href=>"#"}
+					Generate Certificate
