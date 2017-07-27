@@ -7,18 +7,10 @@
     <title>
       Home
     </title>
-    <link href="stylesheets/public.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="stylesheets/public.css" rel="stylesheet" />
     <link href='/images/favicon.ico' rel='shortcut icon'>
     <!-- %script{:src => "http://code.jquery.com/jquery-latest.min.js", :type => "text/javascript"} -->
-    <script src="javascripts/lib/jquery.js" type="text/javascript"></script>
-    <script src="javascripts/lib/bootstrap.js" type="text/javascript"></script>
-    <script src="javascripts/lib/jquery.fancybox.pack.js" type="text/javascript"></script>
-    <script src="javascripts/lib/helpers/jquery.fancybox-media.js" type="text/javascript"></script>
-    <script src="javascripts/lib/highcharts/highcharts.js" type="text/javascript"></script>
-    <script src="javascripts/lib/highcharts/modules/exporting.js" type="text/javascript"></script>
-    <script src="javascripts/lib/footable/footable.js" type="text/javascript"></script>
-    <script src="javascripts/lib/footable/footable.filter.js" type="text/javascript"></script>
-    <script src="javascripts/scripts.js" type="text/javascript"></script>
+    <script src="javascripts/lib/jquery.js"></script><script src="javascripts/lib/bootstrap.js"></script><script src="javascripts/lib/jquery.fancybox.pack.js"></script><script src="javascripts/lib/helpers/jquery.fancybox-media.js"></script><script src="javascripts/lib/highcharts/highcharts.js"></script><script src="javascripts/lib/highcharts/modules/exporting.js"></script><script src="javascripts/lib/footable/footable.js"></script><script src="javascripts/lib/footable/footable.filter.js"></script><script src="javascripts/scripts.js"></script>
     <body class='index'>
       <nav class='navbar navbar-default visible-xs navbar-fixed-top' id='mobile-main-nav' role='navigation'>
         <div class='container-fluid'>
@@ -1280,6 +1272,153 @@
                   <img class="img-responsive margin-auto" src="images/logos.png" />
                 </div>
               </div>
+            </div>
+          </div>
+        </section>
+        <div class='container'>
+          <hr>
+        </div>
+        <section>
+          <div class='container'>
+            <div class='row'>
+              <div class='col-sm-12'>
+                <div class='text-center'>
+                  <h2>
+                    Don’t take our word for it
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <div class='row margin-top'>
+              <div class='col-md-6'>
+                <div class='panel'>
+                  <div class='panel-body padding-top'>
+                    <div class='col-sm-4'>
+                      <img class="img-responsive margin-auto margin-bottom" width="120" src="images/medal_prep.png" />
+                    </div>
+                    <div class='col-sm-8'>
+                      <p class='half-margin-bottom'>
+                        Crush the PM Exam has just named PMtraiing as the
+                        <span class='bold-font-name'>
+                          #1 PMI-ACP prep course
+                        </span>
+                        of 2017!
+                      </p>
+                      <p>
+                        <a href='' style='border:none;'>
+                          Read the full review
+                        </a>
+                        |
+                        <a href='' style='border:none;'>
+                          View course
+                        </a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class='col-md-6'>
+                <div class='panel'>
+                  <div class='panel-body padding-top'>
+                    <div class='col-sm-4'>
+                      <img class="img-responsive margin-auto margin-bottom" width="120" src="images/medal_live.png" />
+                    </div>
+                    <div class='col-sm-8'>
+                      <p class='half-margin-bottom'>
+                        Crush the PM Exam has just named PMtraiing as the
+                        <span class='bold-font-name'>
+                          #1 PMP Live-Online
+                        </span>
+                        of 2017!
+                      </p>
+                      <p>
+                        <a href='' style='border:none;'>
+                          Read the full review
+                        </a>
+                        |
+                        <a href='' style='border:none;'>
+                          View course
+                        </a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class='container'>
+          <hr>
+        </div>
+        <section>
+          <div class='container'>
+            <div class='row'>
+              <div class='col-sm-12'>
+                <div class='text-center'>
+                  <h2>
+                    PMP Test Simulation Questions
+                  </h2>
+                  <p>
+                    Community preformance by subject area
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class='row'>
+              <div class='col-sm-1'></div>
+              <div class='col-sm-10'>
+                <script>
+                  $(function () {
+                          $('#preformance-chart').highcharts({
+                              chart: {
+                                  type: 'bar',
+                                  backgroundColor: '#fff'
+                              },
+                              title: {
+                                  text: ''
+                              },
+                              subtitle: {
+                                  text: ''
+                              },
+                              legend: {
+                                  enabled: false
+                              },
+                              xAxis: {
+                                  categories: ['Prof. Responsibility', 'Integration Mgt.', 'Communications Mgt.', 'Human Resource Mgt.', 'Project Framework','Time Mgt.','Scope Mgt.','Quality Mgt.','Risk Mgt.','Stakeholder Mgt.','Cost Mgmt.','Producement Mgmt.'],
+                                  title: {
+                                      text: null
+                                  }
+                              },
+                              yAxis: {
+                                  min: 0,
+                                  tickPixelInterval: 150,
+                                  labels: {
+                                      overflow: 'justify'
+                                  }
+                              },
+                              tooltip: {
+                                  valueSuffix: ' %'
+                              },
+                              plotOptions: {
+                                  bar: {
+                                      dataLabels: {
+                                          enabled: true
+                                      }
+                                  }
+                              },
+                              credits: {
+                                  enabled: false
+                              },
+                              series: [{
+                              		name: 'preformance',
+                                  data: [86.24, 86.05, 85.56, 84.87, 83.79,, 83.68, 83.52,, 82.54, 81.83, 78.50, 78.05, 83.79,77.07]
+                              }]
+                          });
+                      });
+                </script>
+                <div id='preformance-chart'></div>
+              </div>
+              <div class='col-sm-1'></div>
             </div>
           </div>
         </section>

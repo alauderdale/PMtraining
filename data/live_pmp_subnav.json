@@ -1,0 +1,25 @@
+{
+"link_title_list": [
+	  {"title":"Class Overview", 
+	  	"link":"/public/live-pmp"
+	  },
+
+	  {"title":"Schedule & Pricing", 
+	  	"link":"/public/live-pmp/schedule-and-pricing"
+	  },
+	  
+	 	{"title":"Included With Class", 
+	  	"link":"/public/live-pmp/included"
+	  },
+
+	  {"title":"Our Guarantee", 
+	  	"link":"/public/live-pmp/guarantee"
+	  },
+
+	  {"title":"Student Testimonials", 
+	  	"link":"/public/live-pmp/student-testimonials"
+	  }
+	]
+}
+
+                        

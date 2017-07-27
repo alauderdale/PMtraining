@@ -21,6 +21,69 @@
 %section
 	.container
 		.row
+			.col-sm-12
+				.text-center
+					%h2
+						Don’t take our word for it
+		.row.margin-top
+			.col-md-6
+				.panel
+					.panel-body.padding-top
+						.col-sm-4
+							=image_tag'medal_prep.png', :class=>"img-responsive margin-auto margin-bottom", :width=>"120"
+						.col-sm-8
+							%p.half-margin-bottom
+								Crush the PM Exam has just named PMtraiing as the 
+								%span.bold-font-name
+									:escaped
+										#1 PMI-ACP prep course 
+								of 2017!
+							%p
+								%a{:href=>"", :style=>"border:none;"}
+									Read the full review
+								|
+								%a{:href=>"", :style=>"border:none;"}
+									View course
+			.col-md-6
+				.panel
+					.panel-body.padding-top
+						.col-sm-4
+							=image_tag'medal_live.png', :class=>"img-responsive margin-auto margin-bottom", :width=>"120"
+						.col-sm-8
+							%p.half-margin-bottom
+								Crush the PM Exam has just named PMtraiing as the 
+								%span.bold-font-name
+									:escaped
+										#1 PMP Live-Online
+								of 2017!
+							%p
+								%a{:href=>"", :style=>"border:none;"}
+									Read the full review
+								|
+								%a{:href=>"", :style=>"border:none;"}
+									View course
+
+.container
+	%hr
+%section
+	.container
+		.row
+			.col-sm-12
+				.text-center
+					%h2
+						PMP Test Simulation Questions
+					%p
+						Community preformance by subject area
+		.row
+			.col-sm-1
+			.col-sm-10
+				=partial'/public/home/preformance-chart'
+			.col-sm-1
+.container
+	%hr
+%section
+	.container
+		.row
 			.col-sm-5
 				.double-margin-bottom
 					%h2.margin-top.no-margin-top-sm
