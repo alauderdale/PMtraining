@@ -96,6 +96,10 @@
 
 @media (max-width: 767px) {
 
+	section.extra-padding{
+	 	padding:$baseline*2 0!important;
+	 }
+
 	#home-slider{
 		.item{
 			background-image:none!important;

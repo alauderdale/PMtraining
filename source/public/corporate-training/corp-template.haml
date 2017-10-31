@@ -1,0 +1,115 @@
+;;;
+
+"layout": "public",
+"title": "Corporate Training",
+"activeclass": "training",
+"subtitle": "Corporate Training Options"
+
+;;;
+
+=partial"/public/shared/page-head-small", locals:{headerClass:"training-pmp-header"}
+
+
+%section.extra-padding
+	.container
+		.row
+			.col-md-2
+			.col-md-8
+				.text-center
+					%h2
+						I’m the headline for this feature
+					%p.lead2
+						=lorem.words(20)
+					%a.btn.btn-default{:href=>"#"}
+						Start now
+				.row
+					.col-lg-12.margin-top
+						=image_tag"public/corporate_training/hero.png", :class=>"img-responsive margin-auto double-margin-top" , :width=>"535px"
+			.col-md-2
+%section.off-blue.extra-padding
+	.container
+		.row
+			.col-md-6.col-md-push-6
+				=image_tag"public/corporate_training/template/2.png", :class=>"img-responsive margin-auto double-margin-top margin-bottom" , :width=>"454px"
+			.col-md-6.col-md-pull-6
+				%h2
+					I’m the headline for this feature
+				%p.lead2
+					=lorem.words(20)
+				%p.bold-font-name
+					Our volume discount purchase program includes:
+				%ul.list-default
+					-4.times do
+						%li
+							=lorem.words(6)
+				%a.link-underline{:href=>"#"}
+					Call to action for this feature
+
+
+
+%section.extra-padding
+	.container
+		.row
+			.col-md-6
+				.padded
+					=image_tag"public/corporate_training/template/3.png", :class=>"img-responsive margin-auto double-margin-top" , :width=>"565px"
+			.col-md-6
+				%h2
+					I’m the headline for this feature
+				%p.lead2
+					=lorem.words(20)
+				%a.link-underline{:href=>"#"}
+					Call to action for this feature
+				.half-padding-top
+				%hr
+				%blockquote.half-margin-bottom.no-padding
+					%em
+						“Morbi ornare odio felis, sed luctus metus rhoncus ac. Suspendisse ullamcorper lorem massa, sed vulputate mauris tristique et.”
+				%p.bold-font-name
+					John Doe, CEO Big Company worldwide
+			
+
+%section.off-blue.extra-padding
+	.container
+		.row
+			.col-md-6.col-md-push-6
+				=image_tag"public/corporate_training/template/4.png", :class=>"img-responsive margin-auto double-margin-top" , :width=>"454px"
+			.col-md-6.col-md-pull-6
+				%h2
+					I’m the headline for this feature
+				%p.lead2
+					=lorem.words(20)
+				%p.bold-font-name
+					Our volume discount purchase program includes:
+				%ul.list-default
+					-4.times do
+						%li
+							=lorem.words(6)
+				%a.link-underline{:href=>"#"}
+					Call to action for this feature
+%section.extra-padding.invert-section
+	.container
+		.row
+			.col-md-2
+			.col-md-8
+				.text-center
+					%h2
+						Get started today
+					%p.lead2
+						Morbi ornare odio felis, sed luctus metus rhoncus ac. Suspendisse ullamcorper lorem massa, sed vulputate mauris tristique et.
+				.row
+					.col-lg-1
+					.col-lg-10
+						.form
+							.form-group
+								%input.form-control.input-lg{:placeholder=>"Name"}
+							.form-group
+								%input.form-control.input-lg{:placeholder=>"Phone"}
+							.form-group
+								%input.form-control.input-lg{:placeholder=>"Email"}
+							.form-group
+								%textarea.form-control.input-lg{:placeholder=>"Additional comments", :rows=>"8"}
+							%a.btn.btn-default.btn-block.btn-lg{:href=>"#"}
+								Submit
+					.col-lg-1
+			.col-md-2

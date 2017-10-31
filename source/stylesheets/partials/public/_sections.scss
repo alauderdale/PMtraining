@@ -2,6 +2,9 @@
 
 section{
   padding:$baseline*2 0;
+  &.extra-padding{
+    padding:$baseline*4 0!important;
+  }
   &.invert-section{
     background-color:$primary-color;
     h1,h2,h3,h4,h5,h6,p,li,small{
@@ -50,6 +53,9 @@ section{
   }
   &.off-white{
     background-color:#fafafa;
+  }
+  &.off-blue{
+    background-color:#F4F8F9;
   }
   &.feature-blocks{
     .fa{
