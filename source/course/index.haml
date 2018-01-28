@@ -2,7 +2,27 @@
 	.container
 		.row
 			.col-lg-12
-				.page-header
-					%h3.no-margin-bottom.regular-font-name
-						Access Training Videos Below
+				%h3.medium-font-name.double-margin-bottom
+					Access Training Videos Below
 				=partial"course/accordian"
+		.row.double-padding-top
+			.col-lg-12
+				%h3.medium-font-name.double-margin-bottom
+					Training Review Quiz
+				-3.times do  |count|
+					.list-panel.course-panel.half-padding-bottom.half-margin-bottom.border-bottom
+						.row
+							.col-xs-8
+								.media
+									.pull-left
+										.media-object.status
+											%i.fa.fa-question-circle
+									.media-body
+										%h4.no-margin-bottom.regular-font-name
+											Course review quiz - part A
+										%h4.regular-font-name.light-text-color.no-margin-bottom
+											12 questions
+							.col-xs-4
+								.actions
+									%button.btn.btn-primary{:type => "button"}
+										Launch Quiz
