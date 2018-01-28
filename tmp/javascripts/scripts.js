@@ -36,4 +36,15 @@ $(document).ready(function(){
 
   });
 
+  //flip chevron
+
+  var div = $(this).next('.fa-chevron-down');
+
+  $( ".list-panel button" ).click(function() {
+    $(this).find( '.fa-chevron-down' ).toggleClass('fa-flip-vertical');
+
+  });
+
+
+
 });

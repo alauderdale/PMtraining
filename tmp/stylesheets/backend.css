@@ -168,209 +168,217 @@ img {
   color: #545a5f; }
 
 /* line 121, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
+.light-text-color {
+  color: #878c8f; }
+
+/* line 125, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
 .dark-text-color {
   color: #4a4a4a; }
 
-/* line 125, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
+/* line 129, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
 .text-success {
   color: #85C342; }
 
-/* line 129, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
+/* line 133, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
 .text-warning {
   color: #f0ad4e; }
 
-/* line 133, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
+/* line 137, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
 .link-color {
   color: #1384b2; }
 
-/* line 140, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
+/* line 146, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
 .light-font-name {
   font-family: "museo_sans_100regular", Helvetica, Arial, sans-serif; }
 
-/* line 143, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
+/* line 149, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
 .regular-font-name {
   font-family: "museo_sans_300regular", Helvetica, Arial, sans-serif; }
 
-/* line 146, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
+/* line 152, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
 .medium-font-name {
   font-family: "museo_sans_500regular", Helvetica, Arial, sans-serif; }
 
-/* line 149, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
+/* line 155, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
 .bold-font-name {
   font-family: "museo_sans_700regular", Helvetica, Arial, sans-serif !important; }
 
-/* line 152, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
+/* line 158, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
 .extra-bold-font-name {
   font-family: "museo_sans_900regular", Helvetica, Arial, sans-serif; }
 
-/* line 156, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
+/* line 162, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
 .social-font-name {
   font-family: "socialicoregular"; }
 
-/* line 163, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
+/* line 169, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
 .primary-text-color {
   color: #138abb !important; }
-  /* line 165, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
+  /* line 171, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
   .primary-text-color p {
     color: #138abb !important; }
 
-/* line 170, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
+/* line 176, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
 .secondary-text-color {
   color: #f1af29 !important; }
-  /* line 172, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
+  /* line 178, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
   .secondary-text-color p {
     color: #f1af29 !important; }
 
-/* line 178, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
+/* line 184, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
 .white-text h1, .white-text h2, .white-text h3, .white-text h4, .white-text h5, .white-text h6, .white-text p, .white-text small, .white-text li {
   color: white !important; }
 
-/* line 185, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
+/* line 191, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
 .micro-text {
   font-size: .7em; }
 
-/* line 193, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
+/* line 199, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   font-weight: inherit; }
 
-/* line 196, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
+/* line 202, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
 h1, h2, h3, h4, h5, h6, p {
   margin: 0;
   margin-bottom: 24px;
   color: #545a5f; }
 
-/* line 202, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
+/* line 208, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
 h1 {
   font-family: "museo_sans_700regular", Helvetica, Arial, sans-serif; }
 
-/* line 205, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
+/* line 211, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
 h2 {
   font-family: "museo_sans_300regular", Helvetica, Arial, sans-serif; }
 
-/* line 208, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
+/* line 214, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
 h3 {
   font-family: "museo_sans_700regular", Helvetica, Arial, sans-serif; }
 
-/* line 211, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
+/* line 217, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
 h4 {
   font-family: "museo_sans_900regular", Helvetica, Arial, sans-serif; }
 
-/* line 214, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
+/* line 220, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
 h5 {
   font-family: "museo_sans_900regular", Helvetica, Arial, sans-serif; }
 
-/* line 217, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
+/* line 223, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
 h6 {
   font-family: "museo_sans_500regular", Helvetica, Arial, sans-serif; }
 
-/* line 221, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
+/* line 227, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
 p, li {
   font-family: "museo_sans_500regular", Helvetica, Arial, sans-serif; }
 
-/* line 227, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
+/* line 233, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
 p {
   font-size: .9em;
   line-height: 21.81818px; }
 
-/* line 228, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
+/* line 234, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
 h1 {
   font-size: 2em;
   line-height: 50.4px; }
 
-/* line 229, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
+/* line 235, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
 h2 {
   font-size: 1.6em;
   line-height: 40.8px; }
 
-/* line 230, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
+/* line 236, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
 h3 {
   font-size: 1.3em;
   line-height: 31.2px; }
 
-/* line 231, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
+/* line 237, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
 h4 {
   font-size: 1em;
   line-height: 24px; }
 
-/* line 232, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
+/* line 238, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
 h5 {
   font-size: 0.8em;
   line-height: 24px; }
 
-/* line 233, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
+/* line 239, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
 h6 {
   font-size: 0.7em;
   line-height: 24px;
   text-transform: uppercase; }
 
-/* line 235, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
+/* line 241, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
 h1, h2 {
   color: #0d6183; }
 
-/* line 239, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
+/* line 245, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
 h3, h4, h5, h6 {
   color: #2b2e30; }
 
-/* line 243, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
+/* line 249, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
 blockquote {
   border: none !important;
   padding-left: 6px;
   font-size: .8em;
   line-height: 24px;
   font-family: "museo_sans_300regular", Helvetica, Arial, sans-serif; }
-  /* line 249, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
+  /* line 255, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
   blockquote footer {
     margin-top: 12px; }
 
-/* line 254, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
+/* line 260, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
 .line-through {
   text-decoration: line-through; }
 
-/* line 260, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
+/* line 266, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
 ul li {
   font-size: .9em; }
 
-/* line 266, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
+/* line 272, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
 dl dt, dl dd {
   font-size: 1.2em; }
 
-/* line 274, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
+/* line 277, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
+.page-header {
+  border-color: #dddddd; }
+
+/* line 282, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
 ul.list-default {
   list-style-image: url(../images/bullet.png);
   margin-bottom: 24px; }
-  /* line 277, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
+  /* line 285, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
   ul.list-default li {
     font-size: .75em;
     margin-left: 24px;
     margin-bottom: 5px; }
 
-/* line 284, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
+/* line 292, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
 ul.list-checks {
   list-style-image: url(../images/check.png);
   margin-bottom: 24px; }
-  /* line 287, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
+  /* line 295, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
   ul.list-checks li {
     font-size: .9em;
     margin-left: 24px;
     margin-bottom: 24px; }
 
-/* line 294, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
+/* line 302, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
 dl {
   font-size: .8em; }
-  /* line 296, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
+  /* line 304, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
   dl dt {
     color: black; }
 
-/* line 304, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
+/* line 312, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
 .testimonial, .testimonial-list .testimonial {
   position: relative; }
-  /* line 306, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
+  /* line 314, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
   .testimonial blockquote, .testimonial-list .testimonial blockquote {
     border: 1px solid #dddddd !important;
     padding: 12px;
     margin: 24px 0;
     background: white; }
-  /* line 312, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
+  /* line 320, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
   .testimonial:before, .testimonial-list .testimonial:before {
     z-index: 999;
     float: left;
@@ -384,7 +392,7 @@ dl {
     display: block;
     position: absolute;
     width: 0; }
-  /* line 326, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
+  /* line 334, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
   .testimonial:after, .testimonial-list .testimonial:after {
     border-color: rgba(255, 255, 255, 0) #E3E3E3;
     border-width: 13px 15px 13px 0;
@@ -396,17 +404,17 @@ dl {
     left: 68px;
     top: 45px; }
 
-/* line 342, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
+/* line 350, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
 .testimonial-list .testimonial:after, .testimonial-list .testimonial:before {
   display: none; }
 
-/* line 351, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
+/* line 359, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
 .fa-display {
   font-size: 4em;
   margin-bottom: 24px;
   color: #138abb; }
 
-/* line 359, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
+/* line 367, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_typography.scss */
 .alert {
   font-size: .8em; }
 
@@ -979,6 +987,36 @@ h1.main-page-header {
     /* line 34, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_navs.scss */
     .subnav ul.nav-pills li a:hover {
       background: transparent; }
+
+/* line 2, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_panels_wells.scss */
+.list-panel .fa-flip-vertical {
+  top: 2px;
+  position: relative; }
+/* line 7, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_panels_wells.scss */
+.list-panel .status i {
+  font-size: 24px;
+  color: #dddddd;
+  position: relative;
+  top: 2px; }
+/* line 14, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_panels_wells.scss */
+.list-panel .status.complete i {
+  color: #a8d587; }
+/* line 19, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_panels_wells.scss */
+.list-panel .actions {
+  float: right; }
+/* line 23, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_panels_wells.scss */
+.list-panel .videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0; }
+/* line 29, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_panels_wells.scss */
+.list-panel .videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
 
 /* line 2, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_forms.scss */
 form .control-label {

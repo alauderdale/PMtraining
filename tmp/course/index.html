@@ -1,0 +1,493 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+    <meta content='width=device-width, initial-scale=1.0' name='viewport'>
+    <title>
+      Boiler
+    </title>
+    <link href="../stylesheets/backend.css" rel="stylesheet" />
+    <link href='/images/favicon.ico' rel='shortcut icon'>
+    <!-- %script{:src => "http://code.jquery.com/jquery-latest.min.js", :type => "text/javascript"} -->
+    <script src="../javascripts/lib/jquery.js"></script><script src="../javascripts/lib/bootstrap.js"></script><script src="../javascripts/lib/jquery.fancybox.pack.js"></script><script src="../javascripts/lib/helpers/jquery.fancybox-media.js"></script><script src="../javascripts/lib/highcharts/highcharts.js"></script><script src="../javascripts/lib/highcharts/modules/exporting.js"></script><script src="../javascripts/lib/footable/footable.js"></script><script src="../javascripts/lib/footable/footable.filter.js"></script><script src="../javascripts/scripts.js"></script>
+    <body class='course course_index'>
+      <nav class='navbar navbar-default navbar-fixed-top backend-main-nav' role='navigation'>
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class='container'>
+          <div class='navbar-header'>
+            <button class='navbar-toggle' data-target='#bs-example-navbar-collapse-1' data-toggle='collapse' type='button'>
+              <span class='sr-only'>Toggle navigation</span>
+              <span class='icon-bar'></span>
+              <span class='icon-bar'></span>
+              <span class='icon-bar'></span>
+            </button>
+            <a class='navbar-brand' href='/dashboard'>
+              <div class='logo'></div>
+            </a>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class='collapse navbar-collapse' id='bs-example-navbar-collapse-1'>
+            <ul class='nav navbar-nav navbar-left'>
+              <li class=''>
+                <a class='navbar-item' href='/dashboard'>
+                  Dashboard
+                </a>
+              </li>
+              <li class=''>
+                <a class='navbar-item' href='/preformance'>
+                  My Preformance
+                </a>
+              </li>
+              <li>
+                <a class='navbar-item btn btn-primary' href='/tests'>
+                  Take a Test
+                </a>
+              </li>
+            </ul>
+            <ul class='nav navbar-nav navbar-right'>
+              <li class=''>
+                <a class='navbar-item navbar-item-muted' href='/bootcamp'>
+                  On Demand Bootcamp
+                </a>
+              </li>
+              <li class=''>
+                <a class='navbar-item navbar-item-muted' href='/support/faqs'>
+                  Support
+                </a>
+              </li>
+              <li class=''>
+                <a class='navbar-item navbar-item-muted' href='#'>
+                  Live PMP Classes
+                </a>
+              </li>
+              <li class='dropdown'>
+                <a class='dropdown-toggle navbar-item' data-toggle='dropdown' href='#'>
+                  <img class="img-circle avatar-sm quarter-margin-right pull-left" width="25px" src="../images/no_avatar_sm.png" />
+                  <b class='caret'></b>
+                </a>
+                <ul class='dropdown-menu'>
+                  <li>
+                    <a href='/account'>
+                      My Account
+                    </a>
+                  </li>
+                  <li>
+                    <a href='/public/login'>
+                      Sign Out
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- end menu -->
+      <section>
+        <div class='container'>
+          <div class='row'>
+            <div class='col-lg-12'>
+              <div class='page-header'>
+                <h3 class='no-margin-bottom regular-font-name'>
+                  Access Training Videos Below
+                </h3>
+              </div>
+              <div class='list-panel course-panel half-padding-bottom half-margin-bottom border-bottom'>
+                <div class='row'>
+                  <div class='col-xs-8'>
+                    <div class='media'>
+                      <div class='pull-left'>
+                        <div class='media-object status complete'>
+                          <!-- %i.fa.fa-play-circle-o -->
+                          <i class='fa fa-check-circle'></i>
+                        </div>
+                      </div>
+                      <div class='media-body'>
+                        <h4 class='no-margin-bottom regular-font-name'>
+                          Clip
+                          1
+                          - The application and exam
+                        </h4>
+                        <h4 class='regular-font-name light-text-color no-margin-bottom'>
+                           6:06
+                        </h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class='col-xs-4'>
+                    <div class='actions'>
+                      <button class='btn btn-info' data-target='#panel-0' data-toggle='collapse' type='button'>
+                        View
+                        <span class='chevron'>
+                          <i class='fa fa-chevron-down'></i>
+                        </span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class='row'>
+                  <div class='col-lg-12'>
+                    <div class='collapse' id='panel-0'>
+                      <div class='padding-top padding-bottom'>
+                        <div class='row'>
+                          <div class='col-md-3'></div>
+                          <div class='col-md-6'>
+                            <div class='videoWrapper'>
+                              <iframe allowfullscreen='' frameborder='0' height='349' src='https://www.youtube.com/embed/N8IRNUw2BlM' width='560'></iframe>
+                            </div>
+                          </div>
+                          <div class='col-md-3'></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class='list-panel course-panel half-padding-bottom half-margin-bottom border-bottom'>
+                <div class='row'>
+                  <div class='col-xs-8'>
+                    <div class='media'>
+                      <div class='pull-left'>
+                        <div class='media-object status complete'>
+                          <!-- %i.fa.fa-play-circle-o -->
+                          <i class='fa fa-check-circle'></i>
+                        </div>
+                      </div>
+                      <div class='media-body'>
+                        <h4 class='no-margin-bottom regular-font-name'>
+                          Clip
+                          2
+                          - The application and exam
+                        </h4>
+                        <h4 class='regular-font-name light-text-color no-margin-bottom'>
+                           5:05
+                        </h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class='col-xs-4'>
+                    <div class='actions'>
+                      <button class='btn btn-info' data-target='#panel-1' data-toggle='collapse' type='button'>
+                        View
+                        <span class='chevron'>
+                          <i class='fa fa-chevron-down'></i>
+                        </span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class='row'>
+                  <div class='col-lg-12'>
+                    <div class='collapse' id='panel-1'>
+                      <div class='padding-top padding-bottom'>
+                        <div class='row'>
+                          <div class='col-md-3'></div>
+                          <div class='col-md-6'>
+                            <div class='videoWrapper'>
+                              <iframe allowfullscreen='' frameborder='0' height='349' src='https://www.youtube.com/embed/N8IRNUw2BlM' width='560'></iframe>
+                            </div>
+                          </div>
+                          <div class='col-md-3'></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class='list-panel course-panel half-padding-bottom half-margin-bottom border-bottom'>
+                <div class='row'>
+                  <div class='col-xs-8'>
+                    <div class='media'>
+                      <div class='pull-left'>
+                        <div class='media-object status complete'>
+                          <!-- %i.fa.fa-play-circle-o -->
+                          <i class='fa fa-check-circle'></i>
+                        </div>
+                      </div>
+                      <div class='media-body'>
+                        <h4 class='no-margin-bottom regular-font-name'>
+                          Clip
+                          3
+                          - The application and exam
+                        </h4>
+                        <h4 class='regular-font-name light-text-color no-margin-bottom'>
+                          19:19
+                        </h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class='col-xs-4'>
+                    <div class='actions'>
+                      <button class='btn btn-info' data-target='#panel-2' data-toggle='collapse' type='button'>
+                        View
+                        <span class='chevron'>
+                          <i class='fa fa-chevron-down'></i>
+                        </span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class='row'>
+                  <div class='col-lg-12'>
+                    <div class='collapse' id='panel-2'>
+                      <div class='padding-top padding-bottom'>
+                        <div class='row'>
+                          <div class='col-md-3'></div>
+                          <div class='col-md-6'>
+                            <div class='videoWrapper'>
+                              <iframe allowfullscreen='' frameborder='0' height='349' src='https://www.youtube.com/embed/N8IRNUw2BlM' width='560'></iframe>
+                            </div>
+                          </div>
+                          <div class='col-md-3'></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class='list-panel course-panel half-padding-bottom half-margin-bottom border-bottom'>
+                <div class='row'>
+                  <div class='col-xs-8'>
+                    <div class='media'>
+                      <div class='pull-left'>
+                        <div class='media-object status'>
+                          <i class='fa fa-play-circle-o'></i>
+                        </div>
+                      </div>
+                      <div class='media-body'>
+                        <h4 class='no-margin-bottom regular-font-name'>
+                          Clip
+                          4
+                          - The application and exam
+                        </h4>
+                        <h4 class='regular-font-name light-text-color no-margin-bottom'>
+                          20:20
+                        </h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class='col-xs-4'>
+                    <div class='actions'>
+                      <button class='btn btn-info' data-target='#panel-02' data-toggle='collapse' type='button'>
+                        View
+                        <span class='chevron'>
+                          <i class='fa fa-chevron-down'></i>
+                        </span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class='row'>
+                  <div class='col-lg-12'>
+                    <div class='collapse' id='panel-02'>
+                      <div class='padding-top padding-bottom'>
+                        Doloribus distinctio fugiat quidem nihil deserunt dolor quo aut dignissimos qui reprehenderit harum autem. non eveniet consequatur ab cupiditate reiciendis dignissimos sed velit eum est numquam vel. doloremque eos aut sit ipsum quaerat error quis nulla. doloribus sed similique blanditiis vel voluptatem assumenda repellendus sed itaque quod inventore. tempora harum et eius perferendis rerum qui amet ut qui exercitationem. sunt mollitia sit eveniet consequatur et saepe recusandae quidem
+                        
+                        Vel quaerat in ipsum sint vitae voluptate minus dolor voluptas quas laborum quia officiis. nemo ad alias culpa qui praesentium commodi quia molestias et earum. veniam velit ut quia ipsam maxime. earum voluptas ab eius facere veritatis aut totam rem magnam delectus perspiciatis sint quidem ut. nesciunt porro fuga qui cumque et alias dignissimos ipsa perferendis provident. itaque vero dolorem est ratione ea voluptatem voluptatem voluptates minima
+                        
+                        Distinctio consequuntur maxime quia et vel officiis consectetur ad sed voluptatum. minus sunt voluptatem corrupti ab voluptatem incidunt dolores ut voluptas qui cum dolores. nesciunt aut quisquam beatae aut sit quia quo autem ut dicta expedita cupiditate alias ea. aut omnis labore laudantium cumque. provident perferendis et rerum rerum. sed tempora veritatis ex non sint incidunt ut dolorem velit ullam
+                        
+                        Quia hic eum asperiores quidem. illo laudantium quaerat accusantium. qui debitis ducimus voluptas assumenda cupiditate necessitatibus ea nostrum similique sit adipisci facere eaque itaque. sit nostrum eos accusamus dolor quo commodi
+                        
+                        Sequi occaecati debitis veritatis est. velit magni est vitae. omnis est ex rerum dolorem officia voluptates culpa. incidunt dignissimos a ea sint. facilis et velit ab modi a ab unde officiis repellendus aut soluta quia. amet voluptas pariatur soluta nobis cupiditate maxime quidem nam aut veritatis reprehenderit reprehenderit consequuntur quae. eaque hic earum modi debitis et et ipsam tempora qui labore repudiandae magnam
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class='list-panel course-panel half-padding-bottom half-margin-bottom border-bottom'>
+                <div class='row'>
+                  <div class='col-xs-8'>
+                    <div class='media'>
+                      <div class='pull-left'>
+                        <div class='media-object status'>
+                          <i class='fa fa-play-circle-o'></i>
+                        </div>
+                      </div>
+                      <div class='media-body'>
+                        <h4 class='no-margin-bottom regular-font-name'>
+                          Clip
+                          5
+                          - The application and exam
+                        </h4>
+                        <h4 class='regular-font-name light-text-color no-margin-bottom'>
+                           3:03
+                        </h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class='col-xs-4'>
+                    <div class='actions'>
+                      <button class='btn btn-info' data-target='#panel-12' data-toggle='collapse' type='button'>
+                        View
+                        <span class='chevron'>
+                          <i class='fa fa-chevron-down'></i>
+                        </span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class='row'>
+                  <div class='col-lg-12'>
+                    <div class='collapse' id='panel-12'>
+                      <div class='padding-top padding-bottom'>
+                        Dolores aut atque ea quia ab. quo animi hic qui asperiores voluptas non et voluptatem voluptatem beatae vitae. sed molestiae nesciunt autem totam quibusdam neque ipsa est repudiandae et et doloribus earum
+                        
+                        Alias maiores harum odio illo ipsum optio. qui et est cupiditate laudantium nihil et distinctio ipsum et mollitia qui eos reiciendis. quasi aut impedit excepturi eos. et sint rerum dolore optio magni ut sed officiis. in quia saepe id. consequatur rerum et voluptatum. et distinctio quia qui quae ipsam laudantium facilis optio illum eius vel qui
+                        
+                        Quis saepe velit ea. amet quis sed earum. officia modi qui tempora velit et praesentium harum alias
+                        
+                        Placeat alias perferendis numquam illum sequi molestias. optio reprehenderit iste necessitatibus ipsum quia mollitia. ut pariatur molestiae id consequatur nemo laboriosam molestias neque et. veritatis in at laudantium dolor iusto quae. velit et aut ut repellat a fugiat et pariatur est ea ut aliquid
+                        
+                        Dolores fuga voluptatem ratione excepturi consectetur magni ut totam earum aperiam iusto animi voluptatem repellat. sapiente quibusdam beatae qui veniam adipisci corrupti itaque cumque qui perspiciatis nemo. dolorem vel quisquam esse repellendus dolores illo nam. non reprehenderit autem quia quia vero sint non in voluptatum qui sit. repellat sapiente omnis rerum hic magni est autem voluptatem fugit repudiandae optio soluta voluptas. veritatis nesciunt est et voluptatem et molestiae similique dolor dolor vel eaque. id nihil aut doloribus non reprehenderit et
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class='list-panel course-panel half-padding-bottom half-margin-bottom border-bottom'>
+                <div class='row'>
+                  <div class='col-xs-8'>
+                    <div class='media'>
+                      <div class='pull-left'>
+                        <div class='media-object status'>
+                          <i class='fa fa-play-circle-o'></i>
+                        </div>
+                      </div>
+                      <div class='media-body'>
+                        <h4 class='no-margin-bottom regular-font-name'>
+                          Clip
+                          6
+                          - The application and exam
+                        </h4>
+                        <h4 class='regular-font-name light-text-color no-margin-bottom'>
+                          30:30
+                        </h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class='col-xs-4'>
+                    <div class='actions'>
+                      <button class='btn btn-info' data-target='#panel-22' data-toggle='collapse' type='button'>
+                        View
+                        <span class='chevron'>
+                          <i class='fa fa-chevron-down'></i>
+                        </span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class='row'>
+                  <div class='col-lg-12'>
+                    <div class='collapse' id='panel-22'>
+                      <div class='padding-top padding-bottom'>
+                        Voluptatibus beatae fugiat enim vero est voluptatem inventore velit quos voluptate eligendi. officia et fugiat eum perspiciatis ea sunt autem dolor laudantium sint praesentium. perferendis voluptatum et eos reiciendis. nihil aliquam qui minus dolor. ipsam ex tempore voluptate et
+                        
+                        Hic et et quod est veniam atque pariatur voluptatum earum vero accusamus asperiores. quod consequatur unde quaerat reiciendis placeat quia velit nisi. vel alias nihil et ut officia ullam
+                        
+                        Rem quos voluptate veniam assumenda doloribus ipsa repellendus. eius voluptatem consectetur fugiat facere nihil sit totam sit qui rerum modi delectus. error cum in et amet sapiente dolor corporis et. fuga dolorem at recusandae. corporis minus qui suscipit minus et. doloribus nostrum non dolores libero illum possimus
+                        
+                        Et et quibusdam reiciendis. sit ut minima enim doloribus molestias enim est sed doloremque non et et. explicabo quia et qui deleniti nihil nulla laudantium tempora placeat. est velit error impedit omnis sit numquam nihil porro sed molestiae mollitia voluptas iure fugit
+                        
+                        Exercitationem qui consequatur facilis id error fuga doloribus. numquam rerum quisquam aut veniam est soluta sit earum itaque sed dolorem. expedita hic non rerum dolore et. omnis tempore et harum cum ea facilis perspiciatis provident itaque id rerum harum
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end main content -->
+      <section class='no-padding-top'>
+        <div id='backend-footer'>
+          <div class='container'>
+            <div class='row border-top'>
+              <div class='col-sm-12'>
+                <div class='pull-left padding-top full-width'>
+                  <nav>
+                    <ul class='list-inline pull-left footer-nav'>
+                      <li>
+                        © 2014 PMTraining All rights reserved.
+                      </li>
+                      <li>
+                        <a href='/support/faqs'>
+                          Support
+                        </a>
+                      </li>
+                      <li>
+                        <a href='#'>
+                          Live PMP Classes
+                        </a>
+                      </li>
+                      <li>
+                        <a href='#'>
+                          About the PMP Exam
+                        </a>
+                      </li>
+                      <li>
+                        <a href='/account'>
+                          My Account
+                        </a>
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /tests -->
+      <!-- /show -->
+      <div aria-hidden='true' class='modal' id='showCustomTestModal' role='dialog'>
+        <div class='modal-dialog'>
+          <div class='modal-content'></div>
+        </div>
+      </div>
+      <!-- /custom tests -->
+      <!-- /new -->
+      <div aria-hidden='true' class='modal fade' id='newCustomTestModal' role='dialog'>
+        <div class='modal-dialog'>
+          <div class='modal-content'></div>
+        </div>
+      </div>
+      <!-- /questions -->
+      <!-- /confirm begin -->
+      <div aria-hidden='true' class='modal' id='beginTestConfirmModal' role='dialog'>
+        <div class='modal-dialog'>
+          <div class='modal-content'></div>
+        </div>
+      </div>
+      <!-- /confirm submit -->
+      <div aria-hidden='true' class='modal' id='confirmSubmitModal' role='dialog'>
+        <div class='modal-dialog modal-sm'>
+          <div class='modal-content'>
+            <div class='modal-body no-padding-bottom'>
+              <div class='row'>
+                <div class='col-sm-3 hidden-xs'>
+                  <i class='fa fa-exclamation-circle text-danger modal-icon half-margin-bottom' style='font-size:3em;'></i>
+                </div>
+                <div class='col-sm-9 col-xs-12'>
+                  <p class='no-margin-bottom'>
+                    Are you sure you want to submit your answers?
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class='modal-footer'>
+              <button class='btn-link cursor-pointer half-margin-right' data-dismiss='modal'>
+                Cancel
+              </button>
+              <a class='btn btn-success' href='/tests' type='button'>
+                Submit
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </body>
+  </head>
+</html>
