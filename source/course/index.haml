@@ -19,10 +19,11 @@
 											%i.fa.fa-question-circle
 									.media-body
 										%h4.no-margin-bottom.regular-font-name
-											Course review quiz - part A
+											Course review quiz - part 
+											=count+1
 										%h4.regular-font-name.light-text-color.no-margin-bottom
 											12 questions
 							.col-xs-4
 								.actions
-									%button.btn.btn-primary{:type => "button"}
+									%a.btn.btn-primary{:href => "#", :target=>"_blank"}
 										Launch Quiz
