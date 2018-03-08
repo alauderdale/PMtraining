@@ -1,64 +1,65 @@
--3.times do  |count|
-	.list-panel.course-panel.half-padding-bottom.half-margin-bottom.border-bottom
-		.row
-			.col-xs-8
-				.media
-					.pull-left
-						.media-object.status.complete
-							/ %i.fa.fa-play-circle-o
-							%i.fa.fa-check-circle
-					.media-body
-						%h4.no-margin-bottom.regular-font-name
-							Clip 
-							= count +1
-							\- The application and exam
-						%h4.regular-font-name.light-text-color.no-margin-bottom
-							=lorem.date("%e:%d")
-			.col-xs-4
-				.actions
-					%button.btn.btn-info{"data-target" => "#panel-#{count}", "data-toggle" => "collapse", :type => "button"}
-						View
-						%span.chevron
-							%i.fa.fa-chevron-down
-		.row
-			.col-lg-12
-				.collapse{:id=>"panel-#{count}"}
-					.padding-top.padding-bottom
-						.row
-							.col-md-3
-							.col-md-6
-								.videoWrapper
-									%iframe{:allowfullscreen => "", :frameborder => "0", :height => "349", :src => "https://www.youtube.com/embed/N8IRNUw2BlM", :width => "560"}
-							.col-md-3
+#videoGroup
+	-3.times do  |count|
+		.list-panel.course-panel.half-padding-bottom.half-margin-bottom.border-bottom
+			.row
+				.col-xs-8
+					.media
+						.pull-left
+							.media-object.status.complete
+								/ %i.fa.fa-play-circle-o
+								%i.fa.fa-check-circle
+						.media-body
+							%h4.no-margin-bottom.regular-font-name
+								Clip 
+								= count +1
+								\- The application and exam
+							%h4.regular-font-name.light-text-color.no-margin-bottom
+								=lorem.date("%e:%d")
+				.col-xs-4
+					.actions
+						%button.btn.btn-info{"data-target" => "#panel-#{count}", "data-toggle" => "collapse", :type => "button"}
+							View
+							%span.chevron
+								%i.fa.fa-chevron-down
+			.row
+				.col-lg-12
+					.collapse{:id=>"panel-#{count}"}
+						.padding-top.padding-bottom
+							.row
+								.col-md-3
+								.col-md-6
+									.videoWrapper
+										%iframe{:allowfullscreen => "", :frameborder => "0", :height => "349", :src => "https://www.youtube.com/embed/N8IRNUw2BlM", :width => "560"}
+								.col-md-3
 
--3.times do  |count|
-	.list-panel.course-panel.half-padding-bottom.half-margin-bottom.border-bottom
-		.row
-			.col-xs-8
-				.media
-					.pull-left
-						.media-object.status
-							%i.fa.fa-play-circle-o
-					.media-body
-						%h4.no-margin-bottom.regular-font-name
-							Clip 
-							= count +4
-							\- The application and exam
-						%h4.regular-font-name.light-text-color.no-margin-bottom
-							=lorem.date("%e:%d")
-			.col-xs-4
-				.actions
-					%button.btn.btn-info{"data-target" => "#panel-#{count}2", "data-toggle" => "collapse", :type => "button"}
-						View
-						%span.chevron
-							%i.fa.fa-chevron-down
-		.row
-			.col-lg-12
-				.collapse{:id=>"panel-#{count}2"}
-					.padding-top.padding-bottom
-						.row
-							.col-md-3
-							.col-md-6
-								.videoWrapper
-									%iframe{:allowfullscreen => "", :frameborder => "0", :height => "349", :src => "https://www.youtube.com/embed/N8IRNUw2BlM", :width => "560"}
-							.col-md-3
+	-3.times do  |count|
+		.list-panel.course-panel.half-padding-bottom.half-margin-bottom.border-bottom
+			.row
+				.col-xs-8
+					.media
+						.pull-left
+							.media-object.status
+								%i.fa.fa-play-circle-o
+						.media-body
+							%h4.no-margin-bottom.regular-font-name
+								Clip 
+								= count +4
+								\- The application and exam
+							%h4.regular-font-name.light-text-color.no-margin-bottom
+								=lorem.date("%e:%d")
+				.col-xs-4
+					.actions
+						%button.btn.btn-info{"data-target" => "#panel-#{count}2", "data-toggle" => "collapse", :type => "button"}
+							View
+							%span.chevron
+								%i.fa.fa-chevron-down
+			.row
+				.col-lg-12
+					.collapse{:id=>"panel-#{count}2"}
+						.padding-top.padding-bottom
+							.row
+								.col-md-3
+								.col-md-6
+									.videoWrapper
+										%iframe{:allowfullscreen => "", :frameborder => "0", :height => "349", :src => "https://www.youtube.com/embed/N8IRNUw2BlM", :width => "560"}
+								.col-md-3

@@ -1,5 +1,11 @@
 $(document).ready(function(){
 
+  //collapse other panels when clicked
+  var $myGroup = $('#videoGroup');
+    $myGroup.on('show.bs.collapse','.collapse', function() {
+    $myGroup.find('.collapse.in').collapse('hide');
+  });
+
 	 //fancybox
 	$('.fancybox').fancybox();
 	
