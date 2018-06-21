@@ -1061,6 +1061,11 @@ ul.nav-sidebar {
 .well.primary-color {
   background: #42a1c9; }
 
+/* line 77, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/public/_panels_wells.scss */
+.price-panel {
+  border-radius: 4px !important;
+  background: #F4F8F9; }
+
 /* line 2, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/public/_modals.scss */
 .modal .modal-title {
   color: #138abb; }

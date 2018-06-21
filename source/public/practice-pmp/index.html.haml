@@ -15,8 +15,20 @@
 			.col-sm-8
 				%h2
 					Are You Prepared? Professional PMP Practice Exams 
-				%h4.no-margin-bottom
-					Access Instantly - Now $59.00
+				.panel.inline-block.price-panel
+					.panel-body
+						%h2.no-margin-bottom
+							%span.bold-font-name.dark-text-color
+								$68.00
+							%small.medium-font-name
+								%span.line-through
+									$99.00 
+								\| 30% off
+						%p.text-danger
+							%i.fa.fa-clock-o
+							%strong
+								24 hours
+							left at this price
 				%p
 					%strong
 						Instant access from any web browser, with nothing to download:   
@@ -58,7 +70,7 @@
 					What Our Students are Saying
 		.row
 			.col-sm-12
-				=partial"/public/shared/testimonial-slider"
+				/ =partial"/public/shared/testimonial-slider"
 .container
 	%hr.no-margin-top.no-margin-bottom
 %section

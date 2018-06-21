@@ -105,6 +105,10 @@ img {
 .border-left {
   border-left: 1px solid #dddddd; }
 
+/* line 108, /Users/alauderdale/Desktop/PMtraining/source/stylesheets/partials/backend/_base.scss */
+.line-through {
+  text-decoration: line-through; }
+
 @font-face {
   font-family: 'socialicoregular';
   src: url("../font/socialico-webfont.eot");
