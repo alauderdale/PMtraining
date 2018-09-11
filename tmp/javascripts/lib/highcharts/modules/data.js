@@ -5,7 +5,6 @@
 
  License: www.highcharts.com/license
 */
-
 (function(j){var m=j.each,n=function(a,b){this.init(a,b)};j.extend(n.prototype,{init:function(a,b){this.options=a;this.chartOptions=b;this.columns=a.columns||this.rowsToColumns(a.rows)||[];this.columns.length?this.dataFound():(this.parseCSV(),this.parseTable(),this.parseGoogleSpreadsheet())},getColumnDistribution:function(){var a=this.chartOptions,b=a&&a.chart&&a.chart.type,c=[];m(a&&a.series||[],function(a){c.push((j.seriesTypes[a.type||b||"line"].prototype.pointArrayMap||[0]).length)});this.valueCount=
 {global:(j.seriesTypes[b||"line"].prototype.pointArrayMap||[0]).length,individual:c}},dataFound:function(){if(this.options.switchRowsAndColumns)this.columns=this.rowsToColumns(this.columns);this.parseTypes();this.findHeaderRow();this.parsed();this.complete()},parseCSV:function(){var a=this,b=this.options,c=b.csv,d=this.columns,e=b.startRow||0,h=b.endRow||Number.MAX_VALUE,i=b.startColumn||0,g=b.endColumn||Number.MAX_VALUE,f,k,o=0;c&&(k=c.replace(/\r\n/g,"\n").replace(/\r/g,"\n").split(b.lineDelimiter||
 "\n"),f=b.itemDelimiter||(c.indexOf("\t")!==-1?"\t":","),m(k,function(b,c){var k=a.trim(b),j=k.indexOf("#")===0;c>=e&&c<=h&&!j&&k!==""&&(k=b.split(f),m(k,function(b,a){a>=i&&a<=g&&(d[a-i]||(d[a-i]=[]),d[a-i][o]=b)}),o+=1)}),this.dataFound())},parseTable:function(){var a=this.options,b=a.table,c=this.columns,d=a.startRow||0,e=a.endRow||Number.MAX_VALUE,h=a.startColumn||0,i=a.endColumn||Number.MAX_VALUE;b&&(typeof b==="string"&&(b=document.getElementById(b)),m(b.getElementsByTagName("tr"),function(a,

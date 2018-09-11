@@ -1,4 +1,4 @@
-/*!
+﻿/*!
  * FooTable - Awesome Responsive Tables
  * Version : 2.0.1.4
  * http://fooplugins.com/plugins/footable-jquery/
@@ -11,7 +11,6 @@
  *
  * Date: 16 Feb 2014
  */
-
 (function ($, w, undefined) {
     w.footable = {
         options: {

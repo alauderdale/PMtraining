@@ -7,7 +7,6 @@
  */
 
 /*global HighchartsAdapter*/
-
 (function (Highcharts) {
 
 

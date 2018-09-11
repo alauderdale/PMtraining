@@ -10,7 +10,6 @@
 // JSLint options:
 /*global Highcharts, document, window, Math, setTimeout */
 
-
 (function (Highcharts) { // encapsulate
 
 // create shortcuts

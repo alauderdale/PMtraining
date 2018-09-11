@@ -1,1710 +1,1733 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset='utf-8'>
-    <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
-    <meta content='width=device-width, initial-scale=1.0' name='viewport'>
-    <title>
-      Home
-    </title>
-    <link href="stylesheets/public.css" rel="stylesheet" />
-    <link href='/images/favicon.ico' rel='shortcut icon'>
-    <!-- %script{:src => "http://code.jquery.com/jquery-latest.min.js", :type => "text/javascript"} -->
-    <script src="javascripts/lib/jquery.js"></script><script src="javascripts/lib/bootstrap.js"></script><script src="javascripts/lib/jquery.fancybox.pack.js"></script><script src="javascripts/lib/helpers/jquery.fancybox-media.js"></script><script src="javascripts/lib/highcharts/highcharts.js"></script><script src="javascripts/lib/highcharts/modules/exporting.js"></script><script src="javascripts/lib/footable/footable.js"></script><script src="javascripts/lib/footable/footable.filter.js"></script><script src="javascripts/scripts.js"></script>
-    <body class='index'>
-      <nav class='navbar navbar-default visible-xs navbar-fixed-top' id='mobile-main-nav' role='navigation'>
-        <div class='container-fluid'>
-          <div class='navbar-header'>
-            <button class='navbar-toggle' data-target='#bs-example-navbar-collapse-1' data-toggle='collapse' type='button'>
-              <span class='sr-only'>Toggle navigation</span>
-              <span class='icon-bar'></span>
-              <span class='icon-bar'></span>
-              <span class='icon-bar'></span>
-            </button>
-            <a class='navbar-brand logo-sm' href='/'></a>
-          </div>
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class='collapse navbar-collapse' id='bs-example-navbar-collapse-1'>
-            <ul class='nav navbar-nav'>
-              <li>
-                <a href='#'>
-                  Home
-                </a>
-              </li>
-              <li>
-                <a href='/public/practice-pmp'>
-                  PMP Practice Exams
-                </a>
-              </li>
-              <li>
-                <a href='/public/live-pmp'>
-                  Live PMP Classes
-                </a>
-              </li>
-              <li>
-                <a href='/public/bootcamp'>
-                  PMP Bootcamp
-                </a>
-              </li>
-              <li class='dropdown'>
-                <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
-                  About
-                  <b class='caret'></b>
-                </a>
-                <ul class='dropdown-menu'>
-                  <li>
-                    <a href='/public/about'>
-                      Who we are
-                    </a>
-                  </li>
-                  <li>
-                    <a href='/public/about/about-the-pmp-exam'>
-                      About the PMP exam
-                    </a>
-                  </li>
-                  <li>
-                    <a href='/public/about/books'>
-                      Our books and website
-                    </a>
-                  </li>
-                  <li>
-                    <a href='/public/about/articles'>
-                      PMP articles
-                    </a>
-                  </li>
-                  <li>
-                    <a href='/public/about/contact'>
-                      Contact
-                    </a>
-                  </li>
-                  <li>
-                    <a href='/public/about/newsletter'>
-                      Get our newsletter
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li class='dropdown'>
-                <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
-                  Coporate Training
-                  <b class='caret'></b>
-                </a>
-                <ul class='dropdown-menu'>
-                  <li>
-                    <a href='/public/corporate-training'>
-                      Coporate training options
-                    </a>
-                  </li>
-                  <li>
-                    <a href='/public/corporate-training/corporate-discount'>
-                      Enroll multiple students
-                    </a>
-                  </li>
-                  <li>
-                    <a href='/public/corporate-training/private-portal'>
-                      Private training portal
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <a class='btn btn-success navbar-btn' href='/public/checkout'>
-                  Checkout
-                </a>
-              </li>
-              <hr class='no-margin-bottom'>
-            </ul>
-            <ul class='nav navbar-nav mobile-subnav'>
-              <li>
-                <a href='/public/about/about-the-pmp-exam'>
-                  PMP Exam Updates
-                </a>
-              </li>
-              <li>
-                <a href='/public/login'>
-                  Member Login
-                </a>
-              </li>
-              <li>
-                <a href='/public/about/contact'>
-                  Contact & Support
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      <div class='main-nav hidden-xs main-nav-fixed' id='hidden-menu'>
-        <div class='container'>
-          <div class='col-lg-12'>
-            <div class='main-nav-container'>
-              <nav class='pull-left'>
-                <ul class='list-inline main-links'>
-                  <li class=''>
-                    <a class='dropdown-toggle' href='/public/practice-pmp'>
-                      PMP Practice Exams
-                      <span class='caret'></span>
-                      <ul class='dropdown-menu dropdown-large' role='menu'>
-                        <li>
-                          <a class='hidden'></a>
-                        </li>
-                        <div class='row'>
-                          <div class='col-sm-5'>
-                            <div class='padded'>
-                              <h4 class='half-margin-bottom bold-font-name text-uppercase'>
-                                Heading about something
-                              </h4>
-                              <ul class='list-unstyled quarter-margin-bottom'>
-                                <li>
-                                  <i class='fa fa-check'></i>
-                                  Access to 1,000+ PMP exam questions.
-                                </li>
-                                <li>
-                                  <i class='fa fa-check'></i>
-                                  Detailed explanations for PMP question
-                                </li>
-                                <li>
-                                  <i class='fa fa-check'></i>
-                                  Professional PMP practice exams.
-                                </li>
-                                <li>
-                                  <i class='fa fa-check'></i>
-                                  Another Selling Point.
-                                </li>
-                              </ul>
-                              <hr class='half-margin-top half-margin-bottom'>
-                              <a class='btn btn-primary pull-left half-margin-right' href='#'>
-                                Learn more
-                              </a>
-                              <a class='btn btn-primary pull-left' href='#'>
-                                Sign up now
-                              </a>
-                            </div>
-                          </div>
-                          <div class='col-sm-7'>
-                            <div class='padded'>
-                              <img class="img-responsive" src="images/public/dropdowns/dropdown_practice.png" />
-                            </div>
-                          </div>
-                        </div>
-                      </ul>
-                    </a>
-                  </li>
-                  <li class='sale'>
-                    <a href='/public/live-pmp'>
-                      Live PMP Classes
-                      <span class='caret'></span>
-                      <ul class='dropdown-menu dropdown-large' role='menu'>
-                        <li>
-                          <a class='hidden'></a>
-                        </li>
-                        <div class='row'>
-                          <div class='col-sm-5'>
-                            <div class='padded'>
-                              <h4 class='half-margin-bottom bold-font-name text-uppercase'>
-                                Live PMP Classes
-                              </h4>
-                              <ul class='list-unstyled quarter-margin-bottom'>
-                                <li>
-                                  <a href='#'>
-                                    Class Overview
-                                    <i class='fa fa-angle-double-right'></i>
-                                  </a>
-                                </li>
-                                <li>
-                                  <a href='#'>
-                                    Schedule & Pricing
-                                    <i class='fa fa-angle-double-right'></i>
-                                  </a>
-                                </li>
-                                <li>
-                                  <a href='#'>
-                                    Included With Class
-                                    <i class='fa fa-angle-double-right'></i>
-                                  </a>
-                                </li>
-                                <li>
-                                  <a href='#'>
-                                    Our Guarantee
-                                    <i class='fa fa-angle-double-right'></i>
-                                  </a>
-                                </li>
-                                <li>
-                                  <a href='#'>
-                                    Student Testimonials
-                                    <i class='fa fa-angle-double-right'></i>
-                                  </a>
-                                </li>
-                              </ul>
-                            </div>
-                          </div>
-                          <div class='col-sm-7'>
-                            <div class='padded'>
-                              <img class="img-responsive" src="images/public/dropdowns/dropdown_live.png" />
-                            </div>
-                          </div>
-                        </div>
-                      </ul>
-                    </a>
-                  </li>
-                  <li class=''>
-                    <a href='/public/bootcamp'>
-                      On-Demand PMP Course
-                      <span class='caret'></span>
-                      <ul class='dropdown-menu dropdown-large' role='menu'>
-                        <li>
-                          <a class='hidden'></a>
-                        </li>
-                        <div class='row'>
-                          <div class='col-sm-5'>
-                            <div class='padded'>
-                              <h4 class='half-margin-bottom bold-font-name text-uppercase'>
-                                Heading about something
-                              </h4>
-                              <ul class='list-unstyled quarter-margin-bottom'>
-                                <li>
-                                  <i class='fa fa-check'></i>
-                                  Access to 1,000+ PMP exam questions.
-                                </li>
-                                <li>
-                                  <i class='fa fa-check'></i>
-                                  Detailed explanations for PMP question
-                                </li>
-                                <li>
-                                  <i class='fa fa-check'></i>
-                                  Professional PMP practice exams.
-                                </li>
-                                <li>
-                                  <i class='fa fa-check'></i>
-                                  Another Selling Point.
-                                </li>
-                              </ul>
-                              <hr class='half-margin-top half-margin-bottom'>
-                              <a class='btn btn-primary pull-left half-margin-right' href='#'>
-                                Register Now
-                              </a>
-                              <a class='btn btn-primary pull-left' href='#'>
-                                Try a Demo
-                              </a>
-                            </div>
-                          </div>
-                          <div class='col-sm-7'>
-                            <div class='padded'>
-                              <img class="img-responsive" src="images/public/dropdowns/dropdown_demand.png" />
-                            </div>
-                          </div>
-                        </div>
-                      </ul>
-                    </a>
-                  </li>
-                  <li class=''>
-                    <a class='dropdown-toggle' href='/public/practice-pmp'>
-                      PMI ACP Training
-                      <span class='caret'></span>
-                      <ul class='dropdown-menu dropdown-large' role='menu'>
-                        <li>
-                          <a class='hidden'></a>
-                        </li>
-                        <div class='row'>
-                          <div class='col-sm-5'>
-                            <div class='padded'>
-                              <h4 class='half-margin-bottom bold-font-name text-uppercase'>
-                                Heading about something
-                              </h4>
-                              <ul class='list-unstyled quarter-margin-bottom'>
-                                <li>
-                                  <a href='#'>
-                                    Live PMP CLasses
-                                    <i class='fa fa-angle-double-right'></i>
-                                  </a>
-                                </li>
-                                <li>
-                                  <a href='#'>
-                                    PMI_ACP On Demand Course
-                                    <i class='fa fa-angle-double-right'></i>
-                                  </a>
-                                </li>
-                                <li>
-                                  <a href='#'>
-                                    PMI-ACP Practice Exams
-                                    <i class='fa fa-angle-double-right'></i>
-                                  </a>
-                                </li>
-                                <li>
-                                  <a href='#'>
-                                    Another Link
-                                    <i class='fa fa-angle-double-right'></i>
-                                  </a>
-                                </li>
-                              </ul>
-                            </div>
-                          </div>
-                          <div class='col-sm-7'>
-                            <div class='padded'>
-                              <img class="img-responsive" src="images/public/dropdowns/dropdown_training.png" />
-                            </div>
-                          </div>
-                        </div>
-                      </ul>
-                    </a>
-                  </li>
-                  <li class=''>
-                    <a class='dropdown-toggle' href='/public/practice-pmp'>
-                      Scrum
-                      <span class='caret'></span>
-                      <ul class='dropdown-menu dropdown-large' role='menu'>
-                        <li>
-                          <a class='hidden'></a>
-                        </li>
-                        <div class='row'>
-                          <div class='col-sm-5'>
-                            <div class='padded'>
-                              <h4 class='half-margin-bottom bold-font-name text-uppercase'>
-                                Heading about something
-                              </h4>
-                              <ul class='list-unstyled quarter-margin-bottom'>
-                                <li>
-                                  <i class='fa fa-check'></i>
-                                  Access to 1,000+ PMP exam questions.
-                                </li>
-                                <li>
-                                  <i class='fa fa-check'></i>
-                                  Detailed explanations for PMP question
-                                </li>
-                                <li>
-                                  <i class='fa fa-check'></i>
-                                  Professional PMP practice exams.
-                                </li>
-                                <li>
-                                  <i class='fa fa-check'></i>
-                                  Another Selling Point.
-                                </li>
-                              </ul>
-                              <hr class='half-margin-top half-margin-bottom'>
-                              <a class='btn btn-primary pull-left half-margin-right' href='#'>
-                                Register Now
-                              </a>
-                              <a class='btn btn-primary pull-left' href='#'>
-                                Try a Demo
-                              </a>
-                            </div>
-                          </div>
-                          <div class='col-sm-7'>
-                            <div class='padded'>
-                              <img class="img-responsive" src="images/public/dropdowns/dropdown_scrum.png" />
-                            </div>
-                          </div>
-                        </div>
-                      </ul>
-                    </a>
-                  </li>
-                  <li class=''>
-                    <a class='dropdown-toggle' href='/public/about'>
-                      Corporate
-                      <span class='caret'></span>
-                      <ul class='dropdown-menu dropdown-large' role='menu'>
-                        <li>
-                          <a class='hidden'></a>
-                        </li>
-                        <div class='row'>
-                          <div class='col-sm-8'>
-                            <div class='row'>
-                              <div class='col-sm-6 col-md-4'>
-                                <div class='padded no-padding-right'>
-                                  <h4 class='no-margin-bottom bold-font-name text-uppercase'>
-                                    Corporate Training
-                                  </h4>
-                                  <ul class='list-unstyled quarter-margin-bottom'>
-                                    <li>
-                                      <a href='/public/corporate-training'>
-                                        Corporate training options
-                                      </a>
-                                    </li>
-                                    <li>
-                                      <a href='/public/corporate-training/corporate-discount'>
-                                        Enroll multiple students
-                                      </a>
-                                    </li>
-                                    <li>
-                                      <a href='/public/corporate-training/private-portal'>
-                                        Private training portal
-                                      </a>
-                                    </li>
-                                  </ul>
-                                </div>
-                              </div>
-                              <div class='col-sm-6 col-md-8'>
-                                <div class='padded no-padding-left'>
-                                  <h4 class='no-margin-bottom bold-font-name text-uppercase'>
-                                    About
-                                  </h4>
-                                  <div class='row'>
-                                    <div class='col-sm-6'>
-                                      <ul class='list-unstyled quarter-margin-bottom no-margin-right'>
-                                        <li>
-                                          <a href='/public/about'>
-                                            Who we are
-                                          </a>
-                                        </li>
-                                        <li>
-                                          <a href='/public/about-the-pmp-exam'>
-                                            About the PMP exam
-                                          </a>
-                                        </li>
-                                        <li>
-                                          <a href='/public/about/books'>
-                                            Our books and website
-                                          </a>
-                                        </li>
-                                      </ul>
-                                    </div>
-                                    <div class='col-sm-6'>
-                                      <ul class='list-unstyled quarter-margin-bottom'>
-                                        <li>
-                                          <a href='/public/articles'>
-                                            PMP articles
-                                          </a>
-                                        </li>
-                                        <li>
-                                          <a href='/public/about/contact'>
-                                            Contact
-                                          </a>
-                                        </li>
-                                        <li>
-                                          <a href='/public/about/newsletter'>
-                                            Get our newsletter
-                                          </a>
-                                        </li>
-                                      </ul>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div class='col-sm-4'>
-                            <div class='padded'>
-                              <img class="img-responsive" src="images/public/dropdowns/dropdown_corporate.png" />
-                            </div>
-                          </div>
-                        </div>
-                      </ul>
-                    </a>
-                  </li>
-                </ul>
-              </nav>
-              <nav class='pull-right checkout-btn-wrapper'>
-                <a class='btn btn-primary' href='/public/checkout'>
-                  <i class='fa fa-shopping-cart'></i>
-                  Cart
-                </a>
-              </nav>
-            </div>
-          </div>
-        </div>
-      </div>
-      <header class='main-nav hidden-xs main-nav-top'>
-        <div class='container'>
-          <div class='row margin-bottom'>
-            <div class='col-lg-12'>
-              <div class='pull-left'>
-                <a class='logo_two' href='/'></a>
-              </div>
-              <img class=" hidden-sm pull-right quarter-margin-left" width="80px" style="position:relative; top:8px;" src="images/pmi_logo.png" />
-              <nav class='pull-right'>
-                <ul class='list-inline sub-links'>
-                  <li>
-                    <a href='/public/about-the-pmp-exam'>
-                      PMP Exam Updates
-                    </a>
-                  </li>
-                  <li>
-                    <a href='/public/login'>
-                      Member Login
-                    </a>
-                  </li>
-                  <li>
-                    <a href='/public/about/contact'>
-                      Contact & Support
-                    </a>
-                  </li>
-                </ul>
-              </nav>
-            </div>
-          </div>
-          <div class='row'>
-            <div class='col-lg-12'>
-              <div class='main-nav-container'>
-                <nav class='pull-left'>
-                  <ul class='list-inline main-links'>
-                    <li class=''>
-                      <a class='dropdown-toggle' href='/public/practice-pmp'>
-                        PMP Practice Exams
-                        <span class='caret'></span>
-                        <ul class='dropdown-menu dropdown-large' role='menu'>
-                          <li>
-                            <a class='hidden'></a>
-                          </li>
-                          <div class='row'>
-                            <div class='col-sm-5'>
-                              <div class='padded'>
-                                <h4 class='half-margin-bottom bold-font-name text-uppercase'>
-                                  Heading about something
-                                </h4>
-                                <ul class='list-unstyled quarter-margin-bottom'>
-                                  <li>
-                                    <i class='fa fa-check'></i>
-                                    Access to 1,000+ PMP exam questions.
-                                  </li>
-                                  <li>
-                                    <i class='fa fa-check'></i>
-                                    Detailed explanations for PMP question
-                                  </li>
-                                  <li>
-                                    <i class='fa fa-check'></i>
-                                    Professional PMP practice exams.
-                                  </li>
-                                  <li>
-                                    <i class='fa fa-check'></i>
-                                    Another Selling Point.
-                                  </li>
-                                </ul>
-                                <hr class='half-margin-top half-margin-bottom'>
-                                <a class='btn btn-primary pull-left half-margin-right' href='#'>
-                                  Learn more
-                                </a>
-                                <a class='btn btn-primary pull-left' href='#'>
-                                  Sign up now
-                                </a>
-                              </div>
-                            </div>
-                            <div class='col-sm-7'>
-                              <div class='padded'>
-                                <img class="img-responsive" src="images/public/dropdowns/dropdown_practice.png" />
-                              </div>
-                            </div>
-                          </div>
-                        </ul>
-                      </a>
-                    </li>
-                    <li class='sale'>
-                      <a href='/public/live-pmp'>
-                        Live PMP Classes
-                        <span class='caret'></span>
-                        <ul class='dropdown-menu dropdown-large' role='menu'>
-                          <li>
-                            <a class='hidden'></a>
-                          </li>
-                          <div class='row'>
-                            <div class='col-sm-5'>
-                              <div class='padded'>
-                                <h4 class='half-margin-bottom bold-font-name text-uppercase'>
-                                  Live PMP Classes
-                                </h4>
-                                <ul class='list-unstyled quarter-margin-bottom'>
-                                  <li>
-                                    <a href='#'>
-                                      Class Overview
-                                      <i class='fa fa-angle-double-right'></i>
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a href='#'>
-                                      Schedule & Pricing
-                                      <i class='fa fa-angle-double-right'></i>
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a href='#'>
-                                      Included With Class
-                                      <i class='fa fa-angle-double-right'></i>
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a href='#'>
-                                      Our Guarantee
-                                      <i class='fa fa-angle-double-right'></i>
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a href='#'>
-                                      Student Testimonials
-                                      <i class='fa fa-angle-double-right'></i>
-                                    </a>
-                                  </li>
-                                </ul>
-                              </div>
-                            </div>
-                            <div class='col-sm-7'>
-                              <div class='padded'>
-                                <img class="img-responsive" src="images/public/dropdowns/dropdown_live.png" />
-                              </div>
-                            </div>
-                          </div>
-                        </ul>
-                      </a>
-                    </li>
-                    <li class=''>
-                      <a href='/public/bootcamp'>
-                        On-Demand PMP Course
-                        <span class='caret'></span>
-                        <ul class='dropdown-menu dropdown-large' role='menu'>
-                          <li>
-                            <a class='hidden'></a>
-                          </li>
-                          <div class='row'>
-                            <div class='col-sm-5'>
-                              <div class='padded'>
-                                <h4 class='half-margin-bottom bold-font-name text-uppercase'>
-                                  Heading about something
-                                </h4>
-                                <ul class='list-unstyled quarter-margin-bottom'>
-                                  <li>
-                                    <i class='fa fa-check'></i>
-                                    Access to 1,000+ PMP exam questions.
-                                  </li>
-                                  <li>
-                                    <i class='fa fa-check'></i>
-                                    Detailed explanations for PMP question
-                                  </li>
-                                  <li>
-                                    <i class='fa fa-check'></i>
-                                    Professional PMP practice exams.
-                                  </li>
-                                  <li>
-                                    <i class='fa fa-check'></i>
-                                    Another Selling Point.
-                                  </li>
-                                </ul>
-                                <hr class='half-margin-top half-margin-bottom'>
-                                <a class='btn btn-primary pull-left half-margin-right' href='#'>
-                                  Register Now
-                                </a>
-                                <a class='btn btn-primary pull-left' href='#'>
-                                  Try a Demo
-                                </a>
-                              </div>
-                            </div>
-                            <div class='col-sm-7'>
-                              <div class='padded'>
-                                <img class="img-responsive" src="images/public/dropdowns/dropdown_demand.png" />
-                              </div>
-                            </div>
-                          </div>
-                        </ul>
-                      </a>
-                    </li>
-                    <li class=''>
-                      <a class='dropdown-toggle' href='/public/practice-pmp'>
-                        PMI ACP Training
-                        <span class='caret'></span>
-                        <ul class='dropdown-menu dropdown-large' role='menu'>
-                          <li>
-                            <a class='hidden'></a>
-                          </li>
-                          <div class='row'>
-                            <div class='col-sm-5'>
-                              <div class='padded'>
-                                <h4 class='half-margin-bottom bold-font-name text-uppercase'>
-                                  Heading about something
-                                </h4>
-                                <ul class='list-unstyled quarter-margin-bottom'>
-                                  <li>
-                                    <a href='#'>
-                                      Live PMP CLasses
-                                      <i class='fa fa-angle-double-right'></i>
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a href='#'>
-                                      PMI_ACP On Demand Course
-                                      <i class='fa fa-angle-double-right'></i>
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a href='#'>
-                                      PMI-ACP Practice Exams
-                                      <i class='fa fa-angle-double-right'></i>
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a href='#'>
-                                      Another Link
-                                      <i class='fa fa-angle-double-right'></i>
-                                    </a>
-                                  </li>
-                                </ul>
-                              </div>
-                            </div>
-                            <div class='col-sm-7'>
-                              <div class='padded'>
-                                <img class="img-responsive" src="images/public/dropdowns/dropdown_training.png" />
-                              </div>
-                            </div>
-                          </div>
-                        </ul>
-                      </a>
-                    </li>
-                    <li class=''>
-                      <a class='dropdown-toggle' href='/public/practice-pmp'>
-                        Scrum
-                        <span class='caret'></span>
-                        <ul class='dropdown-menu dropdown-large' role='menu'>
-                          <li>
-                            <a class='hidden'></a>
-                          </li>
-                          <div class='row'>
-                            <div class='col-sm-5'>
-                              <div class='padded'>
-                                <h4 class='half-margin-bottom bold-font-name text-uppercase'>
-                                  Heading about something
-                                </h4>
-                                <ul class='list-unstyled quarter-margin-bottom'>
-                                  <li>
-                                    <i class='fa fa-check'></i>
-                                    Access to 1,000+ PMP exam questions.
-                                  </li>
-                                  <li>
-                                    <i class='fa fa-check'></i>
-                                    Detailed explanations for PMP question
-                                  </li>
-                                  <li>
-                                    <i class='fa fa-check'></i>
-                                    Professional PMP practice exams.
-                                  </li>
-                                  <li>
-                                    <i class='fa fa-check'></i>
-                                    Another Selling Point.
-                                  </li>
-                                </ul>
-                                <hr class='half-margin-top half-margin-bottom'>
-                                <a class='btn btn-primary pull-left half-margin-right' href='#'>
-                                  Register Now
-                                </a>
-                                <a class='btn btn-primary pull-left' href='#'>
-                                  Try a Demo
-                                </a>
-                              </div>
-                            </div>
-                            <div class='col-sm-7'>
-                              <div class='padded'>
-                                <img class="img-responsive" src="images/public/dropdowns/dropdown_scrum.png" />
-                              </div>
-                            </div>
-                          </div>
-                        </ul>
-                      </a>
-                    </li>
-                    <li class=''>
-                      <a class='dropdown-toggle' href='/public/about'>
-                        Corporate
-                        <span class='caret'></span>
-                        <ul class='dropdown-menu dropdown-large' role='menu'>
-                          <li>
-                            <a class='hidden'></a>
-                          </li>
-                          <div class='row'>
-                            <div class='col-sm-8'>
-                              <div class='row'>
-                                <div class='col-sm-6 col-md-4'>
-                                  <div class='padded no-padding-right'>
-                                    <h4 class='no-margin-bottom bold-font-name text-uppercase'>
-                                      Corporate Training
-                                    </h4>
-                                    <ul class='list-unstyled quarter-margin-bottom'>
-                                      <li>
-                                        <a href='/public/corporate-training'>
-                                          Corporate training options
-                                        </a>
-                                      </li>
-                                      <li>
-                                        <a href='/public/corporate-training/corporate-discount'>
-                                          Enroll multiple students
-                                        </a>
-                                      </li>
-                                      <li>
-                                        <a href='/public/corporate-training/private-portal'>
-                                          Private training portal
-                                        </a>
-                                      </li>
-                                    </ul>
-                                  </div>
-                                </div>
-                                <div class='col-sm-6 col-md-8'>
-                                  <div class='padded no-padding-left'>
-                                    <h4 class='no-margin-bottom bold-font-name text-uppercase'>
-                                      About
-                                    </h4>
-                                    <div class='row'>
-                                      <div class='col-sm-6'>
-                                        <ul class='list-unstyled quarter-margin-bottom no-margin-right'>
-                                          <li>
-                                            <a href='/public/about'>
-                                              Who we are
-                                            </a>
-                                          </li>
-                                          <li>
-                                            <a href='/public/about-the-pmp-exam'>
-                                              About the PMP exam
-                                            </a>
-                                          </li>
-                                          <li>
-                                            <a href='/public/about/books'>
-                                              Our books and website
-                                            </a>
-                                          </li>
-                                        </ul>
-                                      </div>
-                                      <div class='col-sm-6'>
-                                        <ul class='list-unstyled quarter-margin-bottom'>
-                                          <li>
-                                            <a href='/public/articles'>
-                                              PMP articles
-                                            </a>
-                                          </li>
-                                          <li>
-                                            <a href='/public/about/contact'>
-                                              Contact
-                                            </a>
-                                          </li>
-                                          <li>
-                                            <a href='/public/about/newsletter'>
-                                              Get our newsletter
-                                            </a>
-                                          </li>
-                                        </ul>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div class='col-sm-4'>
-                              <div class='padded'>
-                                <img class="img-responsive" src="images/public/dropdowns/dropdown_corporate.png" />
-                              </div>
-                            </div>
-                          </div>
-                        </ul>
-                      </a>
-                    </li>
-                  </ul>
-                </nav>
-                <nav class='pull-right checkout-btn-wrapper'>
-                  <a class='btn btn-primary' href='/public/checkout'>
-                    <i class='fa fa-shopping-cart'></i>
-                    Cart
-                  </a>
-                </nav>
-              </div>
-            </div>
-          </div>
-        </div>
-      </header>
-      <!-- end menu -->
-      <div id='mainContents'>
-        <section class='invert-section no-padding-top no-padding-top no-padding-bottom'>
-          <!-- {:style=>"background-image:url(/images/slider/slide-1-bg.png);"} -->
-          <div class='carousel slide' data-ride='carousel' id='home-slider'>
-            <!-- Indicators -->
-            <ol class='carousel-indicators'>
-              <li class='active' data-slide-to='0' data-target='#home-slider'></li>
-              <li data-slide-to='1' data-target='#home-slider'></li>
-              <li data-slide-to='2' data-target='#home-slider'></li>
-              <li data-slide-to='3' data-target='#home-slider'></li>
-              <li data-slide-to='4' data-target='#home-slider'></li>
-              <li data-slide-to='5' data-target='#home-slider'></li>
-              <li data-slide-to='6' data-target='#home-slider'></li>
-              <li data-slide-to='7' data-target='#home-slider'></li>
-              <!-- %li.left{"data-slide"=>"prev","data-target" => "#home-slider"} -->
-              <!-- %li.right{"data-slide"=>"next","data-target" => "#home-slider"} -->
-            </ol>
-            <div class='carousel-inner'>
-              <div class='item active' style='background-image:url(/images/slider/slide-4-bg.png);'>
-                <div class='container'>
-                  <div class='row'>
-                    <div class='col-md-12'>
-                      <h1>
-                        PMP Job Openings
-                      </h1>
-                      <ul class='margin-bottom'>
-                        <li>
-                          Praesent eget orci eu arcu lobortis dictum at sed metus. Maecenas vitae convallis ante.
-                        </li>
-                        <li>
-                          Praesent eget orci eu arcu lobortis dictum at sed metus. Maecenas vitae convallis ante.
-                        </li>
-                        <li>
-                          Praesent eget orci eu arcu lobortis dictum at sed metus. Maecenas vitae convallis ante.
-                        </li>
-                        <li>
-                          Praesent eget orci eu arcu lobortis dictum at sed metus. Maecenas vitae convallis ante.
-                        </li>
-                      </ul>
-                      <div class='btns'>
-                        <a class='btn btn-default btn-lg half-margin-bottom' href='#'>
-                          POST A JOB NOW
-                        </a>
-                        <a class='btn btn-wire btn-lg half-margin-bottom' href='#'>
-                          LEARN MORE
-                          <i class='fa fa-arrow-circle-right'></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class='item' style='background-image:url(/images/slider/slide-1-bg.png);'>
-                <div class='container'>
-                  <div class='row'>
-                    <div class='col-md-12'>
-                      <h1>
-                        Live PMP Classes Taught
-                        <br>
-                        Online by Veteran Instructors
-                      </h1>
-                      <ul class='margin-bottom'>
-                        <li>
-                          Attend a live instructor course from your personal  computer
-                        </li>
-                        <li>
-                          Flexible times and dates to meet busy work schedules
-                        </li>
-                        <li>
-                          35 Contact hours, PDUs, all course materials, and software included in price
-                        </li>
-                        <li>
-                          Less than half the cost of comparable classroom courses
-                        </li>
-                        <li>
-                          <strong>
-                            Starting at $1299.00 Save $405.00 Now
-                          </strong>
-                        </li>
-                      </ul>
-                      <div class='btns'>
-                        <a class='btn btn-default btn-lg half-margin-bottom' href='/public/live-pmp'>
-                          CLASS OVERVIEW
-                        </a>
-                        <a class='btn btn-wire btn-lg half-margin-bottom' href='/public/live-pmp/schedule-and-pricing'>
-                          SCHEDULE & PRICING
-                          <i class='fa fa-arrow-circle-right'></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class='item' style='background-image:url(/images/slider/slide-2-bg.png);'>
-                <div class='container'>
-                  <div class='row'>
-                    <div class='col-md-12'>
-                      <h1>
-                        Still the Most Trusted
-                        <br>
-                        PMP Practice Exams
-                        <span class='extra-bold-font-name'>
-                          $59.00
-                        </span>
-                      </h1>
-                      <ul class='margin-bottom'>
-                        <li>
-                          Over 1,000 realistic PMP exam questions with more than 20 PMP mock exams
-                        </li>
-                        <li>
-                          Detailed explanations for every PMP exam question clarify correct answers.
-                        </li>
-                        <li>
-                          Professional: Prepare for your PMP exam with practice exams created by experts.
-                        </li>
-                        <li>
-                          All content based on PMBOKÂ® Guide - Fifth Edition PMP Exam
-                        </li>
-                        <li>
-                          <strong>
-                            90-Day Access to Professional PMP Exams - Access Instantly
-                          </strong>
-                        </li>
-                      </ul>
-                      <div class='btns'>
-                        <a class='btn btn-default btn-lg half-margin-bottom' href='/public/checkout'>
-                          add to cart
-                        </a>
-                        <a class='btn btn-wire btn-lg half-margin-bottom' href='/public/practice-pmp'>
-                          learn more
-                        </a>
-                        <a class='btn btn-wire btn-lg half-margin-bottom' href='javascript:void(0);' onclick="javascript:window.open('./public/uiExamDemoOverview.aspx','mywindow','width=800,height=600,menubar=no,location=no,resizable=yes, scrollbars=yes')">
-                          try a demo
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class='item' style='background-image:url(/images/slider/slide-3-bg.png);'>
-                <div class='container'>
-                  <div class='row'>
-                    <div class='col-md-12'>
-                      <h1>
-                        The
-                        Most Effective
-                        <br>
-                        On-Demand PMP Course Available
-                      </h1>
-                      <ul class='margin-bottom'>
-                        <li>
-                          On-demand PMP course to prepare and pass your PMP Exam
-                        </li>
-                        <li>
-                          Self-paced, interactive lessons in studio quality
-                        </li>
-                        <li>
-                          Practice tests, Mindmap study kits, PMI application guide and much more
-                        </li>
-                        <li>
-                          Includes 35 PMI contact hours required to take the PMP exam
-                        </li>
-                        <li>
-                          <strong>
-                            90-Day Access for Only $599.00 Save $250.00 Now
-                          </strong>
-                        </li>
-                      </ul>
-                      <div class='btns'>
-                        <a class='btn btn-default btn-lg half-margin-bottom' href='/public/checkout'>
-                          Register now
-                        </a>
-                        <a class='btn btn-wire btn-lg half-margin-bottom' href='/public/bootcamp'>
-                          learn more
-                          <i class='fa fa-arrow-circle-right'></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class='item' style='background-image:url(/images/slider/slide-5-bg.png);'>
-                <div class='container'>
-                  <div class='row'>
-                    <div class='col-md-12'>
-                      <h1>
-                        Learn Scrum from the Pros!
-                        Live Scrum Classes Taught by
-                        Certified Scrum Trainers
-                      </h1>
-                      <ul class='margin-bottom'>
-                        <li>
-                          Learn Scrum in two days and get certified
-                        </li>
-                        <li>
-                          All classes taught by Certified Scrum Trainers (CSTs)
-                        </li>
-                        <li>
-                          Includes class materials and certification exam
-                        </li>
-                        <li>
-                          Guaranteed to become a Certified ScrumMaster!
-                        </li>
-                        <li>
-                          <strong>
-                            Starting at $1,599 Save $305 Now
-                          </strong>
-                        </li>
-                      </ul>
-                      <div class='btns'>
-                        <a class='btn btn-default btn-lg half-margin-bottom' href='/public/checkout'>
-                          Class Overview
-                        </a>
-                        <a class='btn btn-wire btn-lg half-margin-bottom' href='/public/bootcamp'>
-                          Schedule & Pricing
-                          <i class='fa fa-arrow-circle-right'></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class='item' style='background-image:url(/images/slider/slide-6-bg.png);'>
-                <div class='container'>
-                  <div class='row'>
-                    <div class='col-md-12'>
-                      <h1>
-                        Live PMI-ACP Classes Taught
-                        <br>
-                        by Veteran Instructors
-                      </h1>
-                      <ul class='margin-bottom'>
-                        <li>
-                          <strong>
-                            New!
-                          </strong>
-                          Attend a live instructor course from your personal computer
-                        </li>
-                        <li>
-                          Flexible times and dates to meet busy work schedules
-                        </li>
-                        <li>
-                          21 Contact hours, PDUs, all course materials, and software included in price
-                        </li>
-                        <li>
-                          Less than half the cost of comparable classroom courses
-                        </li>
-                        <li>
-                          <strong>
-                            Starting at $1,294 Save $405 Now
-                          </strong>
-                        </li>
-                      </ul>
-                      <div class='btns'>
-                        <a class='btn btn-default btn-lg half-margin-bottom' href='/public/checkout'>
-                          Class Overview
-                        </a>
-                        <a class='btn btn-wire btn-lg half-margin-bottom' href='/public/bootcamp'>
-                          Schedule & Pricing
-                          <i class='fa fa-arrow-circle-right'></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class='item' style='background-image:url(/images/slider/slide-7-bg.png);'>
-                <div class='container'>
-                  <div class='row'>
-                    <div class='col-md-12'>
-                      <h1>
-                        The Most Trusted PMI-ACP
-                        <br>
-                        Practice Exams -
-                        <strong>
-                          Now $59.00
-                        </strong>
-                      </h1>
-                      <ul class='margin-bottom'>
-                        <li>
-                          Over 1,000 realistic PMI-ACP exam questions including mock exams and quizzes
-                        </li>
-                        <li>
-                          Detailed explanations for every PMI-ACP exam question clarify correct answers.
-                        </li>
-                        <li>
-                          Prepare for your PMI-ACP exam with practice exams created by experts.
-                        </li>
-                        <li>
-                          All content based on the official PMI-ACP Exam outline
-                        </li>
-                        <li>
-                          90-Day Access to Professional PMI-ACP Exams - Access Instantly
-                        </li>
-                        <li>
-                          <strong>
-                            Was $99.00 Save $40.00 Now
-                          </strong>
-                        </li>
-                      </ul>
-                      <div class='btns'>
-                        <a class='btn btn-default btn-lg half-margin-bottom' href='/public/checkout'>
-                          Register now
-                        </a>
-                        <a class='btn btn-wire btn-lg half-margin-bottom' href='/public/bootcamp'>
-                          Learn more
-                        </a>
-                        <a class='btn btn-wire btn-lg half-margin-bottom' href='/public/bootcamp'>
-                          Try a Demo
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class='item' style='background-image:url(/images/slider/slide-8-bg.png);'>
-                <div class='container'>
-                  <div class='row'>
-                    <div class='col-md-12'>
-                      <h1>
-                        The Most Effective On-Demand
-                        <br>
-                        PMI-ACP Course Available
-                      </h1>
-                      <ul class='margin-bottom'>
-                        <li>
-                          Learn about the most popular Agile methodologies
-                        </li>
-                        <li>
-                          Self-paced, interactive lessons in studio quality
-                        </li>
-                        <li>
-                          50+ lessons, practice tests, study guide and much more
-                        </li>
-                        <li>
-                          21 PMI contact hours included to pass the PMI-ACP certification exam
-                        </li>
-                        <li>
-                          <strong>
-                            90-Day Access for Only $499.00 Save $250.00 Now
-                          </strong>
-                        </li>
-                      </ul>
-                      <div class='btns'>
-                        <a class='btn btn-default btn-lg half-margin-bottom' href='/public/checkout'>
-                          Register now
-                        </a>
-                        <a class='btn btn-wire btn-lg half-margin-bottom' href='/public/bootcamp'>
-                          learn more
-                          <i class='fa fa-arrow-circle-right'></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section>
-          <div class='container'>
-            <div class='row'>
-              <div class='col-lg-12'>
-                <div class='text-center'>
-                  <h6 class='text-muted'>
-                    TRUSTED BY SOME OF THE WORLD'S SMARTEST COMPANIES...
-                  </h6>
-                  <img class="img-responsive margin-auto" src="images/logos.png" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <div class='container'>
-          <hr>
-        </div>
-        <section>
-          <div class='container'>
-            <div class='row'>
-              <div class='col-sm-12'>
-                <div class='text-center'>
-                  <h2>
-                    Don’t take our word for it
-                  </h2>
-                </div>
-              </div>
-            </div>
-            <div class='row margin-top'>
-              <div class='col-md-6'>
-                <div class='panel'>
-                  <div class='panel-body padding-top'>
-                    <div class='col-sm-4'>
-                      <img class="img-responsive margin-auto margin-bottom" width="120" src="images/medal_prep.png" />
-                    </div>
-                    <div class='col-sm-8'>
-                      <p class='half-margin-bottom'>
-                        Crush the PM Exam has just named PMtraiing as the
-                        <span class='bold-font-name'>
-                          #1 PMI-ACP prep course
-                        </span>
-                        of 2017!
-                      </p>
-                      <p>
-                        <a href='' style='border:none;'>
-                          Read the full review
-                        </a>
-                        |
-                        <a href='' style='border:none;'>
-                          View course
-                        </a>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class='col-md-6'>
-                <div class='panel'>
-                  <div class='panel-body padding-top'>
-                    <div class='col-sm-4'>
-                      <img class="img-responsive margin-auto margin-bottom" width="120" src="images/medal_live.png" />
-                    </div>
-                    <div class='col-sm-8'>
-                      <p class='half-margin-bottom'>
-                        Crush the PM Exam has just named PMtraiing as the
-                        <span class='bold-font-name'>
-                          #1 PMP Live-Online
-                        </span>
-                        of 2017!
-                      </p>
-                      <p>
-                        <a href='' style='border:none;'>
-                          Read the full review
-                        </a>
-                        |
-                        <a href='' style='border:none;'>
-                          View course
-                        </a>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <div class='container'>
-          <hr>
-        </div>
-        <section>
-          <div class='container'>
-            <div class='row'>
-              <div class='col-sm-12'>
-                <div class='text-center'>
-                  <h2>
-                    PMP Test Simulation Questions
-                  </h2>
-                  <p>
-                    Community preformance by subject area
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class='row'>
-              <div class='col-sm-1'></div>
-              <div class='col-sm-10'>
-                <script>
-                  $(function () {
-                          $('#preformance-chart').highcharts({
-                              chart: {
-                                  type: 'bar',
-                                  backgroundColor: '#fff'
-                              },
-                              title: {
-                                  text: ''
-                              },
-                              subtitle: {
-                                  text: ''
-                              },
-                              legend: {
-                                  enabled: false
-                              },
-                              xAxis: {
-                                  categories: ['Prof. Responsibility', 'Integration Mgt.', 'Communications Mgt.', 'Human Resource Mgt.', 'Project Framework','Time Mgt.','Scope Mgt.','Quality Mgt.','Risk Mgt.','Stakeholder Mgt.','Cost Mgmt.','Producement Mgmt.'],
-                                  title: {
-                                      text: null
-                                  }
-                              },
-                              yAxis: {
-                                  min: 0,
-                                  tickPixelInterval: 150,
-                                  labels: {
-                                      overflow: 'justify'
-                                  }
-                              },
-                              tooltip: {
-                                  valueSuffix: ' %'
-                              },
-                              plotOptions: {
-                                  bar: {
-                                      dataLabels: {
-                                          enabled: true
-                                      }
-                                  }
-                              },
-                              credits: {
-                                  enabled: false
-                              },
-                              series: [{
-                              		name: 'preformance',
-                                  data: [86.24, 86.05, 85.56, 84.87, 83.79,, 83.68, 83.52,, 82.54, 81.83, 78.50, 78.05, 83.79,77.07]
-                              }]
-                          });
-                      });
-                </script>
-                <div id='preformance-chart'></div>
-              </div>
-              <div class='col-sm-1'></div>
-            </div>
-          </div>
-        </section>
-        <div class='container'>
-          <hr>
-        </div>
-        <section>
-          <div class='container'>
-            <div class='row'>
-              <div class='col-sm-5'>
-                <div class='double-margin-bottom'>
-                  <h2 class='margin-top no-margin-top-sm'>
-                    <strong>
-                      Live
-                    </strong>
-                    PMP Exam Community Performance
-                  </h2>
-                  <p>
-                    To the right is a live calculation of the top 5 PMP process areas based on 370,653 PMP practice exams taken by PMTraining exam prep students.
-                  </p>
-                </div>
-              </div>
-              <div class='col-sm-1'></div>
-              <div class='col-sm-6'>
-                <table class='table table-striped table-responsive'>
-                  <thead>
-                    <tr>
-                      <th>
-                        <h5 class='text-color'>
-                          Live Rank
-                        </h5>
-                      </th>
-                      <th>
-                        <h5 class='text-color'>
-                          PMBOK Guidttte Knowledge Area
-                        </h5>
-                      </th>
-                      <th>
-                        <h5 class='text-color'>
-                          Community Average
-                        </h5>
-                      </th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td class='text-center'>1</td>
-                      <td>Project Procurement Management</td>
-                      <td class='text-center'>82.69%</td>
-                    </tr>
-                    <tr>
-                      <td class='text-center'>2</td>
-                      <td>Project Time Management</td>
-                      <td class='text-center'>82.69%</td>
-                    </tr>
-                    <tr>
-                      <td class='text-center'>3</td>
-                      <td>Project Human Resource Management</td>
-                      <td class='text-center'>82.69%</td>
-                    </tr>
-                    <tr>
-                      <td class='text-center'>4</td>
-                      <td>Prof. Responsibility</td>
-                      <td class='text-center'>82.69%</td>
-                    </tr>
-                    <tr>
-                      <td class='text-center'>5</td>
-                      <td>Project Cost Management</td>
-                      <td class='text-center'>82.69%</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </div>
-          </div>
-        </section>
-        <div class='container'>
-          <hr>
-        </div>
-        <section>
-          <div class='container'>
-            <div class='row'>
-              <div class='col-sm-12'>
-                <div class='text-center'>
-                  <h2>
-                    PMP Test Simulation Questions
-                  </h2>
-                  <p>
-                    Community preformance by subject area
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class='row'>
-              <div class='col-sm-1'></div>
-              <div class='col-sm-10'>
-                <script>
-                  $(function () {
-                          $('#preformance-chart').highcharts({
-                              chart: {
-                                  type: 'bar',
-                                  backgroundColor: '#fff'
-                              },
-                              title: {
-                                  text: ''
-                              },
-                              subtitle: {
-                                  text: ''
-                              },
-                              legend: {
-                                  enabled: false
-                              },
-                              xAxis: {
-                                  categories: ['Prof. Responsibility', 'Integration Mgt.', 'Communications Mgt.', 'Human Resource Mgt.', 'Project Framework','Time Mgt.','Scope Mgt.','Quality Mgt.','Risk Mgt.','Stakeholder Mgt.','Cost Mgmt.','Producement Mgmt.'],
-                                  title: {
-                                      text: null
-                                  }
-                              },
-                              yAxis: {
-                                  min: 0,
-                                  tickPixelInterval: 150,
-                                  labels: {
-                                      overflow: 'justify'
-                                  }
-                              },
-                              tooltip: {
-                                  valueSuffix: ' %'
-                              },
-                              plotOptions: {
-                                  bar: {
-                                      dataLabels: {
-                                          enabled: true
-                                      }
-                                  }
-                              },
-                              credits: {
-                                  enabled: false
-                              },
-                              series: [{
-                              		name: 'preformance',
-                                  data: [86.24, 86.05, 85.56, 84.87, 83.79,, 83.68, 83.52,, 82.54, 81.83, 78.50, 78.05, 83.79,77.07]
-                              }]
-                          });
-                      });
-                </script>
-                <div id='preformance-chart'></div>
-              </div>
-              <div class='col-sm-1'></div>
-            </div>
-          </div>
-        </section>
-        <section class='invert-section get-started'>
-          <div class='container'>
-            <div class='row'>
-              <div class='col-lg-12'>
-                <div class='text-center'>
-                  <a class='btn btn-white btn-lg' href='/public/checkout'>
-                    Register Now for PMP Practice Exams
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </div>
-      <!-- end main content -->
-      <footer id='footer'>
-        <div class='container'>
-          <div class='row'>
-            <div class='col-sm-3'>
-              <img src="images/logo_no_tag.png" />
-              <p>
-                <small>
-                  ©
-                  <a href='http://ssilogic.com/'>
-                    SSILogic
-                  </a>
-                  2014
-                </small>
-              </p>
-              <img class="pmi-logo" src="images/pmi_logo_3.png" />
-              <p class='bold-font-name'>
-                <small>
-                  #3962
-                </small>
-              </p>
-            </div>
-            <div class='col-sm-2'>
-              <h6 class='half-margin-bottom'>
-                about
-              </h6>
-              <ul class='list-unstyled'>
-                <li>
-                  <a href='http://ssilogic.us1.list-manage1.com/subscribe?u=49a39df0bbdcb06004bfed7de&amp;id=42ef79129f' target='_blank'>
-                    Newsletter
-                  </a>
-                </li>
-                <li>
-                  <a href='/public/about-the-pmp-exam'>
-                    About Us
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div class='col-sm-3'>
-              <h6 class='half-margin-bottom'>
-                more info
-              </h6>
-              <ul class='list-unstyled'>
-                <li>
-                  <a href='/public/faqs#disclaimer'>
-                    Disclaimer
-                  </a>
-                </li>
-                <li>
-                  <a href='/public/about/books'>
-                    PMI-ACP Exam Prep
-                  </a>
-                </li>
-                <li>
-                  <a href='http://pmperfect.affiliateharvest.com/' target='_blank'>
-                    PMTraining Affiliate Program
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div class='col-sm-2'>
-              <h6 class='half-margin-bottom'>
-                exams
-              </h6>
-              <ul class='list-unstyled'>
-                <li>
-                  <a href='/public/about/books'>
-                    CISSP Practice Exams
-                  </a>
-                </li>
-                <li>
-                  <a href='/public/about/books'>
-                    PMI-ACP Exam Prep
-                  </a>
-                </li>
-                <li>
-                  <a href='/public/about/books'>
-                    ITIL Practice Exams
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div class='col-sm-2'>
-              <h6 class='half-margin-bottom'>
-                contact
-              </h6>
-              <ul class='list-unstyled'>
-                <li>
-                  <a href='/public/about/contact'>
-                    Contact Us
-                  </a>
-                </li>
-                <li class='social-links'>
-                  <a class='social-font-name facebook' href='https://www.facebook.com/SSILOGICNEWS' target='_blank'>F</a>
-                  <a class='social-font-name twitter' href='https://twitter.com/ssilogicnews' target='_blank'>T</a>
-                  <a class='social-font-name linkedin' href='http://www.linkedin.com/company/ssi-logic' target='_blank'>I</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </footer>
-      <!-- /classes -->
-      <div aria-hidden='true' class='modal fade' id='showClassModal' role='dialog'>
-        <div class='modal-dialog modal-lg'>
-          <div class='modal-content'></div>
-        </div>
-      </div>
-      <!-- /bootcamp -->
-      <div aria-hidden='true' class='modal fade' id='showBootcampModal' role='dialog'>
-        <div class='modal-dialog modal-lg'>
-          <div class='modal-content'></div>
-        </div>
-      </div>
-      <!-- /demo -->
-      <div aria-hidden='true' class='modal fade' id='demoModal' role='dialog'>
-        <div class='modal-dialog modal-lg'>
-          <div class='modal-content'></div>
-        </div>
-      </div>
-    </body>
-  </head>
+<head>
+<meta charset='utf-8'>
+<meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+<meta content='width=device-width, initial-scale=1.0' name='viewport'>
+<title>
+title
+</title>
+<link href="stylesheets/public.css" rel="stylesheet" />
+<link href='images/favicon.ico' rel='shortcut icon'>
+<!-- %script{:src => "http://code.jquery.com/jquery-latest.min.js", :type => "text/javascript"} -->
+<script src="javascripts/lib/jquery.js"></script><script src="javascripts/lib/bootstrap.js"></script><script src="javascripts/lib/jquery.fancybox.pack.js"></script><script src="javascripts/lib/helpers/jquery.fancybox-media.js"></script><script src="javascripts/lib/highcharts/highcharts.js"></script><script src="javascripts/lib/highcharts/modules/exporting.js"></script><script src="javascripts/lib/footable/footable.js"></script><script src="javascripts/lib/footable/footable.filter.js"></script><script src="javascripts/scripts.js"></script>
+<body class='index'>
+<nav class='navbar navbar-default visible-xs navbar-fixed-top' id='mobile-main-nav' role='navigation'>
+<div class='container-fluid'>
+<div class='navbar-header'>
+<button class='navbar-toggle' data-target='#bs-example-navbar-collapse-1' data-toggle='collapse' type='button'>
+<span class='sr-only'>Toggle navigation</span>
+<span class='icon-bar'></span>
+<span class='icon-bar'></span>
+<span class='icon-bar'></span>
+</button>
+<a class='navbar-brand logo-sm' href='/'></a>
+</div>
+<!-- Collect the nav links, forms, and other content for toggling -->
+<div class='collapse navbar-collapse' id='bs-example-navbar-collapse-1'>
+<ul class='nav navbar-nav'>
+<li>
+<a href='#'>
+Home
+</a>
+</li>
+<li>
+<a href='/public/practice-pmp'>
+PMP Practice Exams
+</a>
+</li>
+<li>
+<a href='/public/live-pmp'>
+Live PMP Classes
+</a>
+</li>
+<li>
+<a href='/public/bootcamp'>
+PMP Bootcamp
+</a>
+</li>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+About
+<b class='caret'></b>
+</a>
+<ul class='dropdown-menu'>
+<li>
+<a href='/public/about'>
+Who we are
+</a>
+</li>
+<li>
+<a href='/public/about/about-the-pmp-exam'>
+About the PMP exam
+</a>
+</li>
+<li>
+<a href='/public/about/books'>
+Our books and website
+</a>
+</li>
+<li>
+<a href='/public/about/articles'>
+PMP articles
+</a>
+</li>
+<li>
+<a href='/public/about/contact'>
+Contact
+</a>
+</li>
+<li>
+<a href='/public/about/newsletter'>
+Get our newsletter
+</a>
+</li>
+</ul>
+</li>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+Coporate Training
+<b class='caret'></b>
+</a>
+<ul class='dropdown-menu'>
+<li>
+<a href='/public/corporate-training'>
+Coporate training options
+</a>
+</li>
+<li>
+<a href='/public/corporate-training/corporate-discount'>
+Enroll multiple students
+</a>
+</li>
+<li>
+<a href='/public/corporate-training/private-portal'>
+Private training portal
+</a>
+</li>
+</ul>
+</li>
+<li>
+<a class='btn btn-success navbar-btn' href='/public/checkout'>
+Checkout
+</a>
+</li>
+<hr class='no-margin-bottom'>
+</ul>
+<ul class='nav navbar-nav mobile-subnav'>
+<li>
+<a href='/public/about/about-the-pmp-exam'>
+PMP Exam Updates
+</a>
+</li>
+<li>
+<a href='/public/login'>
+Member Login
+</a>
+</li>
+<li>
+<a href='/public/about/contact'>
+Contact & Support
+</a>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+
+<div class='main-nav hidden-xs main-nav-fixed' id='hidden-menu'>
+<div class='container'>
+<div class='col-lg-12'>
+<div class='main-nav-container'>
+<nav class='pull-left'>
+<ul class='list-inline main-links'>
+<li class=''>
+<a class='dropdown-toggle' href='/public/practice-pmp'>
+PMP Practice Exams
+<span class='caret'></span>
+<ul class='dropdown-menu dropdown-large' role='menu'>
+<li>
+<a class='hidden'></a>
+</li>
+<div class='row'>
+<div class='col-sm-5'>
+<div class='padded'>
+<h4 class='half-margin-bottom bold-font-name text-uppercase'>
+Heading about something
+</h4>
+<ul class='list-unstyled quarter-margin-bottom'>
+<li>
+<i class='fa fa-check'></i>
+Access to 1,000+ PMP exam questions.
+</li>
+<li>
+<i class='fa fa-check'></i>
+Detailed explanations for PMP question
+</li>
+<li>
+<i class='fa fa-check'></i>
+Professional PMP practice exams.
+</li>
+<li>
+<i class='fa fa-check'></i>
+Another Selling Point.
+</li>
+</ul>
+<hr class='half-margin-top half-margin-bottom'>
+<a class='btn btn-primary pull-left half-margin-right' href='#'>
+Learn more
+</a>
+<a class='btn btn-primary pull-left' href='#'>
+Sign up now
+</a>
+</div>
+</div>
+<div class='col-sm-7'>
+<div class='padded'>
+<img src="images/public/dropdowns/dropdown_practice.png" class="img-responsive" alt="Dropdown practice" />
+</div>
+</div>
+</div>
+</ul>
+
+</a>
+</li>
+<li class='sale'>
+<a href='/public/live-pmp'>
+Live PMP Classes
+<span class='caret'></span>
+<ul class='dropdown-menu dropdown-large' role='menu'>
+<li>
+<a class='hidden'></a>
+</li>
+<div class='row'>
+<div class='col-sm-5'>
+<div class='padded'>
+<h4 class='half-margin-bottom bold-font-name text-uppercase'>
+Live PMP Classes
+</h4>
+<ul class='list-unstyled quarter-margin-bottom'>
+<li>
+<a href='#'>
+Class Overview
+<i class='fa fa-angle-double-right'></i>
+</a>
+</li>
+<li>
+<a href='#'>
+Schedule & Pricing
+<i class='fa fa-angle-double-right'></i>
+</a>
+</li>
+<li>
+<a href='#'>
+Included With Class
+<i class='fa fa-angle-double-right'></i>
+</a>
+</li>
+<li>
+<a href='#'>
+Our Guarantee
+<i class='fa fa-angle-double-right'></i>
+</a>
+</li>
+<li>
+<a href='#'>
+Student Testimonials
+<i class='fa fa-angle-double-right'></i>
+</a>
+</li>
+</ul>
+</div>
+</div>
+<div class='col-sm-7'>
+<div class='padded'>
+<img src="images/public/dropdowns/dropdown_live.png" class="img-responsive" alt="Dropdown live" />
+</div>
+</div>
+</div>
+</ul>
+
+</a>
+</li>
+<li class=''>
+<a href='/public/bootcamp'>
+On-Demand PMP Course
+<span class='caret'></span>
+<ul class='dropdown-menu dropdown-large' role='menu'>
+<li>
+<a class='hidden'></a>
+</li>
+<div class='row'>
+<div class='col-sm-5'>
+<div class='padded'>
+<h4 class='half-margin-bottom bold-font-name text-uppercase'>
+Heading about something
+</h4>
+<ul class='list-unstyled quarter-margin-bottom'>
+<li>
+<i class='fa fa-check'></i>
+Access to 1,000+ PMP exam questions.
+</li>
+<li>
+<i class='fa fa-check'></i>
+Detailed explanations for PMP question
+</li>
+<li>
+<i class='fa fa-check'></i>
+Professional PMP practice exams.
+</li>
+<li>
+<i class='fa fa-check'></i>
+Another Selling Point.
+</li>
+</ul>
+<hr class='half-margin-top half-margin-bottom'>
+<a class='btn btn-primary pull-left half-margin-right' href='#'>
+Register Now
+</a>
+<a class='btn btn-primary pull-left' href='#'>
+Try a Demo
+</a>
+</div>
+</div>
+<div class='col-sm-7'>
+<div class='padded'>
+<img src="images/public/dropdowns/dropdown_demand.png" class="img-responsive" alt="Dropdown demand" />
+</div>
+</div>
+</div>
+</ul>
+
+</a>
+</li>
+<li class=''>
+<a class='dropdown-toggle' href='/public/practice-pmp'>
+PMI ACP Training
+<span class='caret'></span>
+<ul class='dropdown-menu dropdown-large' role='menu'>
+<li>
+<a class='hidden'></a>
+</li>
+<div class='row'>
+<div class='col-sm-5'>
+<div class='padded'>
+<h4 class='half-margin-bottom bold-font-name text-uppercase'>
+Heading about something
+</h4>
+<ul class='list-unstyled quarter-margin-bottom'>
+<li>
+<a href='#'>
+Live PMP CLasses
+<i class='fa fa-angle-double-right'></i>
+</a>
+</li>
+<li>
+<a href='#'>
+PMI_ACP On Demand Course
+<i class='fa fa-angle-double-right'></i>
+</a>
+</li>
+<li>
+<a href='#'>
+PMI-ACP Practice Exams
+<i class='fa fa-angle-double-right'></i>
+</a>
+</li>
+<li>
+<a href='#'>
+Another Link
+<i class='fa fa-angle-double-right'></i>
+</a>
+</li>
+</ul>
+</div>
+</div>
+<div class='col-sm-7'>
+<div class='padded'>
+<img src="images/public/dropdowns/dropdown_training.png" class="img-responsive" alt="Dropdown training" />
+</div>
+</div>
+</div>
+</ul>
+
+</a>
+</li>
+<li class=''>
+<a class='dropdown-toggle' href='/public/practice-pmp'>
+Scrum
+<span class='caret'></span>
+<ul class='dropdown-menu dropdown-large' role='menu'>
+<li>
+<a class='hidden'></a>
+</li>
+<div class='row'>
+<div class='col-sm-5'>
+<div class='padded'>
+<h4 class='half-margin-bottom bold-font-name text-uppercase'>
+Heading about something
+</h4>
+<ul class='list-unstyled quarter-margin-bottom'>
+<li>
+<i class='fa fa-check'></i>
+Access to 1,000+ PMP exam questions.
+</li>
+<li>
+<i class='fa fa-check'></i>
+Detailed explanations for PMP question
+</li>
+<li>
+<i class='fa fa-check'></i>
+Professional PMP practice exams.
+</li>
+<li>
+<i class='fa fa-check'></i>
+Another Selling Point.
+</li>
+</ul>
+<hr class='half-margin-top half-margin-bottom'>
+<a class='btn btn-primary pull-left half-margin-right' href='#'>
+Register Now
+</a>
+<a class='btn btn-primary pull-left' href='#'>
+Try a Demo
+</a>
+</div>
+</div>
+<div class='col-sm-7'>
+<div class='padded'>
+<img src="images/public/dropdowns/dropdown_scrum.png" class="img-responsive" alt="Dropdown scrum" />
+</div>
+</div>
+</div>
+</ul>
+
+</a>
+</li>
+<li class=''>
+<a class='dropdown-toggle' href='/public/about'>
+Corporate
+<span class='caret'></span>
+<ul class='dropdown-menu dropdown-large' role='menu'>
+<li>
+<a class='hidden'></a>
+</li>
+<div class='row'>
+<div class='col-sm-8'>
+<div class='row'>
+<div class='col-sm-6 col-md-4'>
+<div class='padded no-padding-right'>
+<h4 class='no-margin-bottom bold-font-name text-uppercase'>
+Corporate Training
+</h4>
+<ul class='list-unstyled quarter-margin-bottom'>
+<li>
+<a href='/public/corporate-training'>
+Corporate training options
+</a>
+</li>
+<li>
+<a href='/public/corporate-training/corporate-discount'>
+Enroll multiple students
+</a>
+</li>
+<li>
+<a href='/public/corporate-training/private-portal'>
+Private training portal
+</a>
+</li>
+</ul>
+</div>
+</div>
+<div class='col-sm-6 col-md-8'>
+<div class='padded no-padding-left'>
+<h4 class='no-margin-bottom bold-font-name text-uppercase'>
+About
+</h4>
+<div class='row'>
+<div class='col-sm-6'>
+<ul class='list-unstyled quarter-margin-bottom no-margin-right'>
+<li>
+<a href='/public/about'>
+Who we are
+</a>
+</li>
+<li>
+<a href='/public/about-the-pmp-exam'>
+About the PMP exam
+</a>
+</li>
+<li>
+<a href='/public/about/books'>
+Our books and website
+</a>
+</li>
+</ul>
+</div>
+<div class='col-sm-6'>
+<ul class='list-unstyled quarter-margin-bottom'>
+<li>
+<a href='/public/articles'>
+PMP articles
+</a>
+</li>
+<li>
+<a href='/public/about/contact'>
+Contact
+</a>
+</li>
+<li>
+<a href='/public/about/newsletter'>
+Get our newsletter
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='col-sm-4'>
+<div class='padded'>
+<img src="images/public/dropdowns/dropdown_corporate.png" class="img-responsive" alt="Dropdown corporate" />
+</div>
+</div>
+</div>
+</ul>
+
+</a>
+</li>
+</ul>
+</nav>
+<nav class='pull-right checkout-btn-wrapper'>
+<a class='btn btn-primary' href='/public/checkout'>
+<i class='fa fa-shopping-cart'></i>
+Cart
+</a>
+</nav>
+</div>
+
+</div>
+</div>
+</div>
+<header class='main-nav hidden-xs main-nav-top'>
+<div class='container'>
+<div class='row margin-bottom'>
+<div class='col-lg-12'>
+<div class='pull-left'>
+<a class='logo_two' href='/'></a>
+</div>
+<img src="images/pmi_logo.png" class=" hidden-sm pull-right quarter-margin-left" width="80px" style="position:relative; top:8px;" alt="Pmi logo" />
+<nav class='pull-right'>
+<ul class='list-inline sub-links'>
+<li>
+<a href='/public/about-the-pmp-exam'>
+PMP Exam Updates
+</a>
+</li>
+<li>
+<a href='/public/login'>
+Member Login
+</a>
+</li>
+<li>
+<a href='/public/about/contact'>
+Contact & Support
+</a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+<div class='row'>
+<div class='col-lg-12'>
+<div class='main-nav-container'>
+<nav class='pull-left'>
+<ul class='list-inline main-links'>
+<li class=''>
+<a class='dropdown-toggle' href='/public/practice-pmp'>
+PMP Practice Exams
+<span class='caret'></span>
+<ul class='dropdown-menu dropdown-large' role='menu'>
+<li>
+<a class='hidden'></a>
+</li>
+<div class='row'>
+<div class='col-sm-5'>
+<div class='padded'>
+<h4 class='half-margin-bottom bold-font-name text-uppercase'>
+Heading about something
+</h4>
+<ul class='list-unstyled quarter-margin-bottom'>
+<li>
+<i class='fa fa-check'></i>
+Access to 1,000+ PMP exam questions.
+</li>
+<li>
+<i class='fa fa-check'></i>
+Detailed explanations for PMP question
+</li>
+<li>
+<i class='fa fa-check'></i>
+Professional PMP practice exams.
+</li>
+<li>
+<i class='fa fa-check'></i>
+Another Selling Point.
+</li>
+</ul>
+<hr class='half-margin-top half-margin-bottom'>
+<a class='btn btn-primary pull-left half-margin-right' href='#'>
+Learn more
+</a>
+<a class='btn btn-primary pull-left' href='#'>
+Sign up now
+</a>
+</div>
+</div>
+<div class='col-sm-7'>
+<div class='padded'>
+<img src="images/public/dropdowns/dropdown_practice.png" class="img-responsive" alt="Dropdown practice" />
+</div>
+</div>
+</div>
+</ul>
+
+</a>
+</li>
+<li class='sale'>
+<a href='/public/live-pmp'>
+Live PMP Classes
+<span class='caret'></span>
+<ul class='dropdown-menu dropdown-large' role='menu'>
+<li>
+<a class='hidden'></a>
+</li>
+<div class='row'>
+<div class='col-sm-5'>
+<div class='padded'>
+<h4 class='half-margin-bottom bold-font-name text-uppercase'>
+Live PMP Classes
+</h4>
+<ul class='list-unstyled quarter-margin-bottom'>
+<li>
+<a href='#'>
+Class Overview
+<i class='fa fa-angle-double-right'></i>
+</a>
+</li>
+<li>
+<a href='#'>
+Schedule & Pricing
+<i class='fa fa-angle-double-right'></i>
+</a>
+</li>
+<li>
+<a href='#'>
+Included With Class
+<i class='fa fa-angle-double-right'></i>
+</a>
+</li>
+<li>
+<a href='#'>
+Our Guarantee
+<i class='fa fa-angle-double-right'></i>
+</a>
+</li>
+<li>
+<a href='#'>
+Student Testimonials
+<i class='fa fa-angle-double-right'></i>
+</a>
+</li>
+</ul>
+</div>
+</div>
+<div class='col-sm-7'>
+<div class='padded'>
+<img src="images/public/dropdowns/dropdown_live.png" class="img-responsive" alt="Dropdown live" />
+</div>
+</div>
+</div>
+</ul>
+
+</a>
+</li>
+<li class=''>
+<a href='/public/bootcamp'>
+On-Demand PMP Course
+<span class='caret'></span>
+<ul class='dropdown-menu dropdown-large' role='menu'>
+<li>
+<a class='hidden'></a>
+</li>
+<div class='row'>
+<div class='col-sm-5'>
+<div class='padded'>
+<h4 class='half-margin-bottom bold-font-name text-uppercase'>
+Heading about something
+</h4>
+<ul class='list-unstyled quarter-margin-bottom'>
+<li>
+<i class='fa fa-check'></i>
+Access to 1,000+ PMP exam questions.
+</li>
+<li>
+<i class='fa fa-check'></i>
+Detailed explanations for PMP question
+</li>
+<li>
+<i class='fa fa-check'></i>
+Professional PMP practice exams.
+</li>
+<li>
+<i class='fa fa-check'></i>
+Another Selling Point.
+</li>
+</ul>
+<hr class='half-margin-top half-margin-bottom'>
+<a class='btn btn-primary pull-left half-margin-right' href='#'>
+Register Now
+</a>
+<a class='btn btn-primary pull-left' href='#'>
+Try a Demo
+</a>
+</div>
+</div>
+<div class='col-sm-7'>
+<div class='padded'>
+<img src="images/public/dropdowns/dropdown_demand.png" class="img-responsive" alt="Dropdown demand" />
+</div>
+</div>
+</div>
+</ul>
+
+</a>
+</li>
+<li class=''>
+<a class='dropdown-toggle' href='/public/practice-pmp'>
+PMI ACP Training
+<span class='caret'></span>
+<ul class='dropdown-menu dropdown-large' role='menu'>
+<li>
+<a class='hidden'></a>
+</li>
+<div class='row'>
+<div class='col-sm-5'>
+<div class='padded'>
+<h4 class='half-margin-bottom bold-font-name text-uppercase'>
+Heading about something
+</h4>
+<ul class='list-unstyled quarter-margin-bottom'>
+<li>
+<a href='#'>
+Live PMP CLasses
+<i class='fa fa-angle-double-right'></i>
+</a>
+</li>
+<li>
+<a href='#'>
+PMI_ACP On Demand Course
+<i class='fa fa-angle-double-right'></i>
+</a>
+</li>
+<li>
+<a href='#'>
+PMI-ACP Practice Exams
+<i class='fa fa-angle-double-right'></i>
+</a>
+</li>
+<li>
+<a href='#'>
+Another Link
+<i class='fa fa-angle-double-right'></i>
+</a>
+</li>
+</ul>
+</div>
+</div>
+<div class='col-sm-7'>
+<div class='padded'>
+<img src="images/public/dropdowns/dropdown_training.png" class="img-responsive" alt="Dropdown training" />
+</div>
+</div>
+</div>
+</ul>
+
+</a>
+</li>
+<li class=''>
+<a class='dropdown-toggle' href='/public/practice-pmp'>
+Scrum
+<span class='caret'></span>
+<ul class='dropdown-menu dropdown-large' role='menu'>
+<li>
+<a class='hidden'></a>
+</li>
+<div class='row'>
+<div class='col-sm-5'>
+<div class='padded'>
+<h4 class='half-margin-bottom bold-font-name text-uppercase'>
+Heading about something
+</h4>
+<ul class='list-unstyled quarter-margin-bottom'>
+<li>
+<i class='fa fa-check'></i>
+Access to 1,000+ PMP exam questions.
+</li>
+<li>
+<i class='fa fa-check'></i>
+Detailed explanations for PMP question
+</li>
+<li>
+<i class='fa fa-check'></i>
+Professional PMP practice exams.
+</li>
+<li>
+<i class='fa fa-check'></i>
+Another Selling Point.
+</li>
+</ul>
+<hr class='half-margin-top half-margin-bottom'>
+<a class='btn btn-primary pull-left half-margin-right' href='#'>
+Register Now
+</a>
+<a class='btn btn-primary pull-left' href='#'>
+Try a Demo
+</a>
+</div>
+</div>
+<div class='col-sm-7'>
+<div class='padded'>
+<img src="images/public/dropdowns/dropdown_scrum.png" class="img-responsive" alt="Dropdown scrum" />
+</div>
+</div>
+</div>
+</ul>
+
+</a>
+</li>
+<li class=''>
+<a class='dropdown-toggle' href='/public/about'>
+Corporate
+<span class='caret'></span>
+<ul class='dropdown-menu dropdown-large' role='menu'>
+<li>
+<a class='hidden'></a>
+</li>
+<div class='row'>
+<div class='col-sm-8'>
+<div class='row'>
+<div class='col-sm-6 col-md-4'>
+<div class='padded no-padding-right'>
+<h4 class='no-margin-bottom bold-font-name text-uppercase'>
+Corporate Training
+</h4>
+<ul class='list-unstyled quarter-margin-bottom'>
+<li>
+<a href='/public/corporate-training'>
+Corporate training options
+</a>
+</li>
+<li>
+<a href='/public/corporate-training/corporate-discount'>
+Enroll multiple students
+</a>
+</li>
+<li>
+<a href='/public/corporate-training/private-portal'>
+Private training portal
+</a>
+</li>
+</ul>
+</div>
+</div>
+<div class='col-sm-6 col-md-8'>
+<div class='padded no-padding-left'>
+<h4 class='no-margin-bottom bold-font-name text-uppercase'>
+About
+</h4>
+<div class='row'>
+<div class='col-sm-6'>
+<ul class='list-unstyled quarter-margin-bottom no-margin-right'>
+<li>
+<a href='/public/about'>
+Who we are
+</a>
+</li>
+<li>
+<a href='/public/about-the-pmp-exam'>
+About the PMP exam
+</a>
+</li>
+<li>
+<a href='/public/about/books'>
+Our books and website
+</a>
+</li>
+</ul>
+</div>
+<div class='col-sm-6'>
+<ul class='list-unstyled quarter-margin-bottom'>
+<li>
+<a href='/public/articles'>
+PMP articles
+</a>
+</li>
+<li>
+<a href='/public/about/contact'>
+Contact
+</a>
+</li>
+<li>
+<a href='/public/about/newsletter'>
+Get our newsletter
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='col-sm-4'>
+<div class='padded'>
+<img src="images/public/dropdowns/dropdown_corporate.png" class="img-responsive" alt="Dropdown corporate" />
+</div>
+</div>
+</div>
+</ul>
+
+</a>
+</li>
+</ul>
+</nav>
+<nav class='pull-right checkout-btn-wrapper'>
+<a class='btn btn-primary' href='/public/checkout'>
+<i class='fa fa-shopping-cart'></i>
+Cart
+</a>
+</nav>
+</div>
+
+</div>
+</div>
+</div>
+</header>
+
+<!-- end menu -->
+<div id='mainContents'>
+<section class='invert-section no-padding-top no-padding-top no-padding-bottom'>
+<!-- {:style=>"background-image:url(images/slider/slide-1-bg.png);"} -->
+<div class='carousel slide' data-ride='carousel' id='home-slider'>
+<!-- Indicators -->
+<ol class='carousel-indicators'>
+<li class='active' data-slide-to='0' data-target='#home-slider'></li>
+<li data-slide-to='1' data-target='#home-slider'></li>
+<li data-slide-to='2' data-target='#home-slider'></li>
+<li data-slide-to='3' data-target='#home-slider'></li>
+<li data-slide-to='4' data-target='#home-slider'></li>
+<li data-slide-to='5' data-target='#home-slider'></li>
+<li data-slide-to='6' data-target='#home-slider'></li>
+<li data-slide-to='7' data-target='#home-slider'></li>
+<!-- %li.left{"data-slide"=>"prev","data-target" => "#home-slider"} -->
+<!-- %li.right{"data-slide"=>"next","data-target" => "#home-slider"} -->
+</ol>
+<div class='carousel-inner'>
+<div class='item active' style='background-image:url(images/slider/slide-4-bg.png);'>
+<div class='container'>
+<div class='row'>
+<div class='col-md-12'>
+<h1>
+PMP Job Openings
+</h1>
+<ul class='margin-bottom'>
+<li>
+Praesent eget orci eu arcu lobortis dictum at sed metus. Maecenas vitae convallis ante.
+</li>
+<li>
+Praesent eget orci eu arcu lobortis dictum at sed metus. Maecenas vitae convallis ante.
+</li>
+<li>
+Praesent eget orci eu arcu lobortis dictum at sed metus. Maecenas vitae convallis ante.
+</li>
+<li>
+Praesent eget orci eu arcu lobortis dictum at sed metus. Maecenas vitae convallis ante.
+</li>
+</ul>
+<div class='btns'>
+<a class='btn btn-default btn-lg half-margin-bottom' href='#'>
+POST A JOB NOW
+</a>
+<a class='btn btn-wire btn-lg half-margin-bottom' href='#'>
+LEARN MORE
+<i class='fa fa-arrow-circle-right'></i>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='item' style='background-image:url(images/slider/slide-1-bg.png);'>
+<div class='container'>
+<div class='row'>
+<div class='col-md-12'>
+<h1>
+Live PMP Classes Taught
+<br>
+Online by Veteran Instructors
+</h1>
+<ul class='margin-bottom'>
+<li>
+Attend a live instructor course from your personal  computer
+</li>
+<li>
+Flexible times and dates to meet busy work schedules
+</li>
+<li>
+35 Contact hours, PDUs, all course materials, and software included in price
+</li>
+<li>
+Less than half the cost of comparable classroom courses
+</li>
+<li>
+<strong>
+Starting at $1299.00 Save $405.00 Now
+</strong>
+</li>
+</ul>
+<div class='btns'>
+<a class='btn btn-default btn-lg half-margin-bottom' href='/public/live-pmp'>
+CLASS OVERVIEW
+</a>
+<a class='btn btn-wire btn-lg half-margin-bottom' href='/public/live-pmp/schedule-and-pricing'>
+SCHEDULE & PRICING
+<i class='fa fa-arrow-circle-right'></i>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='item' style='background-image:url(images/slider/slide-2-bg.png);'>
+<div class='container'>
+<div class='row'>
+<div class='col-md-12'>
+<h1>
+Still the Most Trusted
+<br>
+PMP Practice Exams
+<span class='extra-bold-font-name'>
+$59.00
+</span>
+</h1>
+<ul class='margin-bottom'>
+<li>
+Over 1,000 realistic PMP exam questions with more than 20 PMP mock exams
+</li>
+<li>
+Detailed explanations for every PMP exam question clarify correct answers.
+</li>
+<li>
+Professional: Prepare for your PMP exam with practice exams created by experts.
+</li>
+<li>
+All content based on PMBOKÂ® Guide - Fifth Edition PMP Exam
+</li>
+<li>
+<strong>
+90-Day Access to Professional PMP Exams - Access Instantly
+</strong>
+</li>
+</ul>
+<div class='btns'>
+<a class='btn btn-default btn-lg half-margin-bottom' href='/public/checkout'>
+add to cart
+</a>
+<a class='btn btn-wire btn-lg half-margin-bottom' href='/public/practice-pmp'>
+learn more
+</a>
+<a class='btn btn-wire btn-lg half-margin-bottom' href='javascript:void(0);' onclick='javascript:window.open(&#39;./public/uiExamDemoOverview.aspx&#39;,&#39;mywindow&#39;,&#39;width=800,height=600,menubar=no,location=no,resizable=yes, scrollbars=yes&#39;)'>
+try a demo
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='item' style='background-image:url(images/slider/slide-3-bg.png);'>
+<div class='container'>
+<div class='row'>
+<div class='col-md-12'>
+<h1>
+The
+Most Effective
+<br>
+On-Demand PMP Course Available
+</h1>
+<ul class='margin-bottom'>
+<li>
+On-demand PMP course to prepare and pass your PMP Exam
+</li>
+<li>
+Self-paced, interactive lessons in studio quality
+</li>
+<li>
+Practice tests, Mindmap study kits, PMI application guide and much more
+</li>
+<li>
+Includes 35 PMI contact hours required to take the PMP exam
+</li>
+<li>
+<strong>
+90-Day Access for Only $599.00 Save $250.00 Now
+</strong>
+</li>
+</ul>
+<div class='btns'>
+<a class='btn btn-default btn-lg half-margin-bottom' href='/public/checkout'>
+Register now
+</a>
+<a class='btn btn-wire btn-lg half-margin-bottom' href='/public/bootcamp'>
+learn more
+<i class='fa fa-arrow-circle-right'></i>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='item' style='background-image:url(images/slider/slide-5-bg.png);'>
+<div class='container'>
+<div class='row'>
+<div class='col-md-12'>
+<h1>
+Learn Scrum from the Pros!
+Live Scrum Classes Taught by
+Certified Scrum Trainers
+</h1>
+<ul class='margin-bottom'>
+<li>
+Learn Scrum in two days and get certified
+</li>
+<li>
+All classes taught by Certified Scrum Trainers (CSTs)
+</li>
+<li>
+Includes class materials and certification exam
+</li>
+<li>
+Guaranteed to become a Certified ScrumMaster!
+</li>
+<li>
+<strong>
+Starting at $1,599 Save $305 Now
+</strong>
+</li>
+</ul>
+<div class='btns'>
+<a class='btn btn-default btn-lg half-margin-bottom' href='/public/checkout'>
+Class Overview
+</a>
+<a class='btn btn-wire btn-lg half-margin-bottom' href='/public/bootcamp'>
+Schedule & Pricing
+<i class='fa fa-arrow-circle-right'></i>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='item' style='background-image:url(images/slider/slide-6-bg.png);'>
+<div class='container'>
+<div class='row'>
+<div class='col-md-12'>
+<h1>
+Live PMI-ACP Classes Taught
+<br>
+by Veteran Instructors
+</h1>
+<ul class='margin-bottom'>
+<li>
+<strong>
+New!
+</strong>
+Attend a live instructor course from your personal computer
+</li>
+<li>
+Flexible times and dates to meet busy work schedules
+</li>
+<li>
+21 Contact hours, PDUs, all course materials, and software included in price
+</li>
+<li>
+Less than half the cost of comparable classroom courses
+</li>
+<li>
+<strong>
+Starting at $1,294 Save $405 Now
+</strong>
+</li>
+</ul>
+<div class='btns'>
+<a class='btn btn-default btn-lg half-margin-bottom' href='/public/checkout'>
+Class Overview
+</a>
+<a class='btn btn-wire btn-lg half-margin-bottom' href='/public/bootcamp'>
+Schedule & Pricing
+<i class='fa fa-arrow-circle-right'></i>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='item' style='background-image:url(images/slider/slide-7-bg.png);'>
+<div class='container'>
+<div class='row'>
+<div class='col-md-12'>
+<h1>
+The Most Trusted PMI-ACP
+<br>
+Practice Exams -
+<strong>
+Now $59.00
+</strong>
+</h1>
+<ul class='margin-bottom'>
+<li>
+Over 1,000 realistic PMI-ACP exam questions including mock exams and quizzes
+</li>
+<li>
+Detailed explanations for every PMI-ACP exam question clarify correct answers.
+</li>
+<li>
+Prepare for your PMI-ACP exam with practice exams created by experts.
+</li>
+<li>
+All content based on the official PMI-ACP Exam outline
+</li>
+<li>
+90-Day Access to Professional PMI-ACP Exams - Access Instantly
+</li>
+<li>
+<strong>
+Was $99.00 Save $40.00 Now
+</strong>
+</li>
+</ul>
+<div class='btns'>
+<a class='btn btn-default btn-lg half-margin-bottom' href='/public/checkout'>
+Register now
+</a>
+<a class='btn btn-wire btn-lg half-margin-bottom' href='/public/bootcamp'>
+Learn more
+</a>
+<a class='btn btn-wire btn-lg half-margin-bottom' href='/public/bootcamp'>
+Try a Demo
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='item' style='background-image:url(images/slider/slide-8-bg.png);'>
+<div class='container'>
+<div class='row'>
+<div class='col-md-12'>
+<h1>
+The Most Effective On-Demand
+<br>
+PMI-ACP Course Available
+</h1>
+<ul class='margin-bottom'>
+<li>
+Learn about the most popular Agile methodologies
+</li>
+<li>
+Self-paced, interactive lessons in studio quality
+</li>
+<li>
+50+ lessons, practice tests, study guide and much more
+</li>
+<li>
+21 PMI contact hours included to pass the PMI-ACP certification exam
+</li>
+<li>
+<strong>
+90-Day Access for Only $499.00 Save $250.00 Now
+</strong>
+</li>
+</ul>
+<div class='btns'>
+<a class='btn btn-default btn-lg half-margin-bottom' href='/public/checkout'>
+Register now
+</a>
+<a class='btn btn-wire btn-lg half-margin-bottom' href='/public/bootcamp'>
+learn more
+<i class='fa fa-arrow-circle-right'></i>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</section>
+<section>
+<div class='container'>
+<div class='row'>
+<div class='col-lg-12'>
+<div class='text-center'>
+<h6 class='text-muted'>
+TRUSTED BY SOME OF THE WORLD'S SMARTEST COMPANIES...
+</h6>
+<img src="images/logos.png" class="img-responsive margin-auto" width="1000px" alt="Logos" />
+</div>
+</div>
+</div>
+</div>
+</section>
+<div class='container'>
+<hr>
+</div>
+<section>
+<div class='container'>
+<div class='row'>
+<div class='col-sm-12'>
+<div class='text-center'>
+<h2>
+Don’t take our word for it
+</h2>
+</div>
+</div>
+</div>
+<div class='row margin-top'>
+<div class='col-md-6'>
+<div class='panel'>
+<div class='panel-body padding-top'>
+<div class='col-sm-4'>
+<img src="images/medal_prep.png" class="img-responsive margin-auto margin-bottom" width="120" alt="Medal prep" />
+</div>
+<div class='col-sm-8'>
+<p class='half-margin-bottom'>
+Crush the PM Exam has just named PMtraiing as the
+<span class='bold-font-name'>
+#1 PMI-ACP prep course
+</span>
+of 2017!
+</p>
+<p>
+<a href='' style='border:none;'>
+Read the full review
+</a>
+|
+<a href='' style='border:none;'>
+View course
+</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<div class='col-md-6'>
+<div class='panel'>
+<div class='panel-body padding-top'>
+<div class='col-sm-4'>
+<img src="images/medal_live.png" class="img-responsive margin-auto margin-bottom" width="120" alt="Medal live" />
+</div>
+<div class='col-sm-8'>
+<p class='half-margin-bottom'>
+Crush the PM Exam has just named PMtraiing as the
+<span class='bold-font-name'>
+#1 PMP Live-Online
+</span>
+of 2017!
+</p>
+<p>
+<a href='' style='border:none;'>
+Read the full review
+</a>
+|
+<a href='' style='border:none;'>
+View course
+</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<div class='container'>
+<hr>
+</div>
+<section>
+<div class='container'>
+<div class='row'>
+<div class='col-sm-12'>
+<div class='text-center'>
+<h2>
+PMP Test Simulation Questions
+</h2>
+<p>
+Community preformance by subject area
+</p>
+</div>
+</div>
+</div>
+<div class='row'>
+<div class='col-sm-1'></div>
+<div class='col-sm-10'>
+<script>
+  $(function () {
+          $('#preformance-chart').highcharts({
+              chart: {
+                  type: 'bar',
+                  backgroundColor: '#fff'
+              },
+              title: {
+                  text: ''
+              },
+              subtitle: {
+                  text: ''
+              },
+              legend: {
+                  enabled: false
+              },
+              xAxis: {
+                  categories: ['Prof. Responsibility', 'Integration Mgt.', 'Communications Mgt.', 'Human Resource Mgt.', 'Project Framework','Time Mgt.','Scope Mgt.','Quality Mgt.','Risk Mgt.','Stakeholder Mgt.','Cost Mgmt.','Producement Mgmt.'],
+                  title: {
+                      text: null
+                  }
+              },
+              yAxis: {
+                  min: 0,
+                  tickPixelInterval: 150,
+                  labels: {
+                      overflow: 'justify'
+                  }
+              },
+              tooltip: {
+                  valueSuffix: ' %'
+              },
+              plotOptions: {
+                  bar: {
+                      dataLabels: {
+                          enabled: true
+                      }
+                  }
+              },
+              credits: {
+                  enabled: false
+              },
+              series: [{
+              		name: 'preformance',
+                  data: [86.24, 86.05, 85.56, 84.87, 83.79,, 83.68, 83.52,, 82.54, 81.83, 78.50, 78.05, 83.79,77.07]
+              }]
+          });
+      });
+</script>
+<div id='preformance-chart'></div>
+
+</div>
+<div class='col-sm-1'></div>
+</div>
+</div>
+</section>
+<div class='container'>
+<hr>
+</div>
+<section>
+<div class='container'>
+<div class='row'>
+<div class='col-sm-5'>
+<div class='double-margin-bottom'>
+<h2 class='margin-top no-margin-top-sm'>
+<strong>
+Live
+</strong>
+PMP Exam Community Performance
+</h2>
+<p>
+To the right is a live calculation of the top 5 PMP process areas based on 370,653 PMP practice exams taken by PMTraining exam prep students.
+</p>
+</div>
+</div>
+<div class='col-sm-1'></div>
+<div class='col-sm-6'>
+<table class='table table-striped table-responsive'>
+<thead>
+<tr>
+<th>
+<h5 class='text-color'>
+Live Rank
+</h5>
+</th>
+<th>
+<h5 class='text-color'>
+PMBOK Guidttte Knowledge Area
+</h5>
+</th>
+<th>
+<h5 class='text-color'>
+Community Average
+</h5>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class='text-center'>1</td>
+<td>Project Procurement Management</td>
+<td class='text-center'>82.69%</td>
+</tr>
+<tr>
+<td class='text-center'>2</td>
+<td>Project Time Management</td>
+<td class='text-center'>82.69%</td>
+</tr>
+<tr>
+<td class='text-center'>3</td>
+<td>Project Human Resource Management</td>
+<td class='text-center'>82.69%</td>
+</tr>
+<tr>
+<td class='text-center'>4</td>
+<td>Prof. Responsibility</td>
+<td class='text-center'>82.69%</td>
+</tr>
+<tr>
+<td class='text-center'>5</td>
+<td>Project Cost Management</td>
+<td class='text-center'>82.69%</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+</section>
+<div class='container'>
+<hr>
+</div>
+<section>
+<div class='container'>
+<div class='row'>
+<div class='col-sm-12'>
+<div class='text-center'>
+<h2>
+PMP Test Simulation Questions
+</h2>
+<p>
+Community preformance by subject area
+</p>
+</div>
+</div>
+</div>
+<div class='row'>
+<div class='col-sm-1'></div>
+<div class='col-sm-10'>
+<script>
+  $(function () {
+          $('#preformance-chart').highcharts({
+              chart: {
+                  type: 'bar',
+                  backgroundColor: '#fff'
+              },
+              title: {
+                  text: ''
+              },
+              subtitle: {
+                  text: ''
+              },
+              legend: {
+                  enabled: false
+              },
+              xAxis: {
+                  categories: ['Prof. Responsibility', 'Integration Mgt.', 'Communications Mgt.', 'Human Resource Mgt.', 'Project Framework','Time Mgt.','Scope Mgt.','Quality Mgt.','Risk Mgt.','Stakeholder Mgt.','Cost Mgmt.','Producement Mgmt.'],
+                  title: {
+                      text: null
+                  }
+              },
+              yAxis: {
+                  min: 0,
+                  tickPixelInterval: 150,
+                  labels: {
+                      overflow: 'justify'
+                  }
+              },
+              tooltip: {
+                  valueSuffix: ' %'
+              },
+              plotOptions: {
+                  bar: {
+                      dataLabels: {
+                          enabled: true
+                      }
+                  }
+              },
+              credits: {
+                  enabled: false
+              },
+              series: [{
+              		name: 'preformance',
+                  data: [86.24, 86.05, 85.56, 84.87, 83.79,, 83.68, 83.52,, 82.54, 81.83, 78.50, 78.05, 83.79,77.07]
+              }]
+          });
+      });
+</script>
+<div id='preformance-chart'></div>
+
+</div>
+<div class='col-sm-1'></div>
+</div>
+</div>
+</section>
+<section class='invert-section get-started'>
+<div class='container'>
+<div class='row'>
+<div class='col-lg-12'>
+<div class='text-center'>
+<a class='btn btn-white btn-lg' href='/public/checkout'>
+Register Now for PMP Practice Exams
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+</div>
+<!-- end main content -->
+<footer id='footer'>
+<div class='container'>
+<div class='row'>
+<div class='col-sm-3'>
+<img src="images/logo_no_tag.png" alt="Logo no tag" />
+<p>
+<small>
+©
+<a href='http://ssilogic.com/'>
+SSILogic
+</a>
+2014
+</small>
+</p>
+<img src="images/pmi_logo_3.png" class="pmi-logo" alt="Pmi logo 3" />
+<p class='bold-font-name'>
+<small>
+#3962
+</small>
+</p>
+</div>
+<div class='col-sm-2'>
+<h6 class='half-margin-bottom'>
+about
+</h6>
+<ul class='list-unstyled'>
+<li>
+<a href='http://ssilogic.us1.list-manage1.com/subscribe?u=49a39df0bbdcb06004bfed7de&amp;id=42ef79129f' target='_blank'>
+Newsletter
+</a>
+</li>
+<li>
+<a href='/public/about-the-pmp-exam'>
+About Us
+</a>
+</li>
+</ul>
+</div>
+<div class='col-sm-3'>
+<h6 class='half-margin-bottom'>
+more info
+</h6>
+<ul class='list-unstyled'>
+<li>
+<a href='/public/faqs#disclaimer'>
+Disclaimer
+</a>
+</li>
+<li>
+<a href='/public/about/books'>
+PMI-ACP Exam Prep
+</a>
+</li>
+<li>
+<a href='http://pmperfect.affiliateharvest.com/' target='_blank'>
+PMTraining Affiliate Program
+</a>
+</li>
+</ul>
+</div>
+<div class='col-sm-2'>
+<h6 class='half-margin-bottom'>
+exams
+</h6>
+<ul class='list-unstyled'>
+<li>
+<a href='/public/about/books'>
+CISSP Practice Exams
+</a>
+</li>
+<li>
+<a href='/public/about/books'>
+PMI-ACP Exam Prep
+</a>
+</li>
+<li>
+<a href='/public/about/books'>
+ITIL Practice Exams
+</a>
+</li>
+</ul>
+</div>
+<div class='col-sm-2'>
+<h6 class='half-margin-bottom'>
+contact
+</h6>
+<ul class='list-unstyled'>
+<li>
+<a href='/public/about/contact'>
+Contact Us
+</a>
+</li>
+<li class='social-links'>
+<a class='social-font-name facebook' href='https://www.facebook.com/SSILOGICNEWS' target='_blank'>F</a>
+<a class='social-font-name twitter' href='https://twitter.com/ssilogicnews' target='_blank'>T</a>
+<a class='social-font-name linkedin' href='http://www.linkedin.com/company/ssi-logic' target='_blank'>I</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</footer>
+<!-- /classes -->
+<div aria-hidden='true' class='modal fade' id='showClassModal' role='dialog'>
+<div class='modal-dialog modal-lg'>
+<div class='modal-content'></div>
+</div>
+</div>
+<!-- /bootcamp -->
+<div aria-hidden='true' class='modal fade' id='showBootcampModal' role='dialog'>
+<div class='modal-dialog modal-lg'>
+<div class='modal-content'></div>
+</div>
+</div>
+<!-- /demo -->
+<div aria-hidden='true' class='modal fade' id='demoModal' role='dialog'>
+<div class='modal-dialog modal-lg'>
+<div class='modal-content'></div>
+</div>
+</div>
+
+</body>
+</head>
 </html>

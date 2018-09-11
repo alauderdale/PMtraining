@@ -8,7 +8,6 @@
  */
 
 /*global HighchartsAdapter*/
-
 (function (H) {
 
 	"use strict";

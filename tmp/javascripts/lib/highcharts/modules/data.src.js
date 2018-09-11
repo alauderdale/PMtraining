@@ -84,7 +84,6 @@
 // JSLint options:
 /*global jQuery */
 
-
 (function (Highcharts) {	
 	
 	// Utilities

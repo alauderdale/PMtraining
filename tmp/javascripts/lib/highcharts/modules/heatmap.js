@@ -5,7 +5,6 @@
 
  License: www.highcharts.com/license
 */
-
 (function(g){var j=g.Axis,x=g.Chart,o=g.Color,y=g.Legend,s=g.LegendSymbolMixin,t=g.Series,u=g.getOptions(),k=g.each,p=g.extend,z=g.extendClass,l=g.merge,q=g.pick,v=g.numberFormat,m=g.seriesTypes,w=g.wrap,n=function(){},r=g.ColorAxis=function(){this.isColorAxis=!0;this.init.apply(this,arguments)};p(r.prototype,j.prototype);p(r.prototype,{defaultColorAxisOptions:{lineWidth:0,gridLineWidth:1,tickPixelInterval:72,startOnTick:!0,endOnTick:!0,offset:0,marker:{animation:{duration:50},color:"gray",width:0.01},
 labels:{overflow:"justify"},minColor:"#EFEFFF",maxColor:"#003875",tickLength:5},init:function(b,a){var d=b.options.legend.layout!=="vertical",c;c=l(this.defaultColorAxisOptions,{side:d?2:1,reversed:!d},a,{isX:d,opposite:!d,showEmpty:!1,title:null,isColor:!0});j.prototype.init.call(this,b,c);a.dataClasses&&this.initDataClasses(a);this.initStops(a);this.isXAxis=!0;this.horiz=d;this.zoomEnabled=!1},tweenColors:function(b,a,d){var c=a.rgba[3]!==1||b.rgba[3]!==1;return(c?"rgba(":"rgb(")+Math.round(a.rgba[0]+
 (b.rgba[0]-a.rgba[0])*(1-d))+","+Math.round(a.rgba[1]+(b.rgba[1]-a.rgba[1])*(1-d))+","+Math.round(a.rgba[2]+(b.rgba[2]-a.rgba[2])*(1-d))+(c?","+(a.rgba[3]+(b.rgba[3]-a.rgba[3])*(1-d)):"")+")"},initDataClasses:function(b){var a=this,d=this.chart,c,e=0,h=this.options;this.dataClasses=c=[];k(b.dataClasses,function(f,i){var g,f=l(f);c.push(f);if(!f.color)h.dataClassColor==="category"?(g=d.options.colors,f.color=g[e++],e===g.length&&(e=0)):f.color=a.tweenColors(o(h.minColor),o(h.maxColor),i/(b.dataClasses.length-
