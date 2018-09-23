@@ -1169,6 +1169,14 @@ footer#footer {
   .faq-sidebar ul li {
     line-height: 18px; }
 
+ul.logos-list {
+  list-style: none; }
+  ul.logos-list li img {
+    height: 70px; }
+    @media (max-width: 768px) {
+      ul.logos-list li img {
+        height: 40px; } }
+
 @media (max-width: 1200px) {
   .main-nav ul.main-links li {
     margin-right: 0;

@@ -1,0 +1,11 @@
+ul.logos-list{
+	list-style:none;
+	li{
+		img{
+			height:70px;
+			  @include breakpoint(sm) {
+			    height:40px;
+			  }
+		}
+	}
+}
