@@ -971,5 +971,8 @@ section.faq-container h2 {
   .text-left-sm {
     text-align: left; }
 
+  .text-center-sm {
+    text-align: center !important; }
+
   .no-padding-left-sm {
     padding-left: 0 !important; } }
