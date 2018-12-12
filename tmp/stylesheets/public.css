@@ -1180,6 +1180,9 @@ ul.logos-list {
 img.contact-logo-mobile {
   margin-bottom: 24px !important; }
 
+.newsletter-container {
+  position: relative; }
+
 .feature-panel {
   padding: 36px;
   -webkit-box-align: center;
@@ -1190,12 +1193,11 @@ img.contact-logo-mobile {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   bottom: 0;
   width: 500px;
-  min-height: 650px;
   height: 100%;
   overflow: hidden;
   background: #138abb;
@@ -1212,12 +1214,12 @@ img.contact-logo-mobile {
       color: #A9C2D6 !important; }
   .feature-panel .contact-quote {
     position: absolute;
-    bottom: 3%;
+    bottom: 10%;
     color: white; }
     .feature-panel .contact-quote p {
       padding-right: 36px; }
       .feature-panel .contact-quote p.quote-text {
-        font-size: 21px;
+        font-size: 18px;
         font-family: "museo_sans_300regular", Helvetica, Arial, sans-serif;
         line-height: 25px; }
     .feature-panel .contact-quote .cite {

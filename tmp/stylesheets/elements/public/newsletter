@@ -8,9 +8,9 @@ Error: Undefined variable: "$baseline".
 4:     margin-bottom: $baseline!important;
 5: }
 6: 
-7: 
-8: .feature-panel{
-9:     padding:$baseline*1.5;
+7: .newsletter-container{
+8:     position:relative;
+9: }
 
 Backtrace:
 /Users/alauderdale/Desktop/DT items/PMtraining/source/stylesheets/elements/public/newsletter.scss:4
@@ -143,4 +143,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$baseline\".\A         on line 4 of /Users/alauderdale/Desktop/DT items/PMtraining/source/stylesheets/elements/public/newsletter.scss\A \A 1: $panel-width:500px;\A 2: \A 3: img.contact-logo-mobile{\A 4:     margin-bottom: $baseline!important;\A 5: }\A 6: \A 7: \A 8: .feature-panel{\A 9:     padding:$baseline*1.5;"; }
+  content: "Error: Undefined variable: \"$baseline\".\A         on line 4 of /Users/alauderdale/Desktop/DT items/PMtraining/source/stylesheets/elements/public/newsletter.scss\A \A 1: $panel-width:500px;\A 2: \A 3: img.contact-logo-mobile{\A 4:     margin-bottom: $baseline!important;\A 5: }\A 6: \A 7: .newsletter-container{\A 8:     position:relative;\A 9: }"; }
