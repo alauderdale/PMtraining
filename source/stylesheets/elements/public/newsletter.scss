@@ -4,6 +4,9 @@ img.contact-logo-mobile{
     margin-bottom: $baseline!important;
 }
 
+.newsletter-container{
+    position:relative;
+}
 
 .feature-panel{
     padding:$baseline*1.5;
@@ -15,12 +18,11 @@ img.contact-logo-mobile{
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     bottom:0;
     width: $panel-width;
-    min-height: 650px;
     height: 100%;
     overflow: hidden;
     background: $primary-color;
@@ -42,12 +44,12 @@ img.contact-logo-mobile{
     }
     .contact-quote{
         position:absolute;
-        bottom:3%;
+        bottom:10%;
         color:white;
         p{
             padding-right:$baseline*1.5;
             &.quote-text{
-                font-size: 21px;
+                font-size: 18px;
                 font-family: $regular-font-name;
                 line-height: 25px;
             }
