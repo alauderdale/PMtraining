@@ -1,0 +1,85 @@
+;;;
+
+"layout": "public",
+"title": "Live PMP Classes",
+"right_title": "", 
+"activeclass": "live",
+"subnav_data": "live_pmp_subnav",
+"right_title": "REGISTER BY PHONE 1.800.581.9819", 
+"subtitle": "Schedule & Pricing"
+
+;;;
+
+/ =partial"/public/shared/page-head-small", locals:{headerClass:"live-pmp-header"}
+
+
+%section.no-padding-bottom
+	.container
+		.row
+			.col-lg-12
+				=partial"/public/shared/subnav"
+
+%section
+	.container
+		.row
+			.col-sm-3.col-md-2.quarter-padding-top.hidden-xs
+				%h5.pull-right
+					Your Time Zone:
+			.col-sm-4.col-md-4
+				%h5.visible-xs.quarter-margin-bottom
+					Your Time Zone:
+				%select#ctl00_body_timeZoneDropDownList.form-control
+					%option
+						Select timezone
+			.col-sm-5.col-md-6
+				%h5.text-right
+					%a.tooltip-up.margin-top.margin-bottom.margin-right{"data-original-title" => "Interested in a private PMP class for your group? Request a fast, free quote.", "data-toggle" => "tooltip", :href => "/corporate-training/private-training-classes", :title => ""}
+						Request a Private Class for your Team
+					%a{:href=>"#schedule-more"}
+						Learn more about the schedule
+					
+
+					
+		.row
+			.col-sm-12
+				=partial'/public/live-pmp/schedule-table'
+.container
+	%hr.no-margin-top.no-margin-bottom
+%section#schedule-more
+	.container
+		.row
+			.col-sm-7
+				%h2
+					PMP Class Schedule and Pricing
+
+				%p
+					All Classes Taught Online by Live Instructors - 100% Exam Pass Guarantee Our Live Virtual PMP Classes deliver the same content and materials as the classroom, with a live instructor, in real time, via the Internet. It is completely interactive- you will talk with your instructor and your peers.
+				%p
+					%strong
+						Easily Enroll in a Live PMP Class Below
+				%ul.list-default
+					%li
+						Attend class from any computer with an Internet connection (PC or Mac)
+					%li
+						Instant email confirmation and instructor follow-up after enrollment
+					%li
+						Exam pass guarantee included with all classes
+					%li
+						Includes class materials, PMI Contact Hours, online exam portal and
+						%a{:href=>"/public/live-pmp/included"} 
+							more
+			.col-sm-5 
+				=image_tag"public/guy-video.png", :class=>"img-responsive margin-auto double-margin-bottom" 
+				.text-center
+					%p.text-center
+						%span.primary-text-color
+							"I passed the PMI PMP exam yesterday. The material from your class and the extra tools that came with the course definitely prepared me for the exam."
+						%br
+
+						%small
+							%em
+								PMTraining Student Portal Included with Class Enrollment! 
+
+
+
+                           
