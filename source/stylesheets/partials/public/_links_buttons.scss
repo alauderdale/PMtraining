@@ -78,6 +78,10 @@ a{
 			border-color:white;
 		}
 	}
+	&.btn-wire-primary{
+		color:$primary-color;
+		border:1px solid $primary-color;
+	}
 	&.btn-success{
 		background-color:$green-color;
 		border-color:$green-color;

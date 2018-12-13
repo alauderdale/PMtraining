@@ -930,6 +930,9 @@ a {
     .btn.btn-wire:hover {
       background-color: rgba(255, 255, 255, 0.2);
       border-color: white; }
+  .btn.btn-wire-primary {
+    color: #138abb;
+    border: 1px solid #138abb; }
   .btn.btn-success {
     background-color: #85C342;
     border-color: #85C342; }
