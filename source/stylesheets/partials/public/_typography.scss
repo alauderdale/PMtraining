@@ -164,10 +164,24 @@ $text-column-gutter-width: $baseline;
   }
 }
 
+.light-text-color{
+  color:tint($text-color,20%)!important;
+  p{
+    color:tint($text-color,20%)!important;
+  }
+}
+
 .secondary-text-color{
   color:$secondary-color!important;
   p{
     color:$secondary-color!important;
+  }
+}
+
+.text-color{
+  color:$text-color!important;
+  p{
+    color:$text-color!important;
   }
 }
 

@@ -221,10 +221,20 @@ img {
   .primary-text-color p {
     color: #138abb !important; }
 
+.light-text-color {
+  color: #767b7f !important; }
+  .light-text-color p {
+    color: #767b7f !important; }
+
 .secondary-text-color {
   color: #f1af29 !important; }
   .secondary-text-color p {
     color: #f1af29 !important; }
+
+.text-color {
+  color: #545a5f !important; }
+  .text-color p {
+    color: #545a5f !important; }
 
 .white-text h1, .panel.primary-color h1, .panel.success-color h1, .panel.instructor-panel h1, .panel .panel-heading.primary-color h1, .well.primary-color h1, .white-text h2, .panel.primary-color h2, .panel.success-color h2, .panel.instructor-panel h2, .panel .panel-heading.primary-color h2, .well.primary-color h2, .white-text h3, .panel.primary-color h3, .panel.success-color h3, .panel.instructor-panel h3, .panel .panel-heading.primary-color h3, .well.primary-color h3, .white-text h4, .panel.primary-color h4, .panel.success-color h4, .panel.instructor-panel h4, .panel .panel-heading.primary-color h4, .well.primary-color h4, .white-text h5, .panel.primary-color h5, .panel.success-color h5, .panel.instructor-panel h5, .panel .panel-heading.primary-color h5, .well.primary-color h5, .white-text h6, .panel.primary-color h6, .panel.success-color h6, .panel.instructor-panel h6, .panel .panel-heading.primary-color h6, .well.primary-color h6, .white-text p, .panel.primary-color p, .panel.success-color p, .panel.instructor-panel p, .panel .panel-heading.primary-color p, .well.primary-color p, .white-text small, .panel.primary-color small, .panel.success-color small, .panel.instructor-panel small, .panel .panel-heading.primary-color small, .well.primary-color small, .white-text li, .panel.primary-color li, .panel.success-color li, .panel.instructor-panel li, .panel .panel-heading.primary-color li, .well.primary-color li {
   color: white !important; }
@@ -787,6 +797,40 @@ ul.nav-sidebar {
     ul.nav-sidebar li.active a {
       color: #083547;
       background: #f2f2f2; }
+
+.buy-options .list-group-inner {
+  position: relative; }
+.buy-options .list-group-item {
+  user-select: none;
+  border-width: 2px;
+  margin-bottom: 10px; }
+.buy-options .list-group input[type="checkbox"] {
+  display: none; }
+  .buy-options .list-group input[type="checkbox"] + .list-group-item {
+    cursor: pointer; }
+    .buy-options .list-group input[type="checkbox"] + .list-group-item:before {
+      content: "";
+      margin-right: 1.3em; }
+  .buy-options .list-group input[type="checkbox"]:checked + .list-group-item {
+    background-color: #e7f3f7;
+    border-color: #1384b2; }
+    .buy-options .list-group input[type="checkbox"]:checked + .list-group-item:before {
+      color: inherit; }
+.buy-options .list-group input[type="radio"] {
+  position: absolute;
+  top: 23px;
+  left: 15px;
+  z-index: 99; }
+  .buy-options .list-group input[type="radio"] + .list-group-item {
+    cursor: pointer; }
+    .buy-options .list-group input[type="radio"] + .list-group-item:before {
+      content: "";
+      margin-right: 1.3em; }
+  .buy-options .list-group input[type="radio"]:checked + .list-group-item {
+    background-color: #e7f3f7;
+    border-color: #1384b2; }
+    .buy-options .list-group input[type="radio"]:checked + .list-group-item:before {
+      color: inherit; }
 
 .panel-group {
   font-size: .8em; }
