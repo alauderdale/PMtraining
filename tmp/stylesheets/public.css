@@ -644,6 +644,28 @@ table.table {
     table.table.bold-table .btn {
       font-family: "museo_sans_900regular", Helvetica, Arial, sans-serif; }
 
+td.flash-sale {
+  background: #0a455e !important;
+  color: white; }
+  td.flash-sale .flash-title {
+    font-weight: 900;
+    font-size: 19px; }
+  td.flash-sale .flash-savings {
+    font-weight: 700;
+    font-size: 15px; }
+  td.flash-sale .flash-price-change {
+    line-height: 35px; }
+  td.flash-sale .flash-old-price {
+    font-size: 14px;
+    vertical-align: middle;
+    margin-right: 5px; }
+  td.flash-sale .flash-new-price {
+    font-weight: 900;
+    font-size: 24px;
+    vertical-align: middle; }
+  td.flash-sale .flash-counter {
+    font-size: 11px; }
+
 .carousel .btns {
   z-index: 10;
   position: absolute; }

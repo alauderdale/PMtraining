@@ -37,3 +37,35 @@ table.table{
 		}
 	}
 }
+
+//flash sale
+
+td.flash-sale{
+	background: shade($primary-color,50%)!important;
+	color:white;
+	.flash-title{
+		font-weight: 900;
+		font-size:19px;
+	}
+	.flash-savings{
+		font-weight: 700;
+		font-size:15px;
+	}
+	.flash-price-change{
+		line-height: 35px;
+	}
+	.flash-old-price{
+		font-size:14px;
+		vertical-align: middle;
+		margin-right:5px;
+	}
+	.flash-new-price{
+		font-weight: 900;
+		font-size:24px;
+		vertical-align: middle;
+
+	}
+	.flash-counter{
+		font-size:11px;
+	}
+}

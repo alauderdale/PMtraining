@@ -19,6 +19,36 @@
       %th 
 
   %tbody
+    %tr
+      %td.text-center 
+        %strong
+          %a{"data-toggle"=>"modal", :href=>"/public/classes/show", "data-target"=>"#showClassModal"}
+            View Class Details
+      %td.text-center 
+        %strong
+          Monday, July 07, 2014 
+      %td.text-center 
+        Mon / Weds Evenings (6 weeks)
+      %td.text-center 
+        8PM  to 10PM (EST)
+      %td.text-center.flash-sale
+        %span.flash-title
+          FLASH SALE
+        %br
+        %span.flash-savings
+          50% OFF
+        %br
+        %span.flash-price-change
+          %span.line-through.flash-old-price
+            $1,380.00 
+          %span.flash-new-price
+            $100.00
+        %br
+        %span.flash-counter
+          SALE ENDS IN: 23:33:00
+      %td.text-center
+        %a.btn.btn-success{:href=>"/public/checkout"}
+          Enroll Now
     -4.times do
       %tr
         %td.text-center 
