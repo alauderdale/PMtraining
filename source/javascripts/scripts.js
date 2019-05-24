@@ -91,6 +91,8 @@ $(document).ready(function(){
 
   $(".expand-height").click(function(){
     $(this).prev().addClass("height-auto");
+    $(this).remove();
+
   });
 
 });
