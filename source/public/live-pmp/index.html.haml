@@ -9,7 +9,7 @@
 
 ;;;
 
-=partial"/public/shared/page-head-small", locals:{headerClass:"live-pmp-header"}
+
 
 
 %section.no-padding-bottom
@@ -19,543 +19,494 @@
 				=partial"/public/shared/subnav"
 %section
 	.container
-		.row.double-margin-bottom
-			.col-sm-12
-				.panel
-					.panel-body
-						%p.text-center
-							=image_tag'medal_prep.png', :class=>"margin-right", :width=>"80"
-							Crush the PM Exam has just named PMtraiing as the 
-							%span.bold-font-name
-								:escaped
-									#1 PMP Live-Online
-							of 2017!
-							%a.quarter-margin-left{:href=>"#", :style=>"border:none;"}
-								Read the review
+		/ .row.double-margin-bottom
+		/ 	.col-sm-12
+		/ 		.panel
+		/ 			.panel-body
+		/ 				%p.text-center
+		/ 					=image_tag'medal_prep.png', :class=>"margin-right", :width=>"80"
+		/ 					Crush the PM Exam has just named PMtraiing as the 
+		/ 					%span.bold-font-name
+		/ 						:escaped
+		/ 							#1 PMP Live-Online
+		/ 					of 2017!
+		/ 					%a.quarter-margin-left{:href=>"#", :style=>"border:none;"}
+		/ 						Read the review
 		.row
-			.col-sm-6
-				%h2
-					Attend Live PMP Classes Online
-				%p
-					So Effective, We Guarantee You Will Pass the PMP Exam.Our Live Virtual PMP classes are taught by expert instructors, who also bring their real-world and relevant experience to the students. Now offering evening and weekend classes! 
-				%ul.list-default
-					%li
-						Taught live by veteran PMP training instructors
-					%li
-						Save time and money by training without travel
-					%li
-						Interact with peers and expert instructors
-					%li
-						Attend this live class from any Internet-connected computer
-					%li
-						Now offering night, weekday, and weekend classes
-				%h4
-					Contact Hours and PDUs Included with Class
-				%h4
-					Current PMP Exam Pass Rate
-					%span.medium-font-name
-						97% First Time Pass
-
-			.col-sm-6
+			.col-sm-6.col-sm-push-6
 				.padded
-					%a.fb-video{:href=>"http://s3.amazonaws.com/ssilogic-video/flowplayer-3.2.7.swf"}
-						=image_tag'video_thumb.png' , :class=>"img-responsive margin-auto margin-bottom", :width=>"317px"
-					%blockquote.text-center
-						%span.primary-text-color
-							"I passed the PMI PMP exam yesterday. .. The material from your class and the extra tools that came with the course definitely prepared me for the exam." 
-							%footer
-								Jim Cavanaugh, PMP, US
-					.text-center
-						%a.btn.btn-default{href:"/public/live-pmp/schedule-and-pricing"}
-							Schedule & Pricing
+					%img.img-responsive.double-margin-bottom{:src=>"/images/public/live/chart-dude.svg"}
+			.col-sm-6.col-sm-pull-6
+				%h2.bold-font-name
+					Attend Live PMP Classes Online
+				%p.body-large
+					Our Live Virtual Project Management Professional (PMP)® classes are taught by expert instructors, who also bring their real-world and relevant experience to the students. Now offering evening and weekend classes!
+				%a.btn.btn-default{href:"/public/live-pmp/schedule-and-pricing"}
+					Schedule & Pricing
+		%hr
+		.row
+			.col-sm-1
+			.col-sm-10
+				.padding-top.padding-bottom
+					.blockquote-bold
+						%h2.bold-font-name.dark-text-color
+							Great class, the exam prep portal was an amazing component in addition to the excellent class... A great combination."
+						%h4.no-margin-bottom.primary-text-color
+							Bernard Gonzales
+						%h5.no-margin-bottom.loght-text-color.regular-font-name
+							(MBA, PMP)
+			.col-sm-1
+						
 .container
 	%hr.no-margin-top.no-margin-bottom
 %section.small-panels.off-white
 	.container
+		.row.double-padding-top.double-padding-bottom
+			.col-sm-6
+				%img.img-responsive.margin-auto.double-margin-bottom{:src=>"/images/public/live/chair-dude.svg"}
+			.col-sm-6
+				%h2.bold-font-name
+					A PMP Curriculum Focused on Exam Success
+				%p.body-large
+					Built around accelerated learning techniques and carefully designed learning materials, this intense, focused PMP training delivers a passing PMP® Exam score on your very first try. You will be prepared to take the PMP exam, following our carefully designed class curriculum.
 		.row
-			%h6.text-center.primary-text-color
-				A PMP Class Curriculum Focused on Passing the Exam
-			.col-sm-7
-				%h2
-					PMP Class Curriculum
-				%p
-					Built around accelerated learning techniques and carefully designed learning materials, this intense, focused PMP training delivers a passing PMP® Exam score on your very first try. 
-					%strong
-						You will be prepared to take the PMP exam, following our carefully designed class curriculum:
+			.col-lg-12
 				#accordion.panel-group
-					.panel.panel-default
-						.panel-heading
-							%h4.panel-title
-								%a{"data-parent" => "#accordion", "data-toggle" => "collapse", href: "#collapseOne"}
-									Introduction and PMP Exam overview
-						#collapseOne.panel-collapse.collapse
-							.panel-body
-								%p
-									Learn About the PMI Application Process
-									%br
-									Identify exam preparation key methodologies
-									%br
-									The Exam Itself
-					.panel.panel-default
-						.panel-heading
-							%h4.panel-title
-								%a{"data-parent" => "#accordion", "data-toggle" => "collapse", href: "#collapseTwo"}
-									The Project Management Framework
-						#collapseTwo.panel-collapse.collapse
-							.panel-body
-								%p
-									Define what a project is and what project management is
-									%br
-									Organization Influences on Project Management
-									%br
-									How to define a project life cycle
-									%br
-									Specify Influences of Organizational Structures on Project Management
-									%br
-									Complete Exercises
-									%br
-									Complete Knowledge Area Test
-									%br
-									Complete PMP Mock Exam (LITE) 
-					.panel.panel-default
-						.panel-heading
-							%h4.panel-title
-								%a{"data-parent" => "#accordion", "data-toggle" => "collapse", href: "#collapseThree"}
-									The Project Management Process Groups
-						#collapseThree.panel-collapse.collapse
-							.panel-body
-								%p
-									Initiating Process Group
-									%br
-									Planning Process Group
-									%br
-									Executing Process Group
-									%br
-									Monitoring and Controlling Process Group
-									%br
-									Closing Process Group
-									%br
-									Complete Exercises
-									%br
-									Complete Knowledge Area Test
-									%br
-									Complete PMP Mock Exam (LITE) 
-					.panel.panel-default
-						.panel-heading
-							%h4.panel-title
-								%a{"data-parent" => "#accordion", "data-toggle" => "collapse", href: "#collapseFour"}
-									Project Integration Management
-						#collapseFour.panel-collapse.collapse
-							.panel-body
-								%p
-									Develop Project Charter
-									%br
-									Project Selection
-									%br
-									Project Statement of Work 
-									%br
-									Develop Project Management Plan 
-									%br
-									Direct and Manage Project Work 
-									%br
-									Monitor and Control Project Work 
-									%br
-									Perform Integrated Change Control 
-									%br
-									Close Project or Phase 
-									%br
-									Complete Exercises
-									%br
-									Complete Knowledge Area Test
-									%br
-									Complete PMP Mock Exam (LITE) 
-					.panel.panel-default
-						.panel-heading
-							%h4.panel-title
-								%a{"data-parent" => "#accordion", "data-toggle" => "collapse", href: "#collapseFive"}
-									Project Scope Management
-						#collapseFive.panel-collapse.collapse
-							.panel-body
-								%p
-									Scope Management Plan
-									%br
-									Collect Requirements 
-									%br
-									Define Scope 
-									%br
-									Create Work Breakdown Structure “WBS” 
-									%br
-									Validate Scope 
-									%br
-									Control Scope 
-									%br
-									Complete Exercises
-									%br
-									Complete Knowledge Area Test
-									%br
-									Complete PMP Mock Exam (LITE) 
-					.panel.panel-default
-						.panel-heading
-							%h4.panel-title
-								%a{"data-parent" => "#accordion", "data-toggle" => "collapse", href: "#collapseSix"}
-									Project Time Management
-						#collapseSix.panel-collapse.collapse
-							.panel-body
-								%p
-									Schedule Management Plan 
-									%br
-									Define Activities 
-									%br
-									Sequence Activities 
-									%br
-									Estimating Activity Resources 
-									%br
-									Estimating Activity Durations 
-									%br
-									Develop Schedule 
-									%br
-									Control Schedule 
-									%br
-									Complete Exercises
-									%br
-									Complete Knowledge Area Test
-									%br
-									Complete PMP Mock Exam (LITE) 
-					.panel.panel-default
-						.panel-heading
-							%h4.panel-title
-								%a{"data-parent" => "#accordion", "data-toggle" => "collapse", href: "#collapseSeven"}
-									Project Cost Management
-						#collapseSeven.panel-collapse.collapse
-							.panel-body
-								%p
-									Cost Management Plan 
-									%br
-									Estimate Costs
-									%br
-									Determine Budget 
-									%br
-									Control Costs 
-									%br
-									Complete Exercises
-									%br
-									Complete Knowledge Area Test
-									%br
-									Complete PMP Mock Exam (LITE) 
-					.panel.panel-default
-						.panel-heading
-							%h4.panel-title
-								%a{"data-parent" => "#accordion", "data-toggle" => "collapse", href: "#collapseEight"}
-									Project Quality Management
-						#collapseEight.panel-collapse.collapse
-							.panel-body
-								%p
-									Plan Quality 
-									%br
-									Perform Quality Assurance 
-									%br
-									Perform Quality Control 
-									%br
-									Complete Exercises
-									%br
-									Complete Knowledge Area Test
-									%br
-									Complete PMP Mock Exam (LITE) 
-					.panel.panel-default
-						.panel-heading
-							%h4.panel-title
-								%a{"data-parent" => "#accordion", "data-toggle" => "collapse", href: "#collapseNine"}
-									Project Human Resources Management
-						#collapseNine.panel-collapse.collapse
-							.panel-body
-								%p
-									Roles and Responsibilities 
-									%br
-									Human Resource Responsibilities for Project Managers
-									%br
-									Develop Human Resource Plan 
-									%br
-									Acquire Project Team 
-									%br
-									Develop Project Team 
-									%br
-									Manage Project Team 
-									%br
-									Complete Exercises
-									%br
-									Complete Knowledge Area Test
-									%br
-									Complete PMP Mock Exam (LITE) 
-					.panel.panel-default
-						.panel-heading
-							%h4.panel-title
-								%a{"data-parent" => "#accordion", "data-toggle" => "collapse", href: "#collapseTen"}
-									Project Communication Management
-						#collapseTen.panel-collapse.collapse
-							.panel-body
-								%p
-									Plan Communications 
-									%br
-									Manage Communications 
-									%br
-									Control Communications 
-									%br
-									Complete Exercises
-									%br
-									Complete Knowledge Area Test
-									%br
-									Complete PMP Mock Exam (LITE) 
+					.row
+						.col-lg-6
+							.panel.panel-default
+								.panel-heading
+									%h4.panel-title
+										%a{"data-parent" => "#accordion", "data-toggle" => "collapse", href: "#collapseOne"}
+											Introduction and PMP Exam overview
+								#collapseOne.panel-collapse.collapse
+									.panel-body
+										%p
+											Learn About the PMI Application Process
+											%br
+											Identify exam preparation key methodologies
+											%br
+											The Exam Itself
+							.panel.panel-default
+								.panel-heading
+									%h4.panel-title
+										%a{"data-parent" => "#accordion", "data-toggle" => "collapse", href: "#collapseTwo"}
+											The Project Management Framework
+								#collapseTwo.panel-collapse.collapse
+									.panel-body
+										%p
+											Define what a project is and what project management is
+											%br
+											Organization Influences on Project Management
+											%br
+											How to define a project life cycle
+											%br
+											Specify Influences of Organizational Structures on Project Management
+											%br
+											Complete Exercises
+											%br
+											Complete Knowledge Area Test
+											%br
+											Complete PMP Mock Exam (LITE) 
+							.panel.panel-default
+								.panel-heading
+									%h4.panel-title
+										%a{"data-parent" => "#accordion", "data-toggle" => "collapse", href: "#collapseThree"}
+											The Project Management Process Groups
+								#collapseThree.panel-collapse.collapse
+									.panel-body
+										%p
+											Initiating Process Group
+											%br
+											Planning Process Group
+											%br
+											Executing Process Group
+											%br
+											Monitoring and Controlling Process Group
+											%br
+											Closing Process Group
+											%br
+											Complete Exercises
+											%br
+											Complete Knowledge Area Test
+											%br
+											Complete PMP Mock Exam (LITE) 
+							.panel.panel-default
+								.panel-heading
+									%h4.panel-title
+										%a{"data-parent" => "#accordion", "data-toggle" => "collapse", href: "#collapseFour"}
+											Project Integration Management
+								#collapseFour.panel-collapse.collapse
+									.panel-body
+										%p
+											Develop Project Charter
+											%br
+											Project Selection
+											%br
+											Project Statement of Work 
+											%br
+											Develop Project Management Plan 
+											%br
+											Direct and Manage Project Work 
+											%br
+											Monitor and Control Project Work 
+											%br
+											Perform Integrated Change Control 
+											%br
+											Close Project or Phase 
+											%br
+											Complete Exercises
+											%br
+											Complete Knowledge Area Test
+											%br
+											Complete PMP Mock Exam (LITE) 
+							.panel.panel-default
+								.panel-heading
+									%h4.panel-title
+										%a{"data-parent" => "#accordion", "data-toggle" => "collapse", href: "#collapseFive"}
+											Project Scope Management
+								#collapseFive.panel-collapse.collapse
+									.panel-body
+										%p
+											Scope Management Plan
+											%br
+											Collect Requirements 
+											%br
+											Define Scope 
+											%br
+											Create Work Breakdown Structure “WBS” 
+											%br
+											Validate Scope 
+											%br
+											Control Scope 
+											%br
+											Complete Exercises
+											%br
+											Complete Knowledge Area Test
+											%br
+											Complete PMP Mock Exam (LITE) 
+							.panel.panel-default
+								.panel-heading
+									%h4.panel-title
+										%a{"data-parent" => "#accordion", "data-toggle" => "collapse", href: "#collapseSix"}
+											Project Time Management
+								#collapseSix.panel-collapse.collapse
+									.panel-body
+										%p
+											Schedule Management Plan 
+											%br
+											Define Activities 
+											%br
+											Sequence Activities 
+											%br
+											Estimating Activity Resources 
+											%br
+											Estimating Activity Durations 
+											%br
+											Develop Schedule 
+											%br
+											Control Schedule 
+											%br
+											Complete Exercises
+											%br
+											Complete Knowledge Area Test
+											%br
+											Complete PMP Mock Exam (LITE) 
+							.panel.panel-default
+								.panel-heading
+									%h4.panel-title
+										%a{"data-parent" => "#accordion", "data-toggle" => "collapse", href: "#collapseSeven"}
+											Project Cost Management
+								#collapseSeven.panel-collapse.collapse
+									.panel-body
+										%p
+											Cost Management Plan 
+											%br
+											Estimate Costs
+											%br
+											Determine Budget 
+											%br
+											Control Costs 
+											%br
+											Complete Exercises
+											%br
+											Complete Knowledge Area Test
+											%br
+											Complete PMP Mock Exam (LITE) 
+							.panel.panel-default
+								.panel-heading
+									%h4.panel-title
+										%a{"data-parent" => "#accordion", "data-toggle" => "collapse", href: "#collapseEight"}
+											Project Quality Management
+								#collapseEight.panel-collapse.collapse
+									.panel-body
+										%p
+											Plan Quality 
+											%br
+											Perform Quality Assurance 
+											%br
+											Perform Quality Control 
+											%br
+											Complete Exercises
+											%br
+											Complete Knowledge Area Test
+											%br
+											Complete PMP Mock Exam (LITE) 
+						.col-lg-6
+							.panel.panel-default
+								.panel-heading
+									%h4.panel-title
+										%a{"data-parent" => "#accordion", "data-toggle" => "collapse", href: "#collapseNine"}
+											Project Human Resources Management
+								#collapseNine.panel-collapse.collapse
+									.panel-body
+										%p
+											Roles and Responsibilities 
+											%br
+											Human Resource Responsibilities for Project Managers
+											%br
+											Develop Human Resource Plan 
+											%br
+											Acquire Project Team 
+											%br
+											Develop Project Team 
+											%br
+											Manage Project Team 
+											%br
+											Complete Exercises
+											%br
+											Complete Knowledge Area Test
+											%br
+											Complete PMP Mock Exam (LITE) 
+							.panel.panel-default
+								.panel-heading
+									%h4.panel-title
+										%a{"data-parent" => "#accordion", "data-toggle" => "collapse", href: "#collapseTen"}
+											Project Communication Management
+								#collapseTen.panel-collapse.collapse
+									.panel-body
+										%p
+											Plan Communications 
+											%br
+											Manage Communications 
+											%br
+											Control Communications 
+											%br
+											Complete Exercises
+											%br
+											Complete Knowledge Area Test
+											%br
+											Complete PMP Mock Exam (LITE) 
 
-					.panel.panel-default
-						.panel-heading
-							%h4.panel-title
-								%a{"data-parent" => "#accordion", "data-toggle" => "collapse", href: "#collapseEleven"}
-									Project Risk Management
-						#collapseEleven.panel-collapse.collapse
-							.panel-body
-								%p
-									Inputs to and Outputs of Risk Management
-									%br
-									Risk Management Process 
-									%br
-									Plan Risk Management 
-									%br
-									Identify Risks 
-									%br
-									Perform Qualitative Risk Analysis 
-									%br
-									Perform Quantitative Risk Analysis 
-									%br
-									Plan Risk Responses 
-									%br
-									Control Risks 
-									%br
-									Common Risk Management Errors
-									%br
-									Complete Exercises
-									%br
-									Complete Knowledge Area Test
-									%br
-									Complete PMP Mock Exam (LITE) 
-					.panel.panel-default
-						.panel-heading
-							%h4.panel-title
-								%a{"data-parent" => "#accordion", "data-toggle" => "collapse", href: "#collapseTwelve"}
-									Project Procurement Management
-						#collapseTwelve.panel-collapse.collapse
-							.panel-body
-								%p
-									The Procurement Management Process 
-									%br
-									Plan Procurements 
-									%br
-									Conduct Procurement 
-									%br
-									Control Procurements 
-									%br
-									Close Procurement 
-									%br
-									Complete Exercises
-									%br
-									Complete Knowledge Area Test
-									%br
-									Complete PMP Mock Exam (LITE) 
-					.panel.panel-default
-						.panel-heading
-							%h4.panel-title
-								%a{"data-parent" => "#accordion", "data-toggle" => "collapse", href: "#collapseThirteen"}
-									Project Stakeholder Management
-						#collapseThirteen.panel-collapse.collapse
-							.panel-body
-								%p
-									Identify Stakeholders 
-									%br
-									Plan Stakeholder Management 
-									%br
-									Manage Stakeholder Engagement 
-									%br
-									Control Stakeholder Engagement 
-									%br
-									Complete Exercises
-									%br
-									Complete Knowledge Area Test
-									%br
-									Complete PMP Mock Exam (LITE) 
-					.panel.panel-default
-						.panel-heading
-							%h4.panel-title
-								%a{"data-parent" => "#accordion", "data-toggle" => "collapse", href: "#collapseFourteen"}
-									Project Management Ethical Responsibility and Code of Conduct
-						#collapseFourteen.panel-collapse.collapse
-							.panel-body
-								%p
-									Ethical Application of Project Management
-									%br
-									Complete Exercises
-					.panel.panel-default
-						.panel-heading
-							%h4.panel-title
-								%a{"data-parent" => "#accordion", "data-toggle" => "collapse", href: "#collapseFifteen"}
-									Putting It All Together
-						#collapseFifteen.panel-collapse.collapse
-							.panel-body
-								%p
-									General Review
-									%br
-									Formulas to Know for the Exam
-									%br
-									Before You Take The Exam
-									%br
-									Tricks for Taking The Exam
-									%br
-									Common Project Management Errors and Pitfalls
+							.panel.panel-default
+								.panel-heading
+									%h4.panel-title
+										%a{"data-parent" => "#accordion", "data-toggle" => "collapse", href: "#collapseEleven"}
+											Project Risk Management
+								#collapseEleven.panel-collapse.collapse
+									.panel-body
+										%p
+											Inputs to and Outputs of Risk Management
+											%br
+											Risk Management Process 
+											%br
+											Plan Risk Management 
+											%br
+											Identify Risks 
+											%br
+											Perform Qualitative Risk Analysis 
+											%br
+											Perform Quantitative Risk Analysis 
+											%br
+											Plan Risk Responses 
+											%br
+											Control Risks 
+											%br
+											Common Risk Management Errors
+											%br
+											Complete Exercises
+											%br
+											Complete Knowledge Area Test
+											%br
+											Complete PMP Mock Exam (LITE) 
+							.panel.panel-default
+								.panel-heading
+									%h4.panel-title
+										%a{"data-parent" => "#accordion", "data-toggle" => "collapse", href: "#collapseTwelve"}
+											Project Procurement Management
+								#collapseTwelve.panel-collapse.collapse
+									.panel-body
+										%p
+											The Procurement Management Process 
+											%br
+											Plan Procurements 
+											%br
+											Conduct Procurement 
+											%br
+											Control Procurements 
+											%br
+											Close Procurement 
+											%br
+											Complete Exercises
+											%br
+											Complete Knowledge Area Test
+											%br
+											Complete PMP Mock Exam (LITE) 
+							.panel.panel-default
+								.panel-heading
+									%h4.panel-title
+										%a{"data-parent" => "#accordion", "data-toggle" => "collapse", href: "#collapseThirteen"}
+											Project Stakeholder Management
+								#collapseThirteen.panel-collapse.collapse
+									.panel-body
+										%p
+											Identify Stakeholders 
+											%br
+											Plan Stakeholder Management 
+											%br
+											Manage Stakeholder Engagement 
+											%br
+											Control Stakeholder Engagement 
+											%br
+											Complete Exercises
+											%br
+											Complete Knowledge Area Test
+											%br
+											Complete PMP Mock Exam (LITE) 
+							.panel.panel-default
+								.panel-heading
+									%h4.panel-title
+										%a{"data-parent" => "#accordion", "data-toggle" => "collapse", href: "#collapseFourteen"}
+											Project Management Ethical Responsibility and Code of Conduct
+								#collapseFourteen.panel-collapse.collapse
+									.panel-body
+										%p
+											Ethical Application of Project Management
+											%br
+											Complete Exercises
+							.panel.panel-default
+								.panel-heading
+									%h4.panel-title
+										%a{"data-parent" => "#accordion", "data-toggle" => "collapse", href: "#collapseFifteen"}
+											Putting It All Together
+								#collapseFifteen.panel-collapse.collapse
+									.panel-body
+										%p
+											General Review
+											%br
+											Formulas to Know for the Exam
+											%br
+											Before You Take The Exam
+											%br
+											Tricks for Taking The Exam
+											%br
+											Common Project Management Errors and Pitfalls
 
-			.col-sm-5
+
+
+%section
+	.container
+		.row.double-padding-top.double-padding-bottom
+			.col-sm-6.col-sm-push-6
+				.padded
+					%img.img-responsive.double-margin-bottom{:src=>"/images/public/live/gal-stairs.svg"}
+			.col-sm-6.col-sm-pull-6
+				%h2.bold-font-name
+					Benifits Included with every class
+				%ul.list-unstyled.check-list-large.double-margin-bottom
+					%li
+						%p.body-large
+							%i.fa.fa-check
+							Accredited class taught by PMTraining 
+					%li
+						%p.body-large
+							%i.fa.fa-check
+							Online exam prep student portal
+					%li
+						%p.body-large
+							%i.fa.fa-check
+							All class study materials
+					%li
+						%p.body-large
+							%i.fa.fa-check
+							35 PMI Contact Hours and PDU Credits
+					%li
+						%p.body-large
+							%i.fa.fa-check
+							One-on-one access to instructor
+					%li
+						%p.body-large
+							%i.fa.fa-check
+							PMI exam application assistance
+					%li
+						%p.body-large
+							%i.fa.fa-check
+							100% exam pass guarantee
+				%a.btn.btn-default{href:"/public/live-pmp/schedule-and-pricing"}
+					Get started
+
+
+
+
+%section
+	.container
+		.row
+			.col-sm-2
+			.col-sm-8.text-center
+				%h2.bold-font-name
+					Tought by expert instructors more text about how any why these guys are the best
+			.col-sm-2
+
+	.instructor-slider
+		-10.times do
+			.slide
+				.padded
+					%img.img-responsive.margin-bottom{:src=>"/images/public/live/instructor.png"}
+					%p
+						=lorem.words(20)
+					%h4.no-margin-bottom.primary-text-color
+						=lorem.name
+					%h5.no-margin-bottom.loght-text-color.regular-font-name
+						(MBA, PMP)
+		
+
+%section
+	.container
+		.row.double-margin-bottom
+			.col-sm-12.text-center
+				%h2.bold-font-name
+					Enroll online or by phone
+		.row
+			.col-sm-4
 				.margin-bottom
-				.clearfix
-				.panel.double-margin-top.primary-color
-					.panel-body
-						.padded.double-padding-bottom.double-padding-top
-							=image_tag'public/icon_pencil_white.png' , :class=>"img-responsive  margin-auto", :width=>'290px'
-							.double-margin-top
-							%h3.margin-bottom
-								%strong
-									Included with every class:
-							%ul.list-default
-								%li
-									Class taught by PMI R.E.P.
-								%li
-									All study materials
-								%li
-									Online practice exam portal
-								%li
-									35 PMI Contact Hours and PDU Credits
-								%li
-									One-on-one access to instructor
-								%li
-									PMI exam application assistance
-								%li
-									100% exam pass guarantee
-							%a.btn.btn-default{href:"/public/live-pmp/schedule-and-pricing"}
-								Schedule & Pricing
-.container
-	%hr.no-margin-top.no-margin-bottom
-%section
-	.container
-		.row
-			.col-sm-12
-				%h2
-					About the Instructors
-		.row
-			.col-sm-6
-				.padded.no-padding-left
-					%h3
-						Robert "Bob" Vuolo (MS, PMP, ITIL)
-					%hr.hr-flourish
-					%p
-						Since 1993, Bob has focused on training and course development in project management. He has presented more than 350 PM seminars to some 6,500 mid and upper-level managers at companies like AT&T, Northrop Grumman, Military Sealift Command, DHL, Verizon, Sprint, Motorola, the State Department, and the Jordanian Army. Since 2004, his focus has been almost exclusively on preparing business and government professionals for the PMP examination.
-			.col-sm-6
-				.padded.no-padding-left
-					%h3
-						Lee Cooper (PMP, ITIL, CKM)
-					%hr.hr-flourish
-					%p
-						Lee has taught PMP exam prep certification courses since 2007, and has over 25 years of direct project management experience. Over the course of his career, Lee has served as a Project Manager, IT Manager and Director for various firms. His project management experience crosses multiple domains, include Federal and State government, Clinical Research, Avionics, Publishing, Law Enforcement and Emergency Management areas.
-		.row
-			.col-sm-6
-				.padded.no-padding-left
-					%h3
-						Ron Ponce (BA, PMP) - Student Administrator
-					%hr.hr-flourish
-					%p
-						Ron Ponce (BA, PMP) has mentored and trained hundreds of aspiring PMP professionals in the art and science of project management, who have gone on to be successful project leaders within their organizations. He has specialized over the years on building solid project management infrastructures both for organizations and for individuals, and acts as the Student Administrator for PMTraining.
-			.col-sm-6
-				.panel.instructor-panel
-					.panel-body
-						.col-sm-7.col-xs-12
-							%h4
-								Get started Now
-							%p.margin-bottom
-								Our Live Virtual PMP Classes deliver the same content and materials as the classroom, with a live instructor, in real time, via the Internet. It is completely interactive- you will talk with your instructor and your peers. 
-							%a.btn.btn-default{href:"/public/live-pmp/schedule-and-pricing"}
-								Schedule & Pricing
-						.col-sm-5.hidden-xs
-							=image_tag'pmi_logo_2.png',:class=>"pmi-logo"
-%hr.no-margin-top.no-margin-bottom
-%section
-	.container
-		.row
-			.col-sm-12
-				%h6.text-center.primary-text-color
-					Enroll online or Call 
-					%span.extra-bold-font-name
-						1-800-581-9819 
-					to Register by Phone
-		.row
+					=image_tag'public/live/enroll-1.svg', :class=>"margin-auto img-responsive margin-bottom" , :width=>"150px"
+					%h3.text-center.bold-font-name.dark-text-color
+						Enroll in an Online 
+						%br
+						PMP Class
 			.col-sm-4
-				=image_tag'public/corporate-discount/step-2.png', :class=>"margin-auto img-responsive margin-bottom" , :width=>"150px"
-				%h5
-					1. Enroll in an Online PMP Class
-				%ul.list-default.no-margin-bottom
-					%li
-						Classes taught by PMI Registered Education Provider (R.E.P.)
-					%li
-						Flexible dates and times available, including weekends and evenings
-					%li
-						We guarantee the lowest price possible for all courses
-					%li
-						Group rates and private classes available
+				.margin-bottom
+					=image_tag'public/live/enroll-2.svg', :class=>"margin-auto img-responsive margin-bottom" , :width=>"211px"
+					%h3.text-center.bold-font-name.dark-text-color
+						Attend Live Classes 
+						%br
+						from Your Computer
 			.col-sm-4
-				=image_tag'public/corporate-discount/step-1.png', :class=>"margin-auto img-responsive margin-bottom" , :width=>"150px"
-				%h5
-					2. Attend Live Classes from Your Computer
-				%ul.list-default.no-margin-bottom
-					%li
-						Attend class, ask questions, and prepare for your PMP exam
-					%li
-						One-on-one Instructor Q&A sessions included for all students
-					%li
-						PMTraining Practice Exam system included free with class
-					%li
-						All PMP course materials included with class enrollment
-			.col-sm-4
-				=image_tag'public/corporate-discount/step-3.png', :class=>"margin-auto img-responsive margin-bottom" , :width=>"150px"
-				%h5
-					3. Pass the PMP Exam, Guaranteed
-				%ul.list-default.no-margin-bottom
-					%li
-						Take the PMP exam and pass. Guaranteed.
-					%li
-						35 Contact Hours included with every course (required by PMI for exam)
-					%li
-						Assistance provided with PMI exam application (even if audited)
-					%li
-						PDU credits included with every course, to maintain your future PMP certification
+				.margin-bottom
+					=image_tag'public/live/enroll-3.svg', :class=>"margin-auto img-responsive margin-bottom" , :width=>"119px"
+					%h3.text-center.bold-font-name.dark-text-color
+						Pass the PMP Exam, Guaranteed
+		.row.margin-top
+			.col-lg-12.text-center
+				%a.btn.btn-default.margin-bottom{href:"/public/live-pmp/schedule-and-pricing"}
+					Get started now
+				%p.body-large.bold-font-name.dark-text-color
+					Or call
+					%span.primary-text-color
+						1-800-581-9819
 
-.container
-	%hr.no-margin-top.no-margin-bottom
-%section.invert-section
-	.container
-		.row
-			.col-sm-6
-				=image_tag"public/practice/system_reqs.png", :class=>"img-responsive margin-auto margin-bottom margin-top", :width=>"300"
-			.col-sm-6	
-				.margin-top
-					%h2
-						System Requirements
-					%p
-						%strong
-							Access to PMP practice exams requires the following:
-					%ul.list-default
-						%li
-							Computer with Internet connection
-						%li
-							Web browser with standard features
-						%li
-							May require a software download (provided by us)
-					%p
-						%a.btn.btn-info{:href=>"/public/live-pmp/schedule-and-pricing"}
-							Schedule & Pricing					
+
+				
 
 
                            

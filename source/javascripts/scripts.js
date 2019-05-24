@@ -52,5 +52,42 @@ $(document).ready(function(){
   });
 
 
+  $('.instructor-slider').slick({
+    infinite: true,
+    arrows: false,
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    autoplay: true,
+    centerMode: true,
+    autoplaySpeed: 2000,
+      responsive: [
+    {
+      breakpoint: 1200,
+      settings: {
+        slidesToShow: 5,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 992,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 767,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+  });
+
+
 
 });

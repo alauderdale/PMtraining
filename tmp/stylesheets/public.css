@@ -3,6 +3,7 @@
 @import url(lib/font-awesome.css);
 @import url(lib/foo-table/footable.core.css);
 @import url(lib/bootstrap.css);
+@import url(lib/slick.css);
 * {
   margin: 0;
   padding: 0; }
@@ -242,6 +243,10 @@ img {
 .micro-text {
   font-size: .7em; }
 
+p.body-large {
+  font-size: 18px;
+  line-height: 30px; }
+
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   font-weight: inherit; }
 
@@ -323,6 +328,10 @@ blockquote {
 .line-through {
   text-decoration: line-through; }
 
+.blockquote-bold {
+  padding-left: 100px;
+  background: url("../images/public/quote.svg") top left no-repeat; }
+
 ul.list-default {
   list-style-image: url(../images/bullet.png);
   margin-bottom: 24px; }
@@ -343,6 +352,16 @@ dl {
   font-size: .8em; }
   dl dt {
     color: black; }
+
+ul.check-list-large li p {
+  margin-bottom: 10px; }
+ul.check-list-large li i {
+  background-color: #85C342;
+  padding: 5px;
+  color: white;
+  border-radius: 100px;
+  margin-right: 8px;
+  font-size: 14px; }
 
 .testimonial, .testimonial-list .testimonial {
   position: relative; }

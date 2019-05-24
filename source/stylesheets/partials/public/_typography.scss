@@ -200,6 +200,13 @@ $text-column-gutter-width: $baseline;
 
 //font base
 
+p{
+  &.body-large{
+    font-size:18px;
+    line-height: 30px;
+  }
+}
+
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { 
   font-weight: inherit; 
@@ -271,6 +278,14 @@ blockquote{
   text-decoration:line-through;
 }
 
+//quotes
+
+.blockquote-bold{
+  padding-left:100px;
+  background:url("../images/public/quote.svg") top left no-repeat;
+
+}
+
 //lists
 
 
@@ -298,6 +313,22 @@ dl{
   font-size:.8em;
   dt{
     color:black;
+  }
+}
+
+ul.check-list-large{
+  li{
+    p{
+      margin-bottom: 10px;
+    }
+    i{
+      background-color: $green-color;
+      padding:5px;
+      color:white;
+      border-radius:100px;
+      margin-right:8px;
+      font-size:14px;
+    }
   }
 }
 
