@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="208px" height="246px" viewBox="0 0 208 246" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="277px" height="284px" viewBox="0 0 277 284" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 55 (78076) - https://sketchapp.com -->
     <title>enroll-3</title>
     <desc>Created with Sketch.</desc>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="live-courses" transform="translate(-1018.000000, -3495.000000)">
-            <g id="enroll-3" transform="translate(1018.000000, 3496.000000)">
+        <g id="enroll-3">
+            <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="277" height="284"></rect>
+            <g transform="translate(46.000000, 24.000000)">
                 <path d="M10.0460605,241.518505 C10.0460605,243.300542 41.9770836,244.74499 81.3657986,244.74499 C120.754813,244.74499 152.685836,243.300542 152.685836,241.518505 C152.685836,239.736167 120.754813,238.29172 81.3657986,238.29172 C41.9770836,238.29172 10.0460605,239.736167 10.0460605,241.518505" id="Fill-1" fill="#E1E2E6"></path>
                 <path d="M71.8107564,166.306421 L50.7045452,241.518415" id="Stroke-3" stroke="#2E394C" stroke-width="1.5"></path>
                 <polyline id="Stroke-5" stroke="#2E394C" stroke-width="1.5" points="89.2750858 166.306421 103.655744 200.77236 111.355785 241.518415"></polyline>

@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="204px" height="190px" viewBox="0 0 204 190" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="277px" height="284px" viewBox="0 0 277 284" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 55 (78076) - https://sketchapp.com -->
     <title>enroll-1</title>
     <desc>Created with Sketch.</desc>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="live-courses" transform="translate(-195.000000, -3531.000000)">
-            <g id="enroll-1" transform="translate(196.000000, 3531.000000)">
+        <g id="enroll-1">
+            <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="277" height="284"></rect>
+            <g transform="translate(33.000000, 59.000000)">
                 <g id="Group-7" transform="translate(0.000000, 53.004673)" stroke="#2E394C" stroke-width="1.327104">
                     <path d="M14.8214361,75.3785047 C0.758991826,68.5284485 -2.31565974,59.4723737 5.59748137,48.2102804" id="Path-5"></path>
                     <polygon id="Rectangle" fill="#E9F1F3" points="10.2736111 69.5186916 70.7149503 69.5186916 72.5191694 78.5747664 8.46939204 78.5747664"></polygon>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="267px" height="176px" viewBox="0 0 267 176" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="277px" height="284px" viewBox="0 0 277 284" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 55 (78076) - https://sketchapp.com -->
     <title>enroll-2</title>
     <desc>Created with Sketch.</desc>
@@ -13,8 +13,9 @@
         <polygon id="path-13" points="0.067138835 0.142040656 7.3202068 0.142040656 7.3202068 9.69335869 0.067138835 9.69335869"></polygon>
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="live-courses" transform="translate(-560.000000, -3545.000000)">
-            <g id="enroll-2" transform="translate(560.000000, 3545.000000)">
+        <g id="enroll-2">
+            <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="277" height="284"></rect>
+            <g transform="translate(4.000000, 73.000000)">
                 <g id="Group-68" transform="translate(0.000000, 0.214951)">
                     <g id="Group-4" transform="translate(175.695793, 105.311475)">
                         <path d="M66.790122,69.6787751 L52.372122,7.71725377 C52.372122,3.57288656 48.9869537,0.181857049 44.8497498,0.181857049 L13.9051123,0.181857049 C9.76733236,0.181857049 6.38274013,3.57288656 6.38274013,7.71725377 L0.113856634,69.6787751" id="Fill-1" fill="#27A0C4"></path>
