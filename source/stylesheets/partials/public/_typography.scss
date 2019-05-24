@@ -393,3 +393,17 @@ ul.check-list-large{
 .alert{
   font-size:.8em;
 }
+
+
+
+//hide text
+
+.text-box-hidable{
+  height:50px;
+  display: block;
+  overflow: hidden;
+}
+
+.height-auto{
+  height:auto!important;
+}

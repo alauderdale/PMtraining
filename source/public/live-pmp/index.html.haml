@@ -462,11 +462,11 @@
 			.slide
 				.padded
 					%img.img-responsive.margin-bottom{:src=>"/images/public/live/instructor.png"}
-					%p.no-margin-bottom
-						=lorem.words(20)
+					%p.no-margin-bottom.text-box-hidable
+						=lorem.words(100)
 						\.
-						%br
-						%a.bold-font-name.no-decor{:href=>"#"}
+					%p.expand-height
+						%a.bold-font-name.no-decor{:href=>"#", :onclick=>"return false;"}
 							Read more
 					%h4.no-margin-bottom.primary-text-color.half-margin-top
 						=lorem.name

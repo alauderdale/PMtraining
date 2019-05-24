@@ -405,6 +405,14 @@ ul.check-list-large li i {
 .alert {
   font-size: .8em; }
 
+.text-box-hidable {
+  height: 50px;
+  display: block;
+  overflow: hidden; }
+
+.height-auto {
+  height: auto !important; }
+
 .margin-auto {
   margin: 0 auto; }
 
