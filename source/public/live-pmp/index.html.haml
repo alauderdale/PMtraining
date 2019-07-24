@@ -458,10 +458,12 @@
 			.col-sm-2
 
 	.instructor-slider
-		-10.times do
+		- i = 0;
+		-7.times do
+			- i = i + 1
 			.slide
 				.padded
-					%img.img-responsive.margin-bottom{:src=>"/images/public/live/instructor.png"}
+					%img.img-responsive.margin-bottom{:src=>"/images/public/live/instructor-#{i}.png"}
 					%p.no-margin-bottom.text-box-hidable
 						=lorem.words(100)
 						\.
