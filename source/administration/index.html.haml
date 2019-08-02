@@ -142,20 +142,53 @@
 	.modal-dialog
 		.modal-content
 			.padded
-				.modal-header.no-border
+				.modal-header
 					%button.close{"aria-hidden" => "true", "data-dismiss" => "modal", type: "button", :style=>"left:10px; bottom:20px;"} 
 						×
 					%button.back{"data-toggle"=>"modal","data-target"=>"#registerModal" , "aria-hidden" => "true", "data-dismiss" => "modal", type: "button", :style=>"left:10px; bottom:20px;"} 
 						%i.material-icons
 							arrow_back
+					.title.clearfix
+						%h3.modal-title{:style=>"display:table;"}
+							%img.pull-left.margin-right.hidden-xs{:src=>"images/logos/logo-imp.gif"}
+							%span.align-middle
+								Project Management Organization
 				.modal-body
 					.row
 						.col-sm-12
-							%h2.half-margin-bottom
-								Project Management Organization
-							-3.times do
-								%p
-									=lorem.paragraphs(1)
+							%p
+								%strong
+									Included with this PMI Agile Certified Practitioner (PMI-ACP)® course:
+							%ul.half-margin-left
+								%li
+									Studio quality PMI-ACP course lessons, chapter quizzes, course guide and all study materials
+								%li
+									Students will have access to this course for 90 days
+								%li
+									Course access available from any web browser
+								%li
+									Course completion certificate redeemable through PMI.org
+								%li
+									21 Contact Hours &amp; PDU credits through PMI
+								%li
+									For demo and full course details,
+									%a{:href => "/pmi-acp/on-demand-course", :target => "_blank"} visit our detail page
+							%br
+							%p
+								%strong
+									Courses are delivered On-Demand, and begin when you register the student. Upon registering the student:
+							%ul.half-margin-left
+								%li
+									%span#ctl00_body_registerBootcamp_firstName 
+										Christopher
+									will be contacted via email with access instructions
+								%li
+									Your account will be billed
+									%strong
+										%span#ctl00_body_registerBootcamp_coursePrice 
+											$249.00
+										(USD)
+									for course registration
 
 							
 		
