@@ -1,0 +1,25 @@
+{
+"link_title_list": [
+	  {"title":"Who We Are", 
+	  	"link":"/public/about"
+	  },
+
+	  {"title":"Our PMP Courseware", 
+	  	"link":"/public/about/courseware"
+	  },
+	  
+	 	{"title":"About the PMP Exam", 
+	  	"link":"/public/about-the-pmp-exam"
+	  },
+
+	  {"title":"Our Customers", 
+	  	"link":"/public/about/customers"
+	  },
+
+	  {"title":"More SSL Logic Products", 
+	  	"link":"/public/about/books"
+	  }
+	]
+}
+
+                        

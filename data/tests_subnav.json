@@ -1,0 +1,16 @@
+{
+"link_title_list": [
+	  {"title":"Standard Tests", 
+	  	"link":"/tests"
+	  },
+	  {"title":"Custom Tests", 
+	  	"link":"/tests/custom-tests"
+	  },
+	  {"title":"In Progress", 
+	  	"link":"/tests/in-progress"
+	  },
+	  {"title":"My Results", 
+	  	"link":"/tests/results"
+	  }
+	]
+}

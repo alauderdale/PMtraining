@@ -1,0 +1,22 @@
+{
+"link_title_list": [
+	  {"title":"Manage students", 
+	  	"link":"/administration"
+	  },
+	  {"title":"Course Materials", 
+	  	"link":"/bootcamp/course-materials"
+	  },
+	  {"title":"My Notebook", 
+	  	"link":"/bootcamp/notebook"
+	  },
+	  {"title":"Manage students", 
+	  	"link":"/administration"
+	  },
+	  {"title":"Course Materials", 
+	  	"link":"/bootcamp/course-materials"
+	  },
+	  {"title":"My Notebook", 
+	  	"link":"/bootcamp/notebook"
+	  }
+	]
+}
