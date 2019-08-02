@@ -3,20 +3,17 @@
 	  {"title":"Manage students", 
 	  	"link":"/administration"
 	  },
-	  {"title":"Course Materials", 
-	  	"link":"/bootcamp/course-materials"
+	  {"title":"Student Reports", 
+	  	"link":"#"
 	  },
-	  {"title":"My Notebook", 
-	  	"link":"/bootcamp/notebook"
+	  {"title":"Create and Assign Tests", 
+	  	"link":"#"
 	  },
-	  {"title":"Manage students", 
-	  	"link":"/administration"
+	  {"title":"My Website Settings", 
+	  	"link":"#"
 	  },
-	  {"title":"Course Materials", 
-	  	"link":"/bootcamp/course-materials"
-	  },
-	  {"title":"My Notebook", 
-	  	"link":"/bootcamp/notebook"
+	  {"title":"Payment Settings", 
+	  	"link":"#"
 	  }
 	]
 }

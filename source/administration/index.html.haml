@@ -14,5 +14,148 @@
 			.col-lg-12
 				=partial "/shared/subnav_with_links"
 		.row
+			.col-md-9
+				%h3.quarter-margin-bottom
+					Review and manage your existing students.
+				%ul.margin-left
+					%li
+						Easily Add and Activate a new student using the Register button to the right
+					%li
+						Select a student to view test preformance
+					%li
+						Optional: Register your students for the PMP On-Demand Course below
+			.col-md-3
+				.text-right
+					%a.btn.btn-primary.btn-block.margin-top{:href=>"#"}
+						+ New user account
+		.row
 			.col-lg-12
-				%img.img-responsive.margin-auto{:src=>"images/screen-demo.png"}
+				.table-filters.margin-top
+					.row
+						.col-sm-4
+							.form-group.search-form
+								%i.fa.fa-search
+								%input.form-control.full-width{:type=>"text", :placeholder=>"Search by email or name", :width=>"500px"}
+						.col-sm-8
+							.form-inline.text-right
+								.form-group
+									%select.form-control
+										%option
+											All exam types
+								.form-group
+									%select.form-control
+										%option
+											All statuses
+								.form-group
+									%select.form-control
+										%option
+											All user types
+				%table.display.table.margin-top.border-bottom.mid-align{"data-filter"=>"#filter", border: "0", cellpadding: "0", cellspacing: "0", width: "100%"}
+					%thead
+						%tr
+							%th
+								Contact name
+							%th{"data-hide"=>"tablet, phone"}
+								Username
+							%th{"data-hide"=>" phone"}
+								Date created
+							%th{"data-hide"=>"tablet, phone"}
+								Account expiration
+							%th{"data-hide"=>"tablet, phone"}
+								Practice exam
+							%th{"data-hide"=>"tablet, phone"}
+								Registered courses
+							%th
+
+					%tbody
+						-50.times do
+							%tr
+								%td
+									%a{:href=>"#"}
+										=lorem.name
+								%td
+									jdoe
+								%td
+									=lorem.date
+								%td
+									=lorem.date
+								%td
+									Expired
+								%td
+									Project Management Organization
+									%br
+									Project Quality Management
+									%br
+									PMP Course
+
+								%td.text-right
+									.btn-group
+										%button.btn.btn-info{"data-toggle"=>"modal", "data-target"=>"#registerModal"}
+											Register for courses
+										%button.btn.btn-info.dropdown-toggle{"data-toggle" => "dropdown", :type => "button"}
+											%span.caret
+										%ul.dropdown-menu.text-left{:role => "menu"}
+											%li
+												%a{:href => "#"} 
+													Edit profile
+											%li
+												%a{:href => "#"} 
+													View preformance
+
+.modal#registerModal
+	.modal-dialog
+		.modal-content
+			.padded
+				.modal-header.no-border
+					%button.close{"aria-hidden" => "true", "data-dismiss" => "modal", type: "button", :style=>"left:10px; bottom:20px;"} ×
+				.modal-body
+					.row
+						.col-sm-12
+							%h1.quarter-margin-bottom
+								Register John for courses
+							%h3
+								Select the courses you would like to enroll.
+
+							.radio-group
+								.list-group
+									- i = 1
+									- 5.times do
+										- i = i+ 1
+										.list-group-inner
+											%input{:id=>"Radio#{i}", :name => "RadioInputName", :type => "checkbox", :value => "Value1"}
+											%label.list-group-item{:for => "Radio#{i}"}
+												.inline-block
+													%p.no-margin-bottom.regular-font-name
+														%span.extra-bold-font-name.quarter-marign-right
+														Project Management Organization (PMO) Basics
+													%h5.no-margin-bottom.text-color
+														%a{"data-toggle"=>"modal", "data-target"=>"#detailsModal", "data-dismiss" => "modal"}
+															Course details
+				.modal-footer.no-border.no-padding-top.no-margin-top
+					%button.btn.btn-primary
+						Register for 1 course
+
+
+
+
+.modal#detailsModal
+	.modal-dialog
+		.modal-content
+			.padded
+				.modal-header.no-border
+					%button.close{"aria-hidden" => "true", "data-dismiss" => "modal", type: "button", :style=>"left:10px; bottom:20px;"} 
+						×
+					%button.back{"data-toggle"=>"modal","data-target"=>"#registerModal" , "aria-hidden" => "true", "data-dismiss" => "modal", type: "button", :style=>"left:10px; bottom:20px;"} 
+						%i.material-icons
+							arrow_back
+				.modal-body
+					.row
+						.col-sm-12
+							%h2.half-margin-bottom
+								Project Management Organization
+							-3.times do
+								%p
+									=lorem.paragraphs(1)
+
+							
+		

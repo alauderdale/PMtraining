@@ -89,6 +89,10 @@ img {
 .line-through {
   text-decoration: line-through; }
 
+.align-middle {
+  display: table-cell;
+  vertical-align: middle; }
+
 @font-face {
   font-family: 'socialicoregular';
   src: url("../font/socialico-webfont.eot");
@@ -125,6 +129,35 @@ img {
   src: url("../font/museosans-100-webfont.eot?#iefix") format("embedded-opentype"), url("../font/museosans-100-webfont.woff") format("woff"), url("../font/museosans-100-webfont.ttf") format("truetype"), url("../font/museosans-100-webfont.svg#museo_sans_100regular") format("svg");
   font-weight: normal;
   font-style: normal; }
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://example.com/MaterialIcons-Regular.eot);
+  /* For IE6-8 */
+  src: local("Material Icons"), local("MaterialIcons-Regular"), url(https://example.com/MaterialIcons-Regular.woff2) format("woff2"), url(https://example.com/MaterialIcons-Regular.woff) format("woff"), url(https://example.com/MaterialIcons-Regular.ttf) format("truetype"); }
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+  /* Support for IE. */
+  font-feature-settings: 'liga'; }
+
 .text-columns-2 {
   -webkit-columns: 24px 2;
   -moz-columns: 24px 2;
@@ -629,14 +662,14 @@ section {
     margin-bottom: 12px; }
 
 table.table {
-  font-size: .9em; }
+  font-size: .8em; }
   table.table th {
-    font-size: .7em;
-    text-transform: uppercase;
-    font-family: "museo_sans_100regular", Helvetica, Arial, sans-serif;
+    font-size: .8em;
+    font-family: "museo_sans_700regular", Helvetica, Arial, sans-serif;
     background-color: #e7f3f8 !important;
-    border-right: 1px solid #dddddd;
-    color: #138abb; }
+    color: #4a4a4a;
+    text-transform: uppercase;
+    padding: 16px 8px !important; }
     table.table th:last-of-type {
       border-right: none; }
   table.table p {
@@ -759,7 +792,7 @@ table.table {
   background: url(../images/public/logo-slider/client-verizon.gif) no-repeat center; }
 
 h1.main-page-header {
-  margin-bottom: -85px !important; }
+  margin-bottom: -25px !important; }
 
 .subnav ul.nav-pills li {
   padding-left: 0px;
@@ -779,6 +812,44 @@ h1.main-page-header {
     padding-left: 0; }
     .subnav ul.nav-pills li a:hover {
       background: transparent; }
+
+.radio-group .list-group-inner {
+  position: relative; }
+.radio-group .list-group-item {
+  user-select: none;
+  border-width: 2px;
+  margin-bottom: 10px; }
+.radio-group .list-group input[type="checkbox"] {
+  display: none; }
+  .radio-group .list-group input[type="checkbox"] + .list-group-item {
+    cursor: pointer;
+    font-family: 'Material Icons'; }
+    .radio-group .list-group input[type="checkbox"] + .list-group-item:before {
+      content: "radio_button_unchecked";
+      margin-right: 0.3em;
+      font-size: 30px;
+      color: #f2f2f2; }
+  .radio-group .list-group input[type="checkbox"]:checked + .list-group-item {
+    background-color: #e7f3f7;
+    border-color: #1384b2; }
+    .radio-group .list-group input[type="checkbox"]:checked + .list-group-item:before {
+      content: "check_circle";
+      color: #1384b2; }
+.radio-group .list-group input[type="radio"] {
+  position: absolute;
+  top: 23px;
+  left: 15px;
+  z-index: 99; }
+  .radio-group .list-group input[type="radio"] + .list-group-item {
+    cursor: pointer; }
+    .radio-group .list-group input[type="radio"] + .list-group-item:before {
+      content: "";
+      margin-right: 1.3em; }
+  .radio-group .list-group input[type="radio"]:checked + .list-group-item {
+    background-color: #e7f3f7;
+    border-color: #1384b2; }
+    .radio-group .list-group input[type="radio"]:checked + .list-group-item:before {
+      color: inherit; }
 
 .list-panel .fa-flip-vertical {
   top: 2px;
@@ -804,10 +875,41 @@ h1.main-page-header {
   width: 100%;
   height: 100%; }
 
+.modal-header.no-border, .modal-footer.no-border {
+  border: none; }
+
+.modal-header .back {
+  -webkit-appearance: none;
+  padding: 0;
+  cursor: pointer;
+  background: transparent;
+  border: 0; }
+
 form .control-label {
   font-size: .9em;
   color: black !important;
   font-family: "museo_sans_300regular", Helvetica, Arial, sans-serif; }
+
+.search-form {
+  position: relative; }
+  .search-form .fa {
+    position: absolute;
+    top: 9px;
+    left: 10px; }
+  .search-form input {
+    padding-left: 35px; }
+
+.table-filters {
+  background-color: #f2f2f2;
+  padding: 16px;
+  width: 100%; }
+  .table-filters .form-group {
+    margin: 0; }
+    .table-filters .form-group .form-control {
+      min-width: 120px; }
+      @media (max-width: 768px) {
+        .table-filters .form-group .form-control {
+          margin: 10px 0; } }
 
 .alert .alert-icon {
   font-size: 3em; }

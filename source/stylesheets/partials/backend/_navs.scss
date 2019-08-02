@@ -1,7 +1,7 @@
 //subnav
 
 h1.main-page-header{
-  margin-bottom:-85px!important;
+  margin-bottom:-25px!important;
 }
 .subnav{
   ul.nav-pills{
@@ -40,3 +40,64 @@ h1.main-page-header{
 }
 
 
+
+//checkout 
+
+.radio-group{
+
+  .list-group-inner {
+    position: relative;
+  }
+
+  .list-group-item {
+    user-select: none;
+    border-width: 2px;
+    margin-bottom: 10px;
+  }
+
+  .list-group input {
+    &[type="checkbox"] {
+      display: none;
+      + .list-group-item {
+        cursor: pointer;
+        font-family: 'Material Icons';
+        &:before {
+          content: "radio_button_unchecked";
+          margin-right: 0.3em;
+          font-size: 30px;
+          color:$light-gray-color;
+        }
+      }
+      &:checked + .list-group-item {
+        background-color: tint($link-color, 90%);
+        border-color:$link-color;
+        &:before {
+          content: "check_circle";
+          color: $link-color;
+        }
+      }
+    }
+    &[type="radio"] {
+      position: absolute;
+      top: 23px;
+      left: 15px;
+      z-index: 99;
+      + .list-group-item {
+        cursor: pointer;
+        &:before {
+          content: "";
+          margin-right: 1.3em;
+        }
+      }
+      &:checked + .list-group-item {
+        background-color: tint($link-color, 90%);
+        border-color:$link-color;
+        &:before {
+          color: inherit;
+        }
+      }
+    }
+  }
+
+
+}

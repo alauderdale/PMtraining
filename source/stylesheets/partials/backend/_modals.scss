@@ -1,1 +1,16 @@
+.modal-header, .modal-footer{
+	&.no-border{
+		border:none;
+	}
+}
 
+
+.modal-header{
+	.back{
+		-webkit-appearance: none;
+		padding: 0;
+		cursor: pointer;
+		background: transparent;
+		border: 0;
+	}
+}

@@ -44,21 +44,20 @@ Take a Test
 </li>
 </ul>
 <ul class='nav navbar-nav navbar-right'>
+<!-- %li{:class => (current_page.data.activeclass === "bootcamp") ? "active" : ""} -->
+<!-- %a.navbar-item.navbar-item-muted{href: "/bootcamp"} -->
+<!-- On Demand Bootcamp -->
 <li class=''>
-<a class='navbar-item navbar-item-muted' href='/bootcamp'>
-On Demand Bootcamp
+<a class='navbar-item navbar-item-muted' href='/administration'>
+Administration
 </a>
 </li>
-<li class=''>
-<a class='navbar-item navbar-item-muted' href='/support/faqs'>
-Support
-</a>
-</li>
-<li class=''>
-<a class='navbar-item navbar-item-muted' href='#'>
-Live PMP Classes
-</a>
-</li>
+<!-- %li{:class => (current_page.data.activeclass === "support") ? "active" : ""} -->
+<!-- %a.navbar-item.navbar-item-muted{href: "/support/faqs"} -->
+<!-- Support -->
+<!-- %li{:class => (current_page.data.activeclass === "live") ? "active" : ""} -->
+<!-- %a.navbar-item.navbar-item-muted{href: "#"} -->
+<!-- Live PMP Classes -->
 <li class='dropdown'>
 <a class='dropdown-toggle navbar-item' data-toggle='dropdown' href='#'>
 <img src="../images/no_avatar_sm.png" class="img-circle avatar-sm quarter-margin-right pull-left" width="25px" alt="No avatar sm" />
