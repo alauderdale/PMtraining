@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="25px" viewBox="0 0 38 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60 (88103) - https://sketch.com -->
+    <title>computer-24px</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flash" transform="translate(-133.000000, -453.000000)">
+            <g id="Group-5" transform="translate(133.000000, 447.000000)">
+                <g id="computer-24px">
+                    <polygon id="Path" points="0 0 38 0 38 38 0 38"></polygon>
+                    <path d="M31.6666667,27.875 C33.4083333,27.875 34.8175,26.46875 34.8175,24.75 L34.8333333,9.125 C34.8333333,7.40625 33.4083333,6 31.6666667,6 L6.33333333,6 C4.59166667,6 3.16666667,7.40625 3.16666667,9.125 L3.16666667,24.75 C3.16666667,26.46875 4.59166667,27.875 6.33333333,27.875 L0,27.875 L0,31 L38,31 L38,27.875 L31.6666667,27.875 Z M6.33333333,9.125 L31.6666667,9.125 L31.6666667,24.75 L6.33333333,24.75 L6.33333333,9.125 Z" id="Shape" fill="#075879" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

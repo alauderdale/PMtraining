@@ -24,32 +24,52 @@
 %section
 	.container
 		.row
+			.col-lg-12
+				%h2.bold-font-name.double-marign-bottom
+					PMP Class Schedule and Pricing
+		.row
 			.col-sm-7
-				%h2
-					All Classes Taught Online by Live Instructors - 100% Exam Pass Guarantee 
-				%p
-					Our Live Virtual PMP Classes deliver the same content and materials as the classroom, with a live instructor, in real time, via the Internet. It is completely interactive- you will talk with your instructor and your peers. 
-				%p
-					%strong
-						Easily Enroll in a Live PMP Class Below
-				%ul.list-default
-					%li
-						Attend class from any computer with an Internet connection (PC or Mac)
-					%li
-						Instant email confirmation and instructor follow-up after enrollment
-					%li
-						Exam pass guarantee included with all classes
-					%li
-						Includes class materials, PMI Contact Hours, online exam portal and
-						%a{:href=>"/public/live-pmp/included"} 
-							more
+				%ul.list-unstyled
+					%li.margin-bottom
+						.media
+							.pull-left
+								=image_tag"public/icon-computer.svg", :class=>"media-object half-margin-right", :width=>"33px"
+							.media-body 
+								%small
+									%span.extra-bold-font-name
+										Attend class from any PC, Mac 
+									or connected device
+					%li.margin-bottom
+						.media
+							.pull-left
+								=image_tag"public/icon-email.svg", :class=>"media-object half-margin-right", :width=>"35px"
+							.media-body 
+								%small
+									%span.extra-bold-font-name
+										Instant email confirmation  
+									and instructor follow-up after enrollment
+					%li.margin-bottom
+						.media
+							.pull-left
+								=image_tag"public/icon-clock.svg", :class=>"media-object half-margin-right", :width=>"28px"
+							.media-body 
+								%small
+									%span.extra-bold-font-name
+										Includes class materials
+									, 35 Contact Hours from the Project Management Institute (PMI)®, online exam portal and
+									%a{:href=>"/public/live-pmp/included"} 
+										more
+					%li.margin-bottom
+						.media
+							.pull-left
+								=image_tag"public/icon-medal.svg", :class=>"media-object half-margin-right", :width=>"25px"
+							.media-body 
+								%small
+									%span.extra-bold-font-name
+										included with all classes
+									Exam pass guarantee 
 			.col-sm-5 
-				=image_tag"public/practice/ui_show_1.png", :class=>"img-responsive margin-auto double-margin-bottom" 
-				.text-center
-					%p.text-center
-						%small
-							%em
-								PMTraining Student Portal Included with Class Enrollment! 
+				=image_tag"public/video_thumb.png", :class=>"img-responsive margin-auto double-margin-bottom" 
 .container
 	%hr.no-margin-top.no-margin-bottom
 %section

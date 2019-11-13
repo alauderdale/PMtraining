@@ -7,11 +7,11 @@
 <title>
 title
 </title>
-<link href="../../../stylesheets/public.css" rel="stylesheet" />
-<link href='../../../images/favicon.ico' rel='shortcut icon'>
+<link href="/stylesheets/public.css" rel="stylesheet" />
+<link href='/images/favicon.ico' rel='shortcut icon'>
 <!-- %script{:src => "http://code.jquery.com/jquery-latest.min.js", :type => "text/javascript"} -->
-<script src="../../../javascripts/lib/jquery.js"></script><script src="../../../javascripts/lib/bootstrap.js"></script><script src="../../../javascripts/lib/jquery.fancybox.pack.js"></script><script src="../../../javascripts/lib/helpers/jquery.fancybox-media.js"></script><script src="../../../javascripts/lib/highcharts/highcharts.js"></script><script src="../../../javascripts/lib/slick.js"></script><script src="../../../javascripts/lib/highcharts/modules/exporting.js"></script><script src="../../../javascripts/lib/footable/footable.js"></script><script src="../../../javascripts/lib/footable/footable.filter.js"></script><script src="../../../javascripts/scripts.js"></script>
-<body class='public public_live-pmp public_live-pmp_schedule-and-pricing public_live-pmp_schedule-and-pricing_index'>
+<script src="/javascripts/lib/jquery.js"></script><script src="/javascripts/lib/bootstrap.js"></script><script src="/javascripts/lib/jquery.fancybox.pack.js"></script><script src="/javascripts/lib/helpers/jquery.fancybox-media.js"></script><script src="/javascripts/lib/highcharts/highcharts.js"></script><script src="/javascripts/lib/slick.js"></script><script src="/javascripts/lib/highcharts/modules/exporting.js"></script><script src="/javascripts/lib/footable/footable.js"></script><script src="/javascripts/lib/footable/footable.filter.js"></script><script src="/javascripts/scripts.js"></script>
+<body class='public public_corporate-training public_corporate-training_corp-template'>
 <nav class='navbar navbar-default visible-xs navbar-fixed-top' id='mobile-main-nav' role='navigation'>
 <div class='container-fluid'>
 <div class='navbar-header'>
@@ -184,7 +184,7 @@ Sign up now
 </div>
 <div class='col-sm-7'>
 <div class='padded'>
-<img src="../../../images/public/dropdowns/dropdown_practice.png" class="img-responsive" alt="Dropdown practice" />
+<img src="/images/public/dropdowns/dropdown_practice.png" class="img-responsive" alt="Dropdown practice" />
 </div>
 </div>
 </div>
@@ -192,7 +192,7 @@ Sign up now
 
 </a>
 </li>
-<li class='active sale'>
+<li class='sale'>
 <a href='/public/live-pmp'>
 Live PMP Classes
 <span class='caret'></span>
@@ -242,7 +242,7 @@ Student Testimonials
 </div>
 <div class='col-sm-7'>
 <div class='padded'>
-<img src="../../../images/public/dropdowns/dropdown_live.png" class="img-responsive" alt="Dropdown live" />
+<img src="/images/public/dropdowns/dropdown_live.png" class="img-responsive" alt="Dropdown live" />
 </div>
 </div>
 </div>
@@ -293,7 +293,7 @@ Try a Demo
 </div>
 <div class='col-sm-7'>
 <div class='padded'>
-<img src="../../../images/public/dropdowns/dropdown_demand.png" class="img-responsive" alt="Dropdown demand" />
+<img src="/images/public/dropdowns/dropdown_demand.png" class="img-responsive" alt="Dropdown demand" />
 </div>
 </div>
 </div>
@@ -345,7 +345,7 @@ Another Link
 </div>
 <div class='col-sm-7'>
 <div class='padded'>
-<img src="../../../images/public/dropdowns/dropdown_training.png" class="img-responsive" alt="Dropdown training" />
+<img src="/images/public/dropdowns/dropdown_training.png" class="img-responsive" alt="Dropdown training" />
 </div>
 </div>
 </div>
@@ -396,7 +396,7 @@ Try a Demo
 </div>
 <div class='col-sm-7'>
 <div class='padded'>
-<img src="../../../images/public/dropdowns/dropdown_scrum.png" class="img-responsive" alt="Dropdown scrum" />
+<img src="/images/public/dropdowns/dropdown_scrum.png" class="img-responsive" alt="Dropdown scrum" />
 </div>
 </div>
 </div>
@@ -490,7 +490,7 @@ Get our newsletter
 </div>
 <div class='col-sm-4'>
 <div class='padded'>
-<img src="../../../images/public/dropdowns/dropdown_corporate.png" class="img-responsive" alt="Dropdown corporate" />
+<img src="/images/public/dropdowns/dropdown_corporate.png" class="img-responsive" alt="Dropdown corporate" />
 </div>
 </div>
 </div>
@@ -518,7 +518,7 @@ Cart
 <div class='pull-left'>
 <a class='logo_two' href='/'></a>
 </div>
-<img src="../../../images/pmi_logo.png" class=" hidden-sm pull-right quarter-margin-left" width="80px" style="position:relative; top:8px;" alt="Pmi logo" />
+<img src="/images/pmi_logo.png" class=" hidden-sm pull-right quarter-margin-left" width="80px" style="position:relative; top:8px;" alt="Pmi logo" />
 <nav class='pull-right'>
 <ul class='list-inline sub-links'>
 <li>
@@ -588,7 +588,7 @@ Sign up now
 </div>
 <div class='col-sm-7'>
 <div class='padded'>
-<img src="../../../images/public/dropdowns/dropdown_practice.png" class="img-responsive" alt="Dropdown practice" />
+<img src="/images/public/dropdowns/dropdown_practice.png" class="img-responsive" alt="Dropdown practice" />
 </div>
 </div>
 </div>
@@ -596,7 +596,7 @@ Sign up now
 
 </a>
 </li>
-<li class='active sale'>
+<li class='sale'>
 <a href='/public/live-pmp'>
 Live PMP Classes
 <span class='caret'></span>
@@ -646,7 +646,7 @@ Student Testimonials
 </div>
 <div class='col-sm-7'>
 <div class='padded'>
-<img src="../../../images/public/dropdowns/dropdown_live.png" class="img-responsive" alt="Dropdown live" />
+<img src="/images/public/dropdowns/dropdown_live.png" class="img-responsive" alt="Dropdown live" />
 </div>
 </div>
 </div>
@@ -697,7 +697,7 @@ Try a Demo
 </div>
 <div class='col-sm-7'>
 <div class='padded'>
-<img src="../../../images/public/dropdowns/dropdown_demand.png" class="img-responsive" alt="Dropdown demand" />
+<img src="/images/public/dropdowns/dropdown_demand.png" class="img-responsive" alt="Dropdown demand" />
 </div>
 </div>
 </div>
@@ -749,7 +749,7 @@ Another Link
 </div>
 <div class='col-sm-7'>
 <div class='padded'>
-<img src="../../../images/public/dropdowns/dropdown_training.png" class="img-responsive" alt="Dropdown training" />
+<img src="/images/public/dropdowns/dropdown_training.png" class="img-responsive" alt="Dropdown training" />
 </div>
 </div>
 </div>
@@ -800,7 +800,7 @@ Try a Demo
 </div>
 <div class='col-sm-7'>
 <div class='padded'>
-<img src="../../../images/public/dropdowns/dropdown_scrum.png" class="img-responsive" alt="Dropdown scrum" />
+<img src="/images/public/dropdowns/dropdown_scrum.png" class="img-responsive" alt="Dropdown scrum" />
 </div>
 </div>
 </div>
@@ -894,7 +894,7 @@ Get our newsletter
 </div>
 <div class='col-sm-4'>
 <div class='padded'>
-<img src="../../../images/public/dropdowns/dropdown_corporate.png" class="img-responsive" alt="Dropdown corporate" />
+<img src="/images/public/dropdowns/dropdown_corporate.png" class="img-responsive" alt="Dropdown corporate" />
 </div>
 </div>
 </div>
@@ -919,424 +919,191 @@ Cart
 
 <!-- end menu -->
 <div id='mainContents'>
-<!-- =partial"/public/shared/page-head-small", locals:{headerClass:"live-pmp-header"} -->
-<section class='no-padding-bottom'>
+<section class='invert-section page-header-section training-pmp-header'>
 <div class='container'>
 <div class='row'>
 <div class='col-lg-12'>
-<ul class='nav nav-pills'>
-<li class=''>
-<a href='/public/live-pmp'>
-Class Overview
-</a>
-</li>
-<li class='active'>
-<a href='/public/live-pmp/schedule-and-pricing'>
-Schedule & Pricing
-</a>
-</li>
-<li class=''>
-<a href='/public/live-pmp/included'>
-Included With Class
-</a>
-</li>
-<li class=''>
-<a href='/public/live-pmp/guarantee'>
-Our Guarantee
-</a>
-</li>
-<li class=''>
-<a href='/public/live-pmp/student-testimonials'>
-Student Testimonials
-</a>
-</li>
-</ul>
-
-</div>
-</div>
-</div>
-</section>
-<section>
-<div class='container'>
-<div class='row'>
-<div class='col-lg-12'>
-<h2 class='bold-font-name double-marign-bottom'>
-PMP Class Schedule and Pricing
+<h2 class='no-margin-bottom pull-left'>
+Corporate Training
 </h2>
-</div>
-</div>
-<div class='row'>
-<div class='col-sm-7'>
-<ul class='list-unstyled'>
-<li class='margin-bottom'>
-<div class='media'>
-<div class='pull-left'>
-<img src="../../../images/public/icon-computer.svg" class="media-object half-margin-right" width="33px" alt="Icon computer" />
-</div>
-<div class='media-body'>
-<small>
-<span class='extra-bold-font-name'>
-Attend class from any PC, Mac
-</span>
-or connected device
-</small>
-</div>
-</div>
-</li>
-<li class='margin-bottom'>
-<div class='media'>
-<div class='pull-left'>
-<img src="../../../images/public/icon-email.svg" class="media-object half-margin-right" width="35px" alt="Icon email" />
-</div>
-<div class='media-body'>
-<small>
-<span class='extra-bold-font-name'>
-Instant email confirmation
-</span>
-and instructor follow-up after enrollment
-</small>
-</div>
-</div>
-</li>
-<li class='margin-bottom'>
-<div class='media'>
-<div class='pull-left'>
-<img src="../../../images/public/icon-clock.svg" class="media-object half-margin-right" width="28px" alt="Icon clock" />
-</div>
-<div class='media-body'>
-<small>
-<span class='extra-bold-font-name'>
-Includes class materials
-</span>
-, 35 Contact Hours from the Project Management Institute (PMI)®, online exam portal and
-<a href='/public/live-pmp/included'>
-more
-</a>
-</small>
-</div>
-</div>
-</li>
-<li class='margin-bottom'>
-<div class='media'>
-<div class='pull-left'>
-<img src="../../../images/public/icon-medal.svg" class="media-object half-margin-right" width="25px" alt="Icon medal" />
-</div>
-<div class='media-body'>
-<small>
-<span class='extra-bold-font-name'>
-included with all classes
-</span>
-Exam pass guarantee
-</small>
-</div>
-</div>
-</li>
-</ul>
-</div>
-<div class='col-sm-5'>
-<img src="../../../images/public/video_thumb.png" class="img-responsive margin-auto double-margin-bottom" alt="Video thumb" />
+<h6 class='no-margin-bottom pull-right hidden-xs half-margin-top extra-bold-font-name'>
+
+</h6>
 </div>
 </div>
 </div>
 </section>
-<div class='container'>
-<hr class='no-margin-top no-margin-bottom'>
-</div>
-<section>
-<div class='container'>
-<div class='row'>
-<div class='col-lg-12'>
-<h6 class='text-center primary-text-color'>
-New Student Discounts on all Upcoming Classes!
-</h6>
-<div class='text-center double-margin-bottom'>
-<a class='tooltip-up margin-right' data-toggle='tooltip' href='/public/about/contact' title='+ Is there anything preventing you from signing up at this point? SEND Powered by Qualaroo [?]'>
-Request a Private Class for your Team
-<!-- %i.fa.fa-arrow-circle-right{:style=>"left:2px;"} -->
-</a>
-<a href='#'>
-New Student Discounts on all Upcoming Classes
-</a>
-</div>
-</div>
-</div>
-<div class='row'>
-<div class='col-sm-12'>
-<table class='table table-striped table-responsive mid-align table-bordered bold-table'>
-<thead>
-<tr>
-<th class='text-center'>
-<h5 class='no-margin-bottom'>
-Class Info
-</h5>
-</th>
-<th class='text-center' data-hide='phone'>
-<h5 class='no-margin-bottom'>
-Class Start Date
-</h5>
-</th>
-<th class='text-center' data-hide='phone'>
-<h5 class='no-margin-bottom'>
-Class Schedule
-</h5>
-</th>
-<th class='text-center' data-hide='phone'>
-<h5 class='no-margin-bottom'>
-Class Time
-</h5>
-</th>
-<th class='text-center' data-hide='phone'>
-<h5 class='no-margin-bottom'>
-Enrollment Price
-</h5>
-</th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class='text-center'>
-<strong>
-<a data-target='#showClassModal' data-toggle='modal' href='/public/classes/show'>
-View Class Details
-</a>
-</strong>
-</td>
-<td class='text-center'>
-<strong>
-Monday, July 07, 2014
-</strong>
-</td>
-<td class='text-center'>
-Mon / Weds Evenings (6 weeks)
-</td>
-<td class='text-center'>
-8PM  to 10PM (EST)
-</td>
-<td class='text-center flash-sale'>
-<span class='flash-title'>
-FLASH SALE
-</span>
-<br>
-<span class='flash-savings'>
-50% OFF
-</span>
-<br>
-<span class='flash-price-change'>
-<span class='line-through flash-old-price'>
-$1,380.00
-</span>
-<span class='flash-new-price'>
-$100.00
-</span>
-</span>
-<br>
-<span class='flash-counter'>
-SALE ENDS IN: 23:33:00
-</span>
-</td>
-<td class='text-center'>
-<a class='btn btn-success' href='/public/checkout'>
-Enroll Now
-</a>
-</td>
-</tr>
-<tr>
-<td class='text-center'>
-<strong>
-<a data-target='#showClassModal' data-toggle='modal' href='/public/classes/show'>
-View Class Details
-</a>
-</strong>
-</td>
-<td class='text-center'>
-<strong>
-Monday, July 07, 2014
-</strong>
-</td>
-<td class='text-center'>
-Mon / Weds Evenings (6 weeks)
-</td>
-<td class='text-center'>
-8PM  to 10PM (EST)
-</td>
-<td class='text-center'>
-<span class='line-through'>
-$1299.00 (USD)
-</span>
-<br>
-<span class='text-danger'>
-Save $405.00 Now
-</span>
-<br>
-<span class='text-success'>
-$894.00 (USD)
-</span>
-</td>
-<td class='text-center'>
-<a class='btn btn-success' href='/public/checkout'>
-Enroll Now
-</a>
-</td>
-</tr>
-<tr>
-<td class='text-center'>
-<strong>
-<a data-target='#showClassModal' data-toggle='modal' href='/public/classes/show'>
-View Class Details
-</a>
-</strong>
-</td>
-<td class='text-center'>
-<strong>
-Monday, July 07, 2014
-</strong>
-</td>
-<td class='text-center'>
-Mon / Weds Evenings (6 weeks)
-</td>
-<td class='text-center'>
-8PM  to 10PM (EST)
-</td>
-<td class='text-center'>
-<span class='line-through'>
-$1299.00 (USD)
-</span>
-<br>
-<span class='text-danger'>
-Save $405.00 Now
-</span>
-<br>
-<span class='text-success'>
-$894.00 (USD)
-</span>
-</td>
-<td class='text-center'>
-<a class='btn btn-success' href='/public/checkout'>
-Enroll Now
-</a>
-</td>
-</tr>
-<tr>
-<td class='text-center'>
-<strong>
-<a data-target='#showClassModal' data-toggle='modal' href='/public/classes/show'>
-View Class Details
-</a>
-</strong>
-</td>
-<td class='text-center'>
-<strong>
-Monday, July 07, 2014
-</strong>
-</td>
-<td class='text-center'>
-Mon / Weds Evenings (6 weeks)
-</td>
-<td class='text-center'>
-8PM  to 10PM (EST)
-</td>
-<td class='text-center'>
-<span class='line-through'>
-$1299.00 (USD)
-</span>
-<br>
-<span class='text-danger'>
-Save $405.00 Now
-</span>
-<br>
-<span class='text-success'>
-$894.00 (USD)
-</span>
-</td>
-<td class='text-center'>
-<a class='btn btn-success' href='/public/checkout'>
-Enroll Now
-</a>
-</td>
-</tr>
-<tr>
-<td class='text-center'>
-<strong>
-<a data-target='#showClassModal' data-toggle='modal' href='/public/classes/show'>
-View Class Details
-</a>
-</strong>
-</td>
-<td class='text-center'>
-<strong>
-Monday, July 07, 2014
-</strong>
-</td>
-<td class='text-center'>
-Mon / Weds Evenings (6 weeks)
-</td>
-<td class='text-center'>
-8PM  to 10PM (EST)
-</td>
-<td class='text-center'>
-<span class='line-through'>
-$1299.00 (USD)
-</span>
-<br>
-<span class='text-danger'>
-Save $405.00 Now
-</span>
-<br>
-<span class='text-success'>
-$894.00 (USD)
-</span>
-</td>
-<td class='text-center'>
-<a class='btn btn-success' href='/public/checkout'>
-Enroll Now
-</a>
-</td>
-</tr>
-<tr>
-<td class='text-center'>
-<strong>
-<span class='text-muted' disabled='disabled'>
-View Class Details
-</span>
-</strong>
-</td>
-<td class='text-center'>
-<strong>
-Monday, July 07, 2014
-</strong>
-</td>
-<td class='text-center'>
-Mon / Weds Evenings (6 weeks)
-</td>
-<td class='text-center'>
-8PM  to 10PM (EST)
-</td>
-<td class='text-center'>
-<span class='line-through'>
-$1299.00 (USD)
-</span>
-<br>
-<span class='text-danger'>
-Save $405.00 Now
-</span>
-<br>
-<span class='text-success'>
-$894.00 (USD)
-</span>
-</td>
-<td class='text-center'>
-<div class='tooltip-up' data-toggle='tooltip' title='Due to the popularity of this class, we have reached capacity and can no longer accept new enrollments.'>
-<a class='btn btn-warning' disabled='disabled' href='/public/checkout'>
-Sold Out
-</a>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
 
+<section class='extra-padding'>
+<div class='container'>
+<div class='row'>
+<div class='col-md-2'></div>
+<div class='col-md-8'>
+<div class='text-center'>
+<h2>
+I’m the headline for this feature
+</h2>
+<p class='lead2'>
+quia dolor qui ducimus nesciunt illo laborum vel ipsa sit impedit est asperiores accusamus dolor quo et excepturi a aut
+</p>
+<a class='btn btn-default' href='#'>
+Start now
+</a>
 </div>
+<div class='row'>
+<div class='col-lg-12 margin-top'>
+<img src="/images/public/corporate_training/hero.png" class="img-responsive margin-auto double-margin-top" width="535px" alt="Hero" />
+</div>
+</div>
+</div>
+<div class='col-md-2'></div>
+</div>
+</div>
+</section>
+<section class='off-blue extra-padding'>
+<div class='container'>
+<div class='row'>
+<div class='col-md-6 col-md-push-6'>
+<img src="/images/public/corporate_training/template/2.png" class="img-responsive margin-auto double-margin-top margin-bottom" width="454px" alt="2" />
+</div>
+<div class='col-md-6 col-md-pull-6'>
+<h2>
+I’m the headline for this feature
+</h2>
+<p class='lead2'>
+inventore voluptates non ipsum itaque modi magni suscipit qui natus repudiandae ut saepe aut consequatur assumenda ut repellendus culpa et
+</p>
+<p class='bold-font-name'>
+Our volume discount purchase program includes:
+</p>
+<ul class='list-default'>
+<li>
+quasi est aliquid mollitia quas eos
+</li>
+<li>
+et soluta quia qui a ipsa
+</li>
+<li>
+repudiandae a magni dicta rerum eaque
+</li>
+<li>
+repellendus consequatur voluptate unde consequuntur consequatur
+</li>
+</ul>
+<a class='link-underline' href='#'>
+Call to action for this feature
+</a>
+</div>
+</div>
+</div>
+</section>
+<section class='extra-padding'>
+<div class='container'>
+<div class='row'>
+<div class='col-md-6'>
+<div class='padded'>
+<img src="/images/public/corporate_training/template/3.png" class="img-responsive margin-auto double-margin-top" width="565px" alt="3" />
+</div>
+</div>
+<div class='col-md-6'>
+<h2>
+I’m the headline for this feature
+</h2>
+<p class='lead2'>
+explicabo quod sint est velit odio ipsa ad quae voluptatem voluptatem explicabo veritatis ex tempore dolore ullam repellat labore odio
+</p>
+<a class='link-underline' href='#'>
+Call to action for this feature
+</a>
+<div class='half-padding-top'></div>
+<hr>
+<blockquote class='half-margin-bottom no-padding'>
+<em>
+“Morbi ornare odio felis, sed luctus metus rhoncus ac. Suspendisse ullamcorper lorem massa, sed vulputate mauris tristique et.”
+</em>
+</blockquote>
+<p class='bold-font-name'>
+John Doe, CEO Big Company worldwide
+</p>
+</div>
+</div>
+</div>
+</section>
+<section class='off-blue extra-padding'>
+<div class='container'>
+<div class='row'>
+<div class='col-md-6 col-md-push-6'>
+<img src="/images/public/corporate_training/template/4.png" class="img-responsive margin-auto double-margin-top" width="454px" alt="4" />
+</div>
+<div class='col-md-6 col-md-pull-6'>
+<h2>
+I’m the headline for this feature
+</h2>
+<p class='lead2'>
+tenetur cupiditate accusamus facere amet qui dolore porro fugit nihil sed necessitatibus iusto ut sit voluptas sit impedit quos quae
+</p>
+<p class='bold-font-name'>
+Our volume discount purchase program includes:
+</p>
+<ul class='list-default'>
+<li>
+dolor qui aut dolorem expedita nihil
+</li>
+<li>
+quod quisquam sit iusto ut fugit
+</li>
+<li>
+ipsam ipsam corrupti error modi inventore
+</li>
+<li>
+sint perferendis corrupti esse animi reiciendis
+</li>
+</ul>
+<a class='link-underline' href='#'>
+Call to action for this feature
+</a>
+</div>
+</div>
+</div>
+</section>
+<section class='extra-padding invert-section'>
+<div class='container'>
+<div class='row'>
+<div class='col-md-2'></div>
+<div class='col-md-8'>
+<div class='text-center'>
+<h2>
+Get started today
+</h2>
+<p class='lead2'>
+Morbi ornare odio felis, sed luctus metus rhoncus ac. Suspendisse ullamcorper lorem massa, sed vulputate mauris tristique et.
+</p>
+</div>
+<div class='row'>
+<div class='col-lg-1'></div>
+<div class='col-lg-10'>
+<div class='form'>
+<div class='form-group'>
+<input class='form-control input-lg' placeholder='Name'>
+</div>
+<div class='form-group'>
+<input class='form-control input-lg' placeholder='Phone'>
+</div>
+<div class='form-group'>
+<input class='form-control input-lg' placeholder='Email'>
+</div>
+<div class='form-group'>
+<textarea class='form-control input-lg' placeholder='Additional comments' rows='8'></textarea>
+</div>
+<a class='btn btn-default btn-block btn-lg' href='#'>
+Submit
+</a>
+</div>
+</div>
+<div class='col-lg-1'></div>
+</div>
+</div>
+<div class='col-md-2'></div>
 </div>
 </div>
 </section>
@@ -1347,7 +1114,7 @@ Sold Out
 <div class='container'>
 <div class='row'>
 <div class='col-sm-3'>
-<img src="../../../images/logo_no_tag.png" alt="Logo no tag" />
+<img src="/images/logo_no_tag.png" alt="Logo no tag" />
 <p>
 <small>
 ©
@@ -1357,7 +1124,7 @@ SSILogic
 2014
 </small>
 </p>
-<img src="../../../images/pmi_logo_3.png" class="pmi-logo" alt="Pmi logo 3" />
+<img src="/images/pmi_logo_3.png" class="pmi-logo" alt="Pmi logo 3" />
 <p class='bold-font-name'>
 <small>
 #3962
