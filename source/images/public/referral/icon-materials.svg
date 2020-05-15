@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="97px" viewBox="0 0 72 97" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon-materials</title>
+    <g id="NEw" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Referral-program" transform="translate(-858.000000, -2886.000000)">
+            <g id="icon-materials" transform="translate(859.000000, 2888.000000)">
+                <circle id="Oval" fill="#ADE7FF" cx="35.5" cy="36.5" r="35.5"></circle>
+                <g id="Group-279" transform="translate(1.000000, 0.000000)" stroke="#265A6E" stroke-linecap="round" stroke-linejoin="round" stroke-width="4">
+                    <line x1="51.7264" y1="28.6348" x2="27.7264" y2="28.6348" id="Stroke-4652"></line>
+                    <line x1="39.7284" y1="20.6364" x2="27.7284" y2="20.6364" id="Stroke-4653"></line>
+                    <polygon id="Stroke-4654" points="24 92.5368 18 88.5368 12 92.5368 12 74.5368 24 74.5368"></polygon>
+                    <line x1="24.002" y1="80.5368" x2="68.002" y2="80.5368" id="Stroke-4655"></line>
+                    <path d="M68,68.5368 L6,68.5368 C2.684,68.5368 0,71.2208 0,74.5368 C0,77.8488 2.684,80.5368 6,80.5368 L12,80.5368" id="Stroke-4656"></path>
+                    <path d="M68,68.5368 L68,0.5368 L6,0.5368 C2.684,0.5368 0,3.2208 0,6.5368 L0,74.5368" id="Stroke-4657"></path>
+                    <line x1="11.8828" y1="0.5368" x2="11.8828" y2="68.5368" id="Stroke-4658"></line>
+                    <line x1="64" y1="68.5368" x2="64" y2="80.5368" id="Stroke-4659"></line>
+                    <line x1="10.0272" y1="74.5368" x2="25.9192" y2="74.5368" id="Stroke-4660"></line>
+                    <line x1="52.3888" y1="74.5368" x2="64.0008" y2="74.5368" id="Stroke-4661"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

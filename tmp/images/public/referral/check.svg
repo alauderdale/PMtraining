@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <g id="NEw" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Referral-program" transform="translate(-123.000000, -1191.000000)">
+            <g id="Group" transform="translate(123.000000, 1191.000000)">
+                <circle id="Oval" fill="#85C342" cx="13" cy="13" r="13"></circle>
+                <text id="check" stroke="#FFFFFF" stroke-width="11" font-family="MaterialIcons-Regular, Material Icons" font-size="13" font-weight="normal" letter-spacing="0.302325573" fill="#FFFFFF">
+                    <tspan x="6" y="20">check</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
