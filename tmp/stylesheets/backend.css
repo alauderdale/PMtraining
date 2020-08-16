@@ -93,6 +93,10 @@ img {
   display: table-cell;
   vertical-align: middle; }
 
+.align-items-center {
+  -ms-flex-align: center !important;
+  align-items: center !important; }
+
 @font-face {
   font-family: 'socialicoregular';
   src: url("../font/socialico-webfont.eot");

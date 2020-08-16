@@ -237,7 +237,7 @@ img {
   .text-color p {
     color: #545a5f !important; }
 
-.white-text h1, .panel.primary-color h1, .panel.success-color h1, .panel.instructor-panel h1, .panel .panel-heading.primary-color h1, .well.primary-color h1, .white-text h2, .panel.primary-color h2, .panel.success-color h2, .panel.instructor-panel h2, .panel .panel-heading.primary-color h2, .well.primary-color h2, .white-text h3, .panel.primary-color h3, .panel.success-color h3, .panel.instructor-panel h3, .panel .panel-heading.primary-color h3, .well.primary-color h3, .white-text h4, .panel.primary-color h4, .panel.success-color h4, .panel.instructor-panel h4, .panel .panel-heading.primary-color h4, .well.primary-color h4, .white-text h5, .panel.primary-color h5, .panel.success-color h5, .panel.instructor-panel h5, .panel .panel-heading.primary-color h5, .well.primary-color h5, .white-text h6, .panel.primary-color h6, .panel.success-color h6, .panel.instructor-panel h6, .panel .panel-heading.primary-color h6, .well.primary-color h6, .white-text p, .panel.primary-color p, .panel.success-color p, .panel.instructor-panel p, .panel .panel-heading.primary-color p, .well.primary-color p, .white-text small, .panel.primary-color small, .panel.success-color small, .panel.instructor-panel small, .panel .panel-heading.primary-color small, .well.primary-color small, .white-text li, .panel.primary-color li, .panel.success-color li, .panel.instructor-panel li, .panel .panel-heading.primary-color li, .well.primary-color li {
+.white-text h1, .panel.primary-color h1, .panel.success-color h1, .panel.instructor-panel h1, .panel .panel-heading.primary-color h1, .well.primary-color h1, .podcast-container h1, .white-text h2, .panel.primary-color h2, .panel.success-color h2, .panel.instructor-panel h2, .panel .panel-heading.primary-color h2, .well.primary-color h2, .podcast-container h2, .white-text h3, .panel.primary-color h3, .panel.success-color h3, .panel.instructor-panel h3, .panel .panel-heading.primary-color h3, .well.primary-color h3, .podcast-container h3, .white-text h4, .panel.primary-color h4, .panel.success-color h4, .panel.instructor-panel h4, .panel .panel-heading.primary-color h4, .well.primary-color h4, .podcast-container h4, .white-text h5, .panel.primary-color h5, .panel.success-color h5, .panel.instructor-panel h5, .panel .panel-heading.primary-color h5, .well.primary-color h5, .podcast-container h5, .white-text h6, .panel.primary-color h6, .panel.success-color h6, .panel.instructor-panel h6, .panel .panel-heading.primary-color h6, .well.primary-color h6, .podcast-container h6, .white-text p, .panel.primary-color p, .panel.success-color p, .panel.instructor-panel p, .panel .panel-heading.primary-color p, .well.primary-color p, .podcast-container p, .white-text small, .panel.primary-color small, .panel.success-color small, .panel.instructor-panel small, .panel .panel-heading.primary-color small, .well.primary-color small, .podcast-container small, .white-text li, .panel.primary-color li, .panel.success-color li, .panel.instructor-panel li, .panel .panel-heading.primary-color li, .well.primary-color li, .podcast-container li {
   color: white !important; }
 
 .micro-text {
@@ -1272,6 +1272,40 @@ ul.logos-list {
     @media (max-width: 768px) {
       ul.logos-list li img {
         height: 40px; } }
+
+.podcast-container {
+  display: block;
+  background: #0d6183;
+  color: white;
+  padding: 12px;
+  border-radius: 8px;
+  position: relative;
+  padding: 16px; }
+  .podcast-container .label {
+    background: #041c25;
+    margin-bottom: 8px;
+    display: inline-block;
+    border-radius: 100px; }
+  .podcast-container .play-button {
+    display: block;
+    text-align: right;
+    top: 16px;
+    right: 16px;
+    position: relative; }
+  @media (max-width: 992px) {
+    .podcast-container h4 {
+      font-size: 14px; }
+    .podcast-container .play-button {
+      margin-top: 10px;
+      text-align: left;
+      top: 0px;
+      right: 0px; } }
+
+.audio-player audio {
+  border-radius: 100px; }
+  .audio-player audio:focus {
+    outline: none;
+    border: 1px solid #138abb; }
 
 img.contact-logo-mobile {
   margin-bottom: 24px !important; }
