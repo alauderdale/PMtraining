@@ -1,0 +1,51 @@
+;;;
+
+"layout": "public",
+"title": "PMP Articles",
+"right_title": "", 
+"activeclass": "about",
+"subtitle": "PMP Articles"
+
+;;;
+
+=partial"/public/shared/page-head-small"
+
+
+%section
+	.container
+		.row
+			.col-sm-12
+				%ol.breadcrumb
+					%li
+						%a{:href=>"/public/articles"}
+							Articles
+					%li
+						PMT Podcast: Hear how Atkins Global leveraged PMTraining for their organization
+		.row
+			.col-sm-7
+				%h2.no-margin-bottom
+					PMT Podcast: Hear how Atkins Global leveraged PMTraining for their organization
+				%p.text-muted
+					%small
+						By Christopher Scordo PMP, ITIL 
+				.audio-player-container.padding-top.double-padding-bottom
+					.media
+						.pull-left
+							%img.media-object.quarter-margin-right{:alt => "...", :src => "/images/podcast-cover.png", :width=>"169px"}
+						.media-body
+							%h3.regular-font-name.primary-text-color
+								PMT Podcast: Hear how Atkins Global leveraged PMTraining for their organization
+							.audio-player
+								%audio.full-width{:controls => ""}
+									%source{:src => "/audio/podcast.mp3", :type => "audio/mpeg"}
+									Your browser does not support the audio element.
+
+				-2.times do
+					%p
+						=lorem.paragraphs(1)
+			.col-sm-1
+			.col-sm-4
+				.affix-top.article-sidebar{"data-spy"=>"affix", "data-offset-top"=>"300", :style=>" top:80px;" }
+					%a{:href=>"/public/live-pmp/schedule-and-pricing"}
+						=image_tag"/images/public/sidebar-teaser.png"
+			
