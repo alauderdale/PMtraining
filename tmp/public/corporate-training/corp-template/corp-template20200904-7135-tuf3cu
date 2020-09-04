@@ -7,11 +7,11 @@
 <title>
 title
 </title>
-<link href="../../../stylesheets/public.css" rel="stylesheet" />
-<link href='../../../images/favicon.ico' rel='shortcut icon'>
+<link href="/stylesheets/public.css" rel="stylesheet" />
+<link href='/images/favicon.ico' rel='shortcut icon'>
 <!-- %script{:src => "http://code.jquery.com/jquery-latest.min.js", :type => "text/javascript"} -->
-<script src="../../../javascripts/lib/jquery.js"></script><script src="../../../javascripts/lib/bootstrap.js"></script><script src="../../../javascripts/lib/jquery.fancybox.pack.js"></script><script src="../../../javascripts/lib/helpers/jquery.fancybox-media.js"></script><script src="../../../javascripts/lib/highcharts/highcharts.js"></script><script src="../../../javascripts/lib/slick.js"></script><script src="../../../javascripts/lib/highcharts/modules/exporting.js"></script><script src="../../../javascripts/lib/footable/footable.js"></script><script src="../../../javascripts/lib/footable/footable.filter.js"></script><script src="../../../javascripts/scripts.js"></script>
-<body class='public public_about public_about_customers public_about_customers_index'>
+<script src="/javascripts/lib/jquery.js"></script><script src="/javascripts/lib/bootstrap.js"></script><script src="/javascripts/lib/jquery.fancybox.pack.js"></script><script src="/javascripts/lib/helpers/jquery.fancybox-media.js"></script><script src="/javascripts/lib/highcharts/highcharts.js"></script><script src="/javascripts/lib/slick.js"></script><script src="/javascripts/lib/highcharts/modules/exporting.js"></script><script src="/javascripts/lib/footable/footable.js"></script><script src="/javascripts/lib/footable/footable.filter.js"></script><script src="/javascripts/scripts.js"></script>
+<body class='public public_corporate-training public_corporate-training_corp-template'>
 <nav class='navbar navbar-default visible-xs navbar-fixed-top' id='mobile-main-nav' role='navigation'>
 <div class='container-fluid'>
 <div class='navbar-header'>
@@ -184,7 +184,7 @@ Sign up now
 </div>
 <div class='col-sm-7'>
 <div class='padded'>
-<img src="../../../images/public/dropdowns/dropdown_practice.png" class="img-responsive" alt="Dropdown practice" />
+<img src="/images/public/dropdowns/dropdown_practice.png" class="img-responsive" alt="Dropdown practice" />
 </div>
 </div>
 </div>
@@ -242,7 +242,7 @@ Student Testimonials
 </div>
 <div class='col-sm-7'>
 <div class='padded'>
-<img src="../../../images/public/dropdowns/dropdown_live.png" class="img-responsive" alt="Dropdown live" />
+<img src="/images/public/dropdowns/dropdown_live.png" class="img-responsive" alt="Dropdown live" />
 </div>
 </div>
 </div>
@@ -293,7 +293,7 @@ Try a Demo
 </div>
 <div class='col-sm-7'>
 <div class='padded'>
-<img src="../../../images/public/dropdowns/dropdown_demand.png" class="img-responsive" alt="Dropdown demand" />
+<img src="/images/public/dropdowns/dropdown_demand.png" class="img-responsive" alt="Dropdown demand" />
 </div>
 </div>
 </div>
@@ -345,7 +345,7 @@ Another Link
 </div>
 <div class='col-sm-7'>
 <div class='padded'>
-<img src="../../../images/public/dropdowns/dropdown_training.png" class="img-responsive" alt="Dropdown training" />
+<img src="/images/public/dropdowns/dropdown_training.png" class="img-responsive" alt="Dropdown training" />
 </div>
 </div>
 </div>
@@ -396,7 +396,7 @@ Try a Demo
 </div>
 <div class='col-sm-7'>
 <div class='padded'>
-<img src="../../../images/public/dropdowns/dropdown_scrum.png" class="img-responsive" alt="Dropdown scrum" />
+<img src="/images/public/dropdowns/dropdown_scrum.png" class="img-responsive" alt="Dropdown scrum" />
 </div>
 </div>
 </div>
@@ -404,7 +404,7 @@ Try a Demo
 
 </a>
 </li>
-<li class='active'>
+<li class=''>
 <a class='dropdown-toggle' href='/public/about'>
 Corporate
 <span class='caret'></span>
@@ -490,7 +490,7 @@ Get our newsletter
 </div>
 <div class='col-sm-4'>
 <div class='padded'>
-<img src="../../../images/public/dropdowns/dropdown_corporate.png" class="img-responsive" alt="Dropdown corporate" />
+<img src="/images/public/dropdowns/dropdown_corporate.png" class="img-responsive" alt="Dropdown corporate" />
 </div>
 </div>
 </div>
@@ -518,7 +518,7 @@ Cart
 <div class='pull-left'>
 <a class='logo_two' href='/'></a>
 </div>
-<img src="../../../images/pmi_logo.png" class=" hidden-sm pull-right quarter-margin-left" width="60px" style="position:relative; top:-8px;" alt="Pmi logo" />
+<img src="/images/pmi_logo.png" class=" hidden-sm pull-right quarter-margin-left" width="60px" style="position:relative; top:8px;" alt="Pmi logo" />
 <nav class='pull-right'>
 <ul class='list-inline sub-links'>
 <li>
@@ -588,7 +588,7 @@ Sign up now
 </div>
 <div class='col-sm-7'>
 <div class='padded'>
-<img src="../../../images/public/dropdowns/dropdown_practice.png" class="img-responsive" alt="Dropdown practice" />
+<img src="/images/public/dropdowns/dropdown_practice.png" class="img-responsive" alt="Dropdown practice" />
 </div>
 </div>
 </div>
@@ -646,7 +646,7 @@ Student Testimonials
 </div>
 <div class='col-sm-7'>
 <div class='padded'>
-<img src="../../../images/public/dropdowns/dropdown_live.png" class="img-responsive" alt="Dropdown live" />
+<img src="/images/public/dropdowns/dropdown_live.png" class="img-responsive" alt="Dropdown live" />
 </div>
 </div>
 </div>
@@ -697,7 +697,7 @@ Try a Demo
 </div>
 <div class='col-sm-7'>
 <div class='padded'>
-<img src="../../../images/public/dropdowns/dropdown_demand.png" class="img-responsive" alt="Dropdown demand" />
+<img src="/images/public/dropdowns/dropdown_demand.png" class="img-responsive" alt="Dropdown demand" />
 </div>
 </div>
 </div>
@@ -749,7 +749,7 @@ Another Link
 </div>
 <div class='col-sm-7'>
 <div class='padded'>
-<img src="../../../images/public/dropdowns/dropdown_training.png" class="img-responsive" alt="Dropdown training" />
+<img src="/images/public/dropdowns/dropdown_training.png" class="img-responsive" alt="Dropdown training" />
 </div>
 </div>
 </div>
@@ -800,7 +800,7 @@ Try a Demo
 </div>
 <div class='col-sm-7'>
 <div class='padded'>
-<img src="../../../images/public/dropdowns/dropdown_scrum.png" class="img-responsive" alt="Dropdown scrum" />
+<img src="/images/public/dropdowns/dropdown_scrum.png" class="img-responsive" alt="Dropdown scrum" />
 </div>
 </div>
 </div>
@@ -808,7 +808,7 @@ Try a Demo
 
 </a>
 </li>
-<li class='active'>
+<li class=''>
 <a class='dropdown-toggle' href='/public/about'>
 Corporate
 <span class='caret'></span>
@@ -894,7 +894,7 @@ Get our newsletter
 </div>
 <div class='col-sm-4'>
 <div class='padded'>
-<img src="../../../images/public/dropdowns/dropdown_corporate.png" class="img-responsive" alt="Dropdown corporate" />
+<img src="/images/public/dropdowns/dropdown_corporate.png" class="img-responsive" alt="Dropdown corporate" />
 </div>
 </div>
 </div>
@@ -919,12 +919,12 @@ Cart
 
 <!-- end menu -->
 <div id='mainContents'>
-<section class='about-pmp-header invert-section page-header-section'>
+<section class='invert-section page-header-section training-pmp-header'>
 <div class='container'>
 <div class='row'>
 <div class='col-lg-12'>
 <h2 class='no-margin-bottom pull-left'>
-About Us
+Corporate Training
 </h2>
 <h6 class='no-margin-bottom pull-right hidden-xs half-margin-top extra-bold-font-name'>
 
@@ -934,277 +934,176 @@ About Us
 </div>
 </section>
 
-<section class='no-padding-bottom'>
+<section class='extra-padding'>
 <div class='container'>
 <div class='row'>
-<div class='col-lg-12'>
-<ul class='nav nav-pills'>
-<li class=''>
-<a href='/public/about'>
-Who We Are
+<div class='col-md-2'></div>
+<div class='col-md-8'>
+<div class='text-center'>
+<h2>
+I’m the headline for this feature
+</h2>
+<p class='lead2'>
+magni ipsam et magni rem corrupti recusandae deserunt assumenda voluptatibus assumenda nemo fugiat quas cumque quo in nulla rerum similique
+</p>
+<a class='btn btn-default' href='#'>
+Start now
 </a>
+</div>
+<div class='row'>
+<div class='col-lg-12 margin-top'>
+<img src="/images/public/corporate_training/hero.png" class="img-responsive margin-auto double-margin-top" width="535px" alt="Hero" />
+</div>
+</div>
+</div>
+<div class='col-md-2'></div>
+</div>
+</div>
+</section>
+<section class='off-blue extra-padding'>
+<div class='container'>
+<div class='row'>
+<div class='col-md-6 col-md-push-6'>
+<img src="/images/public/corporate_training/template/2.png" class="img-responsive margin-auto double-margin-top margin-bottom" width="454px" alt="2" />
+</div>
+<div class='col-md-6 col-md-pull-6'>
+<h2>
+I’m the headline for this feature
+</h2>
+<p class='lead2'>
+voluptas ipsa fuga natus officia mollitia accusamus accusantium iure quae cum autem et placeat aut eligendi eius omnis totam ex
+</p>
+<p class='bold-font-name'>
+Our volume discount purchase program includes:
+</p>
+<ul class='list-default'>
+<li>
+blanditiis voluptatem animi est modi dicta
 </li>
-<li class=''>
-<a href='/public/about/courseware'>
-Our PMP Courseware
-</a>
+<li>
+cum excepturi corporis veniam cupiditate numquam
 </li>
-<li class=''>
-<a href='/public/about-the-pmp-exam'>
-About the PMP Exam
-</a>
+<li>
+ducimus tenetur quisquam tempore facilis et
 </li>
-<li class='active'>
-<a href='/public/about/customers'>
-Our Customers
-</a>
-</li>
-<li class=''>
-<a href='/public/about/books'>
-More SSL Logic Products
-</a>
+<li>
+et qui fugit quia voluptas et
 </li>
 </ul>
-
+<a class='link-underline' href='#'>
+Call to action for this feature
+</a>
 </div>
 </div>
 </div>
 </section>
-<section>
+<section class='extra-padding'>
 <div class='container'>
 <div class='row'>
-<div class='col-md-9'>
+<div class='col-md-6'>
+<div class='padded'>
+<img src="/images/public/corporate_training/template/3.png" class="img-responsive margin-auto double-margin-top" width="565px" alt="3" />
+</div>
+</div>
+<div class='col-md-6'>
 <h2>
-Who Relies on Our PMP Exam Prep? More People than you Think.
+I’m the headline for this feature
 </h2>
-<p>
-Thousands of students rely on our PMP exam prep products, some without even knowing it. There are more than 50 different organizations; including training firms, universities, and public agencies; who license our PMP exam prep software and books for their own students. A key reason our PMP courseware remains so effective is because we receive constant feedback from the training organizations we support.
+<p class='lead2'>
+aliquam eligendi tempore nesciunt consequatur modi autem ex perferendis assumenda itaque ut assumenda reprehenderit labore accusamus et non fugiat perspiciatis
 </p>
-<p class='no-margin-bottom'>
-<strong>
-PMP Self-Studiers who Rely on our Exam Prep Software and Books
-</strong>
+<a class='link-underline' href='#'>
+Call to action for this feature
+</a>
+<div class='half-padding-top'></div>
+<hr>
+<blockquote class='half-margin-bottom no-padding'>
+<em>
+“Morbi ornare odio felis, sed luctus metus rhoncus ac. Suspendisse ullamcorper lorem massa, sed vulputate mauris tristique et.”
+</em>
+</blockquote>
+<p class='bold-font-name'>
+John Doe, CEO Big Company worldwide
 </p>
-<p>
-One learning style does not fit all, which is why we offer our PMP courseware to self-studiers across a broad range of mediums. More than ten thousand students have used our learning material; including more than 75,000 PMP practice exams served. From our value-priced PMP iPhone apps, to our comprehensive PMP courses, we do everything possible to support our students' professional aspirations.
+</div>
+</div>
+</div>
+</section>
+<section class='off-blue extra-padding'>
+<div class='container'>
+<div class='row'>
+<div class='col-md-6 col-md-push-6'>
+<img src="/images/public/corporate_training/template/4.png" class="img-responsive margin-auto double-margin-top" width="454px" alt="4" />
+</div>
+<div class='col-md-6 col-md-pull-6'>
+<h2>
+I’m the headline for this feature
+</h2>
+<p class='lead2'>
+et iure cumque nostrum et debitis est quae voluptatum enim quidem delectus et repellat fugit ipsam aut quas eos adipisci
 </p>
-<p class='no-margin-bottom'>
-<strong>
-Organizations that Rely on our Exam Prep Software and Books
-</strong>
-</p>
-<p>
-Since 2004, SSI Logic has grown to be a leading provider of licensed PMP courseware solution providers for enterprises, providing the corporate-branded training software that students end up using. We quickly and easily deliver professional PMP, ITIL, and CISSP exam practice directly to students and employees across many industries.
-</p>
-<p>
-<strong>
-Organizations who currently rely on our training systems and books include:
-</strong>
+<p class='bold-font-name'>
+Our volume discount purchase program includes:
 </p>
 <ul class='list-default'>
 <li>
-Certification training providers and "Bootcamp" training providers
+et sint temporibus ipsa veritatis omnis
 </li>
 <li>
-Corporate training departments
+aperiam vel non at nobis dolor
 </li>
 <li>
-Public sector agencies and organizations
+incidunt quas dolor doloribus laboriosam saepe
 </li>
 <li>
-Universities and community colleges
-</li>
-<li>
-Training websites and online resellers
+autem rem est non est dignissimos
 </li>
 </ul>
-<p>
-Are you an organization who is interested in offering PMP exam preparation?
-<a href='/public/corporate-training'>
-Learn about our corporate programs.
+<a class='link-underline' href='#'>
+Call to action for this feature
 </a>
+</div>
+</div>
+</div>
+</section>
+<section class='extra-padding invert-section'>
+<div class='container'>
+<div class='row'>
+<div class='col-md-2'></div>
+<div class='col-md-8'>
+<div class='text-center'>
+<h2>
+Get started today
+</h2>
+<p class='lead2'>
+Morbi ornare odio felis, sed luctus metus rhoncus ac. Suspendisse ullamcorper lorem massa, sed vulputate mauris tristique et.
 </p>
-<p>
-Below is a sample of recent enterprise customers who rely on exam preparation tools from SSI Logic:
-</p>
-<img src="../../../images/logos.png" class="img-responsive margin-auto" alt="Logos" />
 </div>
-<div class='col-md-3'>
-<div class='margin-bottom'>
-<h6 class='text-center' style='text-transform:none;'>
-Our corporate clients include:
-</h6>
-<div class='carousel fade' data-ride='carousel' id='logo-slider'>
-<div class='carousel-inner'>
-<div class='item'>
-<img src="../../../images/public/logo-slider/client-atkins.gif" class="img-responsive margin-auto" alt="Client atkins" />
-<div class='clearfix'></div>
+<div class='row'>
+<div class='col-lg-1'></div>
+<div class='col-lg-10'>
+<div class='form'>
+<div class='form-group'>
+<input class='form-control input-lg' placeholder='Name'>
 </div>
-<div class='item'>
-<img src="../../../images/public/logo-slider/client-calibre.gif" class="img-responsive margin-auto" alt="Client calibre" />
-<div class='clearfix'></div>
+<div class='form-group'>
+<input class='form-control input-lg' placeholder='Phone'>
 </div>
-<div class='item'>
-<img src="../../../images/public/logo-slider/client-ciena.gif" class="img-responsive margin-auto" alt="Client ciena" />
-<div class='clearfix'></div>
+<div class='form-group'>
+<input class='form-control input-lg' placeholder='Email'>
 </div>
-<div class='item'>
-<img src="../../../images/public/logo-slider/client-dell.gif" class="img-responsive margin-auto" alt="Client dell" />
-<div class='clearfix'></div>
+<div class='form-group'>
+<textarea class='form-control input-lg' placeholder='Additional comments' rows='8'></textarea>
 </div>
-<div class='item'>
-<img src="../../../images/public/logo-slider/client-edwel.gif" class="img-responsive margin-auto" alt="Client edwel" />
-<div class='clearfix'></div>
-</div>
-<div class='item'>
-<img src="../../../images/public/logo-slider/client-effectus.gif" class="img-responsive margin-auto" alt="Client effectus" />
-<div class='clearfix'></div>
-</div>
-<div class='item'>
-<img src="../../../images/public/logo-slider/client-gp.gif" class="img-responsive margin-auto" alt="Client gp" />
-<div class='clearfix'></div>
-</div>
-<div class='item'>
-<img src="../../../images/public/logo-slider/client-ibm.gif" class="img-responsive margin-auto" alt="Client ibm" />
-<div class='clearfix'></div>
-</div>
-<div class='item'>
-<img src="../../../images/public/logo-slider/client-icgpm.gif" class="img-responsive margin-auto" alt="Client icgpm" />
-<div class='clearfix'></div>
-</div>
-<div class='item'>
-<img src="../../../images/public/logo-slider/client-itsm.gif" class="img-responsive margin-auto" alt="Client itsm" />
-<div class='clearfix'></div>
-</div>
-<div class='item'>
-<img src="../../../images/public/logo-slider/client-lockheed.gif" class="img-responsive margin-auto" alt="Client lockheed" />
-<div class='clearfix'></div>
-</div>
-<div class='item'>
-<img src="../../../images/public/logo-slider/client-merck.gif" class="img-responsive margin-auto" alt="Client merck" />
-<div class='clearfix'></div>
-</div>
-<div class='item'>
-<img src="../../../images/public/logo-slider/client-mti.gif" class="img-responsive margin-auto" alt="Client mti" />
-<div class='clearfix'></div>
-</div>
-<div class='item'>
-<img src="../../../images/public/logo-slider/client-oakton.gif" class="img-responsive margin-auto" alt="Client oakton" />
-<div class='clearfix'></div>
-</div>
-<div class='item'>
-<img src="../../../images/public/logo-slider/client-pbsj.gif" class="img-responsive margin-auto" alt="Client pbsj" />
-<div class='clearfix'></div>
-</div>
-<div class='item'>
-<img src="../../../images/public/logo-slider/client-pinnacle.gif" class="img-responsive margin-auto" alt="Client pinnacle" />
-<div class='clearfix'></div>
-</div>
-<div class='item'>
-<img src="../../../images/public/logo-slider/client-pmcenters.gif" class="img-responsive margin-auto" alt="Client pmcenters" />
-<div class='clearfix'></div>
-</div>
-<div class='item'>
-<img src="../../../images/public/logo-slider/client-pmcollege.gif" class="img-responsive margin-auto" alt="Client pmcollege" />
-<div class='clearfix'></div>
-</div>
-<div class='item'>
-<img src="../../../images/public/logo-slider/client-qpc.gif" class="img-responsive margin-auto" alt="Client qpc" />
-<div class='clearfix'></div>
-</div>
-<div class='item'>
-<img src="../../../images/public/logo-slider/client-rtek.gif" class="img-responsive margin-auto" alt="Client rtek" />
-<div class='clearfix'></div>
-</div>
-<div class='item'>
-<img src="../../../images/public/logo-slider/client-siemens.gif" class="img-responsive margin-auto" alt="Client siemens" />
-<div class='clearfix'></div>
-</div>
-<div class='item'>
-<img src="../../../images/public/logo-slider/client-sitespower.gif" class="img-responsive margin-auto" alt="Client sitespower" />
-<div class='clearfix'></div>
-</div>
-<div class='item'>
-<img src="../../../images/public/logo-slider/client-sra.gif" class="img-responsive margin-auto" alt="Client sra" />
-<div class='clearfix'></div>
-</div>
-<div class='item'>
-<img src="../../../images/public/logo-slider/client-sungard.gif" class="img-responsive margin-auto" alt="Client sungard" />
-<div class='clearfix'></div>
-</div>
-<div class='item'>
-<img src="../../../images/public/logo-slider/client-teched360.gif" class="img-responsive margin-auto" alt="Client teched360" />
-<div class='clearfix'></div>
-</div>
-<div class='item'>
-<img src="../../../images/public/logo-slider/client-trainingcamp.gif" class="img-responsive margin-auto" alt="Client trainingcamp" />
-<div class='clearfix'></div>
-</div>
-<div class='item'>
-<img src="../../../images/public/logo-slider/client-trainingclasses.gif" class="img-responsive margin-auto" alt="Client trainingclasses" />
-<div class='clearfix'></div>
-</div>
-<div class='item'>
-<img src="../../../images/public/logo-slider/client-ucla.gif" class="img-responsive margin-auto" alt="Client ucla" />
-<div class='clearfix'></div>
-</div>
-<div class='item'>
-<img src="../../../images/public/logo-slider/client-verizon.gif" class="img-responsive margin-auto" alt="Client verizon" />
-<div class='clearfix'></div>
+<a class='btn btn-default btn-block btn-lg' href='#'>
+Submit
+</a>
 </div>
 </div>
+<div class='col-lg-1'></div>
 </div>
 </div>
-
-<h6 class='text-center'>
-What Our Students Say
-</h6>
-<div class='testimonial-list'>
-<div class='media-object testimonial half-margin-bottom'>
-<div class='media-body'>
-<div class='media-heading'>
-<blockquote class='no-margin'>
-"
-I was in your class this week. I passed the test today! I’m glad it’s over and I can be an evangelist for this class. In my particular instance, you took me from 0 to passing in 4 days. I conclusively passed every section of the exam, although by the end I was not convinced of my success. Anyway – thank you and you shall hear from more people (at our company) in months to come!
-"
-<footer>
-Doug R., PMP
-</footer>
-</blockquote>
-</div>
-</div>
-</div>
-<div class='media-object testimonial half-margin-bottom'>
-<div class='media-body'>
-<div class='media-heading'>
-<blockquote class='no-margin'>
-"
-We were successfull! I say we because I could not have done it without your training. I will e-mail the results tonight or tomorrow. Thanks for everything!
-"
-<footer>
-Jarred Torrance, PMP
-</footer>
-</blockquote>
-</div>
-</div>
-</div>
-<div class='media-object testimonial half-margin-bottom'>
-<div class='media-body'>
-<div class='media-heading'>
-<blockquote class='no-margin'>
-"
-Passed the PMP exam today. Thanks for you help and your class.
-"
-<footer>
-Mick Burnett, PMP
-</footer>
-</blockquote>
-</div>
-</div>
-</div>
-</div>
-
-</div>
+<div class='col-md-2'></div>
 </div>
 </div>
 </section>
@@ -1215,7 +1114,7 @@ Mick Burnett, PMP
 <div class='container'>
 <div class='row'>
 <div class='col-sm-3'>
-<img src="../../../images/logo_no_tag.png" alt="Logo no tag" />
+<img src="/images/logo_no_tag.png" alt="Logo no tag" />
 <p>
 <small>
 ©
@@ -1225,7 +1124,7 @@ SSILogic
 2014
 </small>
 </p>
-<img src="../../../images/pmi_logo_3.png" class="pmi-logo" alt="Pmi logo 3" />
+<img src="/images/pmi_logo_3.png" class="pmi-logo" alt="Pmi logo 3" />
 <p class='bold-font-name'>
 <small>
 #3962

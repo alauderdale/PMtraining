@@ -1265,6 +1265,23 @@ footer#footer {
   .faq-sidebar ul li {
     line-height: 18px; }
 
+.badge-container {
+  position: relative;
+  margin-bottom: 48px; }
+  .badge-container .badge-img {
+    position: absolute;
+    top: -10px;
+    left: 20px; }
+    @media (max-width: 768px) {
+      .badge-container .badge-img {
+        top: 0px; } }
+  .badge-container .text-wrapper {
+    background: #e7f3f7;
+    border-radius: 10px;
+    padding: 15px;
+    width: 100%;
+    padding-left: 120px; }
+
 ul.logos-list {
   list-style: none; }
   ul.logos-list li img {
