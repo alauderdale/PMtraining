@@ -691,6 +691,11 @@ table.table {
     table.table.bold-table .btn {
       font-family: "museo_sans_900regular", Helvetica, Arial, sans-serif; }
 
+table.community-average-table tr {
+  border: none; }
+table.community-average-table td {
+  border: none !important; }
+
 .media-list .media-thumbnail {
   border-bottom: 1px solid #dddddd; }
   .media-list .media-thumbnail p {

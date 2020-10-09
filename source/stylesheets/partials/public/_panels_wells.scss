@@ -78,3 +78,13 @@
 	border-radius:4px!important;
 	background:#F4F8F9;
 }
+
+
+//shadows
+
+.shadowed-box{
+  background: #FFFFFF;
+border: 1px solid #D8E7EC;
+box-shadow: 0 14px 14px 0 rgba(0,0,0,0.05);
+border-radius: 10px;
+}

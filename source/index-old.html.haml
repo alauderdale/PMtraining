@@ -1,0 +1,179 @@
+;;;
+"layout": "public",
+"title": "Home", 
+"activeclass": "home"
+;;;
+
+
+
+%section.invert-section.no-padding-top.no-padding-top.no-padding-bottom
+	=partial'/public/home/slider'
+%section
+	.container
+		.row
+			.col-lg-12
+				.text-center
+					%h6.text-muted
+						TRUSTED BY SOME OF THE WORLD'S SMARTEST COMPANIES...
+					%ul.logos-list.list-inline
+						%li
+							%img{:src=>"../images/logos/logo-amazon.png"}
+						%li
+							%img{:src=>"../images/logos/logo-bsi.png"}
+						%li
+							%img{:src=>"../images/logos/logo-ca.png"}
+						%li
+							%img{:src=>"../images/logos/logo-dbg.png"}
+						%li
+							%img{:src=>"../images/logos/logo-defense.png"}
+						%li
+							%img{:src=>"../images/logos/logo-hytrol.png"}
+						%li
+							%img{:src=>"../images/logos/logo-kaiser.png"}
+						%li
+							%img{:src=>"../images/logos/logo-kin.png"}
+						%li
+							%img{:src=>"../images/logos/logo-leo.png"}
+						%li
+							%img{:src=>"../images/logos/logo-met.png"}
+						%li
+							%img{:src=>"../images/logos/logo-methodist.png"}
+						%li
+							%img{:src=>"../images/logos/logo-nestle.png"}
+						%li
+							%img{:src=>"../images/logos/logo-north.png"}
+						%li
+							%img{:src=>"../images/logos/logo-poly.png"}
+						%li
+							%img{:src=>"../images/logos/logo-sch.png"}
+						%li
+							%img{:src=>"../images/logos/logo-splunk.png"}
+						%li
+							%img{:src=>"../images/logos/logo-towson.png"}
+						%li
+							%img{:src=>"../images/logos/logo-uhs.png"}
+%section.no-padding-top
+	.container
+		.row
+			.col-lg-12
+				%a.podcast-container{:href=>"#"}
+					.media
+						.pull-left
+							%img.media-object.quarter-margin-right{:alt => "...", :src => "../images/podcast.svg", :width=>"60px"}
+						.media-body
+							.row
+								.col-md-10.col-sm-9
+									.label
+										NEW PODCAST
+									%h4.no-margin-bottom
+										Hear how Atkins Global leveraged PMTraining for their organization
+								.col-md-2.col-sm-3
+									.play-button
+										%h5.no-margin-bottom
+											%img.media-object.quarter-margin-right.inline{:alt => "...", :src => "../images/play-now.svg", :width=>"30px"}
+											Play now
+
+ 
+
+
+.container
+	%hr
+%section
+	.container
+		.row
+			.col-sm-12
+				.text-center
+					%h2
+						Don’t take our word for it
+		.row.margin-top
+			.col-md-6
+				.panel
+					.panel-body.padding-top
+						.col-sm-4
+							=image_tag'medal_prep.png', :class=>"img-responsive margin-auto margin-bottom", :width=>"120"
+						.col-sm-8
+							%p.half-margin-bottom
+								Crush the PM Exam has just named PMtraiing as the 
+								%span.bold-font-name
+									:escaped
+										#1 PMI-ACP prep course 
+								of 2017!
+							%p
+								%a{:href=>"", :style=>"border:none;"}
+									Read the full review
+								|
+								%a{:href=>"", :style=>"border:none;"}
+									View course
+			.col-md-6
+				.panel
+					.panel-body.padding-top
+						.col-sm-4
+							=image_tag'medal_live.png', :class=>"img-responsive margin-auto margin-bottom", :width=>"120"
+						.col-sm-8
+							%p.half-margin-bottom
+								Crush the PM Exam has just named PMtraiing as the 
+								%span.bold-font-name
+									:escaped
+										#1 PMP Live-Online
+								of 2017!
+							%p
+								%a{:href=>"", :style=>"border:none;"}
+									Read the full review
+								|
+								%a{:href=>"", :style=>"border:none;"}
+									View course
+
+.container
+	%hr
+%section
+	.container
+		.row
+			.col-sm-12
+				.text-center
+					%h2
+						PMP Test Simulation Questions
+					%p
+						Community preformance by subject area
+		.row
+			.col-sm-1
+			.col-sm-10
+				=partial'/public/home/preformance-chart'
+			.col-sm-1
+.container
+	%hr
+%section
+	.container
+		.row
+			.col-sm-5
+				.double-margin-bottom
+					%h2.margin-top.no-margin-top-sm
+						%strong
+							Live 
+						PMP Exam Community Performance
+					%p
+						To the right is a live calculation of the top 5 PMP process areas based on 370,653 PMP practice exams taken by PMTraining exam prep students.
+			.col-sm-1
+			.col-sm-6
+				=partial'/public/home/preformance-table'
+.container
+	%hr
+%section
+	.container
+		.row
+			.col-sm-12
+				.text-center
+					%h2
+						PMP Test Simulation Questions
+					%p
+						Community preformance by subject area
+		.row
+			.col-sm-1
+			.col-sm-10
+				=partial'/public/home/preformance-chart'
+			.col-sm-1
+
+=partial'/public/shared/get-started'
+
+
+
+

@@ -671,6 +671,57 @@ table.table {
     table.table.bold-table .btn {
       font-family: "museo_sans_900regular", Helvetica, Arial, sans-serif; }
 
+table.community-average-table {
+  border-collapse: separate;
+  border-spacing: 0 10px;
+  border: none !important; }
+  table.community-average-table thead tr th {
+    border: none !important; }
+  table.community-average-table tbody tr {
+    border: none;
+    background: #F0F8FB;
+    border-radius: 10px; }
+  table.community-average-table tbody td {
+    border: none !important;
+    vertical-align: middle;
+    padding: 10px 15px;
+    font-family: 'museo_sans_500regular'; }
+    table.community-average-table tbody td.number {
+      font-size: 16px;
+      color: #0a455e;
+      font-weight: 700; }
+    table.community-average-table tbody td.item {
+      font-size: 18px;
+      color: #171717;
+      font-weight: 400; }
+    table.community-average-table tbody td.data {
+      font-size: 18px;
+      color: #1384b2;
+      font-weight: 700; }
+  table.community-average-table.stack tr:nth-child(1) td {
+    padding: 30px 15px !important;
+    font-size: 18px; }
+  table.community-average-table.stack tr:nth-child(2) td {
+    padding: 25px 15px !important;
+    font-size: 17px; }
+  table.community-average-table.stack tr:nth-child(3) td {
+    padding: 20px 15px !important;
+    font-size: 16px; }
+  table.community-average-table.stack tr:nth-child(4) td {
+    padding: 15px 15px !important;
+    font-size: 15px; }
+  table.community-average-table.stack tr:nth-child(5) td {
+    padding: 10px 15px !important;
+    font-size: 14px; }
+  table.community-average-table td:first-child {
+    border-left-style: solid;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px; }
+  table.community-average-table td:last-child {
+    border-right-style: solid;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px; }
+
 td.flash-sale {
   background: #0a455e !important;
   color: white; }
@@ -932,6 +983,12 @@ ul.nav-sidebar {
 .price-panel {
   border-radius: 4px !important;
   background: #F4F8F9; }
+
+.shadowed-box {
+  background: #FFFFFF;
+  border: 1px solid #D8E7EC;
+  box-shadow: 0 14px 14px 0 rgba(0, 0, 0, 0.05);
+  border-radius: 10px; }
 
 .modal .modal-title {
   color: #138abb; }
