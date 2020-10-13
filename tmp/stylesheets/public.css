@@ -932,6 +932,20 @@ ul.nav-sidebar {
     .buy-options .list-group input[type="radio"]:checked + .list-group-item:before {
       color: inherit; }
 
+ul.tabs-boxed li a {
+  color: #08090a;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-bottom-color: transparent;
+  cursor: default;
+  font-weight: 700;
+  font-size: 14px;
+  opacity: .5;
+  cursor: pointer; }
+ul.tabs-boxed li.active a {
+  color: #08090a;
+  opacity: 1; }
+
 .panel-group {
   font-size: .8em; }
   .panel-group a {

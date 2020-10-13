@@ -158,5 +158,26 @@ ul.nav-sidebar{
 }
 
 
+ul.tabs-boxed{
+  li{
+    a{
+		color: shade($text-color,90%);
+		background-color: #fff;
+		border: 1px solid #ddd;
+		border-bottom-color: transparent;
+		cursor: default;
+		font-weight:700;
+		font-size: 14px;
+		opacity: .5;
+		cursor: pointer;
+    }
+    &.active{
+    	a{
+    		color: shade($text-color,90%);
+    		opacity: 1;
+    	}
+    }
+  }
+}
 
 

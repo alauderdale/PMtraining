@@ -42,10 +42,18 @@
 					
 		.row
 			.col-sm-12
-				=partial'/public/live-pmp/schedule-table'
-				.text-center
-					%a.btn.btn-wire-primary{:href=>"#"}
-						Load more
+				.tabs-container
+					%ul.nav.nav-tabs.tabs-boxed
+						%li.active
+							%a{:href=>"#"}
+								2020 Exam
+						%li
+							%a{:href=>"#"}
+								2021 Exam
+					=partial'/public/live-pmp/schedule-table'
+					.text-center
+						%a.btn.btn-wire-primary{:href=>"#"}
+							Load more
 .container
 	%hr.no-margin-top.no-margin-bottom
 %section#schedule-more

@@ -14,47 +14,66 @@
 	.modal-body
 		.row
 			.col-sm-6
-				%p.half-margin-bottom
-					%strong	
-						Included with your class enrollment:
-				%ul.list-default
-					%li
-						Live online class taught by PMI R.E.P.
-					%li
-						Exam pass guarantee
-					%li
-						All PMP courseware and study materials
-					%li
-						PMTraining Online exam prep system
-					%li
-						Focused PMP certification curriculum 
-					%li
-						35 PMI Contact Hours included with course
+				%table.table.mid-align
+					%tbody
+						%tr
+							%td.text-left.light-text-color
+								Class cost
+							%td.text-right.light-text-color
+								$1,200
+						%tr
+							%td.text-left.light-text-color
+								PMI student license
+								%i.fa.fa-info-circle.light-text-color.tooltip-up{"data-toggle"=>"tooltip", :title=>"Explain this here"}
+							%td.text-right.light-text-color
+								$99
+
+						%tr
+							%td.text-left
+								%h3.dark-text-color.bold-font-name
+									Total
+							%td.text-right.light-text-color
+								%h4.no-margin
+									%span.line-through
+										$1,400
+									%span.text-danger
+										20% off
+								%h3.no-margin
+									%span.text-danger
+										$1249
+
+				%p.no-margin-bottom.micro-text
+					%br
+					Class Time: 
+					%strong
+						8PM to 10PM (EST) 
+					%br
+					Class Days: 
+					%strong
+						Tues / Thurs Evenings 
+					%br
+					Class Dates: 
+					%strong
+						Tuesday, Jul 08 - Thursday, Aug 21 
 			.col-sm-6	
 				.well
-					%p.no-margin-bottom.micro-text.half-margin-bottom
-						%strong
-							Enroll in this Class
-					%p.no-margin-bottom.micro-text
-						%br
-						Class Time: 
-						%strong
-							8PM to 10PM (EST) 
-						%br
-						Class Days: 
-						%strong
-							Tues / Thurs Evenings 
-						%br
-						Class Dates: 
-						%strong
-							Tuesday, Jul 08 - Thursday, Aug 21 
-						%br
-						Class Price: 
-						%strong
-							%span.line-through
-								$1299.00 
-							%span.text-success
-								$894.00 (USD)
+					%p.half-margin-bottom
+						%strong	
+							Included with your class enrollment:
+						%ul.list-default
+							%li
+								Live online class taught by PMI R.E.P.
+							%li
+								Exam pass guarantee
+							%li
+								All PMP courseware and study materials
+							%li
+								PMTraining Online exam prep system
+							%li
+								Focused PMP certification curriculum 
+							%li
+								35 PMI Contact Hours included with course
+					
 				=image_tag'pmi_logo.png',:class=>"margin-bottom" 
 		.row
 			.col-lg-12
