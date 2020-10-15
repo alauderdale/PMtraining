@@ -299,6 +299,16 @@ ul.list-default{
   }
 }
 
+ul.list-primary-color{
+  list-style-image:url(../images/bullet-blue.png);
+  margin-bottom:$baseline;
+  li{
+    font-size:.75em;
+    margin-left:$baseline;
+    margin-bottom:5px;
+  }
+}
+
 ul.list-checks{
   list-style-image:url(../images/check.png);
   margin-bottom:$baseline;

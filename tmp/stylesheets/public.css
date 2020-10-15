@@ -340,6 +340,14 @@ ul.list-default {
     margin-left: 24px;
     margin-bottom: 5px; }
 
+ul.list-primary-color {
+  list-style-image: url(../images/bullet-blue.png);
+  margin-bottom: 24px; }
+  ul.list-primary-color li {
+    font-size: .75em;
+    margin-left: 24px;
+    margin-bottom: 5px; }
+
 ul.list-checks {
   list-style-image: url(../images/check.png);
   margin-bottom: 24px; }
