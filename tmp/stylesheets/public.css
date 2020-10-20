@@ -421,6 +421,10 @@ ul.check-list-large li i {
 .height-auto {
   height: auto !important; }
 
+.highlight {
+  display: inline-block;
+  background: #f8d794; }
+
 .margin-auto {
   margin: 0 auto; }
 

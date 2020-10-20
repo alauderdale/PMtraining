@@ -417,3 +417,10 @@ ul.check-list-large{
 .height-auto{
   height:auto!important;
 }
+
+//highlight
+
+.highlight{
+  display: inline-block;
+  background:tint($secondary-color,50%);
+}
