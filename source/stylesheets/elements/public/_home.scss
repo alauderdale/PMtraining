@@ -8,6 +8,9 @@
 		@include breakpoint(sm) {
 			top:0px;
 		}
+		&.lg{
+			left:10px;
+		}
 	}
 	.text-wrapper{
 		background:tint($link-color,90%);
@@ -15,6 +18,10 @@
 		padding:15px;
 		width:100%;
 		padding-left:120px;
+		&.light{
+			border:1px solid #E4ECF0;
+			background:white;
+		}
 	}
 }
 

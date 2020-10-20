@@ -10,6 +10,21 @@
 ;;;
 
 
+%section.no-padding-bottom
+	.container
+		.row
+			.col-lg-12
+				%a.podcast-container{:href=>"#"}
+					.media
+						.pull-left
+							%img.media-object.half-margin-right.half-margin-top{:alt => "...", :src => "../../images/shout.svg", :width=>"30px"}
+						.media-body
+							.row
+								.col-md-10.col-sm-9
+									%h5.no-margin-bottom
+										2021 PMP Exam update
+									%h5.no-margin-bottom.regular-font-name
+										Here’s where we could explain that the PMT exam is going to change in 20201 and we’ll offer both types.
 
 
 %section.no-padding-bottom
@@ -20,6 +35,26 @@
 		.row
 			.col-lg-12
 				=partial"/public/shared/subnav"
+
+%section.no-padding-bottom
+	.container
+		.row
+			.col-lg-12
+				.badge-container
+					%img.badge-img.lg{:src=>"/images/tablet-pmt.svg", :width=>"100px"}
+					.text-wrapper.light
+						%h3.no-margin-bottom
+							Access our PMP On-Demand course 
+							%span.extra-bold-font-name
+								FREE
+							%span.highlight{:style=>"font-size:17px; line-height:17px;"}
+								%span.bold-font-name
+									$45 
+								Value
+						%p.no-margin-bottom
+							When you enroll in any live class.
+
+
 %section
 	.container
 		/ .row.double-margin-bottom
