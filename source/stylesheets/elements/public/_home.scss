@@ -9,7 +9,11 @@
 			top:0px;
 		}
 		&.lg{
-			left:10px;
+			left:30px;
+		}
+		&.affirm{
+			top:18px;
+			left:30px;
 		}
 	}
 	.text-wrapper{
@@ -17,7 +21,7 @@
 		border-radius:10px;
 		padding:15px;
 		width:100%;
-		padding-left:120px;
+		padding-left:160px;
 		&.light{
 			border:1px solid #E4ECF0;
 			background:white;

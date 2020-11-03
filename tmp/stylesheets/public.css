@@ -1359,13 +1359,16 @@ footer#footer {
       .badge-container .badge-img {
         top: 0px; } }
     .badge-container .badge-img.lg {
-      left: 10px; }
+      left: 30px; }
+    .badge-container .badge-img.affirm {
+      top: 18px;
+      left: 30px; }
   .badge-container .text-wrapper {
     background: #e7f3f7;
     border-radius: 10px;
     padding: 15px;
     width: 100%;
-    padding-left: 120px; }
+    padding-left: 160px; }
     .badge-container .text-wrapper.light {
       border: 1px solid #E4ECF0;
       background: white; }
