@@ -187,7 +187,7 @@ img {
   color: #878c8f; }
 
 .dark-text-color {
-  color: #4a4a4a; }
+  color: #171717; }
 
 .text-success {
   color: #85C342; }
@@ -671,7 +671,7 @@ table.table {
     font-size: .8em;
     font-family: "museo_sans_700regular", Helvetica, Arial, sans-serif;
     background-color: #e7f3f8 !important;
-    color: #4a4a4a;
+    color: #171717;
     text-transform: uppercase;
     padding: 16px 8px !important; }
     table.table th:last-of-type {

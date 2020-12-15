@@ -1,0 +1,96 @@
+;;;
+
+"layout": "public",
+"title": "Checkout",
+"subtitle": "Checkout",
+"testiminial_data": "testimonials"
+
+;;;
+
+=partial"/public/shared/page-head-small", locals:{headerClass:"checkout-pmp-header"}
+
+
+%section
+	.container
+		.row
+			.col-sm-9
+				.alert.alert-success
+					%i.fa.fa-check
+					%strong
+						Thank you.
+					Your payment has been successfully processed and a confirmation email has been sent to you.
+				%hr
+					%p
+						Your acocunt has been registered and a 
+						%strong
+							confirmation email has been sent with your new account information. 
+						Be sure to check your junk mail folder if you do not recieve it. 
+					%h6.primary-text-color
+						Below is a summary of your account information:
+					%dl.dl-horizontal
+						%dt
+							Email address
+						%dd
+							john@doe.com
+						%dt
+							First Name
+						%dd
+							John
+						%dt
+							Last Name
+						%dd
+							Doe
+						%dt
+							Password
+						%dd
+							jjdoe100
+					%h6.primary-text-color
+						You have purchased the following items:
+					-2.times do
+						.panel
+							.panel-body
+								%h5.no-margin-bottom.primary-text-color
+									Live Online PMP Classes (Tues/Thurs Evenings)
+								%p.no-margin-bottom
+									%small
+										allow up to 1 business day for final confirmation and access instructions. Within 1 business day you will receive an email from 
+										%strong
+											ron.ponce@pmtraining.com 
+										containing access instructions
+					.alert.alert-info
+						%strong
+							Please Note
+						For products which require additional setup time, your subscription term will begin once setup has completed.
+					%hr
+					.panel.border-dashed
+						.panel-body
+							%form.form-horizontal{:role=>"form"}
+								.form-group.no-margin-bottom
+									%lebel.col-sm-3.control-label
+										How did you hear about us?
+									.col-sm-6
+										%select.input-sm.form-control
+											%option
+												Google Search
+											%option
+												Google Search
+											%option
+												Google Search
+									.col-sm-3
+										%a{:href=>"#", :style=>"top:3px;"}
+											%small
+												Submit
+					%a.btn.btn-default.margin-bottom{ :href=>"#"}
+						%i.fa.fa-print
+						Print Page
+					%a.btn.btn-info.margin-bottom{:href=>"/"}
+						Continue
+			.col-sm-3
+				%h6.text-center
+					What Our Students Say 
+				=partial"/public/shared/testimonial-list", locals: {test_num: 4}
+				
+
+
+
+				

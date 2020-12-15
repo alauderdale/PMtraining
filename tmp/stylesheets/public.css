@@ -197,7 +197,10 @@ img {
   color: #1384b2; }
 
 .dark-text-color {
-  color: #4a4a4a; }
+  color: #171717; }
+
+.text-left {
+  text-align: left !important; }
 
 .light-font-name {
   font-family: "museo_sans_100regular", Helvetica, Arial, sans-serif; }
@@ -1087,7 +1090,7 @@ a {
       background-color: #f4bf54;
       border-color: #f4bf54; }
   .btn.btn-info {
-    background-color: #f2f2f2;
+    background-color: #fff;
     border-color: #dddddd;
     color: #545a5f; }
     .btn.btn-info:hover {
