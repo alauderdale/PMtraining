@@ -164,3 +164,47 @@
 					%a.btn.btn-info.margin-bottom.btn-block{:href=>"/public/bootcamp/demo"}
 						Try a Demo
 					.clearfix
+
+%section
+	.container
+		.row
+			.col-sm-12
+				%h2.text-center.double-margin-bottom
+					%span.bold-font-name
+						Credits earned
+		-2.times do
+			.row
+				-2.times do
+					.col-md-6
+						.padded
+							.media.double-margin-bottom
+								.pull-left
+									%img.quarter-margin-right{:src=>"/images/blue-check.svg", :width=>"30px"}
+								.media-body
+									%h4
+										Project Quality Management
+									%hr
+									%h5.bold-font-name.half-margin-bottom
+										PDU Allocation
+									.row
+										.col-xs-8
+											.row
+												-3.times do
+													.col-xs-4
+														%p.bold-font-name.no-margin-bottom
+															Technicial
+														%p
+															3.00 hrs
+										.col-xs-4
+											.inline-block{:style=>"vertical-align:top; position:relative; top:5px;"}
+												%img{:src=>"/images/triangle.svg", :width=>"30px"}
+											
+											.inline-block
+												%p.extra-bold-font-name.no-margin-bottom
+													Total
+												%p
+													3.00 hrs
+
+
+
+
