@@ -7,11 +7,11 @@
 <title>
 title
 </title>
-<link href="../stylesheets/public.css" rel="stylesheet" />
-<link href='../images/favicon.ico' rel='shortcut icon'>
+<link href="/stylesheets/public.css" rel="stylesheet" />
+<link href='/images/favicon.ico' rel='shortcut icon'>
 <!-- %script{:src => "http://code.jquery.com/jquery-latest.min.js", :type => "text/javascript"} -->
-<script src="../javascripts/lib/jquery.js"></script><script src="../javascripts/lib/bootstrap.js"></script><script src="../javascripts/lib/jquery.fancybox.pack.js"></script><script src="../javascripts/lib/helpers/jquery.fancybox-media.js"></script><script src="../javascripts/lib/highcharts/highcharts.js"></script><script src="../javascripts/lib/slick.js"></script><script src="../javascripts/lib/highcharts/modules/exporting.js"></script><script src="../javascripts/lib/footable/footable.js"></script><script src="../javascripts/lib/footable/footable.filter.js"></script><script src="../javascripts/scripts.js"></script>
-<body class='index-old index-old_index'>
+<script src="/javascripts/lib/jquery.js"></script><script src="/javascripts/lib/bootstrap.js"></script><script src="/javascripts/lib/jquery.fancybox.pack.js"></script><script src="/javascripts/lib/helpers/jquery.fancybox-media.js"></script><script src="/javascripts/lib/highcharts/highcharts.js"></script><script src="/javascripts/lib/slick.js"></script><script src="/javascripts/lib/highcharts/modules/exporting.js"></script><script src="/javascripts/lib/footable/footable.js"></script><script src="/javascripts/lib/footable/footable.filter.js"></script><script src="/javascripts/scripts.js"></script>
+<body class='public public_corporate-training public_corporate-training_corp-template'>
 <nav class='navbar navbar-default visible-xs navbar-fixed-top' id='mobile-main-nav' role='navigation'>
 <div class='container-fluid'>
 <div class='navbar-header'>
@@ -184,7 +184,7 @@ Sign up now
 </div>
 <div class='col-sm-7'>
 <div class='padded'>
-<img src="../images/public/dropdowns/dropdown_practice.png" class="img-responsive" alt="Dropdown practice" />
+<img src="/images/public/dropdowns/dropdown_practice.png" class="img-responsive" alt="Dropdown practice" />
 </div>
 </div>
 </div>
@@ -242,7 +242,7 @@ Student Testimonials
 </div>
 <div class='col-sm-7'>
 <div class='padded'>
-<img src="../images/public/dropdowns/dropdown_live.png" class="img-responsive" alt="Dropdown live" />
+<img src="/images/public/dropdowns/dropdown_live.png" class="img-responsive" alt="Dropdown live" />
 </div>
 </div>
 </div>
@@ -293,7 +293,7 @@ Try a Demo
 </div>
 <div class='col-sm-7'>
 <div class='padded'>
-<img src="../images/public/dropdowns/dropdown_demand.png" class="img-responsive" alt="Dropdown demand" />
+<img src="/images/public/dropdowns/dropdown_demand.png" class="img-responsive" alt="Dropdown demand" />
 </div>
 </div>
 </div>
@@ -345,7 +345,7 @@ Another Link
 </div>
 <div class='col-sm-7'>
 <div class='padded'>
-<img src="../images/public/dropdowns/dropdown_training.png" class="img-responsive" alt="Dropdown training" />
+<img src="/images/public/dropdowns/dropdown_training.png" class="img-responsive" alt="Dropdown training" />
 </div>
 </div>
 </div>
@@ -396,7 +396,7 @@ Try a Demo
 </div>
 <div class='col-sm-7'>
 <div class='padded'>
-<img src="../images/public/dropdowns/dropdown_scrum.png" class="img-responsive" alt="Dropdown scrum" />
+<img src="/images/public/dropdowns/dropdown_scrum.png" class="img-responsive" alt="Dropdown scrum" />
 </div>
 </div>
 </div>
@@ -490,7 +490,7 @@ Get our newsletter
 </div>
 <div class='col-sm-4'>
 <div class='padded'>
-<img src="../images/public/dropdowns/dropdown_corporate.png" class="img-responsive" alt="Dropdown corporate" />
+<img src="/images/public/dropdowns/dropdown_corporate.png" class="img-responsive" alt="Dropdown corporate" />
 </div>
 </div>
 </div>
@@ -518,7 +518,7 @@ Cart
 <div class='pull-left'>
 <a class='logo_two' href='/'></a>
 </div>
-<img src="../images/pmi_logo.png" class=" hidden-sm pull-right quarter-margin-left" width="60px" style="position:relative; top:-8px;" alt="Pmi logo" />
+<img src="/images/pmi_logo.png" class=" hidden-sm pull-right quarter-margin-left" width="60px" style="position:relative; top:-8px;" alt="Pmi logo" />
 <nav class='pull-right'>
 <ul class='list-inline sub-links'>
 <li>
@@ -588,7 +588,7 @@ Sign up now
 </div>
 <div class='col-sm-7'>
 <div class='padded'>
-<img src="../images/public/dropdowns/dropdown_practice.png" class="img-responsive" alt="Dropdown practice" />
+<img src="/images/public/dropdowns/dropdown_practice.png" class="img-responsive" alt="Dropdown practice" />
 </div>
 </div>
 </div>
@@ -646,7 +646,7 @@ Student Testimonials
 </div>
 <div class='col-sm-7'>
 <div class='padded'>
-<img src="../images/public/dropdowns/dropdown_live.png" class="img-responsive" alt="Dropdown live" />
+<img src="/images/public/dropdowns/dropdown_live.png" class="img-responsive" alt="Dropdown live" />
 </div>
 </div>
 </div>
@@ -697,7 +697,7 @@ Try a Demo
 </div>
 <div class='col-sm-7'>
 <div class='padded'>
-<img src="../images/public/dropdowns/dropdown_demand.png" class="img-responsive" alt="Dropdown demand" />
+<img src="/images/public/dropdowns/dropdown_demand.png" class="img-responsive" alt="Dropdown demand" />
 </div>
 </div>
 </div>
@@ -749,7 +749,7 @@ Another Link
 </div>
 <div class='col-sm-7'>
 <div class='padded'>
-<img src="../images/public/dropdowns/dropdown_training.png" class="img-responsive" alt="Dropdown training" />
+<img src="/images/public/dropdowns/dropdown_training.png" class="img-responsive" alt="Dropdown training" />
 </div>
 </div>
 </div>
@@ -800,7 +800,7 @@ Try a Demo
 </div>
 <div class='col-sm-7'>
 <div class='padded'>
-<img src="../images/public/dropdowns/dropdown_scrum.png" class="img-responsive" alt="Dropdown scrum" />
+<img src="/images/public/dropdowns/dropdown_scrum.png" class="img-responsive" alt="Dropdown scrum" />
 </div>
 </div>
 </div>
@@ -894,7 +894,7 @@ Get our newsletter
 </div>
 <div class='col-sm-4'>
 <div class='padded'>
-<img src="../images/public/dropdowns/dropdown_corporate.png" class="img-responsive" alt="Dropdown corporate" />
+<img src="/images/public/dropdowns/dropdown_corporate.png" class="img-responsive" alt="Dropdown corporate" />
 </div>
 </div>
 </div>
@@ -919,469 +919,194 @@ Cart
 
 <!-- end menu -->
 <div id='mainContents'>
-<section class='invert-section no-padding-top no-padding-top no-padding-bottom'>
-<!-- {:style=>"background-image:url(../images/slider/slide-1-bg.png);"} -->
-<div class='carousel slide' data-ride='carousel' id='home-slider'>
-<!-- Indicators -->
-<!-- %ol.carousel-indicators -->
-<!-- %li.active{"data-slide-to" => "0", "data-target" => "#home-slider"} -->
-<div class='carousel-inner'>
-<div class='item active'>
+<section class='invert-section page-header-section training-pmp-header'>
+<div class='container'>
+<div class='row'>
+<div class='col-lg-12'>
+<h2 class='no-margin-bottom pull-left'>
+Corporate Training
+</h2>
+<h6 class='no-margin-bottom pull-right hidden-xs half-margin-top extra-bold-font-name'>
+
+</h6>
+</div>
+</div>
+</div>
+</section>
+
+<section class='extra-padding'>
+<div class='container'>
+<div class='row'>
+<div class='col-md-2'></div>
+<div class='col-md-8'>
+<div class='text-center'>
+<h2>
+I’m the headline for this feature
+</h2>
+<p class='lead2'>
+unde nemo ex qui quia quaerat velit sit delectus ex aut dolorem amet et ratione et sed nisi autem debitis
+</p>
+<a class='btn btn-default' href='#'>
+Start now
+</a>
+</div>
+<div class='row'>
+<div class='col-lg-12 margin-top'>
+<img src="/images/public/corporate_training/hero.png" class="img-responsive margin-auto double-margin-top" width="535px" alt="Hero" />
+</div>
+</div>
+</div>
+<div class='col-md-2'></div>
+</div>
+</div>
+</section>
+<section class='off-blue extra-padding'>
 <div class='container'>
 <div class='row'>
 <div class='col-md-6 col-md-push-6'>
-<img class='max-width double-margin-bottom' src='../images/hero-image.png' width='500px'>
+<img src="/images/public/corporate_training/template/2.png" class="img-responsive margin-auto double-margin-top margin-bottom" width="454px" alt="2" />
 </div>
 <div class='col-md-6 col-md-pull-6'>
-<h1 class='bold-font-name'>
-Live PMP® Classes Taught Online by Veteran Instructors
-</h1>
-<ul class='margin-bottom hero-list'>
-<li class='bold-font-name'>
-est laborum aspernatur quis omnis quos quo ut ut explicabo
-</li>
-<li class='bold-font-name'>
-omnis est explicabo ut cupiditate et repudiandae ut ducimus laborum
-</li>
-<li class='bold-font-name'>
-consectetur omnis animi saepe ipsam quis dolor a voluptatem ipsam
-</li>
-<li class='bold-font-name'>
-voluptatem explicabo molestiae ad fugit ea est rem itaque molestiae
-</li>
-</ul>
-<div class='btns margin-bottom'>
-<a class='btn btn-wire btn-lg half-margin-bottom' href='#'>
-Schedule and pricing
-</a>
-<a class='btn btn-default btn-lg half-margin-bottom' href='#'>
-Class overview
-</a>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-
-</section>
-<section>
-<div class='container'>
-<div class='row'>
-<div class='col-lg-12'>
-<div class='text-center'>
-<h6 class='text-muted'>
-TRUSTED BY SOME OF THE WORLD'S SMARTEST COMPANIES...
-</h6>
-<ul class='logos-list list-inline'>
-<li>
-<img src='../images/logos/logo-amazon.png'>
-</li>
-<li>
-<img src='../images/logos/logo-bsi.png'>
-</li>
-<li>
-<img src='../images/logos/logo-ca.png'>
-</li>
-<li>
-<img src='../images/logos/logo-dbg.png'>
-</li>
-<li>
-<img src='../images/logos/logo-defense.png'>
-</li>
-<li>
-<img src='../images/logos/logo-hytrol.png'>
-</li>
-<li>
-<img src='../images/logos/logo-kaiser.png'>
-</li>
-<li>
-<img src='../images/logos/logo-kin.png'>
-</li>
-<li>
-<img src='../images/logos/logo-leo.png'>
-</li>
-<li>
-<img src='../images/logos/logo-met.png'>
-</li>
-<li>
-<img src='../images/logos/logo-methodist.png'>
-</li>
-<li>
-<img src='../images/logos/logo-nestle.png'>
-</li>
-<li>
-<img src='../images/logos/logo-north.png'>
-</li>
-<li>
-<img src='../images/logos/logo-poly.png'>
-</li>
-<li>
-<img src='../images/logos/logo-sch.png'>
-</li>
-<li>
-<img src='../images/logos/logo-splunk.png'>
-</li>
-<li>
-<img src='../images/logos/logo-towson.png'>
-</li>
-<li>
-<img src='../images/logos/logo-uhs.png'>
-</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section class='no-padding-top'>
-<div class='container'>
-<div class='row'>
-<div class='col-lg-12'>
-<a class='podcast-container' href='#'>
-<div class='media'>
-<div class='pull-left'>
-<img alt='...' class='media-object quarter-margin-right' src='../images/podcast.svg' width='60px'>
-</div>
-<div class='media-body'>
-<div class='row'>
-<div class='col-md-10 col-sm-9'>
-<div class='label'>
-NEW PODCAST
-</div>
-<h4 class='no-margin-bottom'>
-Hear how Atkins Global leveraged PMTraining for their organization
-</h4>
-</div>
-<div class='col-md-2 col-sm-3'>
-<div class='play-button'>
-<h5 class='no-margin-bottom'>
-<img alt='...' class='media-object quarter-margin-right inline' src='../images/play-now.svg' width='30px'>
-Play now
-</h5>
-</div>
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-</div>
-</section>
-<div class='container'>
-<hr>
-</div>
-<section>
-<div class='container'>
-<div class='row'>
-<div class='col-sm-12'>
-<div class='text-center'>
 <h2>
-Don’t take our word for it
+I’m the headline for this feature
 </h2>
+<p class='lead2'>
+quo odit saepe nam aut omnis sed rerum rerum deserunt nihil iste dignissimos sed et voluptates nam quia est deserunt
+</p>
+<p class='bold-font-name'>
+Our volume discount purchase program includes:
+</p>
+<ul class='list-default'>
+<li>
+reiciendis in aliquam voluptas amet laborum
+</li>
+<li>
+omnis ducimus et odio rem et
+</li>
+<li>
+odio beatae illum omnis natus architecto
+</li>
+<li>
+omnis autem vitae ut sequi ipsa
+</li>
+</ul>
+<a class='link-underline' href='#'>
+Call to action for this feature
+</a>
 </div>
 </div>
 </div>
-<div class='row margin-top'>
+</section>
+<section class='extra-padding'>
+<div class='container'>
+<div class='row'>
 <div class='col-md-6'>
-<div class='panel'>
-<div class='panel-body padding-top'>
-<div class='col-sm-4'>
-<img src="../images/medal_prep.png" class="img-responsive margin-auto margin-bottom" width="120" alt="Medal prep" />
-</div>
-<div class='col-sm-8'>
-<p class='half-margin-bottom'>
-Crush the PM Exam has just named PMtraiing as the
-<span class='bold-font-name'>
-#1 PMI-ACP prep course
-</span>
-of 2017!
-</p>
-<p>
-<a href='' style='border:none;'>
-Read the full review
-</a>
-|
-<a href='' style='border:none;'>
-View course
-</a>
-</p>
-</div>
-</div>
+<div class='padded'>
+<img src="/images/public/corporate_training/template/3.png" class="img-responsive margin-auto double-margin-top" width="565px" alt="3" />
 </div>
 </div>
 <div class='col-md-6'>
-<div class='panel'>
-<div class='panel-body padding-top'>
-<div class='col-sm-4'>
-<img src="../images/medal_live.png" class="img-responsive margin-auto margin-bottom" width="120" alt="Medal live" />
-</div>
-<div class='col-sm-8'>
-<p class='half-margin-bottom'>
-Crush the PM Exam has just named PMtraiing as the
-<span class='bold-font-name'>
-#1 PMP Live-Online
-</span>
-of 2017!
+<h2>
+I’m the headline for this feature
+</h2>
+<p class='lead2'>
+incidunt voluptas vitae voluptas laudantium eum facere neque aut porro ducimus deleniti eum a voluptatibus ipsum deserunt ipsum quibusdam beatae
 </p>
-<p>
-<a href='' style='border:none;'>
-Read the full review
+<a class='link-underline' href='#'>
+Call to action for this feature
 </a>
-|
-<a href='' style='border:none;'>
-View course
-</a>
+<div class='half-padding-top'></div>
+<hr>
+<blockquote class='half-margin-bottom no-padding'>
+<em>
+“Morbi ornare odio felis, sed luctus metus rhoncus ac. Suspendisse ullamcorper lorem massa, sed vulputate mauris tristique et.”
+</em>
+</blockquote>
+<p class='bold-font-name'>
+John Doe, CEO Big Company worldwide
 </p>
-</div>
-</div>
-</div>
 </div>
 </div>
 </div>
 </section>
-<div class='container'>
-<hr>
-</div>
-<section>
+<section class='off-blue extra-padding'>
 <div class='container'>
 <div class='row'>
-<div class='col-sm-12'>
+<div class='col-md-6 col-md-push-6'>
+<img src="/images/public/corporate_training/template/4.png" class="img-responsive margin-auto double-margin-top" width="454px" alt="4" />
+</div>
+<div class='col-md-6 col-md-pull-6'>
+<h2>
+I’m the headline for this feature
+</h2>
+<p class='lead2'>
+pariatur velit sed eligendi distinctio nulla ducimus fugit odio debitis ut ea quibusdam est rem et ratione autem omnis minima
+</p>
+<p class='bold-font-name'>
+Our volume discount purchase program includes:
+</p>
+<ul class='list-default'>
+<li>
+nesciunt eum eum illum harum et
+</li>
+<li>
+quis quia eligendi et nisi sint
+</li>
+<li>
+molestiae omnis tempore voluptatum aut quia
+</li>
+<li>
+rerum et sapiente aut voluptates aut
+</li>
+</ul>
+<a class='link-underline' href='#'>
+Call to action for this feature
+</a>
+</div>
+</div>
+</div>
+</section>
+<section class='extra-padding invert-section'>
+<div class='container'>
+<div class='row'>
+<div class='col-md-2'></div>
+<div class='col-md-8'>
 <div class='text-center'>
 <h2>
-PMP Test Simulation Questions
+Get started today
 </h2>
-<p>
-Community preformance by subject area
+<p class='lead2'>
+Morbi ornare odio felis, sed luctus metus rhoncus ac. Suspendisse ullamcorper lorem massa, sed vulputate mauris tristique et.
 </p>
 </div>
-</div>
-</div>
 <div class='row'>
-<div class='col-sm-1'></div>
-<div class='col-sm-10'>
-<script>
-  $(function () {
-          $('#preformance-chart').highcharts({
-              chart: {
-                  type: 'bar',
-                  backgroundColor: '#fff'
-              },
-              title: {
-                  text: ''
-              },
-              subtitle: {
-                  text: ''
-              },
-              legend: {
-                  enabled: false
-              },
-              xAxis: {
-                  categories: ['Prof. Responsibility', 'Integration Mgt.', 'Communications Mgt.', 'Human Resource Mgt.', 'Project Framework','Time Mgt.','Scope Mgt.','Quality Mgt.','Risk Mgt.','Stakeholder Mgt.','Cost Mgmt.','Producement Mgmt.'],
-                  title: {
-                      text: null
-                  }
-              },
-              yAxis: {
-                  min: 0,
-                  tickPixelInterval: 150,
-                  labels: {
-                      overflow: 'justify'
-                  }
-              },
-              tooltip: {
-                  valueSuffix: ' %'
-              },
-              plotOptions: {
-                  bar: {
-                      dataLabels: {
-                          enabled: true
-                      }
-                  }
-              },
-              credits: {
-                  enabled: false
-              },
-              series: [{
-              		name: 'preformance',
-                  data: [86.24, 86.05, 85.56, 84.87, 83.79,, 83.68, 83.52,, 82.54, 81.83, 78.50, 78.05, 83.79,77.07]
-              }]
-          });
-      });
-</script>
-<div id='preformance-chart'></div>
-
+<div class='col-lg-1'></div>
+<div class='col-lg-10'>
+<div class='form'>
+<div class='form-group'>
+<input class='form-control input-lg' placeholder='Name'>
 </div>
-<div class='col-sm-1'></div>
+<div class='form-group'>
+<input class='form-control input-lg' placeholder='Phone'>
 </div>
+<div class='form-group'>
+<input class='form-control input-lg' placeholder='Email'>
 </div>
-</section>
-<div class='container'>
-<hr>
+<div class='form-group'>
+<textarea class='form-control input-lg' placeholder='Additional comments' rows='8'></textarea>
 </div>
-<section>
-<div class='container'>
-<div class='row'>
-<div class='col-sm-5'>
-<div class='double-margin-bottom'>
-<h2 class='margin-top no-margin-top-sm'>
-<strong>
-Live
-</strong>
-PMP Exam Community Performance
-</h2>
-<p>
-To the right is a live calculation of the top 5 PMP process areas based on 370,653 PMP practice exams taken by PMTraining exam prep students.
-</p>
-</div>
-</div>
-<div class='col-sm-1'></div>
-<div class='col-sm-6'>
-<table class='table table-responsive community-average-table stack'>
-<thead>
-<tr>
-<th>
-<h5 class='light-text-color'>
-Live Rank
-</h5>
-</th>
-<th>
-<h5 class='light-text-color'>
-PMBOK Guidttte Knowledge Area
-</h5>
-</th>
-<th class='text-right'>
-<h5 class='light-text-color'>
-Community Average
-</h5>
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class='number text-center'>1</td>
-<td class='item'>Project Procurement Management</td>
-<td class='data text-right'>82.69%</td>
-</tr>
-<tr>
-<td class='number text-center'>1</td>
-<td class='item'>Project Procurement Management</td>
-<td class='data text-right'>82.69%</td>
-</tr>
-<tr>
-<td class='number text-center'>1</td>
-<td class='item'>Project Procurement Management</td>
-<td class='data text-right'>82.69%</td>
-</tr>
-<tr>
-<td class='number text-center'>1</td>
-<td class='item'>Project Procurement Management</td>
-<td class='data text-right'>82.69%</td>
-</tr>
-<tr>
-<td class='number text-center'>1</td>
-<td class='item'>Project Procurement Management</td>
-<td class='data text-right'>82.69%</td>
-</tr>
-</tbody>
-</table>
-
-</div>
-</div>
-</div>
-</section>
-<div class='container'>
-<hr>
-</div>
-<section>
-<div class='container'>
-<div class='row'>
-<div class='col-sm-12'>
-<div class='text-center'>
-<h2>
-PMP Test Simulation Questions
-</h2>
-<p>
-Community preformance by subject area
-</p>
-</div>
-</div>
-</div>
-<div class='row'>
-<div class='col-sm-1'></div>
-<div class='col-sm-10'>
-<script>
-  $(function () {
-          $('#preformance-chart').highcharts({
-              chart: {
-                  type: 'bar',
-                  backgroundColor: '#fff'
-              },
-              title: {
-                  text: ''
-              },
-              subtitle: {
-                  text: ''
-              },
-              legend: {
-                  enabled: false
-              },
-              xAxis: {
-                  categories: ['Prof. Responsibility', 'Integration Mgt.', 'Communications Mgt.', 'Human Resource Mgt.', 'Project Framework','Time Mgt.','Scope Mgt.','Quality Mgt.','Risk Mgt.','Stakeholder Mgt.','Cost Mgmt.','Producement Mgmt.'],
-                  title: {
-                      text: null
-                  }
-              },
-              yAxis: {
-                  min: 0,
-                  tickPixelInterval: 150,
-                  labels: {
-                      overflow: 'justify'
-                  }
-              },
-              tooltip: {
-                  valueSuffix: ' %'
-              },
-              plotOptions: {
-                  bar: {
-                      dataLabels: {
-                          enabled: true
-                      }
-                  }
-              },
-              credits: {
-                  enabled: false
-              },
-              series: [{
-              		name: 'preformance',
-                  data: [86.24, 86.05, 85.56, 84.87, 83.79,, 83.68, 83.52,, 82.54, 81.83, 78.50, 78.05, 83.79,77.07]
-              }]
-          });
-      });
-</script>
-<div id='preformance-chart'></div>
-
-</div>
-<div class='col-sm-1'></div>
-</div>
-</div>
-</section>
-<section class='invert-section get-started'>
-<div class='container'>
-<div class='row'>
-<div class='col-lg-12'>
-<div class='text-center'>
-<a class='btn btn-white btn-lg' href='/public/checkout'>
-Register Now for PMP Practice Exams
+<a class='btn btn-default btn-block btn-lg' href='#'>
+Submit
 </a>
 </div>
 </div>
+<div class='col-lg-1'></div>
+</div>
+</div>
+<div class='col-md-2'></div>
 </div>
 </div>
 </section>
-
 
 </div>
 <!-- end main content -->
@@ -1389,7 +1114,7 @@ Register Now for PMP Practice Exams
 <div class='container'>
 <div class='row'>
 <div class='col-sm-3'>
-<img src="../images/logo_no_tag.png" alt="Logo no tag" />
+<img src="/images/logo_no_tag.png" alt="Logo no tag" />
 <p>
 <small>
 ©
@@ -1399,7 +1124,7 @@ SSILogic
 2014
 </small>
 </p>
-<img src="../images/pmi_logo_3.png" class="pmi-logo" alt="Pmi logo 3" />
+<img src="/images/pmi_logo_3.png" class="pmi-logo" alt="Pmi logo 3" />
 <p class='bold-font-name'>
 <small>
 #3962

@@ -428,6 +428,15 @@ ul.check-list-large li i {
   display: inline-block;
   background: #f8d794; }
 
+.label-feature {
+  padding: 8px;
+  border: 1px solid white;
+  display: inline-block; }
+  .label-feature p {
+    letter-spacing: 2px;
+    color: white;
+    margin: 0; }
+
 .margin-auto {
   margin: 0 auto; }
 

@@ -428,3 +428,19 @@ ul.check-list-large{
   display: inline-block;
   background:tint($secondary-color,50%);
 }
+
+
+
+//labels
+
+.label-feature{
+  
+  padding:8px;
+  border:1px solid white;
+  display:inline-block;
+  p{
+      letter-spacing: 2px;
+      color:white;
+      margin:0;
+  }
+}
