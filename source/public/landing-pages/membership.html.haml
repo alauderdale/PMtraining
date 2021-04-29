@@ -35,9 +35,46 @@
 %section.no-padding-top
 	.container
 		.row
-			.col-lg-12
-				.margin-auto.text-center
-					%img.max-width{:src => "../../../images/public/landing-pages/bundle.png", :width=>"563px", :style=>"margin-top:-90px;"}
+			.col-lg-3.col-md-2
+			.col-lg-6.col-md-8
+				.bundle-container.padding-top
+					.card{:style=>"border: 5px solid #FFBC00;border-radius: 10px; background:#fff;"}
+						.padded
+							.text-center
+								%img.max-width{:src => "../../../images/public/landing-pages/bundle-element.png", :width=>"290px", :style=>"margin-top:-130px;"}
+								%h4.extra-bold-font-name.dark-text-color
+									Everything you need to succeed...
+							.row.half-margin-bottom
+								.col-sm-1
+								.col-sm-5.col-xs-6
+									%p.no-margin-bottom.text-left
+										%img.max-width{:src => "../../../images/public/landing-pages/check-2.svg", :width=>"20px", :style=>"position:relative; top:-2px; margin-right:4px;"}
+										1 year PMI membership
+								.col-sm-5.col-xs-6
+									%p.no-margin-bottom.text-right
+										$139 value
+								.col-sm-1
+							.row
+								.col-sm-1
+								.col-sm-5.col-xs-6
+									%p.no-margin-bottom.text-left
+										%img.max-width{:src => "../../../images/public/landing-pages/check-2.svg", :width=>"20px", :style=>"position:relative; top:-2px; margin-right:4px;"}
+										PMI exam voucher
+
+								.col-sm-5.col-xs-6
+									%p.no-margin-bottom.text-right
+										$555 value
+								.col-sm-1
+							%hr
+								.text-center
+									%h4.extra-bold-font-name.dark-text-color.highlight
+										Total value: $694
+				
+
+			.col-lg-3.col-md-2
+					
+
+
 %section
 	.container
 		.row
