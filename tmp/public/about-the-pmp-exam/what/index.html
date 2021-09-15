@@ -404,100 +404,10 @@ Try a Demo
 
 </a>
 </li>
-<li class='active'>
-<a class='dropdown-toggle' href='/public/about'>
-Corporate
-<span class='caret'></span>
-<ul class='dropdown-menu dropdown-large' role='menu'>
-<li>
-<a class='hidden'></a>
-</li>
-<div class='row'>
-<div class='col-sm-8'>
-<div class='row'>
-<div class='col-sm-6 col-md-4'>
-<div class='padded no-padding-right'>
-<h4 class='no-margin-bottom bold-font-name text-uppercase'>
-Corporate Training
-</h4>
-<ul class='list-unstyled quarter-margin-bottom'>
-<li>
-<a href='/public/corporate-training'>
-Corporate training options
-</a>
-</li>
-<li>
-<a href='/public/corporate-training/corporate-discount'>
-Enroll multiple students
-</a>
-</li>
-<li>
-<a href='/public/corporate-training/private-portal'>
-Private training portal
-</a>
-</li>
-</ul>
-</div>
-</div>
-<div class='col-sm-6 col-md-8'>
-<div class='padded no-padding-left'>
-<h4 class='no-margin-bottom bold-font-name text-uppercase'>
-About
-</h4>
-<div class='row'>
-<div class='col-sm-6'>
-<ul class='list-unstyled quarter-margin-bottom no-margin-right'>
-<li>
-<a href='/public/about'>
-Who we are
-</a>
-</li>
-<li>
-<a href='/public/about-the-pmp-exam'>
-About the PMP exam
-</a>
-</li>
-<li>
-<a href='/public/about/books'>
-Our books and website
-</a>
-</li>
-</ul>
-</div>
-<div class='col-sm-6'>
-<ul class='list-unstyled quarter-margin-bottom'>
-<li>
-<a href='/public/articles'>
-PMP articles
-</a>
-</li>
-<li>
-<a href='/public/about/contact'>
-Contact
-</a>
-</li>
-<li>
-<a href='/public/about/newsletter'>
-Get our newsletter
-</a>
-</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class='col-sm-4'>
-<div class='padded'>
-<img src="../../../images/public/dropdowns/dropdown_corporate.png" class="img-responsive" alt="Dropdown corporate" />
-</div>
-</div>
-</div>
-</ul>
-
-</a>
-</li>
+<!-- %li{:class => (current_page.data.activeclass === "about" ) ? "active" : ""} -->
+<!-- %a.dropdown-toggle{:href=>"/public/about"} -->
+<!-- Corporate -->
+<!-- =partial "/public/header/corporate_dropdown" -->
 </ul>
 </nav>
 <nav class='pull-right checkout-btn-wrapper'>
@@ -505,6 +415,79 @@ Get our newsletter
 <i class='fa fa-shopping-cart'></i>
 Cart
 </a>
+</nav>
+<nav class='pull-right currency-btn-wrapper'>
+<button class='btn btn-primary dropdown-toggle' data-toggle='dropdown' type='button'>
+USD
+<i class='fa fa-caret-down'></i>
+</button>
+<ul class='dropdown-menu' role='menu'>
+<li>
+<a href='#'>
+<div class='radio'>
+<label>
+<input id='optionsRadios1' name='optionsRadios' type='radio' value='option1'>
+<span class='bold-font-name'>
+AUS $
+</span>
+&ensp;Australlian Dollar
+</label>
+</div>
+</a>
+</li>
+<li>
+<a href='#'>
+<div class='radio'>
+<label>
+<input id='optionsRadios2' name='optionsRadios' type='radio' value='option2'>
+<span class='bold-font-name'>
+CAD $
+</span>
+&ensp;Canadian Dollar
+</label>
+</div>
+</a>
+</li>
+<li>
+<a href='#'>
+<div class='radio'>
+<label>
+<input id='optionsRadios3' name='optionsRadios' type='radio' value='option3'>
+<span class='bold-font-name'>
+EUR €
+</span>
+&ensp;European Euro
+</label>
+</div>
+</a>
+</li>
+<li>
+<a href='#'>
+<div class='radio'>
+<label>
+<input id='optionsRadios4' name='optionsRadios' type='radio' value='option4'>
+<span class='bold-font-name'>
+GBP £
+</span>
+&ensp;United Kingdom Pound Sterling
+</label>
+</div>
+</a>
+</li>
+<li>
+<a href='#'>
+<div class='radio'>
+<label>
+<input checked='checked' id='optionsRadios5' name='optionsRadios' type='radio' value='option5'>
+<span class='bold-font-name'>
+USD $
+</span>
+&ensp;United States Dollar
+</label>
+</div>
+</a>
+</li>
+</ul>
 </nav>
 </div>
 
@@ -808,100 +791,10 @@ Try a Demo
 
 </a>
 </li>
-<li class='active'>
-<a class='dropdown-toggle' href='/public/about'>
-Corporate
-<span class='caret'></span>
-<ul class='dropdown-menu dropdown-large' role='menu'>
-<li>
-<a class='hidden'></a>
-</li>
-<div class='row'>
-<div class='col-sm-8'>
-<div class='row'>
-<div class='col-sm-6 col-md-4'>
-<div class='padded no-padding-right'>
-<h4 class='no-margin-bottom bold-font-name text-uppercase'>
-Corporate Training
-</h4>
-<ul class='list-unstyled quarter-margin-bottom'>
-<li>
-<a href='/public/corporate-training'>
-Corporate training options
-</a>
-</li>
-<li>
-<a href='/public/corporate-training/corporate-discount'>
-Enroll multiple students
-</a>
-</li>
-<li>
-<a href='/public/corporate-training/private-portal'>
-Private training portal
-</a>
-</li>
-</ul>
-</div>
-</div>
-<div class='col-sm-6 col-md-8'>
-<div class='padded no-padding-left'>
-<h4 class='no-margin-bottom bold-font-name text-uppercase'>
-About
-</h4>
-<div class='row'>
-<div class='col-sm-6'>
-<ul class='list-unstyled quarter-margin-bottom no-margin-right'>
-<li>
-<a href='/public/about'>
-Who we are
-</a>
-</li>
-<li>
-<a href='/public/about-the-pmp-exam'>
-About the PMP exam
-</a>
-</li>
-<li>
-<a href='/public/about/books'>
-Our books and website
-</a>
-</li>
-</ul>
-</div>
-<div class='col-sm-6'>
-<ul class='list-unstyled quarter-margin-bottom'>
-<li>
-<a href='/public/articles'>
-PMP articles
-</a>
-</li>
-<li>
-<a href='/public/about/contact'>
-Contact
-</a>
-</li>
-<li>
-<a href='/public/about/newsletter'>
-Get our newsletter
-</a>
-</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class='col-sm-4'>
-<div class='padded'>
-<img src="../../../images/public/dropdowns/dropdown_corporate.png" class="img-responsive" alt="Dropdown corporate" />
-</div>
-</div>
-</div>
-</ul>
-
-</a>
-</li>
+<!-- %li{:class => (current_page.data.activeclass === "about" ) ? "active" : ""} -->
+<!-- %a.dropdown-toggle{:href=>"/public/about"} -->
+<!-- Corporate -->
+<!-- =partial "/public/header/corporate_dropdown" -->
 </ul>
 </nav>
 <nav class='pull-right checkout-btn-wrapper'>
@@ -909,6 +802,79 @@ Get our newsletter
 <i class='fa fa-shopping-cart'></i>
 Cart
 </a>
+</nav>
+<nav class='pull-right currency-btn-wrapper'>
+<button class='btn btn-primary dropdown-toggle' data-toggle='dropdown' type='button'>
+USD
+<i class='fa fa-caret-down'></i>
+</button>
+<ul class='dropdown-menu' role='menu'>
+<li>
+<a href='#'>
+<div class='radio'>
+<label>
+<input id='optionsRadios1' name='optionsRadios' type='radio' value='option1'>
+<span class='bold-font-name'>
+AUS $
+</span>
+&ensp;Australlian Dollar
+</label>
+</div>
+</a>
+</li>
+<li>
+<a href='#'>
+<div class='radio'>
+<label>
+<input id='optionsRadios2' name='optionsRadios' type='radio' value='option2'>
+<span class='bold-font-name'>
+CAD $
+</span>
+&ensp;Canadian Dollar
+</label>
+</div>
+</a>
+</li>
+<li>
+<a href='#'>
+<div class='radio'>
+<label>
+<input id='optionsRadios3' name='optionsRadios' type='radio' value='option3'>
+<span class='bold-font-name'>
+EUR €
+</span>
+&ensp;European Euro
+</label>
+</div>
+</a>
+</li>
+<li>
+<a href='#'>
+<div class='radio'>
+<label>
+<input id='optionsRadios4' name='optionsRadios' type='radio' value='option4'>
+<span class='bold-font-name'>
+GBP £
+</span>
+&ensp;United Kingdom Pound Sterling
+</label>
+</div>
+</a>
+</li>
+<li>
+<a href='#'>
+<div class='radio'>
+<label>
+<input checked='checked' id='optionsRadios5' name='optionsRadios' type='radio' value='option5'>
+<span class='bold-font-name'>
+USD $
+</span>
+&ensp;United States Dollar
+</label>
+</div>
+</a>
+</li>
+</ul>
 </nav>
 </div>
 

@@ -404,100 +404,10 @@ Try a Demo
 
 </a>
 </li>
-<li class=''>
-<a class='dropdown-toggle' href='/public/about'>
-Corporate
-<span class='caret'></span>
-<ul class='dropdown-menu dropdown-large' role='menu'>
-<li>
-<a class='hidden'></a>
-</li>
-<div class='row'>
-<div class='col-sm-8'>
-<div class='row'>
-<div class='col-sm-6 col-md-4'>
-<div class='padded no-padding-right'>
-<h4 class='no-margin-bottom bold-font-name text-uppercase'>
-Corporate Training
-</h4>
-<ul class='list-unstyled quarter-margin-bottom'>
-<li>
-<a href='/public/corporate-training'>
-Corporate training options
-</a>
-</li>
-<li>
-<a href='/public/corporate-training/corporate-discount'>
-Enroll multiple students
-</a>
-</li>
-<li>
-<a href='/public/corporate-training/private-portal'>
-Private training portal
-</a>
-</li>
-</ul>
-</div>
-</div>
-<div class='col-sm-6 col-md-8'>
-<div class='padded no-padding-left'>
-<h4 class='no-margin-bottom bold-font-name text-uppercase'>
-About
-</h4>
-<div class='row'>
-<div class='col-sm-6'>
-<ul class='list-unstyled quarter-margin-bottom no-margin-right'>
-<li>
-<a href='/public/about'>
-Who we are
-</a>
-</li>
-<li>
-<a href='/public/about-the-pmp-exam'>
-About the PMP exam
-</a>
-</li>
-<li>
-<a href='/public/about/books'>
-Our books and website
-</a>
-</li>
-</ul>
-</div>
-<div class='col-sm-6'>
-<ul class='list-unstyled quarter-margin-bottom'>
-<li>
-<a href='/public/articles'>
-PMP articles
-</a>
-</li>
-<li>
-<a href='/public/about/contact'>
-Contact
-</a>
-</li>
-<li>
-<a href='/public/about/newsletter'>
-Get our newsletter
-</a>
-</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class='col-sm-4'>
-<div class='padded'>
-<img src="../../images/public/dropdowns/dropdown_corporate.png" class="img-responsive" alt="Dropdown corporate" />
-</div>
-</div>
-</div>
-</ul>
-
-</a>
-</li>
+<!-- %li{:class => (current_page.data.activeclass === "about" ) ? "active" : ""} -->
+<!-- %a.dropdown-toggle{:href=>"/public/about"} -->
+<!-- Corporate -->
+<!-- =partial "/public/header/corporate_dropdown" -->
 </ul>
 </nav>
 <nav class='pull-right checkout-btn-wrapper'>
@@ -505,6 +415,79 @@ Get our newsletter
 <i class='fa fa-shopping-cart'></i>
 Cart
 </a>
+</nav>
+<nav class='pull-right currency-btn-wrapper'>
+<button class='btn btn-primary dropdown-toggle' data-toggle='dropdown' type='button'>
+USD
+<i class='fa fa-caret-down'></i>
+</button>
+<ul class='dropdown-menu' role='menu'>
+<li>
+<a href='#'>
+<div class='radio'>
+<label>
+<input id='optionsRadios1' name='optionsRadios' type='radio' value='option1'>
+<span class='bold-font-name'>
+AUS $
+</span>
+&ensp;Australlian Dollar
+</label>
+</div>
+</a>
+</li>
+<li>
+<a href='#'>
+<div class='radio'>
+<label>
+<input id='optionsRadios2' name='optionsRadios' type='radio' value='option2'>
+<span class='bold-font-name'>
+CAD $
+</span>
+&ensp;Canadian Dollar
+</label>
+</div>
+</a>
+</li>
+<li>
+<a href='#'>
+<div class='radio'>
+<label>
+<input id='optionsRadios3' name='optionsRadios' type='radio' value='option3'>
+<span class='bold-font-name'>
+EUR €
+</span>
+&ensp;European Euro
+</label>
+</div>
+</a>
+</li>
+<li>
+<a href='#'>
+<div class='radio'>
+<label>
+<input id='optionsRadios4' name='optionsRadios' type='radio' value='option4'>
+<span class='bold-font-name'>
+GBP £
+</span>
+&ensp;United Kingdom Pound Sterling
+</label>
+</div>
+</a>
+</li>
+<li>
+<a href='#'>
+<div class='radio'>
+<label>
+<input checked='checked' id='optionsRadios5' name='optionsRadios' type='radio' value='option5'>
+<span class='bold-font-name'>
+USD $
+</span>
+&ensp;United States Dollar
+</label>
+</div>
+</a>
+</li>
+</ul>
 </nav>
 </div>
 
@@ -808,100 +791,10 @@ Try a Demo
 
 </a>
 </li>
-<li class=''>
-<a class='dropdown-toggle' href='/public/about'>
-Corporate
-<span class='caret'></span>
-<ul class='dropdown-menu dropdown-large' role='menu'>
-<li>
-<a class='hidden'></a>
-</li>
-<div class='row'>
-<div class='col-sm-8'>
-<div class='row'>
-<div class='col-sm-6 col-md-4'>
-<div class='padded no-padding-right'>
-<h4 class='no-margin-bottom bold-font-name text-uppercase'>
-Corporate Training
-</h4>
-<ul class='list-unstyled quarter-margin-bottom'>
-<li>
-<a href='/public/corporate-training'>
-Corporate training options
-</a>
-</li>
-<li>
-<a href='/public/corporate-training/corporate-discount'>
-Enroll multiple students
-</a>
-</li>
-<li>
-<a href='/public/corporate-training/private-portal'>
-Private training portal
-</a>
-</li>
-</ul>
-</div>
-</div>
-<div class='col-sm-6 col-md-8'>
-<div class='padded no-padding-left'>
-<h4 class='no-margin-bottom bold-font-name text-uppercase'>
-About
-</h4>
-<div class='row'>
-<div class='col-sm-6'>
-<ul class='list-unstyled quarter-margin-bottom no-margin-right'>
-<li>
-<a href='/public/about'>
-Who we are
-</a>
-</li>
-<li>
-<a href='/public/about-the-pmp-exam'>
-About the PMP exam
-</a>
-</li>
-<li>
-<a href='/public/about/books'>
-Our books and website
-</a>
-</li>
-</ul>
-</div>
-<div class='col-sm-6'>
-<ul class='list-unstyled quarter-margin-bottom'>
-<li>
-<a href='/public/articles'>
-PMP articles
-</a>
-</li>
-<li>
-<a href='/public/about/contact'>
-Contact
-</a>
-</li>
-<li>
-<a href='/public/about/newsletter'>
-Get our newsletter
-</a>
-</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class='col-sm-4'>
-<div class='padded'>
-<img src="../../images/public/dropdowns/dropdown_corporate.png" class="img-responsive" alt="Dropdown corporate" />
-</div>
-</div>
-</div>
-</ul>
-
-</a>
-</li>
+<!-- %li{:class => (current_page.data.activeclass === "about" ) ? "active" : ""} -->
+<!-- %a.dropdown-toggle{:href=>"/public/about"} -->
+<!-- Corporate -->
+<!-- =partial "/public/header/corporate_dropdown" -->
 </ul>
 </nav>
 <nav class='pull-right checkout-btn-wrapper'>
@@ -909,6 +802,79 @@ Get our newsletter
 <i class='fa fa-shopping-cart'></i>
 Cart
 </a>
+</nav>
+<nav class='pull-right currency-btn-wrapper'>
+<button class='btn btn-primary dropdown-toggle' data-toggle='dropdown' type='button'>
+USD
+<i class='fa fa-caret-down'></i>
+</button>
+<ul class='dropdown-menu' role='menu'>
+<li>
+<a href='#'>
+<div class='radio'>
+<label>
+<input id='optionsRadios1' name='optionsRadios' type='radio' value='option1'>
+<span class='bold-font-name'>
+AUS $
+</span>
+&ensp;Australlian Dollar
+</label>
+</div>
+</a>
+</li>
+<li>
+<a href='#'>
+<div class='radio'>
+<label>
+<input id='optionsRadios2' name='optionsRadios' type='radio' value='option2'>
+<span class='bold-font-name'>
+CAD $
+</span>
+&ensp;Canadian Dollar
+</label>
+</div>
+</a>
+</li>
+<li>
+<a href='#'>
+<div class='radio'>
+<label>
+<input id='optionsRadios3' name='optionsRadios' type='radio' value='option3'>
+<span class='bold-font-name'>
+EUR €
+</span>
+&ensp;European Euro
+</label>
+</div>
+</a>
+</li>
+<li>
+<a href='#'>
+<div class='radio'>
+<label>
+<input id='optionsRadios4' name='optionsRadios' type='radio' value='option4'>
+<span class='bold-font-name'>
+GBP £
+</span>
+&ensp;United Kingdom Pound Sterling
+</label>
+</div>
+</a>
+</li>
+<li>
+<a href='#'>
+<div class='radio'>
+<label>
+<input checked='checked' id='optionsRadios5' name='optionsRadios' type='radio' value='option5'>
+<span class='bold-font-name'>
+USD $
+</span>
+&ensp;United States Dollar
+</label>
+</div>
+</a>
+</li>
+</ul>
 </nav>
 </div>
 
@@ -1650,7 +1616,7 @@ Tought by expert instructors more text about how any why these guys are the best
 <div class='padded'>
 <img class='img-responsive margin-bottom' src='../../images/public/live/instructor-1.png'>
 <p class='no-margin-bottom text-box-hidable'>
-et porro sint dolorem quia asperiores ipsam architecto illo ex quisquam doloremque quas accusamus temporibus dolor vel et officia ipsa omnis mollitia aut velit nam facilis expedita ea voluptatem sit eligendi qui quam doloremque excepturi assumenda molestias voluptatibus voluptatem aut sit voluptatum ut magni voluptas possimus beatae quidem est repudiandae est tenetur earum et eos iusto iste ut dignissimos accusantium nisi rerum ut voluptatum necessitatibus fugiat cum distinctio quae nulla voluptatem quas quas fuga et sit error culpa modi doloribus ducimus neque nobis eaque dignissimos ut quae optio vero ut consequatur dolor quia ut ipsum consequatur molestias tenetur et eveniet
+autem vero autem officiis commodi delectus quia non voluptatem dolor aliquam sint omnis sit ipsum a amet natus voluptatem est voluptatem tempore minus quia velit similique recusandae quas ipsam eos sit velit autem quos reprehenderit magni similique atque mollitia quibusdam voluptatem asperiores soluta eos molestiae vel accusamus consequatur enim incidunt neque cumque mollitia voluptates et facilis sed ea velit architecto sint nemo quia beatae voluptatem voluptatem natus alias nobis molestiae quae neque ipsam quo aut rerum voluptatem velit deleniti sed nihil assumenda nemo expedita qui et totam voluptatem omnis rerum distinctio est et cum sequi ratione modi officiis quas consequuntur
 .
 </p>
 <p class='expand-height'>
@@ -1659,7 +1625,7 @@ Read more
 </a>
 </p>
 <h4 class='no-margin-bottom primary-text-color half-margin-top'>
-Shawn Parrott
+Leslie Baker
 </h4>
 <h5 class='no-margin-bottom loght-text-color regular-font-name'>
 (MBA, PMP)
@@ -1670,7 +1636,7 @@ Shawn Parrott
 <div class='padded'>
 <img class='img-responsive margin-bottom' src='../../images/public/live/instructor-2.png'>
 <p class='no-margin-bottom text-box-hidable'>
-nihil et vero et voluptatibus et voluptates et molestias delectus ut quo qui blanditiis qui maxime minus consectetur quos rerum officiis odio aliquid nihil soluta dolores molestiae nesciunt voluptatibus amet rerum alias et amet et odit natus nesciunt magnam rerum deserunt nam eligendi distinctio cumque mollitia quidem quam expedita iste ab veritatis ut autem modi vel vel harum unde eius sed nemo provident nihil atque ut qui adipisci qui dolor repellendus qui minus earum fugit aut autem est vero sed pariatur quibusdam repellat voluptas quidem sint fugit qui quam omnis explicabo eum totam assumenda hic officia soluta quam at illum
+numquam ut voluptates quam architecto omnis deleniti voluptatem labore sunt sit molestiae vero ipsa maiores et est neque officiis sit nisi quia omnis ut maxime suscipit et architecto neque aspernatur quos aut dolorem magnam nobis qui nobis odit blanditiis quia et blanditiis nam fugiat officiis libero eius sint recusandae aperiam suscipit harum inventore et officia delectus ut tenetur molestiae optio nemo reprehenderit fuga consequuntur voluptas fugiat eos voluptate unde accusamus excepturi incidunt beatae et sit cumque id nobis provident culpa exercitationem neque quaerat nobis suscipit debitis voluptate magni ut commodi ea rerum et odit necessitatibus ipsa numquam totam pariatur esse
 .
 </p>
 <p class='expand-height'>
@@ -1679,7 +1645,7 @@ Read more
 </a>
 </p>
 <h4 class='no-margin-bottom primary-text-color half-margin-top'>
-Lynette O'Brien
+Nadia Perkins
 </h4>
 <h5 class='no-margin-bottom loght-text-color regular-font-name'>
 (MBA, PMP)
@@ -1690,7 +1656,7 @@ Lynette O'Brien
 <div class='padded'>
 <img class='img-responsive margin-bottom' src='../../images/public/live/instructor-3.png'>
 <p class='no-margin-bottom text-box-hidable'>
-deleniti iure tempore libero perspiciatis ratione voluptas aut et tempora omnis voluptate pariatur et sed mollitia soluta ea enim quis et hic nam praesentium sit et fugiat est inventore est odio sit quod vitae id architecto dolor voluptate voluptas at sed et magnam eos illum non in quia officia quas quia quaerat pariatur qui occaecati ad tempore consequatur modi nulla debitis aliquid quis voluptas amet suscipit nam alias quibusdam aspernatur officia mollitia laborum hic saepe aut voluptatum eos harum voluptates quo reprehenderit nesciunt aut et mollitia omnis placeat ea facere laudantium tempore excepturi iusto est vel rerum dolorum et iste
+dolores adipisci tempora harum sed officia quis voluptates laudantium omnis molestias est esse labore quaerat dolorum ea ad dolor cumque est error nesciunt dolores laboriosam omnis similique ut nostrum ex nostrum et aut vero incidunt vitae id quasi eveniet quos error amet repudiandae quo non dolorem nemo inventore molestiae aspernatur laudantium quia aut blanditiis eos vero fugit nesciunt eos aut quas sed officiis aut consequatur non non consequatur omnis animi deserunt nemo qui nam qui sapiente ut quidem voluptate eaque autem non corporis quia minus tempora optio doloribus unde omnis voluptas est voluptatibus voluptatem quia et libero neque dignissimos ipsum
 .
 </p>
 <p class='expand-height'>
@@ -1699,7 +1665,7 @@ Read more
 </a>
 </p>
 <h4 class='no-margin-bottom primary-text-color half-margin-top'>
-Hudson Lucas
+Laila Becker
 </h4>
 <h5 class='no-margin-bottom loght-text-color regular-font-name'>
 (MBA, PMP)
@@ -1710,7 +1676,7 @@ Hudson Lucas
 <div class='padded'>
 <img class='img-responsive margin-bottom' src='../../images/public/live/instructor-4.png'>
 <p class='no-margin-bottom text-box-hidable'>
-vitae reprehenderit dolores temporibus ipsa et aspernatur corporis nesciunt molestiae repudiandae eum quas est et laudantium maiores expedita nisi non sapiente harum corrupti laudantium sed assumenda minus ad distinctio natus doloremque quisquam officiis consequatur atque sit non soluta est qui rerum cupiditate ut sit sed fugiat aut illo cum sequi ipsa quidem reiciendis explicabo voluptatibus ipsam quidem quas itaque doloremque cum consectetur commodi vel aut maiores quibusdam ut tenetur dolore voluptates similique repudiandae quo totam qui beatae nostrum sit nihil harum eos repudiandae ea consequuntur enim repudiandae fugit tempore natus magni dolores consequuntur at voluptatibus magnam deleniti consequatur velit nihil
+et tenetur ipsum deleniti velit et deserunt tempore eum repellat ut aut qui est autem cumque velit modi velit repellat optio earum maiores saepe nobis aut aperiam blanditiis consectetur et odio ad eveniet quis dolorem exercitationem ut molestiae molestias et at debitis aliquam aspernatur ratione ut voluptas vero in nam minima deleniti beatae facere ex blanditiis quia atque similique nihil sapiente doloremque voluptatem nihil voluptas quia porro unde et cupiditate nisi suscipit quo aut sequi corporis cumque dolor quo nostrum recusandae optio mollitia voluptas culpa reprehenderit voluptatem officia aut vitae nobis cumque corporis enim et assumenda voluptas doloribus dolores quidem
 .
 </p>
 <p class='expand-height'>
@@ -1719,7 +1685,7 @@ Read more
 </a>
 </p>
 <h4 class='no-margin-bottom primary-text-color half-margin-top'>
-Aniya Willis
+Angelo Monroe
 </h4>
 <h5 class='no-margin-bottom loght-text-color regular-font-name'>
 (MBA, PMP)
@@ -1730,7 +1696,7 @@ Aniya Willis
 <div class='padded'>
 <img class='img-responsive margin-bottom' src='../../images/public/live/instructor-5.png'>
 <p class='no-margin-bottom text-box-hidable'>
-accusamus nihil velit eius quis eius aut sunt ut autem distinctio et maiores sed nam soluta velit ut ea architecto consequuntur temporibus sit aut vel cum nihil eos eius doloremque ea voluptas illum molestias voluptas est consequatur ea ipsa sed voluptatibus nam in ipsam vel ipsa quas blanditiis corrupti alias delectus enim aut delectus illum nulla placeat tenetur culpa eum nobis accusamus mollitia distinctio consequuntur incidunt iure ut repudiandae modi aperiam ipsum esse sapiente cupiditate nostrum molestias molestiae reiciendis labore sit eos ipsam odit et aut dignissimos explicabo atque maiores neque neque vel deleniti aut omnis sed quasi magni et
+necessitatibus et vero dolorum sapiente quae veniam et quo sint ut corporis culpa sint voluptatem laboriosam aut consectetur adipisci fuga unde placeat est est magnam impedit autem qui qui quis unde possimus facere facilis quisquam quo explicabo qui in vel ratione officiis mollitia ut quidem ut ut dolores atque veniam dicta molestiae doloribus nostrum praesentium enim accusamus ea sit odio qui dolore quo inventore natus minima commodi ullam numquam eaque assumenda eveniet qui dolor libero eius repellat totam non sunt illo eveniet beatae sequi ut neque ullam et quia dolorum laborum ea aperiam voluptas tenetur hic dolorem praesentium veritatis autem
 .
 </p>
 <p class='expand-height'>
@@ -1739,7 +1705,7 @@ Read more
 </a>
 </p>
 <h4 class='no-margin-bottom primary-text-color half-margin-top'>
-Alexa McLean
+Leland Rosenthal
 </h4>
 <h5 class='no-margin-bottom loght-text-color regular-font-name'>
 (MBA, PMP)
@@ -1750,7 +1716,7 @@ Alexa McLean
 <div class='padded'>
 <img class='img-responsive margin-bottom' src='../../images/public/live/instructor-6.png'>
 <p class='no-margin-bottom text-box-hidable'>
-magni quia explicabo aut eveniet ipsum velit accusantium ut placeat debitis eveniet culpa pariatur possimus aliquam suscipit iusto et et necessitatibus non iusto illum deserunt unde alias dolorem perferendis numquam temporibus sapiente maxime et voluptas inventore ut sit maxime similique odit praesentium et ullam aut non pariatur odit vero ut distinctio qui ut natus maiores in tempora accusamus maiores dolor quia autem eveniet nesciunt quia velit qui blanditiis voluptatem laudantium voluptatem nihil excepturi quam voluptatum et sed aut saepe ipsa dolores quod dolores beatae enim ducimus et exercitationem aut voluptatum ex id aspernatur perferendis culpa placeat ut omnis nobis ipsam
+facilis pariatur necessitatibus aut perferendis ut atque illo esse rerum atque consectetur et expedita autem alias reprehenderit omnis minima qui minus aliquid et quae ut cumque mollitia deleniti est occaecati praesentium consequuntur ipsam quia dolorem blanditiis neque ullam mollitia quae et quisquam ea qui consectetur accusamus non illum illo dolor et et et praesentium ullam quidem ab iure occaecati sunt autem eos voluptate saepe quis rem odit natus consequatur et aut ex ullam commodi ex numquam nobis sapiente tenetur dolor rerum ut qui iste quibusdam et accusantium architecto rerum vitae cum facilis est qui maxime in quidem provident dolore sint
 .
 </p>
 <p class='expand-height'>
@@ -1759,7 +1725,7 @@ Read more
 </a>
 </p>
 <h4 class='no-margin-bottom primary-text-color half-margin-top'>
-Angela Shaffer
+Denis Johnston
 </h4>
 <h5 class='no-margin-bottom loght-text-color regular-font-name'>
 (MBA, PMP)
@@ -1770,7 +1736,7 @@ Angela Shaffer
 <div class='padded'>
 <img class='img-responsive margin-bottom' src='../../images/public/live/instructor-7.png'>
 <p class='no-margin-bottom text-box-hidable'>
-similique qui qui esse consequuntur expedita enim sequi dolor fuga ea natus quod minima at modi earum cum doloribus fuga aspernatur assumenda modi ut velit quidem exercitationem recusandae ab quae similique temporibus magni quia quam quam sed occaecati molestiae voluptatem ducimus minima ratione aperiam est iure et et sit illo illum sit rerum molestiae est sequi labore ipsum iste autem id occaecati quasi praesentium eaque harum est rerum eveniet totam aut occaecati nostrum officia facere inventore debitis aut earum commodi adipisci fugiat soluta sunt nihil pariatur sint deserunt ea consequatur molestiae rerum natus odit qui omnis fuga minima repellat omnis
+tempore similique nisi et recusandae culpa ex dicta et ducimus esse saepe impedit ipsum et quos et quia ullam ut nostrum dolorem assumenda vitae explicabo unde blanditiis omnis quis sit est sint vel quo rerum sed ut facilis dolore expedita et sit neque dignissimos cupiditate esse aliquid voluptatem quisquam illo sapiente impedit nesciunt facilis aut rerum sed ducimus non quae non facere architecto molestiae exercitationem esse ut temporibus velit eos earum tenetur et voluptatem animi repudiandae laborum praesentium et eaque consequatur sit minus reprehenderit itaque qui possimus commodi odit ea et repellat aspernatur sint voluptatum maxime ea maiores quidem nostrum
 .
 </p>
 <p class='expand-height'>
@@ -1779,7 +1745,7 @@ Read more
 </a>
 </p>
 <h4 class='no-margin-bottom primary-text-color half-margin-top'>
-Elaine Burch
+Colton Baker
 </h4>
 <h5 class='no-margin-bottom loght-text-color regular-font-name'>
 (MBA, PMP)

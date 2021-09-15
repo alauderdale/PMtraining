@@ -1268,13 +1268,28 @@ a {
     padding-right: 4px; }
   .main-nav-top .checkout-btn-wrapper {
     position: relative;
-    margin-bottom: -1px;
     top: 0px; }
     .main-nav-top .checkout-btn-wrapper .btn {
+      position: relative;
+      bottom: -3px;
       padding-bottom: 6px;
       border-bottom-right-radius: 0;
       border-bottom-left-radius: 0;
-      font-size: .9em; }
+      font-size: .8em; }
+  .main-nav-top .currency-btn-wrapper {
+    position: relative;
+    top: 0px; }
+    .main-nav-top .currency-btn-wrapper .btn {
+      position: relative;
+      bottom: -3px;
+      padding-bottom: 6px;
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0;
+      font-size: .8em;
+      font-weight: 500 !important;
+      margin-right: 4px; }
+    .main-nav-top .currency-btn-wrapper .dropdown-menu .radio {
+      margin: 5px 0; }
 
 #hidden-menu {
   position: fixed;
